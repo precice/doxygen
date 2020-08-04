@@ -13,6 +13,11 @@ jobs:
         run: |
           sudo apt-get -yyq install doxygen graphviz
 
+      - name: Fetch - landing page
+        uses: actions/checkout@v2
+        with:
+          path: landing
+
       - name: Fetch - develop
         uses: actions/checkout@v2
         with:
@@ -38,6 +43,7 @@ jobs:
       - name: Gather
         run: |
           mkdir -p public
+          mv landing/index.html public
           mv develop/docs/source-code-documentation/html public/develop
           mv master/docs/source-code-documentation/html public/master
 
