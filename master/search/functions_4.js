@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['data',['data',['../classprecice_1_1mesh_1_1DataConfiguration.html#aaaefd1f71fa8487997666df32efa7b4c',1,'precice::mesh::DataConfiguration::data()'],['../classprecice_1_1mesh_1_1Mesh.html#aceb3eabb4f8e40a44d5d1c2822ba7b56',1,'precice::mesh::Mesh::data() const'],['../classprecice_1_1mesh_1_1Mesh.html#a91a70d398b5ae0d1693e0be056c83813',1,'precice::mesh::Mesh::data(int dataID) const'],['../classprecice_1_1mesh_1_1Data.html#a59b6a117a8307506b2e4bbd76378ef36',1,'precice::mesh::Data::Data()'],['../classprecice_1_1mesh_1_1Data.html#a13f191848a2e307fcfbb76ce92b52df6',1,'precice::mesh::Data::Data(const std::string &amp;name, int id, int dimension)']]],
+  ['dataconfiguration',['DataConfiguration',['../classprecice_1_1mesh_1_1DataConfiguration.html#a2405381b91007cccf3f1c69490cfcab1',1,'precice::mesh::DataConfiguration']]],
+  ['datacontext',['dataContext',['../classprecice_1_1impl_1_1Participant.html#abf4ec966ad2cc64de8ccea77af8edb9b',1,'precice::impl::Participant::dataContext(int dataID) const'],['../classprecice_1_1impl_1_1Participant.html#a53e6da752c60ceff2b3f794f7286823d',1,'precice::impl::Participant::dataContext(int dataID)']]],
+  ['datavector',['dataVector',['../classprecice_1_1mesh_1_1BoundingBox.html#a993a69cf28a33d10c5c07471ffe174d8',1,'precice::mesh::BoundingBox']]],
+  ['debug',['debug',['../classprecice_1_1logging_1_1Logger.html#a48441a3c27176b532f993336ebf8393e',1,'precice::logging::Logger']]],
+  ['decrement',['decrement',['../classprecice_1_1mesh_1_1IndexRangeIterator.html#ace6319bb457a7cd602b0f4132fb1b729',1,'precice::mesh::IndexRangeIterator']]],
+  ['deletecolumn',['deleteColumn',['../classprecice_1_1acceleration_1_1impl_1_1QRFactorization.html#afe9ed35bac0657cd5e3c417e45d22229',1,'precice::acceleration::impl::QRFactorization']]],
+  ['deleteelements',['deleteElements',['../classprecice_1_1utils_1_1ptr__vector.html#a3cc08d13e0fd3151847311db3d95dfba',1,'precice::utils::ptr_vector']]],
+  ['delinearize',['delinearize',['../namespaceprecice_1_1utils.html#a44f7dc71031d839a2984d6637feadf35',1,'precice::utils']]],
+  ['dereference',['dereference',['../classprecice_1_1mesh_1_1IndexRangeIterator.html#a1468b8f0f68ae20681de7f85296a93b9',1,'precice::mesh::IndexRangeIterator']]],
+  ['describe',['describe',['../classprecice_1_1testing_1_1TestContext.html#a96b0b280466658837e1ecc2111eff8dd',1,'precice::testing::TestContext']]],
+  ['destroy',['destroy',['../namespaceprecice_1_1utils_1_1petsc.html#acf5b6078940229ae25d11587c48f10f6',1,'precice::utils::petsc::destroy(ISLocalToGlobalMapping *IS)'],['../namespaceprecice_1_1utils_1_1petsc.html#aa8c30bb9d326a6e746980d174833a367',1,'precice::utils::petsc::destroy(AO *ao)'],['../namespaceprecice_1_1utils_1_1petsc.html#a952e14fc5d41e1c8ed879d5cd8238817',1,'precice::utils::petsc::destroy(KSP *ksp)']]],
+  ['determineaccessingparticipant',['determineAccessingParticipant',['../classprecice_1_1impl_1_1SolverInterfaceImpl.html#a343dcf05b013f9ae47956c88afba228f',1,'precice::impl::SolverInterfaceImpl']]],
+  ['determineactivecouplingschemes',['determineActiveCouplingSchemes',['../classprecice_1_1cplscheme_1_1CompositionalCouplingScheme.html#a69d66f1a0dc05e6ae74f158542cf8fe8',1,'precice::cplscheme::CompositionalCouplingScheme']]],
+  ['determineclosest',['determineClosest',['../classprecice_1_1query_1_1FindClosest.html#a763716554180f82f65e1566c96ee7131',1,'precice::query::FindClosest']]],
+  ['determineinitialreceive',['determineInitialReceive',['../classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a197d3c5ee0b7a593c2f71e0884eb33bf',1,'precice::cplscheme::BaseCouplingScheme']]],
+  ['determineinitialsend',['determineInitialSend',['../classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a24ea9ccdded53102a8f2b62f6736b012',1,'precice::cplscheme::BaseCouplingScheme']]],
+  ['dispatch',['dispatch',['../classprecice_1_1com_1_1SocketSendQueue.html#aaf833eac1abd771f7c73f073bee023ff',1,'precice::com::SocketSendQueue']]],
+  ['distance_5fto',['distance_to',['../classprecice_1_1mesh_1_1IndexRangeIterator.html#a0965f06a44a9675d9e992acf9199571b',1,'precice::mesh::IndexRangeIterator']]],
+  ['distributedcommunication',['DistributedCommunication',['../classprecice_1_1m2n_1_1DistributedCommunication.html#ae3cea591f262d142e768b75cf3c5c877',1,'precice::m2n::DistributedCommunication']]],
+  ['doesfirststep',['doesFirstStep',['../classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#af880c679675d59efcf00b0b9fd984f6e',1,'precice::cplscheme::BaseCouplingScheme']]],
+  ['doexport',['doExport',['../classprecice_1_1io_1_1Export.html#ae48ec11831b7bdd6b37592591b5c276d',1,'precice::io::Export::doExport()'],['../classprecice_1_1io_1_1ExportVTK.html#a0d24afda57be10699d4c6a0eea9bcb71',1,'precice::io::ExportVTK::doExport()'],['../classprecice_1_1io_1_1ExportVTKXML.html#a23608799a1c6d62e8ce34a0250764af1',1,'precice::io::ExportVTKXML::doExport()']]],
+  ['dot',['dot',['../classprecice_1_1utils_1_1MasterSlave.html#a441fadb15cda8247ff6f8f586941f3aa',1,'precice::utils::MasterSlave']]],
+  ['dummycouplingscheme',['DummyCouplingScheme',['../classprecice_1_1cplscheme_1_1tests_1_1DummyCouplingScheme.html#ae1b1b03c47758cb53dff8fdde424eeb2',1,'precice::cplscheme::tests::DummyCouplingScheme']]]
+];

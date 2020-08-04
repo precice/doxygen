@@ -1,0 +1,25 @@
+<map id="precice::com::MPIDirectCommunication::acceptConnection" name="precice::com::MPIDirectCommunication::acceptConnection">
+<area shape="rect" id="node2" href="$classprecice_1_1com_1_1Communication.html#a444946d1a6c67c352fe96b56cdbf1fd2" title="Returns true, if a connection to a remote participant has been setup. " alt="" coords="308,284,504,325"/>
+<area shape="rect" id="node20" href="$classprecice_1_1com_1_1Communication.html#a74a3ad3c6b87e3f94bd104849a9cdaec" title="Set rank offset. " alt="" coords="308,365,504,407"/>
+<area shape="rect" id="node21" href="$classprecice_1_1utils_1_1Parallel.html#a2aeadec30c9e48918e014608ede4d51d" title="Returns an owning pointer to the current CommState. " alt="" coords="333,463,479,504"/>
+<area shape="rect" id="node3" href="$classprecice_1_1com_1_1Communication.html#a5319067292ba3f7979d92a72f9298f80" title="Returns the number of processes in the remote communicator. " alt="" coords="1284,5,1489,47"/>
+<area shape="rect" id="node4" href="$classprecice_1_1com_1_1Communication.html#a652a8cbe5447146b4b3b6200db5ddbeb" title="Accepts connection from another communicator, which has to call requestConnection(). " alt="" coords="796,131,992,172"/>
+<area shape="rect" id="node5" href="$classprecice_1_1com_1_1Communication.html#a64c6c2ea54877c8ae14373d84ba7a808" title="Accepts connection from another communicator, which has to call requestConnectionAsClient(). " alt="" coords="552,313,748,355"/>
+<area shape="rect" id="node6" href="$classprecice_1_1com_1_1Communication.html#ab019bdb3f7ad242a84bdc70cf0236a87" title="Connects to another communicator, which has to call acceptConnection(). " alt="" coords="796,327,992,368"/>
+<area shape="rect" id="node7" href="$classprecice_1_1com_1_1Communication.html#a207ba1e3f1ae07417b921a1ff5cc476a" title="Connects to another communicator, which has to call acceptConnectionAsServer(). " alt="" coords="552,379,748,420"/>
+<area shape="rect" id="node8" href="$classprecice_1_1com_1_1Communication.html#a60034c02c08a248a7b2cd539cb69568b" title="precice::com::Communication\l::connectMasterSlaves" alt="" coords="552,196,748,237"/>
+<area shape="rect" id="node19" href="$classprecice_1_1com_1_1Communication.html#adce43462d51714bd1ad6ba5cb4e68fee" title="Disconnects from communication space, i.e. participant. " alt="" coords="552,444,748,485"/>
+<area shape="rect" id="node9" href="$classprecice_1_1com_1_1Communication.html#a39d443a319b10525a50bac6b03ddd600" title="Prepare environment used to establish the communication. " alt="" coords="796,261,992,303"/>
+<area shape="rect" id="node10" href="$classprecice_1_1com_1_1Communication.html#a08e2067629d6f0198918a21467d29762" title="Clean&#45;up environment used to establish the communication. " alt="" coords="796,196,992,237"/>
+<area shape="rect" id="node11" href="$classprecice_1_1com_1_1Communication.html#a2462e0a8e7053d7ded3ca67d5b3bfaf6" title="Performs a reduce summation on the rank given by rankMaster. " alt="" coords="1040,181,1236,223"/>
+<area shape="rect" id="node12" href="$classprecice_1_1com_1_1Communication.html#a1ab2da696572afe406801d329442da10" title="precice::com::Communication\l::aSend" alt="" coords="1289,159,1485,200"/>
+<area shape="rect" id="node13" href="$classprecice_1_1com_1_1Communication.html#ab51a4a3d5b89bff04e9aa64a2d9dfb96" title="precice::com::Communication\l::allreduceSum" alt="" coords="1040,247,1236,288"/>
+<area shape="rect" id="node14" href="$classprecice_1_1com_1_1Communication.html#a21ea14f324d167cc309574d3dc5e17ee" title="Receives a std::string from process with given rank. " alt="" coords="1289,276,1485,317"/>
+<area shape="rect" id="node15" href="$classprecice_1_1com_1_1Communication.html#acfa95686c5b494b3adfe11d5b5d23b87" title="precice::com::Communication\l::broadcast" alt="" coords="1040,64,1236,105"/>
+<area shape="rect" id="node17" href="$classprecice_1_1com_1_1Communication.html#a8fb5e92432fc9751ae165953156980b5" title="Sends a std::string to process with given rank. " alt="" coords="1040,364,1236,405"/>
+<area shape="rect" id="node18" href="$classprecice_1_1com_1_1Communication.html#a5460dcca7939aa7f22aba4a7f68b656f" title="Asynchronously receives an array of double values. " alt="" coords="1040,429,1236,471"/>
+<area shape="rect" id="node16" href="$classprecice_1_1com_1_1Request.html#ad07792939dd8a5e4e23791e21aeacff0" title="precice::com::Request\l::wait" alt="" coords="1309,71,1464,112"/>
+<area shape="rect" id="node22" href="$structprecice_1_1utils_1_1Parallel_1_1CommState.html#a11c87f5cfaad1fb984d9dcd80e6f2c55" title="returns a commstate containing MPI_COMM_WORLD " alt="" coords="577,509,723,551"/>
+<area shape="rect" id="node23" href="$structprecice_1_1utils_1_1Parallel_1_1CommState.html#a440432f97f08c595678e1102edb43b9f" title="returns the commstate representing comm " alt="" coords="807,539,981,580"/>
+<area shape="rect" id="node24" href="$structprecice_1_1utils_1_1Parallel_1_1CommState.html#a5e3626f4c22a0aa7ac05cd740dda95ca" title="returns an blank commstate representing MPI_COMM_NULL " alt="" coords="1065,516,1211,557"/>
+</map>
