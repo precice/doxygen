@@ -1,0 +1,49 @@
+name: Update the preCICE doxygen
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Install dependencies
+        run: |
+          apt-get -yyq install doxygen graphviz
+
+      - name: Fetch - develop
+        uses: actions/checkout@v2
+        with:
+          repository: precice/precice
+          ref: develop
+          path: develop
+
+      - name: Fetch - master
+        uses: actions/checkout@v2
+        with:
+          repository: precice/precice
+          ref: master
+          path: master
+
+      - name: Build doxygen - develop
+        working-directory: develop
+        run: doxygen
+
+      - name: Build doxygen - master
+        working-directory: master
+        run: doxygen
+
+      - name: Gather
+        run: |
+          mkdir -p public
+          mv develop/docs/source-code-documentation/html public/develop
+          mv master/docs/source-code-documentation/html public/master
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: master
