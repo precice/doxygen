@@ -9,17 +9,17 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 574.4526)">
 <title>precice::cplscheme::ParallelCouplingScheme::exchangeInitialData</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-574.4526 648,-574.4526 648,4 -4,4"/>
-<!-- Node24 -->
+<!-- Node25 -->
 <g id="node1" class="node">
-<title>Node24</title>
+<title>Node25</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-286 0,-327 129,-327 129,-286 0,-286"/>
 <text text-anchor="start" x="8" y="-315" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
 <text text-anchor="start" x="8" y="-304" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::ParallelCouplingScheme</text>
 <text text-anchor="middle" x="64.5" y="-293" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::exchangeInitialData</text>
 </g>
-<!-- Node25 -->
+<!-- Node26 -->
 <g id="node2" class="node">
-<title>Node25</title>
+<title>Node26</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#af880c679675d59efcf00b0b9fd984f6e" target="_top" xlink:title="Getter for _doesFirstStep. ">
 <polygon fill="#ffffff" stroke="#000000" points="525,-486 525,-527 644,-527 644,-486 525,-486"/>
 <text text-anchor="start" x="533" y="-515" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
@@ -28,15 +28,15 @@
 </a>
 </g>
 </g>
-<!-- Node24&#45;&gt;Node25 -->
+<!-- Node25&#45;&gt;Node26 -->
 <g id="edge1" class="edge">
-<title>Node24&#45;&gt;Node25</title>
+<title>Node25&#45;&gt;Node26</title>
 <path fill="none" stroke="#191970" d="M66.5504,-327.3164C72.3518,-373.5133 93.4393,-484.1733 165,-530.5 275.2278,-601.8588 437.8453,-561.0025 524.6824,-530.456"/>
 <polygon fill="#191970" stroke="#191970" points="525.8906,-533.741 534.122,-527.0706 523.5275,-527.152 525.8906,-533.741"/>
 </g>
-<!-- Node26 -->
+<!-- Node27 -->
 <g id="node3" class="node">
-<title>Node26</title>
+<title>Node27</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a451d5b7ad0672e0a2a4eea89eda25e1d" target="_top" xlink:title="Getter for _sendsInitializedData. ">
 <polygon fill="#ffffff" stroke="#000000" points="181.5,-480 181.5,-521 300.5,-521 300.5,-480 181.5,-480"/>
 <text text-anchor="start" x="189.5" y="-509" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
@@ -45,15 +45,15 @@
 </a>
 </g>
 </g>
-<!-- Node24&#45;&gt;Node26 -->
+<!-- Node25&#45;&gt;Node27 -->
 <g id="edge2" class="edge">
-<title>Node24&#45;&gt;Node26</title>
+<title>Node25&#45;&gt;Node27</title>
 <path fill="none" stroke="#191970" d="M72.0451,-327.0683C85.596,-361.3456 117.1786,-430.3441 165,-470.5 167.3678,-472.4883 169.8834,-474.3555 172.5045,-476.1078"/>
 <polygon fill="#191970" stroke="#191970" points="170.8076,-479.1714 181.1821,-481.3208 174.4124,-473.1709 170.8076,-479.1714"/>
 </g>
-<!-- Node27 -->
+<!-- Node28 -->
 <g id="node4" class="node">
-<title>Node27</title>
+<title>Node28</title>
 <g id="a_node4"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a880fa19d4fdcfa6e5e9c2abf82aff10b" target="_top" xlink:title="Sends data sendDataIDs given in mapCouplingData with communication. ">
 <polygon fill="#ffffff" stroke="#000000" points="181.5,-420 181.5,-461 300.5,-461 300.5,-420 181.5,-420"/>
 <text text-anchor="start" x="189.5" y="-449" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
@@ -62,15 +62,15 @@
 </a>
 </g>
 </g>
-<!-- Node24&#45;&gt;Node27 -->
+<!-- Node25&#45;&gt;Node28 -->
 <g id="edge3" class="edge">
-<title>Node24&#45;&gt;Node27</title>
+<title>Node25&#45;&gt;Node28</title>
 <path fill="none" stroke="#191970" d="M79.8548,-327.0205C97.9934,-350.0402 130.14,-387.1978 165,-410.5 167.4323,-412.1259 169.966,-413.6845 172.569,-415.1762"/>
 <polygon fill="#191970" stroke="#191970" points="171.1654,-418.3936 181.6392,-419.9902 174.4471,-412.2105 171.1654,-418.3936"/>
 </g>
-<!-- Node28 -->
+<!-- Node29 -->
 <g id="node5" class="node">
-<title>Node28</title>
+<title>Node29</title>
 <g id="a_node5"><a xlink:href="classprecice_1_1cplscheme_1_1BiCouplingScheme.html#ae90273efd5e7a1ba0b91b5e09fd971ac" target="_top" xlink:title="precice::cplscheme\l::BiCouplingScheme::\lgetM2N">
 <polygon fill="#ffffff" stroke="#000000" points="185,-360 185,-401 297,-401 297,-360 185,-360"/>
 <text text-anchor="start" x="193" y="-389" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
@@ -79,15 +79,15 @@
 </a>
 </g>
 </g>
-<!-- Node24&#45;&gt;Node28 -->
+<!-- Node25&#45;&gt;Node29 -->
 <g id="edge4" class="edge">
-<title>Node24&#45;&gt;Node28</title>
+<title>Node25&#45;&gt;Node29</title>
 <path fill="none" stroke="#191970" d="M113.6651,-327.1131C135.0855,-336.0939 160.3558,-346.6888 182.7143,-356.0629"/>
 <polygon fill="#191970" stroke="#191970" points="181.523,-359.3586 192.0986,-359.9974 184.2296,-352.903 181.523,-359.3586"/>
 </g>
-<!-- Node30 -->
+<!-- Node31 -->
 <g id="node7" class="node">
-<title>Node30</title>
+<title>Node31</title>
 <g id="a_node7"><a xlink:href="classprecice_1_1cplscheme_1_1BiCouplingScheme.html#a66197fbf9e9032a824e128cd55aefa7f" target="_top" xlink:title="Returns all data to be sent. ">
 <polygon fill="#ffffff" stroke="#000000" points="365,-226 365,-267 477,-267 477,-226 365,-226"/>
 <text text-anchor="start" x="373" y="-255" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
@@ -96,15 +96,15 @@
 </a>
 </g>
 </g>
-<!-- Node24&#45;&gt;Node30 -->
+<!-- Node25&#45;&gt;Node31 -->
 <g id="edge7" class="edge">
-<title>Node24&#45;&gt;Node30</title>
+<title>Node25&#45;&gt;Node31</title>
 <path fill="none" stroke="#191970" d="M129.1812,-318.6174C181.0331,-325.8355 255.1011,-330.4832 317,-312.5 343.5933,-304.774 369.8946,-287.9755 389.3943,-273.2604"/>
 <polygon fill="#191970" stroke="#191970" points="391.5608,-276.0095 397.3159,-267.114 387.2696,-270.479 391.5608,-276.0095"/>
 </g>
-<!-- Node31 -->
+<!-- Node32 -->
 <g id="node8" class="node">
-<title>Node31</title>
+<title>Node32</title>
 <g id="a_node8"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a6b68d793c7aa834a9a7fdd4ce0a80d26" target="_top" xlink:title="Getter for _receivesInitializedData. ">
 <polygon fill="#ffffff" stroke="#000000" points="180,-262 180,-303 302,-303 302,-262 180,-262"/>
 <text text-anchor="start" x="188" y="-291" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
@@ -113,15 +113,15 @@
 </a>
 </g>
 </g>
-<!-- Node24&#45;&gt;Node31 -->
+<!-- Node25&#45;&gt;Node32 -->
 <g id="edge8" class="edge">
-<title>Node24&#45;&gt;Node31</title>
+<title>Node25&#45;&gt;Node32</title>
 <path fill="none" stroke="#191970" d="M129.2199,-297.6996C142.3911,-295.9086 156.3168,-294.015 169.7018,-292.1949"/>
 <polygon fill="#191970" stroke="#191970" points="170.3734,-295.6359 179.8106,-290.8204 169.4302,-288.6997 170.3734,-295.6359"/>
 </g>
-<!-- Node32 -->
+<!-- Node33 -->
 <g id="node9" class="node">
-<title>Node32</title>
+<title>Node33</title>
 <g id="a_node9"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a2f09f06c2213a480c33a3c4d75ab5575" target="_top" xlink:title="Receives data receiveDataIDs given in mapCouplingData with communication. ">
 <polygon fill="#ffffff" stroke="#000000" points="181.5,-202 181.5,-243 300.5,-243 300.5,-202 181.5,-202"/>
 <text text-anchor="start" x="189.5" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
@@ -130,15 +130,15 @@
 </a>
 </g>
 </g>
-<!-- Node24&#45;&gt;Node32 -->
+<!-- Node25&#45;&gt;Node33 -->
 <g id="edge9" class="edge">
-<title>Node24&#45;&gt;Node32</title>
+<title>Node25&#45;&gt;Node33</title>
 <path fill="none" stroke="#191970" d="M100.2639,-285.9643C119.2286,-275.4133 143.0808,-262.6724 165,-252.5 169.0169,-250.6358 173.1844,-248.7801 177.4059,-246.9586"/>
 <polygon fill="#191970" stroke="#191970" points="178.8456,-250.15 186.6965,-243.0356 176.1226,-243.7013 178.8456,-250.15"/>
 </g>
-<!-- Node33 -->
+<!-- Node34 -->
 <g id="node10" class="node">
-<title>Node33</title>
+<title>Node34</title>
 <g id="a_node10"><a xlink:href="classprecice_1_1cplscheme_1_1BiCouplingScheme.html#a9f50278c80ab37222105c81b74bb1f7c" target="_top" xlink:title="Returns all data to be received. ">
 <polygon fill="#ffffff" stroke="#000000" points="185,-142 185,-183 297,-183 297,-142 185,-142"/>
 <text text-anchor="start" x="193" y="-171" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
@@ -147,15 +147,15 @@
 </a>
 </g>
 </g>
-<!-- Node24&#45;&gt;Node33 -->
+<!-- Node25&#45;&gt;Node34 -->
 <g id="edge10" class="edge">
-<title>Node24&#45;&gt;Node33</title>
+<title>Node25&#45;&gt;Node34</title>
 <path fill="none" stroke="#191970" d="M78.1686,-285.7162C95.6376,-260.58 128.0741,-218.4242 165,-192.5 168.3958,-190.1159 172.0079,-187.885 175.7423,-185.8033"/>
 <polygon fill="#191970" stroke="#191970" points="177.3523,-188.9111 184.6341,-181.2152 174.1425,-182.6904 177.3523,-188.9111"/>
 </g>
-<!-- Node34 -->
+<!-- Node35 -->
 <g id="node11" class="node">
-<title>Node34</title>
+<title>Node35</title>
 <g id="a_node11"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#ab41a2ded419b560b9cccb511a7d01e08" target="_top" xlink:title="Used to set flag after data has been received using receiveData(). ">
 <polygon fill="#ffffff" stroke="#000000" points="165,-82 165,-123 317,-123 317,-82 165,-82"/>
 <text text-anchor="start" x="173" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
@@ -164,15 +164,15 @@
 </a>
 </g>
 </g>
-<!-- Node24&#45;&gt;Node34 -->
+<!-- Node25&#45;&gt;Node35 -->
 <g id="edge12" class="edge">
-<title>Node24&#45;&gt;Node34</title>
+<title>Node25&#45;&gt;Node35</title>
 <path fill="none" stroke="#191970" d="M71.2869,-285.83C84.0827,-249.8752 115.0631,-175.5518 165,-132.5 166.531,-131.1801 168.127,-129.9142 169.7761,-128.7004"/>
 <polygon fill="#191970" stroke="#191970" points="171.954,-131.4582 178.4082,-123.0561 168.1231,-125.5994 171.954,-131.4582"/>
 </g>
-<!-- Node35 -->
+<!-- Node36 -->
 <g id="node12" class="node">
-<title>Node35</title>
+<title>Node36</title>
 <g id="a_node12"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a375b0092b382e99362e597491768debc" target="_top" xlink:title="Set old coupling data values to current values. ">
 <polygon fill="#ffffff" stroke="#000000" points="181.5,-22 181.5,-63 300.5,-63 300.5,-22 181.5,-22"/>
 <text text-anchor="start" x="189.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
@@ -181,15 +181,15 @@
 </a>
 </g>
 </g>
-<!-- Node24&#45;&gt;Node35 -->
+<!-- Node25&#45;&gt;Node36 -->
 <g id="edge13" class="edge">
-<title>Node24&#45;&gt;Node35</title>
+<title>Node25&#45;&gt;Node36</title>
 <path fill="none" stroke="#191970" d="M67.839,-285.9783C76.1582,-241.188 101.8684,-133.7836 165,-72.5 167.3919,-70.1781 169.9851,-68.0297 172.7225,-66.0425"/>
 <polygon fill="#191970" stroke="#191970" points="174.77,-68.8876 181.31,-60.5522 170.9994,-62.99 174.77,-68.8876"/>
 </g>
-<!-- Node29 -->
+<!-- Node30 -->
 <g id="node6" class="node">
-<title>Node29</title>
+<title>Node30</title>
 <g id="a_node6"><a xlink:href="classprecice_1_1cplscheme_1_1BiCouplingScheme.html#a5655bedf9d881d7a18722445b8256c91" target="_top" xlink:title="Receive from coupling partner and return whether coupling scheme has converged. ">
 <polygon fill="#ffffff" stroke="#000000" points="365,-402 365,-443 477,-443 477,-402 365,-402"/>
 <text text-anchor="start" x="373" y="-431" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
@@ -198,27 +198,27 @@
 </a>
 </g>
 </g>
-<!-- Node28&#45;&gt;Node29 -->
+<!-- Node29&#45;&gt;Node30 -->
 <g id="edge5" class="edge">
-<title>Node28&#45;&gt;Node29</title>
+<title>Node29&#45;&gt;Node30</title>
 <path fill="none" stroke="#191970" d="M297.4593,-393.6738C315.6374,-397.9154 335.9458,-402.654 354.7617,-407.0444"/>
 <polygon fill="#191970" stroke="#191970" points="354.2073,-410.509 364.7411,-409.3729 355.798,-403.6921 354.2073,-410.509"/>
 </g>
-<!-- Node29&#45;&gt;Node25 -->
+<!-- Node30&#45;&gt;Node26 -->
 <g id="edge6" class="edge">
-<title>Node29&#45;&gt;Node25</title>
+<title>Node30&#45;&gt;Node26</title>
 <path fill="none" stroke="#191970" d="M460.9966,-443.0487C483.3639,-454.5402 511.4316,-468.9603 535.1553,-481.1486"/>
 <polygon fill="#191970" stroke="#191970" points="533.8554,-484.4156 544.3497,-485.8723 537.0543,-478.1893 533.8554,-484.4156"/>
 </g>
-<!-- Node33&#45;&gt;Node30 -->
+<!-- Node34&#45;&gt;Node31 -->
 <g id="edge11" class="edge">
-<title>Node33&#45;&gt;Node30</title>
+<title>Node34&#45;&gt;Node31</title>
 <path fill="none" stroke="#191970" d="M295.2613,-183.1275C302.6175,-186.154 310.0292,-189.3246 317,-192.5 336.0767,-201.1899 356.6451,-211.6326 374.414,-221.0094"/>
 <polygon fill="#191970" stroke="#191970" points="372.9551,-224.1977 383.428,-225.8008 376.2407,-218.0166 372.9551,-224.1977"/>
 </g>
-<!-- Node36 -->
+<!-- Node37 -->
 <g id="node13" class="node">
-<title>Node36</title>
+<title>Node37</title>
 <g id="a_node13"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#ae946bdd4f164ab6a38b62c058123eee6" target="_top" xlink:title="Function to determine whether coupling scheme is an implicit coupling scheme. ">
 <polygon fill="#ffffff" stroke="#000000" points="353,-50 353,-91 489,-91 489,-50 353,-50"/>
 <text text-anchor="start" x="361" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
@@ -227,15 +227,15 @@
 </a>
 </g>
 </g>
-<!-- Node35&#45;&gt;Node36 -->
+<!-- Node36&#45;&gt;Node37 -->
 <g id="edge14" class="edge">
-<title>Node35&#45;&gt;Node36</title>
+<title>Node36&#45;&gt;Node37</title>
 <path fill="none" stroke="#191970" d="M300.9374,-51.8236C314.3515,-53.9102 328.7723,-56.1535 342.8035,-58.3361"/>
 <polygon fill="#191970" stroke="#191970" points="342.5125,-61.8328 352.9317,-59.9116 343.5885,-54.916 342.5125,-61.8328"/>
 </g>
-<!-- Node37 -->
+<!-- Node38 -->
 <g id="node14" class="node">
-<title>Node37</title>
+<title>Node38</title>
 <g id="a_node14"><a xlink:href="namespaceprecice_1_1utils.html#ad91190b2974c945c80111b15584681c9" target="_top" xlink:title="precice::utils::shiftSet\lFirst">
 <polygon fill="#ffffff" stroke="#000000" points="365,-.5 365,-30.5 477,-30.5 477,-.5 365,-.5"/>
 <text text-anchor="start" x="373" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::shiftSet</text>
@@ -243,9 +243,9 @@
 </a>
 </g>
 </g>
-<!-- Node35&#45;&gt;Node37 -->
+<!-- Node36&#45;&gt;Node38 -->
 <g id="edge15" class="edge">
-<title>Node35&#45;&gt;Node37</title>
+<title>Node36&#45;&gt;Node38</title>
 <path fill="none" stroke="#191970" d="M300.9374,-33.5094C318.2066,-30.919 337.1442,-28.0784 354.7713,-25.4343"/>
 <polygon fill="#191970" stroke="#191970" points="355.6057,-28.8484 364.9759,-23.9036 354.5673,-21.9258 355.6057,-28.8484"/>
 </g>

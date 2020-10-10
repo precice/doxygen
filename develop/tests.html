@@ -66,11 +66,10 @@ $(function() {
 <div class="contents">
 <div class="textblock"><h1>Running and writing tests </h1>
 <h2>Running </h2>
-<p>The <code>tools/compileAndTest.py</code> script simplifies running all tsts.</p>
+<p>Use <code>ctest</code> or <code>make test</code> within the build folder to run all tests.</p>
 <ul>
-<li><code>./tools/compileAndTest.py -t</code> runs all tests on 4 MPI ranks.</li>
-<li><code>./build/last/testprecice -x</code> runs boost test with colored output.</li>
-<li><code>./build/last/testprecice -x -r detailed -t "+/+PetRadial+"</code> (replace all + by *, due to Doxygen) runs all <code>PetRadial*</code> tests from all test suites using colored output and detailed reporting.</li>
+<li><code>mpirun -np 4 ./build/testprecice -x</code> runs boost test with colored output.</li>
+<li><code>mpirun -np 4 ./build/testprecice -x -r detailed -t "+/+PetRadial+"</code> (replace all + by *, due to Doxygen) runs all <code>PetRadial*</code> tests from all test suites using colored output and detailed reporting.</li>
 </ul>
 <h2>Writing </h2>
 <p>To learn, how to write new tests, have a look at <code>./src/mapping/tests/PetRadialBasisFctMappingTest.cpp</code>.</p>

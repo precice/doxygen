@@ -57,7 +57,6 @@ var searchData=
   ['value_5fvtk',['VALUE_VTK',['../classprecice_1_1io_1_1ExportConfiguration.html#a14a65a1133aac1974c6348607f41809a',1,'precice::io::ExportConfiguration::VALUE_VTK()'],['../classprecice_1_1config_1_1ParticipantConfiguration.html#ad3cf7a7c0065796f3752f863067205b5',1,'precice::config::ParticipantConfiguration::VALUE_VTK()']]],
   ['value_5fwrite',['VALUE_WRITE',['../classprecice_1_1mapping_1_1MappingConfiguration.html#a341ed72037bf89f9760c7dbee992c580',1,'precice::mapping::MappingConfiguration']]],
   ['value_5fzero_5frestart',['VALUE_ZERO_RESTART',['../classprecice_1_1acceleration_1_1AccelerationConfiguration.html#a0d7ba51fd85f87111b4366a9e1a17ca5',1,'precice::acceleration::AccelerationConfiguration']]],
-  ['values',['values',['../structprecice_1_1cplscheme_1_1CouplingData.html#a6f0db9978dc124db25383073c340fe62',1,'precice::cplscheme::CouplingData']]],
   ['vector',['vector',['../classprecice_1_1utils_1_1petsc_1_1Vector.html#adce3c519ad528f77276736159272e988',1,'precice::utils::petsc::Vector']]],
   ['vectortoelement',['vectorToElement',['../structprecice_1_1query_1_1ClosestElement.html#a5bf20e5f998e3cc22d36e85b4f7ab21e',1,'precice::query::ClosestElement']]],
   ['vertexorder',['vertexOrder',['../structprecice_1_1math_1_1geometry_1_1ConvexityResult.html#ab483ce7a14f61641382946e49127e1fe',1,'precice::math::geometry::ConvexityResult']]],
