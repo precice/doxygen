@@ -347,7 +347,7 @@ var searchData=
   ['_5ftriangles',['_triangles',['../classprecice_1_1mesh_1_1Mesh.html#aa234d237df86e2508df6bac1e0189d72',1,'precice::mesh::Mesh']]],
   ['_5ftruncationeps',['_truncationEps',['../classprecice_1_1acceleration_1_1impl_1_1SVDFactorization.html#a2a0827fc1d91e0522770a6280a6ff711',1,'precice::acceleration::impl::SVDFactorization']]],
   ['_5ftxtwriter',['_txtWriter',['../classprecice_1_1impl_1_1WatchPoint.html#a73419ee6f093a16ea4c1c643e71ab76e',1,'precice::impl::WatchPoint']]],
-  ['_5funiquedatanames',['_uniqueDataNames',['../classprecice_1_1acceleration_1_1AccelerationConfiguration.html#abc47679bef6b1f64d069422118765c40',1,'precice::acceleration::AccelerationConfiguration']]],
+  ['_5funiquedataandmeshnames',['_uniqueDataAndMeshNames',['../classprecice_1_1acceleration_1_1AccelerationConfiguration.html#a274e9bc3d9b256058c81719013889eef',1,'precice::acceleration::AccelerationConfiguration']]],
   ['_5fusedcolumnspertstep',['_usedColumnsPerTstep',['../classprecice_1_1acceleration_1_1MVQNAcceleration.html#a108d3f8089af8fe6983e13563df2c309',1,'precice::acceleration::MVQNAcceleration']]],
   ['_5fusedmeshcontexts',['_usedMeshContexts',['../classprecice_1_1impl_1_1Participant.html#a53aae623f04c096abd06cc9e7d3d19ed',1,'precice::impl::Participant']]],
   ['_5fusemaster',['_useMaster',['../classprecice_1_1impl_1_1Participant.html#a8ac72a039ef925847b23978808bb0a81',1,'precice::impl::Participant']]],
