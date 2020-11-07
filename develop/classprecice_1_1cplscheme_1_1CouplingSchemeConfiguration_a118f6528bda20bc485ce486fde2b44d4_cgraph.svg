@@ -9,32 +9,32 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 120.6453)">
 <title>precice::cplscheme::CouplingSchemeConfiguration::addMultiDataToBeExchanged</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-120.6453 469,-120.6453 469,4 -4,4"/>
-<!-- Node39 -->
+<!-- Node41 -->
 <g id="node1" class="node">
-<title>Node39</title>
+<title>Node41</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-60.5 0,-101.5 155,-101.5 155,-60.5 0,-60.5"/>
 <text text-anchor="start" x="8" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
 <text text-anchor="start" x="8" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CouplingSchemeConfiguration</text>
 <text text-anchor="middle" x="77.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::addMultiDataToBeExchanged</text>
 </g>
-<!-- Node40 -->
+<!-- Node42 -->
 <g id="node2" class="node">
-<title>Node40</title>
+<title>Node42</title>
 <g id="a_node2"><a xlink:href="namespaceprecice_1_1utils.html#a434eabaa71f97a31726281a4df77bbcf" target="_top" xlink:title="Returns true, if given element is in vector, otherwise false. ">
 <polygon fill="#ffffff" stroke="#000000" points="345,-71.5 345,-90.5 465,-90.5 465,-71.5 345,-71.5"/>
 <text text-anchor="middle" x="405" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::contained</text>
 </a>
 </g>
 </g>
-<!-- Node39&#45;&gt;Node40 -->
+<!-- Node41&#45;&gt;Node42 -->
 <g id="edge1" class="edge">
-<title>Node39&#45;&gt;Node40</title>
+<title>Node41&#45;&gt;Node42</title>
 <path fill="none" stroke="#191970" d="M143.5456,-101.5246C158.9679,-105.4582 175.437,-108.9779 191,-111 243.0073,-117.7572 257.1558,-118.912 309,-111 330.4099,-107.7326 353.6085,-100.5892 371.8369,-94.0926"/>
 <polygon fill="#191970" stroke="#191970" points="373.2281,-97.3103 381.4095,-90.5786 370.8159,-90.739 373.2281,-97.3103"/>
 </g>
-<!-- Node41 -->
+<!-- Node43 -->
 <g id="node3" class="node">
-<title>Node41</title>
+<title>Node43</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1cplscheme_1_1MultiCouplingScheme.html#ad47d6161ccd7af029d0cfaab778f7afe" target="_top" xlink:title="Adds data to be sent on data exchange and possibly be modified during coupling iterations. ">
 <polygon fill="#ffffff" stroke="#000000" points="191,-60.5 191,-101.5 309,-101.5 309,-60.5 191,-60.5"/>
 <text text-anchor="start" x="199" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
@@ -43,15 +43,15 @@
 </a>
 </g>
 </g>
-<!-- Node39&#45;&gt;Node41 -->
+<!-- Node41&#45;&gt;Node43 -->
 <g id="edge2" class="edge">
-<title>Node39&#45;&gt;Node41</title>
+<title>Node41&#45;&gt;Node43</title>
 <path fill="none" stroke="#191970" d="M155.1713,-81C163.6905,-81 172.3225,-81 180.7303,-81"/>
 <polygon fill="#191970" stroke="#191970" points="180.8522,-84.5001 190.8521,-81 180.8521,-77.5001 180.8522,-84.5001"/>
 </g>
-<!-- Node42 -->
+<!-- Node44 -->
 <g id="node4" class="node">
-<title>Node42</title>
+<title>Node44</title>
 <g id="a_node4"><a xlink:href="classprecice_1_1cplscheme_1_1MultiCouplingScheme.html#a34f61d206c3e735c189e11a571846c86" target="_top" xlink:title="Adds data to be received on data exchange. ">
 <polygon fill="#ffffff" stroke="#000000" points="191,-.5 191,-41.5 309,-41.5 309,-.5 191,-.5"/>
 <text text-anchor="start" x="199" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
@@ -60,21 +60,21 @@
 </a>
 </g>
 </g>
-<!-- Node39&#45;&gt;Node42 -->
+<!-- Node41&#45;&gt;Node44 -->
 <g id="edge4" class="edge">
-<title>Node39&#45;&gt;Node42</title>
+<title>Node41&#45;&gt;Node44</title>
 <path fill="none" stroke="#191970" d="M136.8647,-60.3514C151.1749,-55.3739 166.5823,-50.0149 181.2805,-44.9025"/>
 <polygon fill="#191970" stroke="#191970" points="182.5231,-48.176 190.8182,-41.585 180.2234,-41.5645 182.5231,-48.176"/>
 </g>
-<!-- Node41&#45;&gt;Node40 -->
+<!-- Node43&#45;&gt;Node42 -->
 <g id="edge3" class="edge">
-<title>Node41&#45;&gt;Node40</title>
+<title>Node43&#45;&gt;Node42</title>
 <path fill="none" stroke="#191970" d="M309.041,-81C317.4653,-81 326.1985,-81 334.8102,-81"/>
 <polygon fill="#191970" stroke="#191970" points="334.8381,-84.5001 344.8381,-81 334.8381,-77.5001 334.8381,-84.5001"/>
 </g>
-<!-- Node42&#45;&gt;Node40 -->
+<!-- Node44&#45;&gt;Node42 -->
 <g id="edge5" class="edge">
-<title>Node42&#45;&gt;Node40</title>
+<title>Node44&#45;&gt;Node42</title>
 <path fill="none" stroke="#191970" d="M303.3422,-41.6486C325.6665,-50.2902 350.9622,-60.0821 370.7358,-67.7364"/>
 <polygon fill="#191970" stroke="#191970" points="369.6551,-71.0711 380.2443,-71.4171 372.1821,-64.5431 369.6551,-71.0711"/>
 </g>
