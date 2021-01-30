@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 920;
+var viewWidth = 992;
 var viewHeight = 121;
 var sectionId = 'dynsection-10';
 </script>
@@ -54,121 +54,121 @@ var sectionId = 'dynsection-10';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::utils::Parallel::registerUserProvidedComm</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-117 916,-117 916,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-117 988,-117 988,4 -4,4"/>
 <!-- Node46 -->
 <g id="node1" class="node">
 <title>Node46</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-24.5 0,-54.5 143,-54.5 143,-24.5 0,-24.5"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-24.5 0,-54.5 158,-54.5 158,-24.5 0,-24.5"/>
 <text text-anchor="start" x="8" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
-<text text-anchor="middle" x="71.5" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::registerUserProvidedComm</text>
+<text text-anchor="middle" x="79" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::registerUserProvidedComm</text>
 </g>
 <!-- Node47 -->
 <g id="node2" class="node">
 <title>Node47</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1utils_1_1Parallel.html#a603b416754124be0703ca4cdbe886456" target="_top" xlink:title="precice::utils::Parallel\l::pushState">
-<polygon fill="#ffffff" stroke="#000000" points="179,-47.5 179,-77.5 289,-77.5 289,-47.5 179,-47.5"/>
-<text text-anchor="start" x="187" y="-65.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
-<text text-anchor="middle" x="234" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::pushState</text>
+<polygon fill="#ffffff" stroke="#000000" points="194,-47.5 194,-77.5 315,-77.5 315,-47.5 194,-47.5"/>
+<text text-anchor="start" x="202" y="-65.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
+<text text-anchor="middle" x="254.5" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::pushState</text>
 </a>
 </g>
 </g>
 <!-- Node46&#45;&gt;Node47 -->
 <g id="edge1" class="edge">
 <title>Node46&#45;&gt;Node47</title>
-<path fill="none" stroke="#191970" d="M143.2479,-49.6551C151.7103,-50.8528 160.3121,-52.0703 168.6793,-53.2546"/>
-<polygon fill="#191970" stroke="#191970" points="168.3521,-56.7431 178.744,-54.6791 169.3332,-49.8122 168.3521,-56.7431"/>
+<path fill="none" stroke="#191970" d="M158.0221,-49.8562C166.5601,-50.9751 175.2094,-52.1086 183.6424,-53.2138"/>
+<polygon fill="#191970" stroke="#191970" points="183.4294,-56.7158 193.7995,-54.5449 184.3391,-49.7751 183.4294,-56.7158"/>
 </g>
 <!-- Node52 -->
 <g id="node7" class="node">
 <title>Node52</title>
 <g id="a_node7"><a xlink:href="structprecice_1_1utils_1_1Parallel_1_1CommState.html#aad97064edc30c199929c31c9d97f419d" target="_top" xlink:title="precice::utils::Parallel\l::CommState::fromExtern">
-<polygon fill="#ffffff" stroke="#000000" points="325,-.5 325,-30.5 454,-30.5 454,-.5 325,-.5"/>
-<text text-anchor="start" x="333" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
-<text text-anchor="middle" x="389.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CommState::fromExtern</text>
+<polygon fill="#ffffff" stroke="#000000" points="351,-.5 351,-30.5 492,-30.5 492,-.5 351,-.5"/>
+<text text-anchor="start" x="359" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
+<text text-anchor="middle" x="421.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CommState::fromExtern</text>
 </a>
 </g>
 </g>
 <!-- Node46&#45;&gt;Node52 -->
 <g id="edge7" class="edge">
 <title>Node46&#45;&gt;Node52</title>
-<path fill="none" stroke="#191970" d="M143.2619,-34.084C194.3534,-30.228 262.8506,-25.0584 314.6295,-21.1506"/>
-<polygon fill="#191970" stroke="#191970" points="315.0441,-24.6294 324.7523,-20.3866 314.5172,-17.6492 315.0441,-24.6294"/>
+<path fill="none" stroke="#191970" d="M158.0065,-33.9638C212.7776,-30.1258 285.4925,-25.0305 340.6586,-21.1648"/>
+<polygon fill="#191970" stroke="#191970" points="341.0159,-24.6484 350.7468,-20.4579 340.5266,-17.6656 341.0159,-24.6484"/>
 </g>
 <!-- Node48 -->
 <g id="node3" class="node">
 <title>Node48</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1utils_1_1Parallel.html#a2aeadec30c9e48918e014608ede4d51d" target="_top" xlink:title="Returns an owning pointer to the current CommState. ">
-<polygon fill="#ffffff" stroke="#000000" points="334.5,-49.5 334.5,-79.5 444.5,-79.5 444.5,-49.5 334.5,-49.5"/>
-<text text-anchor="start" x="342.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
-<text text-anchor="middle" x="389.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::current</text>
+<polygon fill="#ffffff" stroke="#000000" points="361,-49.5 361,-79.5 482,-79.5 482,-49.5 361,-49.5"/>
+<text text-anchor="start" x="369" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
+<text text-anchor="middle" x="421.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::current</text>
 </a>
 </g>
 </g>
 <!-- Node47&#45;&gt;Node48 -->
 <g id="edge2" class="edge">
 <title>Node47&#45;&gt;Node48</title>
-<path fill="none" stroke="#191970" d="M289.2613,-63.2108C300.6042,-63.3566 312.6459,-63.5115 324.301,-63.6614"/>
-<polygon fill="#191970" stroke="#191970" points="324.3724,-67.1625 334.4166,-63.7915 324.4625,-60.1631 324.3724,-67.1625"/>
+<path fill="none" stroke="#191970" d="M315.2632,-63.2277C326.7321,-63.3651 338.8205,-63.5098 350.569,-63.6505"/>
+<polygon fill="#191970" stroke="#191970" points="350.7408,-67.1527 360.782,-63.7728 350.8247,-60.1532 350.7408,-67.1527"/>
 </g>
 <!-- Node49 -->
 <g id="node4" class="node">
 <title>Node49</title>
 <g id="a_node4"><a xlink:href="structprecice_1_1utils_1_1Parallel_1_1CommState.html#a11c87f5cfaad1fb984d9dcd80e6f2c55" target="_top" xlink:title="returns a commstate containing MPI_COMM_WORLD ">
-<polygon fill="#ffffff" stroke="#000000" points="490,-49.5 490,-79.5 600,-79.5 600,-49.5 490,-49.5"/>
-<text text-anchor="start" x="498" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
-<text text-anchor="middle" x="545" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CommState::world</text>
+<polygon fill="#ffffff" stroke="#000000" points="528,-49.5 528,-79.5 649,-79.5 649,-49.5 528,-49.5"/>
+<text text-anchor="start" x="536" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
+<text text-anchor="middle" x="588.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CommState::world</text>
 </a>
 </g>
 </g>
 <!-- Node48&#45;&gt;Node49 -->
 <g id="edge3" class="edge">
 <title>Node48&#45;&gt;Node49</title>
-<path fill="none" stroke="#191970" d="M444.7613,-64.5C456.1042,-64.5 468.1459,-64.5 479.801,-64.5"/>
-<polygon fill="#191970" stroke="#191970" points="479.9167,-68.0001 489.9166,-64.5 479.9166,-61.0001 479.9167,-68.0001"/>
+<path fill="none" stroke="#191970" d="M482.2632,-64.5C493.7321,-64.5 505.8205,-64.5 517.569,-64.5"/>
+<polygon fill="#191970" stroke="#191970" points="517.782,-68.0001 527.782,-64.5 517.782,-61.0001 517.782,-68.0001"/>
 </g>
 <!-- Node50 -->
 <g id="node5" class="node">
 <title>Node50</title>
 <g id="a_node5"><a xlink:href="structprecice_1_1utils_1_1Parallel_1_1CommState.html#a440432f97f08c595678e1102edb43b9f" target="_top" xlink:title="returns the commstate representing comm ">
-<polygon fill="#ffffff" stroke="#000000" points="636,-82.5 636,-112.5 766,-112.5 766,-82.5 636,-82.5"/>
-<text text-anchor="start" x="644" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
-<text text-anchor="middle" x="701" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CommState::fromComm</text>
+<polygon fill="#ffffff" stroke="#000000" points="685,-82.5 685,-112.5 827,-112.5 827,-82.5 685,-82.5"/>
+<text text-anchor="start" x="693" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
+<text text-anchor="middle" x="756" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CommState::fromComm</text>
 </a>
 </g>
 </g>
 <!-- Node49&#45;&gt;Node50 -->
 <g id="edge4" class="edge">
 <title>Node49&#45;&gt;Node50</title>
-<path fill="none" stroke="#191970" d="M600.439,-76.2275C608.6848,-77.9718 617.2987,-79.794 625.8664,-81.6064"/>
-<polygon fill="#191970" stroke="#191970" points="625.3702,-85.0788 635.8781,-83.7242 626.819,-78.2303 625.3702,-85.0788"/>
+<path fill="none" stroke="#191970" d="M649.4452,-76.5071C657.7147,-78.1363 666.3053,-79.8288 674.8596,-81.5141"/>
+<polygon fill="#191970" stroke="#191970" points="674.3754,-84.986 684.8634,-83.485 675.7286,-78.118 674.3754,-84.986"/>
 </g>
 <!-- Node51 -->
 <g id="node6" class="node">
 <title>Node51</title>
 <g id="a_node6"><a xlink:href="structprecice_1_1utils_1_1Parallel_1_1CommState.html#a5e3626f4c22a0aa7ac05cd740dda95ca" target="_top" xlink:title="returns an blank commstate representing MPI_COMM_NULL ">
-<polygon fill="#ffffff" stroke="#000000" points="802,-38.5 802,-68.5 912,-68.5 912,-38.5 802,-38.5"/>
-<text text-anchor="start" x="810" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
-<text text-anchor="middle" x="857" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CommState::null</text>
+<polygon fill="#ffffff" stroke="#000000" points="863,-38.5 863,-68.5 984,-68.5 984,-38.5 863,-38.5"/>
+<text text-anchor="start" x="871" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
+<text text-anchor="middle" x="923.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CommState::null</text>
 </a>
 </g>
 </g>
 <!-- Node49&#45;&gt;Node51 -->
 <g id="edge6" class="edge">
 <title>Node49&#45;&gt;Node51</title>
-<path fill="none" stroke="#191970" d="M600.0611,-62.5587C653.5851,-60.6717 734.8912,-57.8051 791.6627,-55.8036"/>
-<polygon fill="#191970" stroke="#191970" points="792.095,-59.2906 801.9654,-55.4403 791.8483,-52.2949 792.095,-59.2906"/>
+<path fill="none" stroke="#191970" d="M649.166,-62.508C706.3807,-60.6293 792.1378,-57.8134 852.5081,-55.8311"/>
+<polygon fill="#191970" stroke="#191970" points="852.8405,-59.3221 862.7203,-55.4958 852.6107,-52.3259 852.8405,-59.3221"/>
 </g>
 <!-- Node50&#45;&gt;Node51 -->
 <g id="edge5" class="edge">
 <title>Node50&#45;&gt;Node51</title>
-<path fill="none" stroke="#191970" d="M754.25,-82.4808C766.981,-78.89 780.6933,-75.0224 793.8237,-71.319"/>
-<polygon fill="#191970" stroke="#191970" points="795.0509,-74.6095 803.7253,-68.5262 793.1506,-67.8723 795.0509,-74.6095"/>
+<path fill="none" stroke="#191970" d="M813.1755,-82.4808C827.113,-78.8196 842.1459,-74.8706 856.495,-71.1013"/>
+<polygon fill="#191970" stroke="#191970" points="857.5154,-74.4521 866.298,-68.5262 855.7368,-67.6818 857.5154,-74.4521"/>
 </g>
 <!-- Node52&#45;&gt;Node51 -->
 <g id="edge8" class="edge">
 <title>Node52&#45;&gt;Node51</title>
-<path fill="none" stroke="#191970" d="M454.013,-20.7438C543.0115,-27.9779 702.5572,-40.9464 791.8768,-48.2066"/>
-<polygon fill="#191970" stroke="#191970" points="791.6321,-51.6981 801.8828,-49.0199 792.1993,-44.7211 791.6321,-51.6981"/>
+<path fill="none" stroke="#191970" d="M492.0944,-20.8438C587.5894,-28.0725 756.9584,-40.8933 852.6071,-48.1336"/>
+<polygon fill="#191970" stroke="#191970" points="852.5262,-51.6374 862.7619,-48.9023 853.0546,-44.6574 852.5262,-51.6374"/>
 </g>
 </g>
 </svg>

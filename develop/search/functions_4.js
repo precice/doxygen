@@ -4,7 +4,7 @@ var searchData=
   ['dataconfiguration',['DataConfiguration',['../classprecice_1_1mesh_1_1DataConfiguration.html#a2405381b91007cccf3f1c69490cfcab1',1,'precice::mesh::DataConfiguration']]],
   ['datacontext',['dataContext',['../classprecice_1_1impl_1_1Participant.html#abf4ec966ad2cc64de8ccea77af8edb9b',1,'precice::impl::Participant::dataContext(int dataID) const'],['../classprecice_1_1impl_1_1Participant.html#a53e6da752c60ceff2b3f794f7286823d',1,'precice::impl::Participant::dataContext(int dataID)']]],
   ['datavector',['dataVector',['../classprecice_1_1mesh_1_1BoundingBox.html#a993a69cf28a33d10c5c07471ffe174d8',1,'precice::mesh::BoundingBox']]],
-  ['debug',['debug',['../classprecice_1_1logging_1_1Logger.html#a48441a3c27176b532f993336ebf8393e',1,'precice::logging::Logger']]],
+  ['debug',['debug',['../classprecice_1_1logging_1_1Logger.html#a48441a3c27176b532f993336ebf8393e',1,'precice::logging::Logger::debug()'],['../namespaceprecice_1_1utils_1_1eigenio.html#abb887f3ba1c5af4d48cb2f37dc967af8',1,'precice::utils::eigenio::debug()']]],
   ['decodexml',['decodeXML',['../namespaceprecice_1_1xml.html#aa54f8cc5a7b993b55d58a7c53a027d2c',1,'precice::xml']]],
   ['decrement',['decrement',['../classprecice_1_1mesh_1_1IndexRangeIterator.html#ace6319bb457a7cd602b0f4132fb1b729',1,'precice::mesh::IndexRangeIterator']]],
   ['deletecolumn',['deleteColumn',['../classprecice_1_1acceleration_1_1impl_1_1QRFactorization.html#afe9ed35bac0657cd5e3c417e45d22229',1,'precice::acceleration::impl::QRFactorization']]],

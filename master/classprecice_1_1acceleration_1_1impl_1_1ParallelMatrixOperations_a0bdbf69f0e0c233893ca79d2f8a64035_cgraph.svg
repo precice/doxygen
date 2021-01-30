@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 518;
+var viewWidth = 562;
 var viewHeight = 83;
 var sectionId = 'dynsection-3';
 </script>
@@ -54,61 +54,61 @@ var sectionId = 'dynsection-3';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::acceleration::impl::ParallelMatrixOperations::_multiplyNM_dotProduct</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-79 514,-79 514,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-79 558,-79 558,4 -4,4"/>
 <!-- Node9 -->
 <g id="node1" class="node">
 <title>Node9</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-17 0,-58 153,-58 153,-17 0,-17"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-17 0,-58 170,-58 170,-17 0,-17"/>
 <text text-anchor="start" x="8" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
 <text text-anchor="start" x="8" y="-35" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::impl::ParallelMatrixOperations</text>
-<text text-anchor="middle" x="76.5" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::_multiplyNM_dotProduct</text>
+<text text-anchor="middle" x="85" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::_multiplyNM_dotProduct</text>
 </g>
 <!-- Node10 -->
 <g id="node2" class="node">
 <title>Node10</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1utils_1_1MasterSlave.html#a441fadb15cda8247ff6f8f586941f3aa" target="_top" xlink:title="precice::utils::MasterSlave::dot">
-<polygon fill="#ffffff" stroke="#000000" points="189,-50 189,-69 341,-69 341,-50 189,-50"/>
-<text text-anchor="middle" x="265" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave::dot</text>
+<polygon fill="#ffffff" stroke="#000000" points="206,-50 206,-69 373,-69 373,-50 206,-50"/>
+<text text-anchor="middle" x="289.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave::dot</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node10 -->
 <g id="edge1" class="edge">
 <title>Node9&#45;&gt;Node10</title>
-<path fill="none" stroke="#191970" d="M153.1702,-46.4482C161.5952,-47.4315 170.2145,-48.4375 178.7458,-49.4332"/>
-<polygon fill="#191970" stroke="#191970" points="178.3651,-52.9124 188.7034,-50.5954 179.1766,-45.9596 178.3651,-52.9124"/>
+<path fill="none" stroke="#191970" d="M170.2456,-46.6707C178.5825,-47.5676 187.0746,-48.4811 195.4917,-49.3866"/>
+<polygon fill="#191970" stroke="#191970" points="195.389,-52.8957 205.706,-50.4855 196.1378,-45.9359 195.389,-52.8957"/>
 </g>
 <!-- Node12 -->
 <g id="node4" class="node">
 <title>Node12</title>
 <g id="a_node4"><a xlink:href="classprecice_1_1utils_1_1MasterSlave.html#af0deae7c83eae7f8e6908a2879bfb0e3" target="_top" xlink:title="Current rank. ">
-<polygon fill="#ffffff" stroke="#000000" points="198.5,-.5 198.5,-30.5 331.5,-30.5 331.5,-.5 198.5,-.5"/>
-<text text-anchor="start" x="206.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
-<text text-anchor="middle" x="265" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getRank</text>
+<polygon fill="#ffffff" stroke="#000000" points="217,-.5 217,-30.5 362,-30.5 362,-.5 217,-.5"/>
+<text text-anchor="start" x="225" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
+<text text-anchor="middle" x="289.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getRank</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node12 -->
 <g id="edge3" class="edge">
 <title>Node9&#45;&gt;Node12</title>
-<path fill="none" stroke="#191970" d="M153.1702,-28.5518C164.7589,-27.1992 176.7153,-25.8038 188.3046,-24.4512"/>
-<polygon fill="#191970" stroke="#191970" points="188.8494,-27.9115 198.3762,-23.2757 188.0378,-20.9586 188.8494,-27.9115"/>
+<path fill="none" stroke="#191970" d="M170.2456,-28.3293C182.3181,-27.0306 194.7161,-25.6968 206.7405,-24.4032"/>
+<polygon fill="#191970" stroke="#191970" points="207.1697,-27.8773 216.7379,-23.3277 206.4209,-20.9175 207.1697,-27.8773"/>
 </g>
 <!-- Node11 -->
 <g id="node3" class="node">
 <title>Node11</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1utils_1_1MasterSlave.html#a5495a21e8779643af56152273c123ae2" target="_top" xlink:title="precice::utils::MasterSlave\l::allreduceSum">
-<polygon fill="#ffffff" stroke="#000000" points="377,-44.5 377,-74.5 510,-74.5 510,-44.5 377,-44.5"/>
-<text text-anchor="start" x="385" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
-<text text-anchor="middle" x="443.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::allreduceSum</text>
+<polygon fill="#ffffff" stroke="#000000" points="409,-44.5 409,-74.5 554,-74.5 554,-44.5 409,-44.5"/>
+<text text-anchor="start" x="417" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
+<text text-anchor="middle" x="481.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::allreduceSum</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node11 -->
 <g id="edge2" class="edge">
 <title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="#191970" d="M341.2178,-59.5C349.6387,-59.5 358.2177,-59.5 366.6462,-59.5"/>
-<polygon fill="#191970" stroke="#191970" points="366.832,-63.0001 376.8319,-59.5 366.8319,-56.0001 366.832,-63.0001"/>
+<path fill="none" stroke="#191970" d="M373.1555,-59.5C381.633,-59.5 390.2412,-59.5 398.7095,-59.5"/>
+<polygon fill="#191970" stroke="#191970" points="398.9516,-63.0001 408.9515,-59.5 398.9515,-56.0001 398.9516,-63.0001"/>
 </g>
 </g>
 </svg>

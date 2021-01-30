@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 514;
+var viewWidth = 553;
 var viewHeight = 511;
 var sectionId = 'dynsection-3';
 </script>
@@ -54,233 +54,233 @@ var sectionId = 'dynsection-3';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::cplscheme::BaseCouplingScheme::accelerate</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-506.5 510,-506.5 510,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-506.5 549,-506.5 549,4 -4,4"/>
 <!-- Node4 -->
 <g id="node1" class="node">
 <title>Node4</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-202 0,-243 119,-243 119,-202 0,-202"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-202 0,-243 128,-243 128,-202 0,-202"/>
 <text text-anchor="start" x="8" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
 <text text-anchor="start" x="8" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
-<text text-anchor="middle" x="59.5" y="-209" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::accelerate</text>
+<text text-anchor="middle" x="64" y="-209" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::accelerate</text>
 </g>
 <!-- Node5 -->
 <g id="node2" class="node">
 <title>Node5</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#af524236355c3b4a48237511b820996f2" target="_top" xlink:title="Measure whether coupling scheme has converged or not. ">
-<polygon fill="#ffffff" stroke="#000000" points="177,-382 177,-423 296,-423 296,-382 177,-382"/>
-<text text-anchor="start" x="185" y="-411" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="185" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
-<text text-anchor="middle" x="236.5" y="-389" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::measureConvergence</text>
+<polygon fill="#ffffff" stroke="#000000" points="189,-382 189,-423 318,-423 318,-382 189,-382"/>
+<text text-anchor="start" x="197" y="-411" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="197" y="-400" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
+<text text-anchor="middle" x="253.5" y="-389" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::measureConvergence</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge1" class="edge">
 <title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="#191970" d="M67.5266,-243.2251C80.9479,-275.2975 110.8896,-336.955 155,-372.5 158.8339,-375.5894 163.0158,-378.3788 167.3947,-380.8945"/>
-<polygon fill="#191970" stroke="#191970" points="166.1234,-384.1781 176.6109,-385.6821 169.3503,-377.9662 166.1234,-384.1781"/>
+<path fill="none" stroke="#191970" d="M72.4274,-243.1172C86.6129,-275.3255 118.2632,-337.5057 164,-372.5 168.7526,-376.1363 173.9703,-379.3456 179.4238,-382.1758"/>
+<polygon fill="#191970" stroke="#191970" points="178.2461,-385.49 188.7837,-386.5893 181.2316,-379.1586 178.2461,-385.49"/>
 </g>
 <!-- Node10 -->
 <g id="node7" class="node">
 <title>Node10</title>
 <g id="a_node7"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#ac6f5a4957406b58fbcb83f3744b34200" target="_top" xlink:title="compares _iterations with _maxIterations ">
-<polygon fill="#ffffff" stroke="#000000" points="176,-322 176,-363 297,-363 297,-322 176,-322"/>
-<text text-anchor="start" x="184" y="-351" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="184" y="-340" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
-<text text-anchor="middle" x="236.5" y="-329" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::maxIterationsReached</text>
+<polygon fill="#ffffff" stroke="#000000" points="187.5,-322 187.5,-363 319.5,-363 319.5,-322 187.5,-322"/>
+<text text-anchor="start" x="195.5" y="-351" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="195.5" y="-340" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
+<text text-anchor="middle" x="253.5" y="-329" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::maxIterationsReached</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node10 -->
 <g id="edge6" class="edge">
 <title>Node4&#45;&gt;Node10</title>
-<path fill="none" stroke="#191970" d="M76.976,-243.2608C94.8185,-263.3347 124.1987,-293.4358 155,-312.5 158.78,-314.8396 162.7704,-317.0383 166.8726,-319.0974"/>
-<polygon fill="#191970" stroke="#191970" points="165.4541,-322.2979 175.9933,-323.3828 168.4309,-315.9624 165.4541,-322.2979"/>
+<path fill="none" stroke="#191970" d="M82.0227,-243.0319C100.7278,-263.2199 131.7204,-293.6683 164,-312.5 168.3991,-315.0664 173.0492,-317.4519 177.8244,-319.6625"/>
+<polygon fill="#191970" stroke="#191970" points="176.5619,-322.9299 187.1287,-323.6996 179.3483,-316.5083 176.5619,-322.9299"/>
 </g>
 <!-- Node11 -->
 <g id="node8" class="node">
 <title>Node11</title>
 <g id="a_node8"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a25488a257431c0708ec77032cf8c7ee6" target="_top" xlink:title="Getter for _acceleration. ">
-<polygon fill="#ffffff" stroke="#000000" points="177,-262 177,-303 296,-303 296,-262 177,-262"/>
-<text text-anchor="start" x="185" y="-291" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="185" y="-280" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
-<text text-anchor="middle" x="236.5" y="-269" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getAcceleration</text>
+<polygon fill="#ffffff" stroke="#000000" points="189.5,-262 189.5,-303 317.5,-303 317.5,-262 189.5,-262"/>
+<text text-anchor="start" x="197.5" y="-291" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="197.5" y="-280" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
+<text text-anchor="middle" x="253.5" y="-269" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getAcceleration</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node11 -->
 <g id="edge7" class="edge">
 <title>Node4&#45;&gt;Node11</title>
-<path fill="none" stroke="#191970" d="M119.4241,-242.8133C134.789,-248.0217 151.4413,-253.6665 167.2347,-259.0202"/>
-<polygon fill="#191970" stroke="#191970" points="166.3439,-262.4138 176.9382,-262.3096 168.5912,-255.7844 166.3439,-262.4138"/>
+<path fill="none" stroke="#191970" d="M128.1561,-242.8133C144.6715,-248.0424 162.5762,-253.7114 179.5448,-259.0841"/>
+<polygon fill="#191970" stroke="#191970" points="178.82,-262.5258 189.41,-262.2077 180.933,-255.8523 178.82,-262.5258"/>
 </g>
 <!-- Node12 -->
 <g id="node9" class="node">
 <title>Node12</title>
 <g id="a_node9"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a48e6572ae47ce1b4006fcde6885916a3" target="_top" xlink:title="interface to provide accelerated data, depending on coupling scheme being used ">
-<polygon fill="#ffffff" stroke="#000000" points="177,-202 177,-243 296,-243 296,-202 177,-202"/>
-<text text-anchor="start" x="185" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="185" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
-<text text-anchor="middle" x="236.5" y="-209" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getAccelerationData</text>
+<polygon fill="#ffffff" stroke="#000000" points="189.5,-202 189.5,-243 317.5,-243 317.5,-202 189.5,-202"/>
+<text text-anchor="start" x="197.5" y="-231" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="197.5" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
+<text text-anchor="middle" x="253.5" y="-209" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getAccelerationData</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node12 -->
 <g id="edge8" class="edge">
 <title>Node4&#45;&gt;Node12</title>
-<path fill="none" stroke="#191970" d="M119.4241,-222.5C134.6441,-222.5 151.1272,-222.5 166.7875,-222.5"/>
-<polygon fill="#191970" stroke="#191970" points="166.9383,-226.0001 176.9382,-222.5 166.9382,-219.0001 166.9383,-226.0001"/>
+<path fill="none" stroke="#191970" d="M128.1561,-222.5C144.5171,-222.5 162.2416,-222.5 179.0688,-222.5"/>
+<polygon fill="#191970" stroke="#191970" points="179.41,-226.0001 189.41,-222.5 179.41,-219.0001 179.41,-226.0001"/>
 </g>
 <!-- Node13 -->
 <g id="node10" class="node">
 <title>Node13</title>
 <g id="a_node10"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#af285b3e6ffae9af1d4c4b89f1b66da1c" target="_top" xlink:title="Reset all convergence measurements after convergence. ">
-<polygon fill="#ffffff" stroke="#000000" points="155,-142 155,-183 318,-183 318,-142 155,-142"/>
-<text text-anchor="start" x="163" y="-171" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="163" y="-160" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
-<text text-anchor="middle" x="236.5" y="-149" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::newConvergenceMeasurements</text>
+<polygon fill="#ffffff" stroke="#000000" points="164,-142 164,-183 343,-183 343,-142 164,-142"/>
+<text text-anchor="start" x="172" y="-171" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="172" y="-160" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
+<text text-anchor="middle" x="253.5" y="-149" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::newConvergenceMeasurements</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node13 -->
 <g id="edge9" class="edge">
 <title>Node4&#45;&gt;Node13</title>
-<path fill="none" stroke="#191970" d="M119.4241,-202.1867C134.4568,-197.0909 150.7218,-191.5774 166.2091,-186.3274"/>
-<polygon fill="#191970" stroke="#191970" points="167.3867,-189.6239 175.7337,-183.0987 165.1394,-182.9945 167.3867,-189.6239"/>
+<path fill="none" stroke="#191970" d="M128.1561,-202.1867C144.4022,-197.0428 161.9927,-191.4733 178.7141,-186.1789"/>
+<polygon fill="#191970" stroke="#191970" points="179.9653,-189.4541 188.4423,-183.0987 177.8522,-182.7806 179.9653,-189.4541"/>
 </g>
 <!-- Node14 -->
 <g id="node11" class="node">
 <title>Node14</title>
 <g id="a_node11"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#ac074864e6b98ffeb355f3c8734e93631" target="_top" xlink:title="used for storing send/receive data at end of acceleration, if not converged. ">
-<polygon fill="#ffffff" stroke="#000000" points="177,-82 177,-123 296,-123 296,-82 177,-82"/>
-<text text-anchor="start" x="185" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="185" y="-100" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
-<text text-anchor="middle" x="236.5" y="-89" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::storeData</text>
+<polygon fill="#ffffff" stroke="#000000" points="189.5,-82 189.5,-123 317.5,-123 317.5,-82 189.5,-82"/>
+<text text-anchor="start" x="197.5" y="-111" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="197.5" y="-100" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
+<text text-anchor="middle" x="253.5" y="-89" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::storeData</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node14 -->
 <g id="edge10" class="edge">
 <title>Node4&#45;&gt;Node14</title>
-<path fill="none" stroke="#191970" d="M76.976,-201.7392C94.8185,-181.6653 124.1987,-151.5642 155,-132.5 159.0344,-130.0029 163.3085,-127.6664 167.7023,-125.4888"/>
-<polygon fill="#191970" stroke="#191970" points="169.2547,-128.6269 176.8511,-121.2414 166.307,-122.2778 169.2547,-128.6269"/>
+<path fill="none" stroke="#191970" d="M82.0227,-201.9681C100.7278,-181.7801 131.7204,-151.3317 164,-132.5 169.0781,-129.5374 174.4907,-126.816 180.0441,-124.3264"/>
+<polygon fill="#191970" stroke="#191970" points="181.6282,-127.4572 189.489,-120.3537 178.9142,-121.0047 181.6282,-127.4572"/>
 </g>
 <!-- Node15 -->
 <g id="node12" class="node">
 <title>Node15</title>
 <g id="a_node12"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a5618883d7d1d86bf69ad86c7ce22c6b8" target="_top" xlink:title="Extrapolate coupling data from values of previous time windows. ">
-<polygon fill="#ffffff" stroke="#000000" points="177,-22 177,-63 296,-63 296,-22 177,-22"/>
-<text text-anchor="start" x="185" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="185" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
-<text text-anchor="middle" x="236.5" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::extrapolateData</text>
+<polygon fill="#ffffff" stroke="#000000" points="189.5,-22 189.5,-63 317.5,-63 317.5,-22 189.5,-22"/>
+<text text-anchor="start" x="197.5" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="197.5" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
+<text text-anchor="middle" x="253.5" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::extrapolateData</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node15 -->
 <g id="edge11" class="edge">
 <title>Node4&#45;&gt;Node15</title>
-<path fill="none" stroke="#191970" d="M67.5266,-201.7749C80.9479,-169.7025 110.8896,-108.045 155,-72.5 158.8339,-69.4106 163.0158,-66.6212 167.3947,-64.1055"/>
-<polygon fill="#191970" stroke="#191970" points="169.3503,-67.0338 176.6109,-59.3179 166.1234,-60.8219 169.3503,-67.0338"/>
+<path fill="none" stroke="#191970" d="M72.4274,-201.8828C86.6129,-169.6745 118.2632,-107.4943 164,-72.5 168.9539,-68.7096 174.4132,-65.3832 180.1181,-62.4666"/>
+<polygon fill="#191970" stroke="#191970" points="181.6616,-65.6087 189.2478,-58.2127 178.7052,-59.2636 181.6616,-65.6087"/>
 </g>
 <!-- Node6 -->
 <g id="node3" class="node">
 <title>Node6</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#af880c679675d59efcf00b0b9fd984f6e" target="_top" xlink:title="Getter for _doesFirstStep. ">
-<polygon fill="#ffffff" stroke="#000000" points="370.5,-461 370.5,-502 489.5,-502 489.5,-461 370.5,-461"/>
-<text text-anchor="start" x="378.5" y="-490" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="378.5" y="-479" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
-<text text-anchor="middle" x="430" y="-468" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::doesFirstStep</text>
+<polygon fill="#ffffff" stroke="#000000" points="398,-461 398,-502 526,-502 526,-461 398,-461"/>
+<text text-anchor="start" x="406" y="-490" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="406" y="-479" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
+<text text-anchor="middle" x="462" y="-468" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::doesFirstStep</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node6 -->
 <g id="edge2" class="edge">
 <title>Node5&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M285.2925,-423.0928C306.3841,-431.9309 331.3699,-442.3159 354,-451.5 358.6456,-453.3853 363.4571,-455.3219 368.3001,-457.2597"/>
-<polygon fill="#191970" stroke="#191970" points="367.0318,-460.5219 377.617,-460.9743 369.6243,-454.0197 367.0318,-460.5219"/>
+<path fill="none" stroke="#191970" d="M305.2872,-423.0604C327.875,-431.9398 354.6971,-442.3652 379,-451.5 384.1095,-453.4205 389.4042,-455.3875 394.7337,-457.3508"/>
+<polygon fill="#191970" stroke="#191970" points="393.7382,-460.7135 404.3319,-460.8699 396.1479,-454.1414 393.7382,-460.7135"/>
 </g>
 <!-- Node7 -->
 <g id="node4" class="node">
 <title>Node7</title>
 <g id="a_node4"><a xlink:href="classprecice_1_1utils_1_1MasterSlave.html#a3837ad42361b53d7e930443ba07a9eb5" target="_top" xlink:title="True if this process is running a slave. ">
-<polygon fill="#ffffff" stroke="#000000" points="363.5,-411.5 363.5,-441.5 496.5,-441.5 496.5,-411.5 363.5,-411.5"/>
-<text text-anchor="start" x="371.5" y="-429.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
-<text text-anchor="middle" x="430" y="-418.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isSlave</text>
+<polygon fill="#ffffff" stroke="#000000" points="389.5,-411.5 389.5,-441.5 534.5,-441.5 534.5,-411.5 389.5,-411.5"/>
+<text text-anchor="start" x="397.5" y="-429.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
+<text text-anchor="middle" x="462" y="-418.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isSlave</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node7 -->
 <g id="edge3" class="edge">
 <title>Node5&#45;&gt;Node7</title>
-<path fill="none" stroke="#191970" d="M296.1353,-409.8966C314.2078,-412.1382 334.3168,-414.6323 353.3416,-416.992"/>
-<polygon fill="#191970" stroke="#191970" points="353.1212,-420.4914 363.476,-418.249 353.9829,-413.5446 353.1212,-420.4914"/>
+<path fill="none" stroke="#191970" d="M318.0428,-409.9294C337.3799,-412.1552 358.8599,-414.6278 379.201,-416.9692"/>
+<polygon fill="#191970" stroke="#191970" points="379.0628,-420.4763 389.3975,-418.1429 379.8634,-413.5222 379.0628,-420.4763"/>
 </g>
 <!-- Node8 -->
 <g id="node5" class="node">
 <title>Node8</title>
 <g id="a_node5"><a xlink:href="structprecice_1_1cplscheme_1_1CouplingData.html#ac14cbd9a1355d6c86be7a19d7a79e235" target="_top" xlink:title="Returns a reference to the data values. ">
-<polygon fill="#ffffff" stroke="#000000" points="372,-362.5 372,-392.5 488,-392.5 488,-362.5 372,-362.5"/>
-<text text-anchor="start" x="380" y="-380.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="middle" x="430" y="-369.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CouplingData::values</text>
+<polygon fill="#ffffff" stroke="#000000" points="398.5,-362.5 398.5,-392.5 525.5,-392.5 525.5,-362.5 398.5,-362.5"/>
+<text text-anchor="start" x="406.5" y="-380.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="middle" x="462" y="-369.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CouplingData::values</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node8 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node8</title>
-<path fill="none" stroke="#191970" d="M296.1353,-394.7952C316.9375,-392.1076 340.4379,-389.0713 361.8772,-386.3014"/>
-<polygon fill="#191970" stroke="#191970" points="362.4202,-389.7604 371.8893,-385.0078 361.5232,-382.8181 362.4202,-389.7604"/>
+<path fill="none" stroke="#191970" d="M318.0428,-394.7611C340.3376,-392.0878 365.481,-389.073 388.4432,-386.3198"/>
+<polygon fill="#191970" stroke="#191970" points="388.9654,-389.7823 398.4776,-385.1166 388.132,-382.8321 388.9654,-389.7823"/>
 </g>
 <!-- Node9 -->
 <g id="node6" class="node">
 <title>Node9</title>
 <g id="a_node6"><a xlink:href="structprecice_1_1cplscheme_1_1BaseCouplingScheme_1_1ConvergenceMeasureContext.html#aa757b77a95cff3bb99a713fb3e1e66d0" target="_top" xlink:title="precice::cplscheme\l::BaseCouplingScheme\l::ConvergenceMeasureContext\l::logHeader">
-<polygon fill="#ffffff" stroke="#000000" points="354,-291.5 354,-343.5 506,-343.5 506,-291.5 354,-291.5"/>
-<text text-anchor="start" x="362" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="362" y="-320.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
-<text text-anchor="start" x="362" y="-309.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::ConvergenceMeasureContext</text>
-<text text-anchor="middle" x="430" y="-298.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::logHeader</text>
+<polygon fill="#ffffff" stroke="#000000" points="379,-291.5 379,-343.5 545,-343.5 545,-291.5 379,-291.5"/>
+<text text-anchor="start" x="387" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="387" y="-320.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
+<text text-anchor="start" x="387" y="-309.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::ConvergenceMeasureContext</text>
+<text text-anchor="middle" x="462" y="-298.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::logHeader</text>
 </a>
 </g>
 </g>
 <!-- Node5&#45;&gt;Node9 -->
 <g id="edge5" class="edge">
 <title>Node5&#45;&gt;Node9</title>
-<path fill="none" stroke="#191970" d="M295.1974,-381.9603C302.9306,-378.9439 310.7007,-375.7523 318,-372.5 334.5255,-365.1367 337.8212,-361.5965 354,-353.5 357.5701,-351.7134 361.2445,-349.8978 364.9604,-348.0796"/>
-<polygon fill="#191970" stroke="#191970" points="366.7797,-351.0871 374.2463,-343.5704 363.7219,-344.7902 366.7797,-351.0871"/>
+<path fill="none" stroke="#191970" d="M318.0179,-382.2738C326.5008,-379.2073 335.0154,-375.9185 343,-372.5 359.6315,-365.3795 362.6893,-361.3274 379,-353.5 383.0114,-351.5749 387.1514,-349.6351 391.3424,-347.7073"/>
+<polygon fill="#191970" stroke="#191970" points="392.911,-350.839 400.5684,-343.5168 390.0162,-344.4656 392.911,-350.839"/>
 </g>
 <!-- Node16 -->
 <g id="node13" class="node">
 <title>Node16</title>
 <g id="a_node13"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#aa6ca8960fe204d4eae9bbafa3ff77fd9" target="_top" xlink:title="getter for _timeWindows ">
-<polygon fill="#ffffff" stroke="#000000" points="370.5,-50 370.5,-91 489.5,-91 489.5,-50 370.5,-50"/>
-<text text-anchor="start" x="378.5" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="378.5" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
-<text text-anchor="middle" x="430" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getTimeWindows</text>
+<polygon fill="#ffffff" stroke="#000000" points="398,-50 398,-91 526,-91 526,-50 398,-50"/>
+<text text-anchor="start" x="406" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="406" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
+<text text-anchor="middle" x="462" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getTimeWindows</text>
 </a>
 </g>
 </g>
 <!-- Node15&#45;&gt;Node16 -->
 <g id="edge12" class="edge">
 <title>Node15&#45;&gt;Node16</title>
-<path fill="none" stroke="#191970" d="M296.1353,-51.1294C316.3662,-54.0569 339.1492,-57.3536 360.1063,-60.3862"/>
-<polygon fill="#191970" stroke="#191970" points="359.8304,-63.8826 370.2285,-61.8509 360.8329,-56.9548 359.8304,-63.8826"/>
+<path fill="none" stroke="#191970" d="M317.7582,-51.1294C339.9589,-54.1108 365.0117,-57.4752 387.9339,-60.5535"/>
+<polygon fill="#191970" stroke="#191970" points="387.5771,-64.0369 397.954,-61.8991 388.5088,-57.0992 387.5771,-64.0369"/>
 </g>
 <!-- Node17 -->
 <g id="node14" class="node">
 <title>Node17</title>
 <g id="a_node14"><a xlink:href="namespaceprecice_1_1utils.html#ad91190b2974c945c80111b15584681c9" target="_top" xlink:title="precice::utils::shiftSet\lFirst">
-<polygon fill="#ffffff" stroke="#000000" points="374,-.5 374,-30.5 486,-30.5 486,-.5 374,-.5"/>
-<text text-anchor="start" x="382" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::shiftSet</text>
-<text text-anchor="middle" x="430" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">First</text>
+<polygon fill="#ffffff" stroke="#000000" points="401,-.5 401,-30.5 523,-30.5 523,-.5 401,-.5"/>
+<text text-anchor="start" x="409" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::shiftSet</text>
+<text text-anchor="middle" x="462" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">First</text>
 </a>
 </g>
 </g>
 <!-- Node15&#45;&gt;Node17 -->
 <g id="edge13" class="edge">
 <title>Node15&#45;&gt;Node17</title>
-<path fill="none" stroke="#191970" d="M296.1353,-34.1788C317.6094,-31.1824 341.9588,-27.7848 363.9481,-24.7166"/>
-<polygon fill="#191970" stroke="#191970" points="364.446,-28.1811 373.8663,-23.3326 363.4786,-21.2482 364.446,-28.1811"/>
+<path fill="none" stroke="#191970" d="M317.7582,-34.1788C340.896,-31.1825 367.1318,-27.7851 390.8249,-24.7169"/>
+<polygon fill="#191970" stroke="#191970" points="391.3392,-28.1796 400.8069,-23.4243 390.4402,-21.2376 391.3392,-28.1796"/>
 </g>
 </g>
 </svg>

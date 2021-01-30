@@ -74,6 +74,9 @@ $(function() {
 <div class="textblock"><code>#include &lt;Eigen/Core&gt;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;deque&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;istream&gt;</code><br />
+<code>#include &lt;iterator&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 <code>#include &lt;ostream&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
@@ -195,11 +198,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a35eef329ed8de5f5e4c0835329abd074"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SerialTests_8cpp.html#a35eef329ed8de5f5e4c0835329abd074">BOOST_AUTO_TEST_CASE</a> (PreconditionerBug)</td></tr>
 <tr class="memdesc:a35eef329ed8de5f5e4c0835329abd074"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test to reproduce the problem of issue 383, <a href="https://github.com/precice/precice/issues/383">https://github.com/precice/precice/issues/383</a>.  <a href="#a35eef329ed8de5f5e4c0835329abd074">More...</a><br /></td></tr>
 <tr class="separator:a35eef329ed8de5f5e4c0835329abd074"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a28f73c9c488b84caef722ce4e84e71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SerialTests_8cpp.html#a8a28f73c9c488b84caef722ce4e84e71">testSummationAction</a> (const std::string configFile, <a class="el" href="classprecice_1_1testing_1_1TestContext.html">TestContext</a> const &amp;context)</td></tr>
-<tr class="separator:a8a28f73c9c488b84caef722ce4e84e71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a035d4a0f9acaa4f54085758036538877"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SerialTests_8cpp.html#a035d4a0f9acaa4f54085758036538877">testSummationAction</a> (const std::string &amp;configFile, <a class="el" href="classprecice_1_1testing_1_1TestContext.html">TestContext</a> const &amp;context)</td></tr>
+<tr class="separator:a035d4a0f9acaa4f54085758036538877"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a998b6580c64c7a1a53396adae10f0f5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SerialTests_8cpp.html#a998b6580c64c7a1a53396adae10f0f5e">BOOST_AUTO_TEST_CASE</a> (testSummationActionTwoSources)</td></tr>
 <tr class="memdesc:a998b6580c64c7a1a53396adae10f0f5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test for summation action.  <a href="#a998b6580c64c7a1a53396adae10f0f5e">More...</a><br /></td></tr>
 <tr class="separator:a998b6580c64c7a1a53396adae10f0f5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0cf28fe97540bade59df2ce3325444f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SerialTests_8cpp.html#ab0cf28fe97540bade59df2ce3325444f">testWatchIntegral</a> (const std::string &amp;configFile, <a class="el" href="classprecice_1_1testing_1_1TestContext.html">TestContext</a> &amp;context)</td></tr>
+<tr class="separator:ab0cf28fe97540bade59df2ce3325444f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72677210d4763d2ee3ff5db809dadc0e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SerialTests_8cpp.html#a72677210d4763d2ee3ff5db809dadc0e">BOOST_AUTO_TEST_CASE</a> (testWatchIntegralScaleAndNoScale)</td></tr>
+<tr class="separator:a72677210d4763d2ee3ff5db809dadc0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7f8d4615d8eab85ec7e0c675cb240f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SerialTests_8cpp.html#ac7f8d4615d8eab85ec7e0c675cb240f2">testQuadMappingNearestProjectionTallKite</a> (bool defineEdgesExplicitly, const std::string configFile, const <a class="el" href="classprecice_1_1testing_1_1TestContext.html">TestContext</a> &amp;context)</td></tr>
 <tr class="separator:ac7f8d4615d8eab85ec7e0c675cb240f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c1f6d1ad8019e837aee6726de12a3cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SerialTests_8cpp.html#a0c1f6d1ad8019e837aee6726de12a3cd">testQuadMappingNearestProjectionWideKite</a> (bool defineEdgesExplicitly, const std::string configFile, const <a class="el" href="classprecice_1_1testing_1_1TestContext.html">TestContext</a> &amp;context)</td></tr>
@@ -239,10 +246,16 @@ Functions</h2></td></tr>
 <tr class="memitem:a0c9342754d6d7cb91477d19f95aa6c20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SerialTests_8cpp.html#a0c9342754d6d7cb91477d19f95aa6c20">BOOST_AUTO_TEST_CASE</a> (ActionTimingsImplicit)</td></tr>
 <tr class="memdesc:a0c9342754d6d7cb91477d19f95aa6c20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test to make sure that actions are called in the right order for implicit coupling via RecorderAction.  <a href="#a0c9342754d6d7cb91477d19f95aa6c20">More...</a><br /></td></tr>
 <tr class="separator:a0c9342754d6d7cb91477d19f95aa6c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac1ada3181b30603032b2614f0fd724b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SerialTests_8cpp.html#aac1ada3181b30603032b2614f0fd724b">BOOST_AUTO_TEST_CASE</a> (MultipleFromMappings)</td></tr>
+<tr class="separator:aac1ada3181b30603032b2614f0fd724b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b8358664ee5cc8c6415ed0405d28f03"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SerialTests_8cpp.html#a7b8358664ee5cc8c6415ed0405d28f03">BOOST_AUTO_TEST_CASE</a> (MultipleToMappings)</td></tr>
+<tr class="separator:a7b8358664ee5cc8c6415ed0405d28f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afce826a3db1d596a609e288873e88c94"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="SerialTests_8cpp.html#afce826a3db1d596a609e288873e88c94">BOOST_AUTO_TEST_CASE</a> (AitkenAcceleration)</td></tr>
+<tr class="separator:afce826a3db1d596a609e288873e88c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a45e3e7bad630ba8de7600741b6b6a598"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45e3e7bad630ba8de7600741b6b6a598">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[1/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a45e3e7bad630ba8de7600741b6b6a598">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[1/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,12 +272,12 @@ Functions</h2></td></tr>
 
 <p>Test reading of a full features coupling configuration file. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00048">48</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00065">65</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a0803ddce4a45845869fc9f71cab68518"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0803ddce4a45845869fc9f71cab68518">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[2/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0803ddce4a45845869fc9f71cab68518">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[2/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,18 +292,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00071">71</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00088">88</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a0803ddce4a45845869fc9f71cab68518_cgraph.svg" width="456" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a0803ddce4a45845869fc9f71cab68518_cgraph.svg" width="444" height="155"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
 <a id="a3034ca0d279ddbe47e08efa1509f1887"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3034ca0d279ddbe47e08efa1509f1887">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[3/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3034ca0d279ddbe47e08efa1509f1887">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[3/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -305,18 +318,18 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00095">95</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00112">112</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a3034ca0d279ddbe47e08efa1509f1887_cgraph.svg" width="416" height="562"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a3034ca0d279ddbe47e08efa1509f1887_cgraph.svg" width="426" height="562"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
 <a id="addbcbf8ba687c05aeed310e37c04a1ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addbcbf8ba687c05aeed310e37c04a1ac">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[4/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#addbcbf8ba687c05aeed310e37c04a1ac">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[4/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -331,18 +344,18 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00126">126</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00143">143</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_addbcbf8ba687c05aeed310e37c04a1ac_cgraph.svg" width="416" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_addbcbf8ba687c05aeed310e37c04a1ac_cgraph.svg" width="426" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
 <a id="a9bad2fdffb96379e0492bbaa0f230805"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bad2fdffb96379e0492bbaa0f230805">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[5/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bad2fdffb96379e0492bbaa0f230805">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[5/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -357,12 +370,12 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00155">155</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00172">172</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 
 </div>
 </div>
 <a id="a8297ad2816e156664e22d442eb5135e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8297ad2816e156664e22d442eb5135e1">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[6/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8297ad2816e156664e22d442eb5135e1">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[6/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -377,7 +390,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00165">165</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00182">182</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -388,7 +401,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a8d1337db520bad873e2a4f4068ac67e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d1337db520bad873e2a4f4068ac67e4">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[7/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d1337db520bad873e2a4f4068ac67e4">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[7/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -403,18 +416,18 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00212">212</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00229">229</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a8d1337db520bad873e2a4f4068ac67e4_cgraph.svg" width="366" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a8d1337db520bad873e2a4f4068ac67e4_cgraph.svg" width="367" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
 <a id="aeb37da69a899f518e7b7f780091b1649"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb37da69a899f518e7b7f780091b1649">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[8/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb37da69a899f518e7b7f780091b1649">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[8/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -429,18 +442,18 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00219">219</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00236">236</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_aeb37da69a899f518e7b7f780091b1649_cgraph.svg" width="366" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_aeb37da69a899f518e7b7f780091b1649_cgraph.svg" width="367" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
 <a id="a791c9dce4846f1183ad71a8c5cec352d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a791c9dce4846f1183ad71a8c5cec352d">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[9/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a791c9dce4846f1183ad71a8c5cec352d">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[9/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -455,18 +468,18 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00226">226</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00243">243</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a791c9dce4846f1183ad71a8c5cec352d_cgraph.svg" width="366" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a791c9dce4846f1183ad71a8c5cec352d_cgraph.svg" width="367" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
 <a id="a79d3b6bc7f0d2ab849a11fcc8e298992"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79d3b6bc7f0d2ab849a11fcc8e298992">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[10/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a79d3b6bc7f0d2ab849a11fcc8e298992">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[10/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -483,18 +496,18 @@ Here is the call graph for this function:</div>
 
 <p>Test to run a simple "do nothing" coupling with subcycling solvers. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00234">234</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00251">251</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a79d3b6bc7f0d2ab849a11fcc8e298992_cgraph.svg" width="447" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a79d3b6bc7f0d2ab849a11fcc8e298992_cgraph.svg" width="456" height="496"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
 <a id="a2c2976f13dd9b138ae8e5e9345296336"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c2976f13dd9b138ae8e5e9345296336">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[11/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c2976f13dd9b138ae8e5e9345296336">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[11/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -511,7 +524,7 @@ Here is the call graph for this function:</div>
 
 <p>One solver uses incremental position set, read/write methods. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00271">271</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00288">288</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -522,7 +535,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a114e6131dbe20a14275f7842cbf36f92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a114e6131dbe20a14275f7842cbf36f92">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[12/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a114e6131dbe20a14275f7842cbf36f92">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[12/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -540,7 +553,7 @@ Here is the call graph for this function:</div>
 <p>The second solver initializes the data of the first. </p>
 <p>A mapping is employed for the second solver, i.e., at the end of initializeData(), the mapping needs to be invoked. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00366">366</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00384">384</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -551,7 +564,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ae5bee45fc75ed1843a503272e2c9e9c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5bee45fc75ed1843a503272e2c9e9c1">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[13/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5bee45fc75ed1843a503272e2c9e9c1">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[13/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -568,7 +581,7 @@ Here is the call graph for this function:</div>
 
 <p>One solver uses block set/get/read/write methods. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00418">418</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00436">436</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -579,7 +592,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a8ab5638e356613b3800b75630e68098e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ab5638e356613b3800b75630e68098e">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[14/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ab5638e356613b3800b75630e68098e">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[14/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -598,7 +611,7 @@ Here is the call graph for this function:</div>
 <p>SolverOne only reads the displacements of the geometry and checks whether they are equals to the coordinates of SolverTwo. SolverTwo creates and displaces the coordinates.</p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>Maybe remove this test. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00561">561</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00579">579</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -609,7 +622,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a397fca653913b52f76782e9e894276a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a397fca653913b52f76782e9e894276a4">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[15/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a397fca653913b52f76782e9e894276a4">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[15/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -627,7 +640,7 @@ Here is the call graph for this function:</div>
 <p>Runs a coupled sim. with data scaling applied. </p>
 <p>SolverOne writes vector data on a cube geometry. The data values are defined and stay constant over the coupling cycles. SolverTwo has a scaling of the values activated and reads the scaled values. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00614">614</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00632">632</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -638,7 +651,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a695da37baceca43982fad0ee5d17d58e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a695da37baceca43982fad0ee5d17d58e">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[16/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a695da37baceca43982fad0ee5d17d58e">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[16/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -655,7 +668,7 @@ Here is the call graph for this function:</div>
 
 <p>Test simple coupled simulation with coupling iterations. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00667">667</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00685">685</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -666,7 +679,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="aad697651114a95805b10bddfb3f6bba5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad697651114a95805b10bddfb3f6bba5">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[17/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aad697651114a95805b10bddfb3f6bba5">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[17/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -683,7 +696,7 @@ Here is the call graph for this function:</div>
 
 <p>Test simple coupled simulation with iterations, data initialization and without acceleration. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00750">750</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00768">768</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -694,7 +707,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ac640770900423217e58ff96487e9165e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac640770900423217e58ff96487e9165e">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[18/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac640770900423217e58ff96487e9165e">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[18/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -709,7 +722,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00950">950</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00968">968</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -720,7 +733,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a9bc96d3721f3e265d585863759dc9ae1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bc96d3721f3e265d585863759dc9ae1">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[19/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc96d3721f3e265d585863759dc9ae1">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[19/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -735,7 +748,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00957">957</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00975">975</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -746,7 +759,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a006f474804778114543da0beeeaabcc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a006f474804778114543da0beeeaabcc5">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[20/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a006f474804778114543da0beeeaabcc5">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[20/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -770,7 +783,7 @@ Here is the call graph for this function:</div>
 </ul>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd>rename this test and config </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00976">976</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00994">994</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -781,7 +794,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a5e728ff068c02efee2ccc6368ca19315"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e728ff068c02efee2ccc6368ca19315">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[21/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e728ff068c02efee2ccc6368ca19315">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[21/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -796,7 +809,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01141">1141</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01159">1159</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -807,7 +820,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a2e14c02da0446f8a5974b00c88a8c94a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e14c02da0446f8a5974b00c88a8c94a">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[22/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e14c02da0446f8a5974b00c88a8c94a">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[22/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -822,7 +835,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01149">1149</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01167">1167</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -833,7 +846,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a4a332ba0ec4826d9b00ed1b534acca06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a332ba0ec4826d9b00ed1b534acca06">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[23/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a332ba0ec4826d9b00ed1b534acca06">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[23/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -848,7 +861,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01157">1157</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01175">1175</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -859,7 +872,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a67187a46956f844e6642f3754148f699"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67187a46956f844e6642f3754148f699">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[24/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a67187a46956f844e6642f3754148f699">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[24/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -874,7 +887,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01165">1165</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01183">1183</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -885,7 +898,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ac3f7ffa512f810963bd8b4e4442f68a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3f7ffa512f810963bd8b4e4442f68a4">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[25/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3f7ffa512f810963bd8b4e4442f68a4">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[25/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -900,7 +913,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01173">1173</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01191">1191</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -911,7 +924,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a0d1bdcaf00bb465bf9c914fe278d423b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d1bdcaf00bb465bf9c914fe278d423b">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[26/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d1bdcaf00bb465bf9c914fe278d423b">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[26/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -928,7 +941,7 @@ Here is the call graph for this function:</div>
 
 <p>Four solvers are multi-coupled. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01182">1182</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01200">1200</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -939,7 +952,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a69b9a31db2448fd6fedc217414be1a04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69b9a31db2448fd6fedc217414be1a04">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[27/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a69b9a31db2448fd6fedc217414be1a04">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[27/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -956,7 +969,7 @@ Here is the call graph for this function:</div>
 
 <p>Tests the Nearest Projection Mapping between two participants with explicit definition of edges. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01422">1422</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01440">1440</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -967,7 +980,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a59a87525cbc2456013551c068630a75b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59a87525cbc2456013551c068630a75b">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[28/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a59a87525cbc2456013551c068630a75b">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[28/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -984,7 +997,7 @@ Here is the call graph for this function:</div>
 
 <p>Tests the Nearest Projection Mapping between two participants with explicit definition of edges. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01434">1434</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01452">1452</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -995,7 +1008,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="aaba1fbf527c2379434b73e0968d7c809"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaba1fbf527c2379434b73e0968d7c809">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[29/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba1fbf527c2379434b73e0968d7c809">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[29/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1012,7 +1025,7 @@ Here is the call graph for this function:</div>
 
 <p>Tests sending one mesh to multiple participants. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01446">1446</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01464">1464</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1023,7 +1036,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a35eef329ed8de5f5e4c0835329abd074"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35eef329ed8de5f5e4c0835329abd074">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[30/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a35eef329ed8de5f5e4c0835329abd074">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[30/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1040,7 +1053,7 @@ Here is the call graph for this function:</div>
 
 <p>Test to reproduce the problem of issue 383, <a href="https://github.com/precice/precice/issues/383">https://github.com/precice/precice/issues/383</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01491">1491</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01509">1509</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1051,7 +1064,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a998b6580c64c7a1a53396adae10f0f5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a998b6580c64c7a1a53396adae10f0f5e">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[31/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a998b6580c64c7a1a53396adae10f0f5e">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[31/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1068,7 +1081,7 @@ Here is the call graph for this function:</div>
 
 <p>Test for summation action. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01660">1660</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01678">1678</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1078,8 +1091,34 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a72677210d4763d2ee3ff5db809dadc0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72677210d4763d2ee3ff5db809dadc0e">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[32/46]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOST_AUTO_TEST_CASE </td>
+          <td>(</td>
+          <td class="paramtype">testWatchIntegralScaleAndNoScale&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01799">1799</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a72677210d4763d2ee3ff5db809dadc0e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
 <a id="adddaaaabb945f320ca357ff4dac73423"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adddaaaabb945f320ca357ff4dac73423">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[32/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adddaaaabb945f320ca357ff4dac73423">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[33/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1096,7 +1135,7 @@ Here is the call graph for this function:</div>
 
 <p>Tests the Nearest Projection Mapping between two participants with explicit definition of edges from a quad to a triangle. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01872">1872</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02011">2011</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1107,7 +1146,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a0c694449045059905fb4344da9c4a9f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c694449045059905fb4344da9c4a9f0">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[33/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c694449045059905fb4344da9c4a9f0">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[34/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1124,7 +1163,7 @@ Here is the call graph for this function:</div>
 
 <p>Tests the Nearest Projection Mapping between two participants with explicit definition of edges from a quad to a triangle. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01884">1884</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02023">2023</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1135,7 +1174,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a4f7666c5b4ba7ddbe811abf570b1ba8f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f7666c5b4ba7ddbe811abf570b1ba8f">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[34/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f7666c5b4ba7ddbe811abf570b1ba8f">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[35/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1152,7 +1191,7 @@ Here is the call graph for this function:</div>
 
 <p>Tests the Nearest Projection Mapping on a single participant on a quad mesh of a tall kite with setMeshQuad. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01896">1896</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02035">2035</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1163,7 +1202,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a1114a1fc87b708f26cd7ca90e1a71633"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1114a1fc87b708f26cd7ca90e1a71633">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[35/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1114a1fc87b708f26cd7ca90e1a71633">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[36/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1180,7 +1219,7 @@ Here is the call graph for this function:</div>
 
 <p>Tests the Nearest Projection Mapping on a single participant on a quad mesh of a tall kite with setMeshQuadWithEdges. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01908">1908</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02047">2047</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1191,7 +1230,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a9d44c215765e9b963cd477e59c5f6954"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d44c215765e9b963cd477e59c5f6954">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[36/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d44c215765e9b963cd477e59c5f6954">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[37/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1208,7 +1247,7 @@ Here is the call graph for this function:</div>
 
 <p>Tests the Nearest Projection Mapping on a single participant on a quad mesh of a tall kite with setMeshQuad. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01920">1920</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02059">2059</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1219,7 +1258,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a81171cbd87543d57472df053c6ec6664"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81171cbd87543d57472df053c6ec6664">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[37/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a81171cbd87543d57472df053c6ec6664">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[38/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1236,7 +1275,7 @@ Here is the call graph for this function:</div>
 
 <p>Tests the Nearest Projection Mapping on a single participant on a quad mesh of a tall kite with setMeshQuadWithEdges. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01932">1932</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02071">2071</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1247,7 +1286,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="af95caf4c622fe1eb9c52094e954f5edc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af95caf4c622fe1eb9c52094e954f5edc">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[38/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af95caf4c622fe1eb9c52094e954f5edc">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[39/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1262,7 +1301,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01990">1990</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02129">2129</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1273,7 +1312,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="aff09ebee84c14fddf6224ad9d0bf07fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff09ebee84c14fddf6224ad9d0bf07fb">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[39/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aff09ebee84c14fddf6224ad9d0bf07fb">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[40/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1288,7 +1327,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01998">1998</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02137">2137</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1299,7 +1338,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="ae9dfec37b5a4309eef36565d1069a204"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9dfec37b5a4309eef36565d1069a204">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[40/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9dfec37b5a4309eef36565d1069a204">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[41/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1314,7 +1353,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02006">2006</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02145">2145</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1325,7 +1364,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a60eba2bb6d156969bc0da7ff7b106ed9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60eba2bb6d156969bc0da7ff7b106ed9">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[41/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a60eba2bb6d156969bc0da7ff7b106ed9">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[42/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1342,7 +1381,7 @@ Here is the call graph for this function:</div>
 
 <p>Test to make sure that actions are called in the right order for explicit coupling via RecorderAction. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02017">2017</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02156">2156</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1353,7 +1392,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a0c9342754d6d7cb91477d19f95aa6c20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c9342754d6d7cb91477d19f95aa6c20">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[42/42]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c9342754d6d7cb91477d19f95aa6c20">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[43/46]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1370,11 +1409,89 @@ Here is the call graph for this function:</div>
 
 <p>Test to make sure that actions are called in the right order for implicit coupling via RecorderAction. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02117">2117</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02256">2256</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a0c9342754d6d7cb91477d19f95aa6c20_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aac1ada3181b30603032b2614f0fd724b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac1ada3181b30603032b2614f0fd724b">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[44/46]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOST_AUTO_TEST_CASE </td>
+          <td>(</td>
+          <td class="paramtype">MultipleFromMappings&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02370">2370</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_aac1ada3181b30603032b2614f0fd724b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a7b8358664ee5cc8c6415ed0405d28f03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b8358664ee5cc8c6415ed0405d28f03">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[45/46]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOST_AUTO_TEST_CASE </td>
+          <td>(</td>
+          <td class="paramtype">MultipleToMappings&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02416">2416</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a7b8358664ee5cc8c6415ed0405d28f03_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="afce826a3db1d596a609e288873e88c94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afce826a3db1d596a609e288873e88c94">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[46/46]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOST_AUTO_TEST_CASE </td>
+          <td>(</td>
+          <td class="paramtype">AitkenAcceleration&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02461">2461</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_afce826a3db1d596a609e288873e88c94_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1408,7 +1525,7 @@ Here is the call graph for this function:</div>
 
 <p>Test to run simple "do nothing" coupling between two solvers. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00178">178</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00195">195</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 
 </div>
 </div>
@@ -1446,7 +1563,7 @@ Here is the call graph for this function:</div>
 
 <p>Tests stationary mapping with solver provided meshes. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00815">815</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l00833">833</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1491,7 +1608,7 @@ Here is the call graph for this function:</div>
 <p>Three solvers are coupled in a fork S2 &lt;-&gt; S1 &lt;-&gt; S3. </p>
 <p>Both couplings are explicit, solver 1 provides the mesh to the other two solvers. </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01055">1055</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01073">1073</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1535,7 +1652,7 @@ Here is the call graph for this function:</div>
 
 <p>method to test whether certain convergence measures give the correct number of iterations </p>
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01944">1944</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l02083">2083</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1577,7 +1694,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01318">1318</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01336">1336</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1619,7 +1736,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01765">1765</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01904">1904</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1661,7 +1778,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01667">1667</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01806">1806</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1703,7 +1820,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01716">1716</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01855">1855</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1713,8 +1830,8 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
-<a id="a8a28f73c9c488b84caef722ce4e84e71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a28f73c9c488b84caef722ce4e84e71">&#9670;&nbsp;</a></span>testSummationAction()</h2>
+<a id="a035d4a0f9acaa4f54085758036538877"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a035d4a0f9acaa4f54085758036538877">&#9670;&nbsp;</a></span>testSummationAction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1722,7 +1839,7 @@ Here is the call graph for this function:</div>
         <tr>
           <td class="memname">void testSummationAction </td>
           <td>(</td>
-          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>configFile</em>, </td>
         </tr>
         <tr>
@@ -1739,11 +1856,47 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01530">1530</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01548">1548</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a8a28f73c9c488b84caef722ce4e84e71_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_a035d4a0f9acaa4f54085758036538877_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ab0cf28fe97540bade59df2ce3325444f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0cf28fe97540bade59df2ce3325444f">&#9670;&nbsp;</a></span>testWatchIntegral()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testWatchIntegral </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>configFile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classprecice_1_1testing_1_1TestContext.html">TestContext</a> &amp;&#160;</td>
+          <td class="paramname"><em>context</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="SerialTests_8cpp_source.html#l01685">1685</a> of file <a class="el" href="SerialTests_8cpp_source.html">SerialTests.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="SerialTests_8cpp_ab0cf28fe97540bade59df2ce3325444f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 

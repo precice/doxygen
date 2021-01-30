@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 552;
+var viewWidth = 601;
 var viewHeight = 431;
 var sectionId = 'dynsection-4';
 </script>
@@ -54,201 +54,201 @@ var sectionId = 'dynsection-4';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::mapping::NearestProjectionMapping::computeMapping</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-427 548,-427 548,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-427 597,-427 597,4 -4,4"/>
 <!-- Node24 -->
 <g id="node1" class="node">
 <title>Node24</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-196.5 0,-226.5 177,-226.5 177,-196.5 0,-196.5"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-196.5 0,-226.5 197,-226.5 197,-196.5 0,-196.5"/>
 <text text-anchor="start" x="8" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mapping::Nearest</text>
-<text text-anchor="middle" x="88.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ProjectionMapping::computeMapping</text>
+<text text-anchor="middle" x="98.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">ProjectionMapping::computeMapping</text>
 </g>
 <!-- Node25 -->
 <g id="node2" class="node">
 <title>Node25</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1mapping_1_1Mapping.html#a61c3c55af467ada2bdd735efa0f960e4" target="_top" xlink:title="Returns pointer to input mesh. ">
-<polygon fill="#ffffff" stroke="#000000" points="220.5,-392.5 220.5,-422.5 354.5,-422.5 354.5,-392.5 220.5,-392.5"/>
-<text text-anchor="start" x="228.5" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mapping::Mapping</text>
-<text text-anchor="middle" x="287.5" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::input</text>
+<polygon fill="#ffffff" stroke="#000000" points="241,-392.5 241,-422.5 389,-422.5 389,-392.5 241,-392.5"/>
+<text text-anchor="start" x="249" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mapping::Mapping</text>
+<text text-anchor="middle" x="315" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::input</text>
 </a>
 </g>
 </g>
 <!-- Node24&#45;&gt;Node25 -->
 <g id="edge1" class="edge">
 <title>Node24&#45;&gt;Node25</title>
-<path fill="none" stroke="#191970" d="M95.3198,-226.6227C111.1216,-259.9729 153.4877,-340.2953 213,-383.5 215.0687,-385.0018 217.2357,-386.4125 219.4753,-387.7374"/>
-<polygon fill="#191970" stroke="#191970" points="217.9388,-390.8837 228.4197,-392.4331 221.1926,-384.6859 217.9388,-390.8837"/>
+<path fill="none" stroke="#191970" d="M106.1165,-226.7334C123.6907,-260.3075 170.4114,-341.0532 233,-383.5 235.2807,-385.0468 237.6623,-386.4954 240.118,-387.8521"/>
+<polygon fill="#191970" stroke="#191970" points="238.7699,-391.0897 249.2868,-392.3727 241.8655,-384.8113 238.7699,-391.0897"/>
 </g>
 <!-- Node26 -->
 <g id="node3" class="node">
 <title>Node26</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1mapping_1_1Mapping.html#a07a71a54b71eda6d54510c94fb188e70" target="_top" xlink:title="Returns pointer to output mesh. ">
-<polygon fill="#ffffff" stroke="#000000" points="220.5,-343.5 220.5,-373.5 354.5,-373.5 354.5,-343.5 220.5,-343.5"/>
-<text text-anchor="start" x="228.5" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mapping::Mapping</text>
-<text text-anchor="middle" x="287.5" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::output</text>
+<polygon fill="#ffffff" stroke="#000000" points="241,-343.5 241,-373.5 389,-373.5 389,-343.5 241,-343.5"/>
+<text text-anchor="start" x="249" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mapping::Mapping</text>
+<text text-anchor="middle" x="315" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::output</text>
 </a>
 </g>
 </g>
 <!-- Node24&#45;&gt;Node26 -->
 <g id="edge2" class="edge">
 <title>Node24&#45;&gt;Node26</title>
-<path fill="none" stroke="#191970" d="M99.85,-226.6517C119.9143,-252.4205 164.168,-304.8628 213,-334.5 215.788,-336.1921 218.708,-337.7778 221.7108,-339.2623"/>
-<polygon fill="#191970" stroke="#191970" points="220.3636,-342.4942 230.9182,-343.417 223.2428,-336.1137 220.3636,-342.4942"/>
+<path fill="none" stroke="#191970" d="M110.9556,-226.7477C132.9244,-252.6616 181.1621,-305.3166 233,-334.5 236.2274,-336.3169 239.6053,-338.0078 243.0736,-339.5798"/>
+<polygon fill="#191970" stroke="#191970" points="241.8471,-342.8603 252.4245,-343.4686 244.5351,-336.3969 241.8471,-342.8603"/>
 </g>
 <!-- Node27 -->
 <g id="node4" class="node">
 <title>Node27</title>
 <g id="a_node4"><a xlink:href="classprecice_1_1mapping_1_1Mapping.html#a6afbd9aaac2ab09b078db271cfd977a1" target="_top" xlink:title="Returns the constraint (consistent/conservative) of the mapping. ">
-<polygon fill="#ffffff" stroke="#000000" points="220.5,-294.5 220.5,-324.5 354.5,-324.5 354.5,-294.5 220.5,-294.5"/>
-<text text-anchor="start" x="228.5" y="-312.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mapping::Mapping</text>
-<text text-anchor="middle" x="287.5" y="-301.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getConstraint</text>
+<polygon fill="#ffffff" stroke="#000000" points="241,-294.5 241,-324.5 389,-324.5 389,-294.5 241,-294.5"/>
+<text text-anchor="start" x="249" y="-312.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mapping::Mapping</text>
+<text text-anchor="middle" x="315" y="-301.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getConstraint</text>
 </a>
 </g>
 </g>
 <!-- Node24&#45;&gt;Node27 -->
 <g id="edge3" class="edge">
 <title>Node24&#45;&gt;Node27</title>
-<path fill="none" stroke="#191970" d="M110.618,-226.7296C134.8902,-242.9376 175.414,-268.5362 213,-285.5 217.153,-287.3744 221.4963,-289.1695 225.9086,-290.874"/>
-<polygon fill="#191970" stroke="#191970" points="225.038,-294.2832 235.6314,-294.4561 227.458,-287.7148 225.038,-294.2832"/>
+<path fill="none" stroke="#191970" d="M122.0095,-226.5068C148.2561,-242.7614 192.3919,-268.6244 233,-285.5 237.7578,-287.4772 242.7341,-289.3597 247.7819,-291.1368"/>
+<polygon fill="#191970" stroke="#191970" points="246.9449,-294.5479 257.539,-294.4215 249.1783,-287.9138 246.9449,-294.5479"/>
 </g>
 <!-- Node28 -->
 <g id="node5" class="node">
 <title>Node28</title>
 <g id="a_node5"><a xlink:href="classprecice_1_1mapping_1_1Mapping.html#a393912fe4919edd098e96f66ffbe0d52" target="_top" xlink:title="precice::mapping::Mapping\l::getDimensions">
-<polygon fill="#ffffff" stroke="#000000" points="220.5,-245.5 220.5,-275.5 354.5,-275.5 354.5,-245.5 220.5,-245.5"/>
-<text text-anchor="start" x="228.5" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mapping::Mapping</text>
-<text text-anchor="middle" x="287.5" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getDimensions</text>
+<polygon fill="#ffffff" stroke="#000000" points="241,-245.5 241,-275.5 389,-275.5 389,-245.5 241,-245.5"/>
+<text text-anchor="start" x="249" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mapping::Mapping</text>
+<text text-anchor="middle" x="315" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getDimensions</text>
 </a>
 </g>
 </g>
 <!-- Node24&#45;&gt;Node28 -->
 <g id="edge4" class="edge">
 <title>Node24&#45;&gt;Node28</title>
-<path fill="none" stroke="#191970" d="M149.559,-226.5346C170.7616,-231.7554 194.7162,-237.6537 216.6423,-243.0526"/>
-<polygon fill="#191970" stroke="#191970" points="216.0097,-246.5013 226.5565,-245.4938 217.6834,-239.7043 216.0097,-246.5013"/>
+<path fill="none" stroke="#191970" d="M164.9285,-226.5346C188.3074,-231.8259 214.7617,-237.8133 238.8769,-243.2712"/>
+<polygon fill="#191970" stroke="#191970" points="238.1712,-246.7 248.6972,-245.4938 239.7165,-239.8726 238.1712,-246.7"/>
 </g>
 <!-- Node29 -->
 <g id="node6" class="node">
 <title>Node29</title>
 <g id="a_node6"><a xlink:href="classprecice_1_1mesh_1_1rtree.html#a349b7d6d1289fa236bc90fb3f99eddd3" target="_top" xlink:title="precice::mesh::rtree\l::getEdgeRTree">
-<polygon fill="#ffffff" stroke="#000000" points="235.5,-196.5 235.5,-226.5 339.5,-226.5 339.5,-196.5 235.5,-196.5"/>
-<text text-anchor="start" x="243.5" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::rtree</text>
-<text text-anchor="middle" x="287.5" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getEdgeRTree</text>
+<polygon fill="#ffffff" stroke="#000000" points="258,-196.5 258,-226.5 372,-226.5 372,-196.5 258,-196.5"/>
+<text text-anchor="start" x="266" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::rtree</text>
+<text text-anchor="middle" x="315" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getEdgeRTree</text>
 </a>
 </g>
 </g>
 <!-- Node24&#45;&gt;Node29 -->
 <g id="edge5" class="edge">
 <title>Node24&#45;&gt;Node29</title>
-<path fill="none" stroke="#191970" d="M177.2331,-211.5C193.4019,-211.5 209.9543,-211.5 225.1557,-211.5"/>
-<polygon fill="#191970" stroke="#191970" points="225.4426,-215.0001 235.4426,-211.5 225.4425,-208.0001 225.4426,-215.0001"/>
+<path fill="none" stroke="#191970" d="M197.2467,-211.5C214.2627,-211.5 231.5942,-211.5 247.5421,-211.5"/>
+<polygon fill="#191970" stroke="#191970" points="247.8052,-215.0001 257.8052,-211.5 247.8052,-208.0001 247.8052,-215.0001"/>
 </g>
 <!-- Node31 -->
 <g id="node8" class="node">
 <title>Node31</title>
 <g id="a_node8"><a xlink:href="namespaceprecice_1_1query.html#af26087a458327ddbe22c10a6ee27dfd4" target="_top" xlink:title="Generates the InterpolationElements for directly projecting a Vertex on another Vertex. ">
-<polygon fill="#ffffff" stroke="#000000" points="226.5,-147.5 226.5,-177.5 348.5,-177.5 348.5,-147.5 226.5,-147.5"/>
-<text text-anchor="start" x="234.5" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::generate</text>
-<text text-anchor="middle" x="287.5" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">InterpolationElements</text>
+<polygon fill="#ffffff" stroke="#000000" points="248,-147.5 248,-177.5 382,-177.5 382,-147.5 248,-147.5"/>
+<text text-anchor="start" x="256" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::generate</text>
+<text text-anchor="middle" x="315" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">InterpolationElements</text>
 </a>
 </g>
 </g>
 <!-- Node24&#45;&gt;Node31 -->
 <g id="edge7" class="edge">
 <title>Node24&#45;&gt;Node31</title>
-<path fill="none" stroke="#191970" d="M149.559,-196.4654C170.7616,-191.2446 194.7162,-185.3463 216.6423,-179.9474"/>
-<polygon fill="#191970" stroke="#191970" points="217.6834,-183.2957 226.5565,-177.5062 216.0097,-176.4987 217.6834,-183.2957"/>
+<path fill="none" stroke="#191970" d="M164.9285,-196.4654C188.3074,-191.1741 214.7617,-185.1867 238.8769,-179.7288"/>
+<polygon fill="#191970" stroke="#191970" points="239.7165,-183.1274 248.6972,-177.5062 238.1712,-176.3 239.7165,-183.1274"/>
 </g>
 <!-- Node32 -->
 <g id="node9" class="node">
 <title>Node32</title>
 <g id="a_node9"><a xlink:href="classprecice_1_1mesh_1_1rtree.html#ac6dfbccfdc0f44db236c6f08276a6beb" target="_top" xlink:title="Returns the pointer to boost::geometry::rtree for the given mesh vertices. ">
-<polygon fill="#ffffff" stroke="#000000" points="235.5,-98.5 235.5,-128.5 339.5,-128.5 339.5,-98.5 235.5,-98.5"/>
-<text text-anchor="start" x="243.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::rtree</text>
-<text text-anchor="middle" x="287.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getVertexRTree</text>
+<polygon fill="#ffffff" stroke="#000000" points="258,-98.5 258,-128.5 372,-128.5 372,-98.5 258,-98.5"/>
+<text text-anchor="start" x="266" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::rtree</text>
+<text text-anchor="middle" x="315" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getVertexRTree</text>
 </a>
 </g>
 </g>
 <!-- Node24&#45;&gt;Node32 -->
 <g id="edge8" class="edge">
 <title>Node24&#45;&gt;Node32</title>
-<path fill="none" stroke="#191970" d="M111.1363,-196.2949C135.5173,-180.3853 175.8262,-155.4157 213,-138.5 217.8894,-136.2751 223.0373,-134.1432 228.2483,-132.1283"/>
-<polygon fill="#191970" stroke="#191970" points="229.4997,-135.3971 237.6543,-128.633 227.0614,-128.8355 229.4997,-135.3971"/>
+<path fill="none" stroke="#191970" d="M123.0394,-196.2207C149.4497,-180.2491 193.055,-155.2283 233,-138.5 238.6756,-136.1231 244.6567,-133.862 250.6966,-131.7411"/>
+<polygon fill="#191970" stroke="#191970" points="251.849,-135.0462 260.2009,-128.5273 249.6066,-128.415 251.849,-135.0462"/>
 </g>
 <!-- Node33 -->
 <g id="node10" class="node">
 <title>Node33</title>
 <g id="a_node10"><a xlink:href="classprecice_1_1utils_1_1statistics_1_1DistanceAccumulator.html#ab62a4d99f3b8c512aeb45a3a9ae0547b" target="_top" xlink:title="Returns count == 0. ">
-<polygon fill="#ffffff" stroke="#000000" points="213,-.5 213,-30.5 362,-30.5 362,-.5 213,-.5"/>
-<text text-anchor="start" x="221" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::statistics</text>
-<text text-anchor="middle" x="287.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::DistanceAccumulator::empty</text>
+<polygon fill="#ffffff" stroke="#000000" points="233,-.5 233,-30.5 397,-30.5 397,-.5 233,-.5"/>
+<text text-anchor="start" x="241" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::statistics</text>
+<text text-anchor="middle" x="315" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::DistanceAccumulator::empty</text>
 </a>
 </g>
 </g>
 <!-- Node24&#45;&gt;Node33 -->
 <g id="edge10" class="edge">
 <title>Node24&#45;&gt;Node33</title>
-<path fill="none" stroke="#191970" d="M95.5027,-196.2689C111.5244,-163.0701 154.0643,-83.7079 213,-40.5 215.6406,-38.564 218.441,-36.7714 221.3478,-35.1121"/>
-<polygon fill="#191970" stroke="#191970" points="223.0192,-38.1886 230.3347,-30.5247 219.8367,-31.9539 223.0192,-38.1886"/>
+<path fill="none" stroke="#191970" d="M106.1754,-196.4069C123.8686,-163.1326 170.8144,-83.0543 233,-40.5 235.9133,-38.5064 238.9906,-36.6677 242.1766,-34.9721"/>
+<polygon fill="#191970" stroke="#191970" points="243.8851,-38.0348 251.397,-30.5634 240.8655,-31.7196 243.8851,-38.0348"/>
 </g>
 <!-- Node35 -->
 <g id="node12" class="node">
 <title>Node35</title>
 <g id="a_node12"><a xlink:href="classprecice_1_1mesh_1_1rtree.html#af245dcf08a46997e454421204c177d02" target="_top" xlink:title="precice::mesh::rtree\l::getTriangleRTree">
-<polygon fill="#ffffff" stroke="#000000" points="235.5,-49.5 235.5,-79.5 339.5,-79.5 339.5,-49.5 235.5,-49.5"/>
-<text text-anchor="start" x="243.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::rtree</text>
-<text text-anchor="middle" x="287.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getTriangleRTree</text>
+<polygon fill="#ffffff" stroke="#000000" points="258,-49.5 258,-79.5 372,-79.5 372,-49.5 258,-49.5"/>
+<text text-anchor="start" x="266" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::rtree</text>
+<text text-anchor="middle" x="315" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getTriangleRTree</text>
 </a>
 </g>
 </g>
 <!-- Node24&#45;&gt;Node35 -->
 <g id="edge12" class="edge">
 <title>Node24&#45;&gt;Node35</title>
-<path fill="none" stroke="#191970" d="M100.2404,-196.1302C120.554,-170.5296 164.7407,-119.0555 213,-89.5 217.0757,-87.0039 221.4309,-84.7229 225.913,-82.6447"/>
-<polygon fill="#191970" stroke="#191970" points="227.4205,-85.8067 235.242,-78.66 224.6709,-79.3693 227.4205,-85.8067"/>
+<path fill="none" stroke="#191970" d="M111.0181,-196.4426C133.0814,-170.8395 181.4576,-118.7595 233,-89.5 237.7727,-86.7906 242.8718,-84.3431 248.1043,-82.1381"/>
+<polygon fill="#191970" stroke="#191970" points="249.579,-85.3199 257.6251,-78.4271 247.0368,-78.7978 249.579,-85.3199"/>
 </g>
 <!-- Node30 -->
 <g id="node7" class="node">
 <title>Node30</title>
 <g id="a_node7"><a xlink:href="classprecice_1_1mesh_1_1rtree.html#a1910046b733558367c5fc9022feef35e" target="_top" xlink:title="precice::mesh::rtree\l::cacheEntry">
-<polygon fill="#ffffff" stroke="#000000" points="419,-98.5 419,-128.5 523,-128.5 523,-98.5 419,-98.5"/>
-<text text-anchor="start" x="427" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::rtree</text>
-<text text-anchor="middle" x="471" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::cacheEntry</text>
+<polygon fill="#ffffff" stroke="#000000" points="456,-98.5 456,-128.5 570,-128.5 570,-98.5 456,-98.5"/>
+<text text-anchor="start" x="464" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::rtree</text>
+<text text-anchor="middle" x="513" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::cacheEntry</text>
 </a>
 </g>
 </g>
 <!-- Node29&#45;&gt;Node30 -->
 <g id="edge6" class="edge">
 <title>Node29&#45;&gt;Node30</title>
-<path fill="none" stroke="#191970" d="M339.5494,-196.8411C347.2195,-194.0791 354.9171,-190.9568 362,-187.5 391.9415,-172.8872 423.0996,-150.9455 444.3958,-134.7462"/>
-<polygon fill="#191970" stroke="#191970" points="446.5471,-137.5071 452.3294,-128.6292 442.2729,-131.9635 446.5471,-137.5071"/>
+<path fill="none" stroke="#191970" d="M372.222,-197.0218C380.6736,-194.2348 389.1666,-191.0574 397,-187.5 428.8221,-173.0485 462.1598,-150.9447 484.8866,-134.6559"/>
+<polygon fill="#191970" stroke="#191970" points="487.0174,-137.4341 493.052,-128.7258 482.904,-131.7701 487.0174,-137.4341"/>
 </g>
 <!-- Node32&#45;&gt;Node30 -->
 <g id="edge9" class="edge">
 <title>Node32&#45;&gt;Node30</title>
-<path fill="none" stroke="#191970" d="M339.5929,-113.5C361.0942,-113.5 386.1934,-113.5 408.6613,-113.5"/>
-<polygon fill="#191970" stroke="#191970" points="408.7769,-117.0001 418.7768,-113.5 408.7768,-110.0001 408.7769,-117.0001"/>
+<path fill="none" stroke="#191970" d="M372.0042,-113.5C394.9958,-113.5 421.697,-113.5 445.6393,-113.5"/>
+<polygon fill="#191970" stroke="#191970" points="445.7126,-117.0001 455.7125,-113.5 445.7125,-110.0001 445.7126,-117.0001"/>
 </g>
 <!-- Node34 -->
 <g id="node11" class="node">
 <title>Node34</title>
 <g id="a_node11"><a xlink:href="classprecice_1_1utils_1_1statistics_1_1DistanceAccumulator.html#ac9b87639f46a763b1f35cce56f78edd7" target="_top" xlink:title="Returns how many values have been accumulated. ">
-<polygon fill="#ffffff" stroke="#000000" points="398,-.5 398,-30.5 544,-30.5 544,-.5 398,-.5"/>
-<text text-anchor="start" x="406" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::statistics</text>
-<text text-anchor="middle" x="471" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::DistanceAccumulator::count</text>
+<polygon fill="#ffffff" stroke="#000000" points="433,-.5 433,-30.5 593,-30.5 593,-.5 433,-.5"/>
+<text text-anchor="start" x="441" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::statistics</text>
+<text text-anchor="middle" x="513" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::DistanceAccumulator::count</text>
 </a>
 </g>
 </g>
 <!-- Node33&#45;&gt;Node34 -->
 <g id="edge11" class="edge">
 <title>Node33&#45;&gt;Node34</title>
-<path fill="none" stroke="#191970" d="M362.1365,-15.5C370.6233,-15.5 379.3126,-15.5 387.9,-15.5"/>
-<polygon fill="#191970" stroke="#191970" points="387.9157,-19.0001 397.9157,-15.5 387.9157,-12.0001 387.9157,-19.0001"/>
+<path fill="none" stroke="#191970" d="M397.2497,-15.5C405.6343,-15.5 414.1841,-15.5 422.6489,-15.5"/>
+<polygon fill="#191970" stroke="#191970" points="422.9151,-19.0001 432.9151,-15.5 422.9151,-12.0001 422.9151,-19.0001"/>
 </g>
 <!-- Node35&#45;&gt;Node30 -->
 <g id="edge13" class="edge">
 <title>Node35&#45;&gt;Node30</title>
-<path fill="none" stroke="#191970" d="M339.5929,-78.4104C361.191,-84.1777 386.4196,-90.9145 408.9648,-96.9347"/>
-<polygon fill="#191970" stroke="#191970" points="408.2124,-100.3564 418.7768,-99.5549 410.0184,-93.5934 408.2124,-100.3564"/>
+<path fill="none" stroke="#191970" d="M372.0042,-78.6071C395.0985,-84.3224 421.9355,-90.9638 445.9598,-96.9092"/>
+<polygon fill="#191970" stroke="#191970" points="445.1646,-100.318 455.7125,-99.3228 446.8462,-93.5229 445.1646,-100.318"/>
 </g>
 </g>
 </svg>

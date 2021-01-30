@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 711;
+var viewWidth = 770;
 var viewHeight = 313;
 var sectionId = 'dynsection-23';
 </script>
@@ -54,245 +54,245 @@ var sectionId = 'dynsection-23';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::com::Communication::connectMasterSlaves</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-309 707,-309 707,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-309 766,-309 766,4 -4,4"/>
 <!-- Node104 -->
 <g id="node1" class="node">
 <title>Node104</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-166.5 0,-196.5 147,-196.5 147,-166.5 0,-166.5"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-166.5 0,-196.5 162,-196.5 162,-166.5 0,-166.5"/>
 <text text-anchor="start" x="8" y="-184.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
-<text text-anchor="middle" x="73.5" y="-173.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::connectMasterSlaves</text>
+<text text-anchor="middle" x="81" y="-173.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::connectMasterSlaves</text>
 </g>
 <!-- Node105 -->
 <g id="node2" class="node">
 <title>Node105</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1com_1_1Communication.html#a39d443a319b10525a50bac6b03ddd600" target="_top" xlink:title="Prepare environment used to establish the communication. ">
-<polygon fill="#ffffff" stroke="#000000" points="183,-240.5 183,-270.5 330,-270.5 330,-240.5 183,-240.5"/>
-<text text-anchor="start" x="191" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
-<text text-anchor="middle" x="256.5" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::prepareEstablishment</text>
+<polygon fill="#ffffff" stroke="#000000" points="198,-240.5 198,-270.5 360,-270.5 360,-240.5 198,-240.5"/>
+<text text-anchor="start" x="206" y="-258.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
+<text text-anchor="middle" x="279" y="-247.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::prepareEstablishment</text>
 </a>
 </g>
 </g>
 <!-- Node104&#45;&gt;Node105 -->
 <g id="edge1" class="edge">
 <title>Node104&#45;&gt;Node105</title>
-<path fill="none" stroke="#191970" d="M104.2517,-196.6692C125.9812,-207.1084 155.9377,-220.9418 183,-231.5 187.8009,-233.373 192.8148,-235.2241 197.8699,-237.0175"/>
-<polygon fill="#191970" stroke="#191970" points="197.002,-240.4208 207.5967,-240.3861 199.2928,-233.8062 197.002,-240.4208"/>
+<path fill="none" stroke="#191970" d="M113.3771,-196.5352C136.6429,-207.0428 168.9069,-221.0133 198,-231.5 203.5687,-233.5073 209.3948,-235.4781 215.2587,-237.3742"/>
+<polygon fill="#191970" stroke="#191970" points="214.5344,-240.8157 225.1242,-240.4877 216.6412,-234.1403 214.5344,-240.8157"/>
 </g>
 <!-- Node106 -->
 <g id="node3" class="node">
 <title>Node106</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1com_1_1Communication.html#a652a8cbe5447146b4b3b6200db5ddbeb" target="_top" xlink:title="Accepts connection from another communicator, which has to call requestConnection(). ">
-<polygon fill="#ffffff" stroke="#000000" points="183,-191.5 183,-221.5 330,-221.5 330,-191.5 183,-191.5"/>
-<text text-anchor="start" x="191" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
-<text text-anchor="middle" x="256.5" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::acceptConnection</text>
+<polygon fill="#ffffff" stroke="#000000" points="198,-191.5 198,-221.5 360,-221.5 360,-191.5 198,-191.5"/>
+<text text-anchor="start" x="206" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
+<text text-anchor="middle" x="279" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::acceptConnection</text>
 </a>
 </g>
 </g>
 <!-- Node104&#45;&gt;Node106 -->
 <g id="edge2" class="edge">
 <title>Node104&#45;&gt;Node106</title>
-<path fill="none" stroke="#191970" d="M147.1421,-191.5604C155.5655,-192.7111 164.199,-193.8906 172.7418,-195.0576"/>
-<polygon fill="#191970" stroke="#191970" points="172.329,-198.5337 182.7107,-196.4195 173.2765,-191.5981 172.329,-198.5337"/>
+<path fill="none" stroke="#191970" d="M162.1055,-191.7406C170.5492,-192.8067 179.1725,-193.8955 187.7186,-194.9746"/>
+<polygon fill="#191970" stroke="#191970" points="187.3406,-198.4545 197.7002,-196.2349 188.2175,-191.5097 187.3406,-198.4545"/>
 </g>
 <!-- Node107 -->
 <g id="node4" class="node">
 <title>Node107</title>
 <g id="a_node4"><a xlink:href="classprecice_1_1com_1_1Communication.html#a08e2067629d6f0198918a21467d29762" target="_top" xlink:title="Clean&#45;up environment used to establish the communication. ">
-<polygon fill="#ffffff" stroke="#000000" points="183,-142.5 183,-172.5 330,-172.5 330,-142.5 183,-142.5"/>
-<text text-anchor="start" x="191" y="-160.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
-<text text-anchor="middle" x="256.5" y="-149.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::cleanupEstablishment</text>
+<polygon fill="#ffffff" stroke="#000000" points="198,-142.5 198,-172.5 360,-172.5 360,-142.5 198,-142.5"/>
+<text text-anchor="start" x="206" y="-160.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
+<text text-anchor="middle" x="279" y="-149.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::cleanupEstablishment</text>
 </a>
 </g>
 </g>
 <!-- Node104&#45;&gt;Node107 -->
 <g id="edge3" class="edge">
 <title>Node104&#45;&gt;Node107</title>
-<path fill="none" stroke="#191970" d="M147.1421,-171.842C155.5655,-170.7373 164.199,-169.6051 172.7418,-168.4847"/>
-<polygon fill="#191970" stroke="#191970" points="173.2508,-171.948 182.7107,-167.1773 172.3405,-165.0074 173.2508,-171.948"/>
+<path fill="none" stroke="#191970" d="M162.1055,-171.669C170.5492,-170.6456 179.1725,-169.6003 187.7186,-168.5644"/>
+<polygon fill="#191970" stroke="#191970" points="188.1941,-172.0325 197.7002,-167.3545 187.3517,-165.0833 188.1941,-172.0325"/>
 </g>
 <!-- Node117 -->
 <g id="node14" class="node">
 <title>Node117</title>
 <g id="a_node14"><a xlink:href="classprecice_1_1com_1_1Communication.html#ab019bdb3f7ad242a84bdc70cf0236a87" target="_top" xlink:title="Connects to another communicator, which has to call acceptConnection(). ">
-<polygon fill="#ffffff" stroke="#000000" points="183,-93.5 183,-123.5 330,-123.5 330,-93.5 183,-93.5"/>
-<text text-anchor="start" x="191" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
-<text text-anchor="middle" x="256.5" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::requestConnection</text>
+<polygon fill="#ffffff" stroke="#000000" points="198,-93.5 198,-123.5 360,-123.5 360,-93.5 198,-93.5"/>
+<text text-anchor="start" x="206" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
+<text text-anchor="middle" x="279" y="-100.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::requestConnection</text>
 </a>
 </g>
 </g>
 <!-- Node104&#45;&gt;Node117 -->
 <g id="edge17" class="edge">
 <title>Node104&#45;&gt;Node117</title>
-<path fill="none" stroke="#191970" d="M105.7784,-166.4846C127.4271,-156.6292 156.6863,-143.7211 183,-133.5 188.7715,-131.2582 194.8384,-129.0159 200.9088,-126.8455"/>
-<polygon fill="#191970" stroke="#191970" points="202.1365,-130.124 210.409,-123.5045 199.8142,-123.5204 202.1365,-130.124"/>
+<path fill="none" stroke="#191970" d="M115.4955,-166.3915C138.6295,-156.4967 169.8934,-143.5799 198,-133.5 204.4222,-131.1968 211.1748,-128.9079 217.9273,-126.7037"/>
+<polygon fill="#191970" stroke="#191970" points="219.3289,-129.9299 227.7822,-123.5431 217.1911,-123.2643 219.3289,-129.9299"/>
 </g>
 <!-- Node108 -->
 <g id="node5" class="node">
 <title>Node108</title>
 <g id="a_node5"><a xlink:href="classprecice_1_1com_1_1Communication.html#a2462e0a8e7053d7ded3ca67d5b3bfaf6" target="_top" xlink:title="Performs a reduce summation on the rank given by rankMaster. ">
-<polygon fill="#ffffff" stroke="#000000" points="366,-274.5 366,-304.5 513,-304.5 513,-274.5 366,-274.5"/>
-<text text-anchor="start" x="374" y="-292.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
-<text text-anchor="middle" x="439.5" y="-281.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::reduceSum</text>
+<polygon fill="#ffffff" stroke="#000000" points="396,-274.5 396,-304.5 558,-304.5 558,-274.5 396,-274.5"/>
+<text text-anchor="start" x="404" y="-292.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
+<text text-anchor="middle" x="477" y="-281.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::reduceSum</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node108 -->
 <g id="edge4" class="edge">
 <title>Node107&#45;&gt;Node108</title>
-<path fill="none" stroke="#191970" d="M315.5114,-172.5881C320.7438,-175.3584 325.6837,-178.6322 330,-182.5 358.1344,-207.7114 338.6301,-233.4606 366,-259.5 369.9941,-263.3 374.5345,-266.6449 379.353,-269.5841"/>
-<polygon fill="#191970" stroke="#191970" points="377.8136,-272.7312 388.2685,-274.4474 381.1657,-266.586 377.8136,-272.7312"/>
+<path fill="none" stroke="#191970" d="M345.2034,-172.6034C350.5306,-175.3661 355.5604,-178.6342 360,-182.5 388.4907,-207.308 368.2065,-233.9132 396,-259.5 400.1373,-263.3088 404.8005,-266.6454 409.7469,-269.5666"/>
+<polygon fill="#191970" stroke="#191970" points="408.4246,-272.8258 418.9036,-274.388 411.686,-266.632 408.4246,-272.8258"/>
 </g>
 <!-- Node109 -->
 <g id="node6" class="node">
 <title>Node109</title>
 <g id="a_node6"><a xlink:href="classprecice_1_1com_1_1Communication.html#a1ab2da696572afe406801d329442da10" target="_top" xlink:title="precice::com::Communication\l::aSend">
-<polygon fill="#ffffff" stroke="#000000" points="552.5,-225.5 552.5,-255.5 699.5,-255.5 699.5,-225.5 552.5,-225.5"/>
-<text text-anchor="start" x="560.5" y="-243.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
-<text text-anchor="middle" x="626" y="-232.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::aSend</text>
+<polygon fill="#ffffff" stroke="#000000" points="597,-225.5 597,-255.5 759,-255.5 759,-225.5 597,-225.5"/>
+<text text-anchor="start" x="605" y="-243.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
+<text text-anchor="middle" x="678" y="-232.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::aSend</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node109 -->
 <g id="edge14" class="edge">
 <title>Node107&#45;&gt;Node109</title>
-<path fill="none" stroke="#191970" d="M311.9271,-172.5499C318.2845,-175.3646 324.4626,-178.6589 330,-182.5 350.7611,-196.9013 343.4663,-215.0698 366,-226.5 420.159,-253.9721 489.0761,-256.4664 542.3474,-252.6328"/>
-<polygon fill="#191970" stroke="#191970" points="542.7583,-256.1111 552.4442,-251.8177 542.1949,-249.1338 542.7583,-256.1111"/>
+<path fill="none" stroke="#191970" d="M341.3362,-172.5609C347.8989,-175.3529 354.2609,-178.6389 360,-182.5 380.9641,-196.6041 373.4424,-215.117 396,-226.5 454.5197,-256.0301 528.8471,-258.5301 586.501,-254.181"/>
+<polygon fill="#191970" stroke="#191970" points="587.0252,-257.6495 596.6986,-253.3279 586.4416,-250.6738 587.0252,-257.6495"/>
 </g>
 <!-- Node110 -->
 <g id="node7" class="node">
 <title>Node110</title>
 <g id="a_node7"><a xlink:href="classprecice_1_1com_1_1Communication.html#ab51a4a3d5b89bff04e9aa64a2d9dfb96" target="_top" xlink:title="precice::com::Communication\l::allreduceSum">
-<polygon fill="#ffffff" stroke="#000000" points="366,-186.5 366,-216.5 513,-216.5 513,-186.5 366,-186.5"/>
-<text text-anchor="start" x="374" y="-204.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
-<text text-anchor="middle" x="439.5" y="-193.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::allreduceSum</text>
+<polygon fill="#ffffff" stroke="#000000" points="396,-186.5 396,-216.5 558,-216.5 558,-186.5 396,-186.5"/>
+<text text-anchor="start" x="404" y="-204.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
+<text text-anchor="middle" x="477" y="-193.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::allreduceSum</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node110 -->
 <g id="edge6" class="edge">
 <title>Node107&#45;&gt;Node110</title>
-<path fill="none" stroke="#191970" d="M318.9664,-172.5192C334.4864,-176.2508 351.2497,-180.2814 367.1982,-184.116"/>
-<polygon fill="#191970" stroke="#191970" points="366.4635,-187.539 377.0046,-186.4738 368.1,-180.733 366.4635,-187.539"/>
+<path fill="none" stroke="#191970" d="M346.5866,-172.5192C363.5372,-176.286 381.8584,-180.3574 399.2599,-184.2244"/>
+<polygon fill="#191970" stroke="#191970" points="398.8609,-187.7211 409.3821,-186.4738 400.3795,-180.8878 398.8609,-187.7211"/>
 </g>
 <!-- Node111 -->
 <g id="node8" class="node">
 <title>Node111</title>
 <g id="a_node8"><a xlink:href="classprecice_1_1com_1_1Communication.html#a21ea14f324d167cc309574d3dc5e17ee" target="_top" xlink:title="Receives a std::string from process with given rank. ">
-<polygon fill="#ffffff" stroke="#000000" points="552.5,-168.5 552.5,-198.5 699.5,-198.5 699.5,-168.5 552.5,-168.5"/>
-<text text-anchor="start" x="560.5" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
-<text text-anchor="middle" x="626" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::receive</text>
+<polygon fill="#ffffff" stroke="#000000" points="597,-168.5 597,-198.5 759,-198.5 759,-168.5 597,-168.5"/>
+<text text-anchor="start" x="605" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
+<text text-anchor="middle" x="678" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::receive</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node111 -->
 <g id="edge15" class="edge">
 <title>Node107&#45;&gt;Node111</title>
-<path fill="none" stroke="#191970" d="M330.3858,-162.699C391.5582,-167.0034 478.4631,-173.1185 542.2165,-177.6045"/>
-<polygon fill="#191970" stroke="#191970" points="542.0212,-181.0994 552.2423,-178.31 542.5127,-174.1166 542.0212,-181.0994"/>
+<path fill="none" stroke="#191970" d="M360.2245,-162.7928C425.8935,-167.072 518.3216,-173.0949 586.5758,-177.5425"/>
+<polygon fill="#191970" stroke="#191970" points="586.6828,-181.0568 596.8892,-178.2146 587.138,-174.0717 586.6828,-181.0568"/>
 </g>
 <!-- Node112 -->
 <g id="node9" class="node">
 <title>Node112</title>
 <g id="a_node9"><a xlink:href="classprecice_1_1com_1_1Communication.html#acfa95686c5b494b3adfe11d5b5d23b87" target="_top" xlink:title="precice::com::Communication\l::broadcast">
-<polygon fill="#ffffff" stroke="#000000" points="366,-98.5 366,-128.5 513,-128.5 513,-98.5 366,-98.5"/>
-<text text-anchor="start" x="374" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
-<text text-anchor="middle" x="439.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::broadcast</text>
+<polygon fill="#ffffff" stroke="#000000" points="396,-98.5 396,-128.5 558,-128.5 558,-98.5 396,-98.5"/>
+<text text-anchor="start" x="404" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
+<text text-anchor="middle" x="477" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::broadcast</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node112 -->
 <g id="edge9" class="edge">
 <title>Node107&#45;&gt;Node112</title>
-<path fill="none" stroke="#191970" d="M318.9664,-142.4808C334.4864,-138.7492 351.2497,-134.7186 367.1982,-130.884"/>
-<polygon fill="#191970" stroke="#191970" points="368.1,-134.267 377.0046,-128.5262 366.4635,-127.461 368.1,-134.267"/>
+<path fill="none" stroke="#191970" d="M346.5866,-142.4808C363.5372,-138.714 381.8584,-134.6426 399.2599,-130.7756"/>
+<polygon fill="#191970" stroke="#191970" points="400.3795,-134.1122 409.3821,-128.5262 398.8609,-127.2789 400.3795,-134.1122"/>
 </g>
 <!-- Node115 -->
 <g id="node12" class="node">
 <title>Node115</title>
 <g id="a_node12"><a xlink:href="classprecice_1_1com_1_1Communication.html#a8fb5e92432fc9751ae165953156980b5" target="_top" xlink:title="Sends a std::string to process with given rank. ">
-<polygon fill="#ffffff" stroke="#000000" points="366,-49.5 366,-79.5 513,-79.5 513,-49.5 366,-49.5"/>
-<text text-anchor="start" x="374" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
-<text text-anchor="middle" x="439.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::send</text>
+<polygon fill="#ffffff" stroke="#000000" points="396,-49.5 396,-79.5 558,-79.5 558,-49.5 396,-49.5"/>
+<text text-anchor="start" x="404" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
+<text text-anchor="middle" x="477" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::send</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node115 -->
 <g id="edge13" class="edge">
 <title>Node107&#45;&gt;Node115</title>
-<path fill="none" stroke="#191970" d="M313.8655,-142.4743C319.5436,-139.9119 325.0345,-136.9398 330,-133.5 351.0542,-118.915 344.9458,-103.085 366,-88.5 368.25,-86.9413 370.6079,-85.4787 373.0421,-84.1067"/>
-<polygon fill="#191970" stroke="#191970" points="374.7789,-87.1509 382.1345,-79.5257 371.6292,-80.8995 374.7789,-87.1509"/>
+<path fill="none" stroke="#191970" d="M343.4589,-142.4328C349.2738,-139.8934 354.8884,-136.9377 360,-133.5 381.2531,-119.2065 374.7469,-102.7935 396,-88.5 398.3961,-86.8886 400.9026,-85.383 403.4886,-83.9767"/>
+<polygon fill="#191970" stroke="#191970" points="405.0836,-87.0929 412.5411,-79.5672 402.0182,-80.7998 405.0836,-87.0929"/>
 </g>
 <!-- Node116 -->
 <g id="node13" class="node">
 <title>Node116</title>
 <g id="a_node13"><a xlink:href="classprecice_1_1com_1_1Communication.html#a5460dcca7939aa7f22aba4a7f68b656f" target="_top" xlink:title="Asynchronously receives an array of double values. ">
-<polygon fill="#ffffff" stroke="#000000" points="366,-.5 366,-30.5 513,-30.5 513,-.5 366,-.5"/>
-<text text-anchor="start" x="374" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
-<text text-anchor="middle" x="439.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::aReceive</text>
+<polygon fill="#ffffff" stroke="#000000" points="396,-.5 396,-30.5 558,-30.5 558,-.5 396,-.5"/>
+<text text-anchor="start" x="404" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
+<text text-anchor="middle" x="477" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::aReceive</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node116 -->
 <g id="edge16" class="edge">
 <title>Node107&#45;&gt;Node116</title>
-<path fill="none" stroke="#191970" d="M317.9364,-142.3739C322.3072,-139.8576 326.4011,-136.9228 330,-133.5 362.4166,-102.6691 333.5834,-70.3309 366,-39.5 367.1247,-38.4304 368.2977,-37.4084 369.5123,-36.4319"/>
-<polygon fill="#191970" stroke="#191970" points="371.7563,-39.139 378.0636,-30.6261 367.8242,-33.3476 371.7563,-39.139"/>
+<path fill="none" stroke="#191970" d="M347.8351,-142.2977C352.2227,-139.7969 356.3396,-136.8865 360,-133.5 392.8384,-103.1187 363.1616,-69.8813 396,-39.5 397.1439,-38.4417 398.3323,-37.4299 399.5597,-36.4626"/>
+<polygon fill="#191970" stroke="#191970" points="401.8018,-39.1736 408.1649,-30.7023 397.9079,-33.3566 401.8018,-39.1736"/>
 </g>
 <!-- Node108&#45;&gt;Node109 -->
 <g id="edge5" class="edge">
 <title>Node108&#45;&gt;Node109</title>
-<path fill="none" stroke="#191970" d="M496.7236,-274.4654C516.4154,-269.2917 538.64,-263.4525 559.0373,-258.0934"/>
-<polygon fill="#191970" stroke="#191970" points="560.1023,-261.4325 568.8846,-255.5062 558.3235,-254.6622 560.1023,-261.4325"/>
+<path fill="none" stroke="#191970" d="M538.6726,-274.4654C560.0883,-269.2446 584.2837,-263.3463 606.4301,-257.9474"/>
+<polygon fill="#191970" stroke="#191970" points="607.5575,-261.2751 616.444,-255.5062 605.8996,-254.4743 607.5575,-261.2751"/>
 </g>
 <!-- Node110&#45;&gt;Node109 -->
 <g id="edge7" class="edge">
 <title>Node110&#45;&gt;Node109</title>
-<path fill="none" stroke="#191970" d="M511.339,-216.5226C522.1021,-218.7734 533.2676,-221.1082 544.2187,-223.3983"/>
-<polygon fill="#191970" stroke="#191970" points="543.6933,-226.864 554.198,-225.4851 545.1261,-220.0122 543.6933,-226.864"/>
+<path fill="none" stroke="#191970" d="M554.4243,-216.5226C566.261,-218.8193 578.5491,-221.2036 590.5827,-223.5384"/>
+<polygon fill="#191970" stroke="#191970" points="590.1319,-227.0162 600.6155,-225.4851 591.4653,-220.1443 590.1319,-227.0162"/>
 </g>
 <!-- Node110&#45;&gt;Node111 -->
 <g id="edge8" class="edge">
 <title>Node110&#45;&gt;Node111</title>
-<path fill="none" stroke="#191970" d="M513.2097,-194.3859C522.7312,-193.467 532.5371,-192.5205 542.2061,-191.5873"/>
-<polygon fill="#191970" stroke="#191970" points="542.5975,-195.0659 552.2149,-190.6213 541.9249,-188.0983 542.5975,-195.0659"/>
+<path fill="none" stroke="#191970" d="M558.175,-194.2306C567.5366,-193.3922 577.1307,-192.5331 586.6156,-191.6837"/>
+<polygon fill="#191970" stroke="#191970" points="587.2008,-195.1454 596.8487,-190.7673 586.5764,-188.1733 587.2008,-195.1454"/>
 </g>
 <!-- Node112&#45;&gt;Node109 -->
 <g id="edge11" class="edge">
 <title>Node112&#45;&gt;Node109</title>
-<path fill="none" stroke="#191970" d="M456.846,-128.6105C487.3975,-155.2162 547.7227,-207.7094 549,-208.5 556.602,-213.2053 565.0174,-217.5027 573.4113,-221.3151"/>
-<polygon fill="#191970" stroke="#191970" points="572.2681,-224.6345 582.8346,-225.4094 575.0576,-218.2143 572.2681,-224.6345"/>
+<path fill="none" stroke="#191970" d="M496.4953,-128.5317C513.0178,-141.3596 537.2628,-160.3918 558,-177.5 574.2873,-190.937 575.8621,-197.6905 594,-208.5 602.2581,-213.4215 611.4057,-217.8273 620.5367,-221.6808"/>
+<polygon fill="#191970" stroke="#191970" points="619.4245,-225.006 630.008,-225.4949 622.0394,-218.5127 619.4245,-225.006"/>
 </g>
 <!-- Node113 -->
 <g id="node10" class="node">
 <title>Node113</title>
 <g id="a_node10"><a xlink:href="classprecice_1_1com_1_1Communication.html#a5319067292ba3f7979d92a72f9298f80" target="_top" xlink:title="Returns the number of processes in the remote communicator. ">
-<polygon fill="#ffffff" stroke="#000000" points="549,-102.5 549,-132.5 703,-132.5 703,-102.5 549,-102.5"/>
-<text text-anchor="start" x="557" y="-120.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
-<text text-anchor="middle" x="626" y="-109.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getRemoteCommunicatorSize</text>
+<polygon fill="#ffffff" stroke="#000000" points="594,-102.5 594,-132.5 762,-132.5 762,-102.5 594,-102.5"/>
+<text text-anchor="start" x="602" y="-120.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Communication</text>
+<text text-anchor="middle" x="678" y="-109.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getRemoteCommunicatorSize</text>
 </a>
 </g>
 </g>
 <!-- Node112&#45;&gt;Node113 -->
 <g id="edge10" class="edge">
 <title>Node112&#45;&gt;Node113</title>
-<path fill="none" stroke="#191970" d="M513.2097,-115.0809C521.6255,-115.2614 530.2636,-115.4467 538.8328,-115.6305"/>
-<polygon fill="#191970" stroke="#191970" points="538.7706,-119.1298 548.8434,-115.8452 538.9208,-112.1314 538.7706,-119.1298"/>
+<path fill="none" stroke="#191970" d="M558.175,-115.1154C566.6326,-115.2837 575.28,-115.4558 583.8652,-115.6267"/>
+<polygon fill="#191970" stroke="#191970" points="583.8321,-119.1266 593.8998,-115.8264 583.9715,-112.128 583.8321,-119.1266"/>
 </g>
 <!-- Node114 -->
 <g id="node11" class="node">
 <title>Node114</title>
 <g id="a_node11"><a xlink:href="classprecice_1_1com_1_1Request.html#ad07792939dd8a5e4e23791e21aeacff0" target="_top" xlink:title="precice::com::Request\l::wait">
-<polygon fill="#ffffff" stroke="#000000" points="568,-53.5 568,-83.5 684,-83.5 684,-53.5 568,-53.5"/>
-<text text-anchor="start" x="576" y="-71.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Request</text>
-<text text-anchor="middle" x="626" y="-60.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::wait</text>
+<polygon fill="#ffffff" stroke="#000000" points="616,-53.5 616,-83.5 740,-83.5 740,-53.5 616,-53.5"/>
+<text text-anchor="start" x="624" y="-71.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Request</text>
+<text text-anchor="middle" x="678" y="-60.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::wait</text>
 </a>
 </g>
 </g>
 <!-- Node112&#45;&gt;Node114 -->
 <g id="edge12" class="edge">
 <title>Node112&#45;&gt;Node114</title>
-<path fill="none" stroke="#191970" d="M501.8611,-98.4531C519.9029,-94.0998 539.6839,-89.3269 558.0486,-84.8958"/>
-<polygon fill="#191970" stroke="#191970" points="558.8947,-88.2921 567.7948,-82.5442 557.2528,-81.4874 558.8947,-88.2921"/>
+<path fill="none" stroke="#191970" d="M544.2095,-98.4531C564.119,-93.9957 585.9936,-89.0984 606.1827,-84.5785"/>
+<polygon fill="#191970" stroke="#191970" points="606.9486,-87.9938 615.9424,-82.3935 605.4193,-81.1628 606.9486,-87.9938"/>
 </g>
 </g>
 </svg>

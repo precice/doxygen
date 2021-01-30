@@ -12,5 +12,6 @@ var searchData=
   ['vertexptrsfor',['vertexPtrsFor',['../namespaceprecice_1_1mesh.html#a8b0288a6bdcf6f936ef7e63713013742',1,'precice::mesh']]],
   ['vertices',['vertices',['../classprecice_1_1mesh_1_1Mesh.html#a13faa9b03e5d20918ed6528db1415fa3',1,'precice::mesh::Mesh::vertices()'],['../classprecice_1_1mesh_1_1Mesh.html#a217175ab741b2b83a80839eaf76f058e',1,'precice::mesh::Mesh::vertices() const']]],
   ['view',['view',['../classprecice_1_1utils_1_1petsc_1_1Vector.html#a70016ad4861d885e10ab8d0d9a3f27aa',1,'precice::utils::petsc::Vector::view()'],['../classprecice_1_1utils_1_1petsc_1_1Matrix.html#a6a334095762646b619b702b12d0f53d2',1,'precice::utils::petsc::Matrix::view()']]],
-  ['viewdraw',['viewDraw',['../classprecice_1_1utils_1_1petsc_1_1Matrix.html#a7766a36354726dcdf96ec1eba044b35e',1,'precice::utils::petsc::Matrix']]]
+  ['viewdraw',['viewDraw',['../classprecice_1_1utils_1_1petsc_1_1Matrix.html#a7766a36354726dcdf96ec1eba044b35e',1,'precice::utils::petsc::Matrix']]],
+  ['viewer',['Viewer',['../structprecice_1_1utils_1_1petsc_1_1Viewer.html#a7f6b051f351f39f28547587cfe9c5f97',1,'precice::utils::petsc::Viewer::Viewer(const std::string &amp;filename, VIEWERFORMAT format, MPI_Comm comm)'],['../structprecice_1_1utils_1_1petsc_1_1Viewer.html#ae82db702ff7767ca4400497ccdc73ed6',1,'precice::utils::petsc::Viewer::Viewer(PetscViewerType type, MPI_Comm comm)']]]
 ];

@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 986;
+var viewWidth = 1065;
 var viewHeight = 533;
 var sectionId = 'dynsection-9';
 </script>
@@ -54,341 +54,341 @@ var sectionId = 'dynsection-9';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::impl::SolverInterfaceImpl::finalize</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-529 982,-529 982,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-529 1061,-529 1061,4 -4,4"/>
 <!-- Node107 -->
 <g id="node1" class="node">
 <title>Node107</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-264.5 0,-294.5 144,-294.5 144,-264.5 0,-264.5"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-264.5 0,-294.5 160,-294.5 160,-264.5 0,-264.5"/>
 <text text-anchor="start" x="8" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::impl::SolverInterface</text>
-<text text-anchor="middle" x="72" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Impl::finalize</text>
+<text text-anchor="middle" x="80" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Impl::finalize</text>
 </g>
 <!-- Node108 -->
 <g id="node2" class="node">
 <title>Node108</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1impl_1_1SolverInterfaceImpl.html#a02541527b0685d76f04d20606c7c20cb" target="_top" xlink:title="Sets the location for all output of preCICE. ">
-<polygon fill="#ffffff" stroke="#000000" points="180,-494.5 180,-524.5 324,-524.5 324,-494.5 180,-494.5"/>
-<text text-anchor="start" x="188" y="-512.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::impl::SolverInterface</text>
-<text text-anchor="middle" x="252" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Impl::exportMesh</text>
+<polygon fill="#ffffff" stroke="#000000" points="196,-494.5 196,-524.5 356,-524.5 356,-494.5 196,-494.5"/>
+<text text-anchor="start" x="204" y="-512.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::impl::SolverInterface</text>
+<text text-anchor="middle" x="276" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Impl::exportMesh</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node108 -->
 <g id="edge1" class="edge">
 <title>Node107&#45;&gt;Node108</title>
-<path fill="none" stroke="#191970" d="M75.7168,-294.6604C85.7742,-332.5191 117.0981,-431.9964 180,-485.5 181.5055,-486.7805 183.0817,-487.9934 184.7153,-489.1422"/>
-<polygon fill="#191970" stroke="#191970" points="182.9367,-492.1569 193.2983,-494.3678 186.5769,-486.1779 182.9367,-492.1569"/>
+<path fill="none" stroke="#191970" d="M84.154,-294.5117C95.4356,-332.4606 130.2951,-432.9403 196,-485.5 197.6136,-486.7908 199.2954,-488.0122 201.0328,-489.168"/>
+<polygon fill="#191970" stroke="#191970" points="199.7152,-492.4487 210.1255,-494.4174 203.2151,-486.3864 199.7152,-492.4487"/>
 </g>
 <!-- Node110 -->
 <g id="node4" class="node">
 <title>Node110</title>
 <g id="a_node4"><a xlink:href="classprecice_1_1utils_1_1MasterSlave.html#a3837ad42361b53d7e930443ba07a9eb5" target="_top" xlink:title="True if this process is running a slave. ">
-<polygon fill="#ffffff" stroke="#000000" points="185.5,-445.5 185.5,-475.5 318.5,-475.5 318.5,-445.5 185.5,-445.5"/>
-<text text-anchor="start" x="193.5" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
-<text text-anchor="middle" x="252" y="-452.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isSlave</text>
+<polygon fill="#ffffff" stroke="#000000" points="203.5,-445.5 203.5,-475.5 348.5,-475.5 348.5,-445.5 203.5,-445.5"/>
+<text text-anchor="start" x="211.5" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
+<text text-anchor="middle" x="276" y="-452.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isSlave</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node110 -->
 <g id="edge3" class="edge">
 <title>Node107&#45;&gt;Node110</title>
-<path fill="none" stroke="#191970" d="M78.5451,-294.7545C92.5947,-325.7469 128.5916,-396.4414 180,-435.5 182.4496,-437.3612 185.0482,-439.0905 187.7484,-440.6965"/>
-<polygon fill="#191970" stroke="#191970" points="186.1852,-443.8291 196.6604,-445.4169 189.4616,-437.6432 186.1852,-443.8291"/>
+<path fill="none" stroke="#191970" d="M87.239,-294.8824C102.7148,-326.1109 142.0521,-397.2179 196,-435.5 198.7294,-437.4368 201.6141,-439.2274 204.6042,-440.8824"/>
+<polygon fill="#191970" stroke="#191970" points="203.3255,-444.1547 213.8407,-445.4514 206.4292,-437.8803 203.3255,-444.1547"/>
 </g>
 <!-- Node111 -->
 <g id="node5" class="node">
 <title>Node111</title>
 <g id="a_node5"><a xlink:href="namespaceprecice_1_1m2n.html#abbc7dfdfd94e39ff9da8d2acfca89427" target="_top" xlink:title="precice::m2n::receive">
-<polygon fill="#ffffff" stroke="#000000" points="197,-407 197,-426 307,-426 307,-407 197,-407"/>
-<text text-anchor="middle" x="252" y="-414" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::m2n::receive</text>
+<polygon fill="#ffffff" stroke="#000000" points="215,-407 215,-426 337,-426 337,-407 215,-407"/>
+<text text-anchor="middle" x="276" y="-414" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::m2n::receive</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node111 -->
 <g id="edge4" class="edge">
 <title>Node107&#45;&gt;Node111</title>
-<path fill="none" stroke="#191970" d="M81.6228,-294.74C98.4166,-320.0525 135.5594,-370.6301 180,-397.5 183.6093,-399.6823 187.468,-401.6169 191.454,-403.3316"/>
-<polygon fill="#191970" stroke="#191970" points="190.3372,-406.6515 200.9279,-406.9463 192.8326,-400.1114 190.3372,-406.6515"/>
+<path fill="none" stroke="#191970" d="M90.541,-294.8442C108.8814,-320.3102 149.2099,-371.1083 196,-397.5 199.9535,-399.73 204.1591,-401.6991 208.4932,-403.4378"/>
+<polygon fill="#191970" stroke="#191970" points="207.5439,-406.8153 218.1385,-406.8878 209.9015,-400.2243 207.5439,-406.8153"/>
 </g>
 <!-- Node112 -->
 <g id="node6" class="node">
 <title>Node112</title>
 <g id="a_node6"><a xlink:href="classprecice_1_1utils_1_1MasterSlave.html#a5e934392c32335daa8e2b4a01bc75fd3" target="_top" xlink:title="True if this process is running the master. ">
-<polygon fill="#ffffff" stroke="#000000" points="185.5,-357.5 185.5,-387.5 318.5,-387.5 318.5,-357.5 185.5,-357.5"/>
-<text text-anchor="start" x="193.5" y="-375.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
-<text text-anchor="middle" x="252" y="-364.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isMaster</text>
+<polygon fill="#ffffff" stroke="#000000" points="203.5,-357.5 203.5,-387.5 348.5,-387.5 348.5,-357.5 203.5,-357.5"/>
+<text text-anchor="start" x="211.5" y="-375.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
+<text text-anchor="middle" x="276" y="-364.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isMaster</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node112 -->
 <g id="edge5" class="edge">
 <title>Node107&#45;&gt;Node112</title>
-<path fill="none" stroke="#191970" d="M92.2226,-294.5814C113.2874,-309.761 147.6683,-333.0755 180,-348.5 183.8129,-350.319 187.8002,-352.0589 191.8582,-353.7109"/>
-<polygon fill="#191970" stroke="#191970" points="190.8175,-357.0609 201.4069,-357.4019 193.3414,-350.5318 190.8175,-357.0609"/>
+<path fill="none" stroke="#191970" d="M101.7983,-294.6836C124.4853,-309.9445 161.4615,-333.3226 196,-348.5 200.414,-350.4397 205.031,-352.2803 209.7237,-354.015"/>
+<polygon fill="#191970" stroke="#191970" points="208.827,-357.4097 219.4219,-357.4246 211.1488,-350.8059 208.827,-357.4097"/>
 </g>
 <!-- Node113 -->
 <g id="node7" class="node">
 <title>Node113</title>
 <g id="a_node7"><a xlink:href="classprecice_1_1utils_1_1Event.html#ab228ebbfcd934048c62a2622b4e1b5a9" target="_top" xlink:title="Stops an event and commit it. If it&#39;s already stopped it has no effect. ">
-<polygon fill="#ffffff" stroke="#000000" points="200,-308.5 200,-338.5 304,-338.5 304,-308.5 200,-308.5"/>
-<text text-anchor="start" x="208" y="-326.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Event</text>
-<text text-anchor="middle" x="252" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::stop</text>
+<polygon fill="#ffffff" stroke="#000000" points="219.5,-308.5 219.5,-338.5 332.5,-338.5 332.5,-308.5 219.5,-308.5"/>
+<text text-anchor="start" x="227.5" y="-326.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Event</text>
+<text text-anchor="middle" x="276" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::stop</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node113 -->
 <g id="edge6" class="edge">
 <title>Node107&#45;&gt;Node113</title>
-<path fill="none" stroke="#191970" d="M133.4423,-294.5192C151.6599,-298.9724 171.6189,-303.8513 189.8791,-308.3149"/>
-<polygon fill="#191970" stroke="#191970" points="189.2819,-311.7719 199.827,-310.7466 190.9441,-304.9721 189.2819,-311.7719"/>
+<path fill="none" stroke="#191970" d="M146.9039,-294.5192C167.0162,-299.0343 189.078,-303.9869 209.1846,-308.5006"/>
+<polygon fill="#191970" stroke="#191970" points="208.6656,-311.9712 219.1894,-310.7466 210.1989,-305.1411 208.6656,-311.9712"/>
 </g>
 <!-- Node115 -->
 <g id="node9" class="node">
 <title>Node115</title>
 <g id="a_node9"><a xlink:href="classprecice_1_1utils_1_1EventRegistry.html#ab22976bb8c5bd6a86f052f4705a48cb1" target="_top" xlink:title="Returns the only instance (singleton) of the EventRegistry class. ">
-<polygon fill="#ffffff" stroke="#000000" points="370,-264.5 370,-294.5 510,-294.5 510,-264.5 370,-264.5"/>
-<text text-anchor="start" x="378" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::EventRegistry</text>
-<text text-anchor="middle" x="440" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::instance</text>
+<polygon fill="#ffffff" stroke="#000000" points="402.5,-264.5 402.5,-294.5 554.5,-294.5 554.5,-264.5 402.5,-264.5"/>
+<text text-anchor="start" x="410.5" y="-282.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::EventRegistry</text>
+<text text-anchor="middle" x="478.5" y="-271.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::instance</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node115 -->
 <g id="edge11" class="edge">
 <title>Node107&#45;&gt;Node115</title>
-<path fill="none" stroke="#191970" d="M144.2659,-279.5C206.257,-279.5 295.4802,-279.5 359.6907,-279.5"/>
-<polygon fill="#191970" stroke="#191970" points="359.7734,-283.0001 369.7733,-279.5 359.7733,-276.0001 359.7734,-283.0001"/>
+<path fill="none" stroke="#191970" d="M160.1631,-279.5C227.2883,-279.5 322.8959,-279.5 391.7916,-279.5"/>
+<polygon fill="#191970" stroke="#191970" points="392.1832,-283.0001 402.1832,-279.5 392.1831,-276.0001 392.1832,-283.0001"/>
 </g>
 <!-- Node117 -->
 <g id="node11" class="node">
 <title>Node117</title>
 <g id="a_node11"><a xlink:href="classprecice_1_1utils_1_1Petsc.html#ab9cb75bb28bc602f4ef5e76911f9cc9b" target="_top" xlink:title="Finalizes Petsc environment. ">
-<polygon fill="#ffffff" stroke="#000000" points="200,-220.5 200,-250.5 304,-250.5 304,-220.5 200,-220.5"/>
-<text text-anchor="start" x="208" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Petsc</text>
-<text text-anchor="middle" x="252" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::finalize</text>
+<polygon fill="#ffffff" stroke="#000000" points="220.5,-220.5 220.5,-250.5 331.5,-250.5 331.5,-220.5 220.5,-220.5"/>
+<text text-anchor="start" x="228.5" y="-238.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Petsc</text>
+<text text-anchor="middle" x="276" y="-227.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::finalize</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node117 -->
 <g id="edge10" class="edge">
 <title>Node107&#45;&gt;Node117</title>
-<path fill="none" stroke="#191970" d="M133.4423,-264.4808C151.6599,-260.0276 171.6189,-255.1487 189.8791,-250.6851"/>
-<polygon fill="#191970" stroke="#191970" points="190.9441,-254.0279 199.827,-248.2534 189.2819,-247.2281 190.9441,-254.0279"/>
+<path fill="none" stroke="#191970" d="M146.9039,-264.4808C167.4893,-259.8595 190.1169,-254.7799 210.6001,-250.1816"/>
+<polygon fill="#191970" stroke="#191970" points="211.4744,-253.5725 220.4649,-247.9671 209.941,-246.7425 211.4744,-253.5725"/>
 </g>
 <!-- Node118 -->
 <g id="node12" class="node">
 <title>Node118</title>
 <g id="a_node12"><a xlink:href="classprecice_1_1utils_1_1EventRegistry.html#a7a57a0c03178d18ff9f5474be20a3f06" target="_top" xlink:title="Sets the global end time. ">
-<polygon fill="#ffffff" stroke="#000000" points="182,-171.5 182,-201.5 322,-201.5 322,-171.5 182,-171.5"/>
-<text text-anchor="start" x="190" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::EventRegistry</text>
-<text text-anchor="middle" x="252" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::finalize</text>
+<polygon fill="#ffffff" stroke="#000000" points="200,-171.5 200,-201.5 352,-201.5 352,-171.5 200,-171.5"/>
+<text text-anchor="start" x="208" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::EventRegistry</text>
+<text text-anchor="middle" x="276" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::finalize</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node118 -->
 <g id="edge12" class="edge">
 <title>Node107&#45;&gt;Node118</title>
-<path fill="none" stroke="#191970" d="M92.6922,-264.4636C113.8486,-249.5811 148.0482,-226.8581 180,-211.5 184.5784,-209.2993 189.4029,-207.1964 194.2966,-205.2115"/>
-<polygon fill="#191970" stroke="#191970" points="195.6895,-208.4254 203.7464,-201.5452 193.1575,-201.8993 195.6895,-208.4254"/>
+<path fill="none" stroke="#191970" d="M102.2933,-264.3599C125.07,-249.3967 161.8433,-226.6123 196,-211.5 201.2854,-209.1615 206.8564,-206.9469 212.4973,-204.874"/>
+<polygon fill="#191970" stroke="#191970" points="213.7479,-208.1443 222.0183,-201.5223 211.4234,-201.5415 213.7479,-208.1443"/>
 </g>
 <!-- Node119 -->
 <g id="node13" class="node">
 <title>Node119</title>
 <g id="a_node13"><a xlink:href="classprecice_1_1utils_1_1EventRegistry.html#a5b8ca438cf34c545b9a1fb79e54891ea" target="_top" xlink:title="Prints a pretty report to stdout and a JSON report to appName&#45;events.json. ">
-<polygon fill="#ffffff" stroke="#000000" points="182,-122.5 182,-152.5 322,-152.5 322,-122.5 182,-122.5"/>
-<text text-anchor="start" x="190" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::EventRegistry</text>
-<text text-anchor="middle" x="252" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::printAll</text>
+<polygon fill="#ffffff" stroke="#000000" points="200,-122.5 200,-152.5 352,-152.5 352,-122.5 200,-122.5"/>
+<text text-anchor="start" x="208" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::EventRegistry</text>
+<text text-anchor="middle" x="276" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::printAll</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node119 -->
 <g id="edge13" class="edge">
 <title>Node107&#45;&gt;Node119</title>
-<path fill="none" stroke="#191970" d="M82.1606,-264.3587C99.4641,-239.6681 136.9858,-190.6685 180,-162.5 182.9681,-160.5563 186.1042,-158.7456 189.3407,-157.0612"/>
-<polygon fill="#191970" stroke="#191970" points="191.1307,-160.0862 198.6711,-152.6434 188.1352,-153.7595 191.1307,-160.0862"/>
+<path fill="none" stroke="#191970" d="M91.0794,-264.2401C109.9036,-239.3791 150.5403,-190.1399 196,-162.5 199.5668,-160.3313 203.3389,-158.3348 207.2254,-156.499"/>
+<polygon fill="#191970" stroke="#191970" points="208.6722,-159.6866 216.4587,-152.5018 205.8912,-153.2627 208.6722,-159.6866"/>
 </g>
 <!-- Node121 -->
 <g id="node15" class="node">
 <title>Node121</title>
 <g id="a_node15"><a xlink:href="classprecice_1_1utils_1_1EventRegistry.html#abfc095afa55728f4cceee65eec77ac7f" target="_top" xlink:title="Clears the registry. needed for tests. ">
-<polygon fill="#ffffff" stroke="#000000" points="182,-73.5 182,-103.5 322,-103.5 322,-73.5 182,-73.5"/>
-<text text-anchor="start" x="190" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::EventRegistry</text>
-<text text-anchor="middle" x="252" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::clear</text>
+<polygon fill="#ffffff" stroke="#000000" points="200,-73.5 200,-103.5 352,-103.5 352,-73.5 200,-73.5"/>
+<text text-anchor="start" x="208" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::EventRegistry</text>
+<text text-anchor="middle" x="276" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::clear</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node121 -->
 <g id="edge15" class="edge">
 <title>Node107&#45;&gt;Node121</title>
-<path fill="none" stroke="#191970" d="M77.8639,-264.2597C91.1025,-231.8147 126.3917,-155.4588 180,-113.5 182.2956,-111.7032 184.7294,-110.0306 187.2605,-108.4739"/>
-<polygon fill="#191970" stroke="#191970" points="189.0728,-111.4724 196.1821,-103.6169 185.7257,-105.3245 189.0728,-111.4724"/>
+<path fill="none" stroke="#191970" d="M86.5148,-264.1303C101.1548,-231.434 139.8271,-154.6187 196,-113.5 198.6419,-111.5661 201.4373,-109.7791 204.339,-108.128"/>
+<polygon fill="#191970" stroke="#191970" points="205.9823,-111.219 213.3151,-103.5717 202.8138,-104.9771 205.9823,-111.219"/>
 </g>
 <!-- Node122 -->
 <g id="node16" class="node">
 <title>Node122</title>
 <g id="a_node16"><a xlink:href="classprecice_1_1utils_1_1Parallel.html#a48203709cc9bf25671eac04eafd3c0a3" target="_top" xlink:title="Finalized a managed MPI environment. ">
-<polygon fill="#ffffff" stroke="#000000" points="196.5,-24.5 196.5,-54.5 307.5,-54.5 307.5,-24.5 196.5,-24.5"/>
-<text text-anchor="start" x="204.5" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
-<text text-anchor="middle" x="252" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::finalizeManagedMPI</text>
+<polygon fill="#ffffff" stroke="#000000" points="215.5,-24.5 215.5,-54.5 336.5,-54.5 336.5,-24.5 215.5,-24.5"/>
+<text text-anchor="start" x="223.5" y="-42.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
+<text text-anchor="middle" x="276" y="-31.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::finalizeManagedMPI</text>
 </a>
 </g>
 </g>
 <!-- Node107&#45;&gt;Node122 -->
 <g id="edge16" class="edge">
 <title>Node107&#45;&gt;Node122</title>
-<path fill="none" stroke="#191970" d="M75.4144,-264.3072C84.94,-225.3667 115.4509,-121.0848 180,-64.5 182.3616,-62.4298 184.9042,-60.5285 187.5739,-58.7827"/>
-<polygon fill="#191970" stroke="#191970" points="189.5085,-61.7089 196.467,-53.7195 186.045,-55.6257 189.5085,-61.7089"/>
+<path fill="none" stroke="#191970" d="M83.8317,-264.4593C94.5538,-225.4272 128.5858,-120.0775 196,-64.5 199.1315,-61.9184 202.5302,-59.6025 206.1007,-57.5252"/>
+<polygon fill="#191970" stroke="#191970" points="207.9632,-60.504 215.2757,-52.8373 204.7782,-54.2705 207.9632,-60.504"/>
 </g>
 <!-- Node109 -->
 <g id="node3" class="node">
 <title>Node109</title>
 <g id="a_node3"><a xlink:href="namespaceprecice_1_1io_1_1constants.html#ad48a2f8ef5a7f56190e47623c170f40f" target="_top" xlink:title="precice::io::constants\l::exportAll">
-<polygon fill="#ffffff" stroke="#000000" points="385,-494.5 385,-524.5 495,-524.5 495,-494.5 385,-494.5"/>
-<text text-anchor="start" x="393" y="-512.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::io::constants</text>
-<text text-anchor="middle" x="440" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::exportAll</text>
+<polygon fill="#ffffff" stroke="#000000" points="418.5,-494.5 418.5,-524.5 538.5,-524.5 538.5,-494.5 418.5,-494.5"/>
+<text text-anchor="start" x="426.5" y="-512.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::io::constants</text>
+<text text-anchor="middle" x="478.5" y="-501.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::exportAll</text>
 </a>
 </g>
 </g>
 <!-- Node108&#45;&gt;Node109 -->
 <g id="edge2" class="edge">
 <title>Node108&#45;&gt;Node109</title>
-<path fill="none" stroke="#191970" d="M324.148,-509.5C340.8696,-509.5 358.5677,-509.5 374.9631,-509.5"/>
-<polygon fill="#191970" stroke="#191970" points="374.9828,-513.0001 384.9828,-509.5 374.9827,-506.0001 374.9828,-513.0001"/>
+<path fill="none" stroke="#191970" d="M356.0334,-509.5C373.2448,-509.5 391.3127,-509.5 408.1247,-509.5"/>
+<polygon fill="#191970" stroke="#191970" points="408.4114,-513.0001 418.4114,-509.5 408.4113,-506.0001 408.4114,-513.0001"/>
 </g>
 <!-- Node114 -->
 <g id="node8" class="node">
 <title>Node114</title>
 <g id="a_node8"><a xlink:href="MPI__Mock_8hpp.html#a38a750883860adf3d7cee6f56442261a" target="_top" xlink:title="MPI_Barrier">
-<polygon fill="#ffffff" stroke="#000000" points="406,-352 406,-371 474,-371 474,-352 406,-352"/>
-<text text-anchor="middle" x="440" y="-359" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">MPI_Barrier</text>
+<polygon fill="#ffffff" stroke="#000000" points="442.5,-352 442.5,-371 514.5,-371 514.5,-352 442.5,-352"/>
+<text text-anchor="middle" x="478.5" y="-359" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">MPI_Barrier</text>
 </a>
 </g>
 </g>
 <!-- Node113&#45;&gt;Node114 -->
 <g id="edge7" class="edge">
 <title>Node113&#45;&gt;Node114</title>
-<path fill="none" stroke="#191970" d="M304.3685,-334.0851C333.1742,-339.9075 368.5162,-347.0512 395.9011,-352.5864"/>
-<polygon fill="#191970" stroke="#191970" points="395.4815,-356.0723 405.9767,-354.623 396.8684,-349.211 395.4815,-356.0723"/>
+<path fill="none" stroke="#191970" d="M332.6768,-334.1356C364.0762,-340.0279 402.6212,-347.261 432.195,-352.8107"/>
+<polygon fill="#191970" stroke="#191970" points="431.7811,-356.294 442.2551,-354.6985 433.0722,-349.4141 431.7811,-356.294"/>
 </g>
 <!-- Node113&#45;&gt;Node115 -->
 <g id="edge8" class="edge">
 <title>Node113&#45;&gt;Node115</title>
-<path fill="none" stroke="#191970" d="M304.3685,-311.2435C323.4158,-306.7857 345.321,-301.6589 365.8939,-296.844"/>
-<polygon fill="#191970" stroke="#191970" points="366.9287,-300.1965 375.8679,-294.5096 365.3334,-293.3806 366.9287,-300.1965"/>
+<path fill="none" stroke="#191970" d="M332.6768,-311.185C353.3671,-306.6894 377.1599,-301.5196 399.4442,-296.6776"/>
+<polygon fill="#191970" stroke="#191970" points="400.1943,-300.0963 409.2231,-294.5527 398.708,-293.2559 400.1943,-300.0963"/>
 </g>
 <!-- Node116 -->
 <g id="node10" class="node">
 <title>Node116</title>
 <g id="a_node10"><a xlink:href="classprecice_1_1utils_1_1EventRegistry.html#ae2cd83819174207b743e580c381dd022" target="_top" xlink:title="Records the event. ">
-<polygon fill="#ffffff" stroke="#000000" points="360,-314 360,-333 520,-333 520,-314 360,-314"/>
-<text text-anchor="middle" x="440" y="-321" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::EventRegistry::put</text>
+<polygon fill="#ffffff" stroke="#000000" points="392,-314 392,-333 565,-333 565,-314 392,-314"/>
+<text text-anchor="middle" x="478.5" y="-321" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::EventRegistry::put</text>
 </a>
 </g>
 </g>
 <!-- Node113&#45;&gt;Node116 -->
 <g id="edge9" class="edge">
 <title>Node113&#45;&gt;Node116</title>
-<path fill="none" stroke="#191970" d="M304.3685,-323.5C318.4503,-323.5 334.0941,-323.5 349.6068,-323.5"/>
-<polygon fill="#191970" stroke="#191970" points="349.7641,-327.0001 359.7641,-323.5 349.7641,-320.0001 349.7641,-327.0001"/>
+<path fill="none" stroke="#191970" d="M332.6768,-323.5C347.8893,-323.5 364.779,-323.5 381.5132,-323.5"/>
+<polygon fill="#191970" stroke="#191970" points="381.8961,-327.0001 391.8961,-323.5 381.8961,-320.0001 381.8961,-327.0001"/>
 </g>
 <!-- Node120 -->
 <g id="node14" class="node">
 <title>Node120</title>
 <g id="a_node14"><a xlink:href="MPI__Mock_8hpp.html#a3199e776e016cbaaed648c2e8c32dd04" target="_top" xlink:title="MPI_Comm_rank">
-<polygon fill="#ffffff" stroke="#000000" points="393.5,-128 393.5,-147 486.5,-147 486.5,-128 393.5,-128"/>
-<text text-anchor="middle" x="440" y="-135" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">MPI_Comm_rank</text>
+<polygon fill="#ffffff" stroke="#000000" points="429.5,-128 429.5,-147 527.5,-147 527.5,-128 429.5,-128"/>
+<text text-anchor="middle" x="478.5" y="-135" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">MPI_Comm_rank</text>
 </a>
 </g>
 </g>
 <!-- Node119&#45;&gt;Node120 -->
 <g id="edge14" class="edge">
 <title>Node119&#45;&gt;Node120</title>
-<path fill="none" stroke="#191970" d="M322.0043,-137.5C342.1805,-137.5 363.9375,-137.5 383.207,-137.5"/>
-<polygon fill="#191970" stroke="#191970" points="383.3319,-141.0001 393.3319,-137.5 383.3318,-134.0001 383.3319,-141.0001"/>
+<path fill="none" stroke="#191970" d="M352.268,-137.5C374.4281,-137.5 398.2912,-137.5 419.2399,-137.5"/>
+<polygon fill="#191970" stroke="#191970" points="419.2694,-141.0001 429.2694,-137.5 419.2693,-134.0001 419.2694,-141.0001"/>
 </g>
 <!-- Node123 -->
 <g id="node17" class="node">
 <title>Node123</title>
 <g id="a_node17"><a xlink:href="classprecice_1_1utils_1_1Parallel.html#a1c1615a4226312e45205bcff9120ca84" target="_top" xlink:title="precice::utils::Parallel\l::resetCommState">
-<polygon fill="#ffffff" stroke="#000000" points="385,-49.5 385,-79.5 495,-79.5 495,-49.5 385,-49.5"/>
-<text text-anchor="start" x="393" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
-<text text-anchor="middle" x="440" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::resetCommState</text>
+<polygon fill="#ffffff" stroke="#000000" points="418,-49.5 418,-79.5 539,-79.5 539,-49.5 418,-49.5"/>
+<text text-anchor="start" x="426" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
+<text text-anchor="middle" x="478.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::resetCommState</text>
 </a>
 </g>
 </g>
 <!-- Node122&#45;&gt;Node123 -->
 <g id="edge17" class="edge">
 <title>Node122&#45;&gt;Node123</title>
-<path fill="none" stroke="#191970" d="M307.6431,-46.8994C328.6742,-49.696 352.7973,-52.9039 374.6395,-55.8084"/>
-<polygon fill="#191970" stroke="#191970" points="374.4499,-59.314 384.824,-57.1628 375.3727,-52.375 374.4499,-59.314"/>
+<path fill="none" stroke="#191970" d="M336.7567,-47.0008C359.0827,-49.7571 384.5536,-52.9017 407.6874,-55.7577"/>
+<polygon fill="#191970" stroke="#191970" points="407.4327,-59.2527 417.7862,-57.0045 408.2904,-52.3055 407.4327,-59.2527"/>
 </g>
 <!-- Node127 -->
 <g id="node21" class="node">
 <title>Node127</title>
 <g id="a_node21"><a xlink:href="classprecice_1_1utils_1_1Parallel.html#afedc3ff728a0f77d6f89bb377f6eb611" target="_top" xlink:title="Unconditionally finalizes MPI environment. ">
-<polygon fill="#ffffff" stroke="#000000" points="385,-.5 385,-30.5 495,-30.5 495,-.5 385,-.5"/>
-<text text-anchor="start" x="393" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
-<text text-anchor="middle" x="440" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::finalizeMPI</text>
+<polygon fill="#ffffff" stroke="#000000" points="418,-.5 418,-30.5 539,-30.5 539,-.5 418,-.5"/>
+<text text-anchor="start" x="426" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
+<text text-anchor="middle" x="478.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::finalizeMPI</text>
 </a>
 </g>
 </g>
 <!-- Node122&#45;&gt;Node127 -->
 <g id="edge22" class="edge">
 <title>Node122&#45;&gt;Node127</title>
-<path fill="none" stroke="#191970" d="M307.6431,-32.3966C328.6742,-29.7118 352.7973,-26.6323 374.6395,-23.8439"/>
-<polygon fill="#191970" stroke="#191970" points="375.3477,-27.282 384.824,-22.5437 374.4613,-20.3383 375.3477,-27.282"/>
+<path fill="none" stroke="#191970" d="M336.7567,-32.2992C359.0827,-29.6532 384.5536,-26.6344 407.6874,-23.8926"/>
+<polygon fill="#191970" stroke="#191970" points="408.2677,-27.3484 417.7862,-22.6957 407.4437,-20.3971 408.2677,-27.3484"/>
 </g>
 <!-- Node124 -->
 <g id="node18" class="node">
 <title>Node124</title>
 <g id="a_node18"><a xlink:href="structprecice_1_1utils_1_1Parallel_1_1CommState.html#a11c87f5cfaad1fb984d9dcd80e6f2c55" target="_top" xlink:title="returns a commstate containing MPI_COMM_WORLD ">
-<polygon fill="#ffffff" stroke="#000000" points="556,-49.5 556,-79.5 666,-79.5 666,-49.5 556,-49.5"/>
-<text text-anchor="start" x="564" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
-<text text-anchor="middle" x="611" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CommState::world</text>
+<polygon fill="#ffffff" stroke="#000000" points="601,-49.5 601,-79.5 722,-79.5 722,-49.5 601,-49.5"/>
+<text text-anchor="start" x="609" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
+<text text-anchor="middle" x="661.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CommState::world</text>
 </a>
 </g>
 </g>
 <!-- Node123&#45;&gt;Node124 -->
 <g id="edge18" class="edge">
 <title>Node123&#45;&gt;Node124</title>
-<path fill="none" stroke="#191970" d="M495.0467,-64.5C511.1366,-64.5 528.8815,-64.5 545.5491,-64.5"/>
-<polygon fill="#191970" stroke="#191970" points="545.7635,-68.0001 555.7634,-64.5 545.7634,-61.0001 545.7635,-68.0001"/>
+<path fill="none" stroke="#191970" d="M539.1822,-64.5C555.6387,-64.5 573.6011,-64.5 590.5684,-64.5"/>
+<polygon fill="#191970" stroke="#191970" points="590.9821,-68.0001 600.982,-64.5 590.982,-61.0001 590.9821,-68.0001"/>
 </g>
 <!-- Node125 -->
 <g id="node19" class="node">
 <title>Node125</title>
 <g id="a_node19"><a xlink:href="structprecice_1_1utils_1_1Parallel_1_1CommState.html#a440432f97f08c595678e1102edb43b9f" target="_top" xlink:title="returns the commstate representing comm ">
-<polygon fill="#ffffff" stroke="#000000" points="702,-71.5 702,-101.5 832,-101.5 832,-71.5 702,-71.5"/>
-<text text-anchor="start" x="710" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
-<text text-anchor="middle" x="767" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CommState::fromComm</text>
+<polygon fill="#ffffff" stroke="#000000" points="758,-71.5 758,-101.5 900,-101.5 900,-71.5 758,-71.5"/>
+<text text-anchor="start" x="766" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
+<text text-anchor="middle" x="829" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CommState::fromComm</text>
 </a>
 </g>
 </g>
 <!-- Node124&#45;&gt;Node125 -->
 <g id="edge19" class="edge">
 <title>Node124&#45;&gt;Node125</title>
-<path fill="none" stroke="#191970" d="M666.439,-72.3183C674.6848,-73.4812 683.2987,-74.696 691.8664,-75.9042"/>
-<polygon fill="#191970" stroke="#191970" points="691.4873,-79.3853 701.8781,-77.3161 692.4649,-72.4539 691.4873,-79.3853"/>
+<path fill="none" stroke="#191970" d="M722.4452,-72.5047C730.7147,-73.5909 739.3053,-74.7192 747.8596,-75.8427"/>
+<polygon fill="#191970" stroke="#191970" points="747.4928,-79.3245 757.8634,-77.1567 748.4044,-72.3842 747.4928,-79.3245"/>
 </g>
 <!-- Node126 -->
 <g id="node20" class="node">
 <title>Node126</title>
 <g id="a_node20"><a xlink:href="structprecice_1_1utils_1_1Parallel_1_1CommState.html#a5e3626f4c22a0aa7ac05cd740dda95ca" target="_top" xlink:title="returns an blank commstate representing MPI_COMM_NULL ">
-<polygon fill="#ffffff" stroke="#000000" points="868,-49.5 868,-79.5 978,-79.5 978,-49.5 868,-49.5"/>
-<text text-anchor="start" x="876" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
-<text text-anchor="middle" x="923" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CommState::null</text>
+<polygon fill="#ffffff" stroke="#000000" points="936,-49.5 936,-79.5 1057,-79.5 1057,-49.5 936,-49.5"/>
+<text text-anchor="start" x="944" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Parallel</text>
+<text text-anchor="middle" x="996.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CommState::null</text>
 </a>
 </g>
 </g>
 <!-- Node124&#45;&gt;Node126 -->
 <g id="edge21" class="edge">
 <title>Node124&#45;&gt;Node126</title>
-<path fill="none" stroke="#191970" d="M666.338,-63.0894C678.1089,-62.8438 690.4649,-62.6267 702,-62.5 759.7743,-61.8652 774.2257,-61.8652 832,-62.5 840.2908,-62.5911 849.0058,-62.7289 857.6227,-62.8903"/>
-<polygon fill="#191970" stroke="#191970" points="857.5945,-66.3904 867.662,-63.0894 857.7334,-59.3918 857.5945,-66.3904"/>
+<path fill="none" stroke="#191970" d="M722.2402,-63.0493C734.0986,-62.8203 746.4382,-62.6198 758,-62.5 821.1077,-61.8461 836.8923,-61.8461 900,-62.5 908.31,-62.5861 917.0219,-62.7139 925.6681,-62.864"/>
+<polygon fill="#191970" stroke="#191970" points="925.6972,-66.365 935.7598,-63.0493 925.8258,-59.3662 925.6972,-66.365"/>
 </g>
 <!-- Node125&#45;&gt;Node126 -->
 <g id="edge20" class="edge">
 <title>Node125&#45;&gt;Node126</title>
-<path fill="none" stroke="#191970" d="M832.2542,-77.2975C840.683,-76.1088 849.3159,-74.8914 857.7447,-73.7027"/>
-<polygon fill="#191970" stroke="#191970" points="858.4841,-77.1331 867.8974,-72.2709 857.5065,-70.2017 858.4841,-77.1331"/>
+<path fill="none" stroke="#191970" d="M900.0351,-77.17C908.6227,-76.0421 917.393,-74.8902 925.9732,-73.7632"/>
+<polygon fill="#191970" stroke="#191970" points="926.4771,-77.2272 935.9362,-72.4547 925.5655,-70.2868 926.4771,-77.2272"/>
 </g>
 </g>
 </svg>

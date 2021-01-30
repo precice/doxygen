@@ -73,5 +73,6 @@ var searchData=
   ['_7etestcontext',['~TestContext',['../classprecice_1_1testing_1_1TestContext.html#a1deda7311bb24dca398397df6677f193',1,'precice::testing::TestContext']]],
   ['_7etracer',['~Tracer',['../classprecice_1_1logging_1_1Tracer.html#aa691e821ca4173a9c09e1cab444552b5',1,'precice::logging::Tracer']]],
   ['_7evaluepreconditioner',['~ValuePreconditioner',['../classprecice_1_1acceleration_1_1impl_1_1ValuePreconditioner.html#a8b01ff00b9b91e9a978070f13a003bbd',1,'precice::acceleration::impl::ValuePreconditioner']]],
-  ['_7evector',['~Vector',['../classprecice_1_1utils_1_1petsc_1_1Vector.html#a0292b1d1c2e0cfd7bfd8f56a033a3da1',1,'precice::utils::petsc::Vector']]]
+  ['_7evector',['~Vector',['../classprecice_1_1utils_1_1petsc_1_1Vector.html#a0292b1d1c2e0cfd7bfd8f56a033a3da1',1,'precice::utils::petsc::Vector']]],
+  ['_7eviewer',['~Viewer',['../structprecice_1_1utils_1_1petsc_1_1Viewer.html#aaac0664d533c016d664d5d67ad5ab4c1',1,'precice::utils::petsc::Viewer']]]
 ];

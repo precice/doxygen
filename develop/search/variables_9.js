@@ -20,5 +20,6 @@ var searchData=
   ['isfinalized',['isFinalized',['../classprecice_1_1utils_1_1RankData.html#aaa2f0129ceee0b2ec218584520a3dc67',1,'precice::utils::RankData']]],
   ['isrbf',['isRBF',['../structprecice_1_1mapping_1_1MappingConfiguration_1_1ConfiguredMapping.html#a25bfdee517307738e287ab79aef7702a',1,'precice::mapping::MappingConfiguration::ConfiguredMapping']]],
   ['isrequesting',['isRequesting',['../classprecice_1_1m2n_1_1BoundM2N.html#a8477bbced5e5693bcf4265019daab0ed',1,'precice::m2n::BoundM2N']]],
+  ['isscalingon',['isScalingOn',['../structprecice_1_1config_1_1ParticipantConfiguration_1_1WatchIntegralConfig.html#aac738ec50a892b821a6850b4f07f9205',1,'precice::config::ParticipantConfiguration::WatchIntegralConfig']]],
   ['its',['its',['../classprecice_1_1acceleration_1_1BaseQNAcceleration.html#aeb881036af3eeb3e4a921fb228465618',1,'precice::acceleration::BaseQNAcceleration']]]
 ];

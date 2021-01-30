@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 284;
+var viewWidth = 309;
 var viewHeight = 453;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,126 +54,126 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::com::ConnectionInfoWriter</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-449 280,-449 280,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-449 305,-449 305,4 -4,4"/>
 <!-- Node2 -->
 <g id="node1" class="node">
 <title>Node2</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="87,-.5 87,-30.5 215,-30.5 215,-.5 87,-.5"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="87,-.5 87,-30.5 227,-30.5 227,-.5 87,-.5"/>
 <text text-anchor="start" x="95" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Connection</text>
-<text text-anchor="middle" x="151" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">InfoWriter</text>
+<text text-anchor="middle" x="157" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">InfoWriter</text>
 </g>
 <!-- Node3 -->
 <g id="node2" class="node">
 <title>Node3</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1com_1_1ConnectionInfoPublisher.html" target="_top" xlink:title="precice::com::Connection\lInfoPublisher">
-<polygon fill="#ffffff" stroke="#000000" points="87,-68.5 87,-98.5 215,-98.5 215,-68.5 87,-68.5"/>
+<polygon fill="#ffffff" stroke="#000000" points="87,-68.5 87,-98.5 227,-98.5 227,-68.5 87,-68.5"/>
 <text text-anchor="start" x="95" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::com::Connection</text>
-<text text-anchor="middle" x="151" y="-75.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">InfoPublisher</text>
+<text text-anchor="middle" x="157" y="-75.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">InfoPublisher</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="#191970" d="M151,-58.1174C151,-48.8378 151,-38.6413 151,-30.5492"/>
-<polygon fill="#191970" stroke="#191970" points="147.5001,-58.4086 151,-68.4086 154.5001,-58.4086 147.5001,-58.4086"/>
+<path fill="none" stroke="#191970" d="M157,-58.1174C157,-48.8378 157,-38.6413 157,-30.5492"/>
+<polygon fill="#191970" stroke="#191970" points="153.5001,-58.4086 157,-68.4086 160.5001,-58.4086 153.5001,-58.4086"/>
 </g>
 <!-- Node4 -->
 <g id="node3" class="node">
 <title>Node4</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1logging_1_1Logger.html" target="_top" xlink:title="This class provides a leightweight logger. ">
-<polygon fill="#ffffff" stroke="#000000" points="38,-179.5 38,-198.5 158,-198.5 158,-179.5 38,-179.5"/>
-<text text-anchor="middle" x="98" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::logging::Logger</text>
+<polygon fill="#ffffff" stroke="#000000" points="32.5,-179.5 32.5,-198.5 165.5,-198.5 165.5,-179.5 32.5,-179.5"/>
+<text text-anchor="middle" x="99" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::logging::Logger</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node4&#45;&gt;Node3</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M107.3974,-170.2939C117.6701,-149.8453 133.9291,-117.4807 143.4205,-98.5875"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="104.2527,-168.7569 102.8911,-179.2639 110.5078,-171.8993 104.2527,-168.7569"/>
-<text text-anchor="middle" x="145" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> _log</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M109.2839,-170.2939C120.5258,-149.8453 138.3186,-117.4807 148.7054,-98.5875"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="106.1031,-168.8147 104.3525,-179.2639 112.2372,-172.187 106.1031,-168.8147"/>
+<text text-anchor="middle" x="151" y="-136.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> _log</text>
 </g>
 <!-- Node5 -->
 <g id="node4" class="node">
 <title>Node5</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="0,-246.5 0,-276.5 152,-276.5 152,-246.5 0,-246.5"/>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="0,-246.5 0,-276.5 170,-276.5 170,-246.5 0,-246.5"/>
 <text text-anchor="start" x="8" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::unique_ptr&lt; precice</text>
-<text text-anchor="middle" x="76" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::logging::Logger::LoggerImpl &gt;</text>
+<text text-anchor="middle" x="85" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::logging::Logger::LoggerImpl &gt;</text>
 </g>
 <!-- Node5&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node5&#45;&gt;Node4</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M83.5283,-236.6908C87.4633,-223.7233 92.0586,-208.5795 94.9972,-198.8957"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="80.113,-235.8925 80.5584,-246.478 86.8114,-237.9251 80.113,-235.8925"/>
-<text text-anchor="middle" x="102.5" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> _impl</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M89.8652,-236.305C92.3526,-223.424 95.2376,-208.4836 97.0891,-198.8957"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="86.3604,-235.9957 87.9008,-246.478 93.2334,-237.323 86.3604,-235.9957"/>
+<text text-anchor="middle" x="109.5" y="-220" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> _impl</text>
 </g>
 <!-- Node6 -->
 <g id="node5" class="node">
 <title>Node6</title>
 <g id="a_node5"><a xlink:href="classprecice_1_1logging_1_1Logger_1_1LoggerImpl.html" target="_top" xlink:title="precice::logging::Logger\l::LoggerImpl">
-<polygon fill="#ffffff" stroke="#000000" points="16,-324.5 16,-354.5 136,-354.5 136,-324.5 16,-324.5"/>
-<text text-anchor="start" x="24" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::logging::Logger</text>
-<text text-anchor="middle" x="76" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::LoggerImpl</text>
+<polygon fill="#ffffff" stroke="#000000" points="18.5,-324.5 18.5,-354.5 151.5,-354.5 151.5,-324.5 18.5,-324.5"/>
+<text text-anchor="start" x="26.5" y="-342.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::logging::Logger</text>
+<text text-anchor="middle" x="85" y="-331.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::LoggerImpl</text>
 </a>
 </g>
 </g>
 <!-- Node6&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node6&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M76,-314.2875C76,-301.9187 76,-287.4264 76,-276.7592"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="72.5001,-314.4608 76,-324.4608 79.5001,-314.4608 72.5001,-314.4608"/>
-<text text-anchor="middle" x="83.5" y="-298" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> ptr</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M85,-314.2875C85,-301.9187 85,-287.4264 85,-276.7592"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="81.5001,-314.4608 85,-324.4608 88.5001,-314.4608 81.5001,-314.4608"/>
+<text text-anchor="middle" x="93.5" y="-298" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> ptr</text>
 </g>
 <!-- Node7 -->
 <g id="node6" class="node">
 <title>Node7</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="15,-392.5 15,-444.5 137,-444.5 137,-392.5 15,-392.5"/>
-<text text-anchor="start" x="23" y="-432.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost::log::sources</text>
-<text text-anchor="start" x="23" y="-421.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::severity_logger&lt; boost</text>
-<text text-anchor="start" x="23" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::log::trivial::severity</text>
-<text text-anchor="middle" x="76" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_level &gt;</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="16.5,-392.5 16.5,-444.5 153.5,-444.5 153.5,-392.5 16.5,-392.5"/>
+<text text-anchor="start" x="24.5" y="-432.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost::log::sources</text>
+<text text-anchor="start" x="24.5" y="-421.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::severity_logger&lt; boost</text>
+<text text-anchor="start" x="24.5" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::log::trivial::severity</text>
+<text text-anchor="middle" x="85" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_level &gt;</text>
 </g>
 <!-- Node7&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node7&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M76,-382.0152C76,-372.4501 76,-362.648 76,-354.8696"/>
-<polygon fill="#191970" stroke="#191970" points="72.5001,-382.1941 76,-392.1941 79.5001,-382.1942 72.5001,-382.1941"/>
+<path fill="none" stroke="#191970" d="M85,-382.0152C85,-372.4501 85,-362.648 85,-354.8696"/>
+<polygon fill="#191970" stroke="#191970" points="81.5001,-382.1941 85,-392.1941 88.5001,-382.1942 81.5001,-382.1941"/>
 </g>
 <!-- Node8 -->
 <g id="node7" class="node">
 <title>Node8</title>
 <g id="a_node7"><a xlink:title="STL class. ">
-<polygon fill="#ffffff" stroke="#bfbfbf" points="184,-179.5 184,-198.5 244,-198.5 244,-179.5 184,-179.5"/>
-<text text-anchor="middle" x="214" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::string</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="202.5,-179.5 202.5,-198.5 267.5,-198.5 267.5,-179.5 202.5,-179.5"/>
+<text text-anchor="middle" x="235" y="-186.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::string</text>
 </a>
 </g>
 </g>
 <!-- Node8&#45;&gt;Node3 -->
 <g id="edge6" class="edge">
 <title>Node8&#45;&gt;Node3</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M202.9956,-170.5721C190.7944,-150.1398 171.3431,-117.5666 160.0096,-98.5875"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="200.054,-172.4727 208.186,-179.2639 206.064,-168.8838 200.054,-172.4727"/>
-<text text-anchor="middle" x="237" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> addressDirectory</text>
-<text text-anchor="middle" x="237" y="-142" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tag</text>
-<text text-anchor="middle" x="237" y="-131" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">requesterName</text>
-<text text-anchor="middle" x="237" y="-120" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">acceptorName</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M221.7835,-171.1238C206.706,-150.7305 182.3137,-117.7384 168.1548,-98.5875"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="219.0424,-173.3037 227.8018,-179.2639 224.6711,-169.1422 219.0424,-173.3037"/>
+<text text-anchor="middle" x="257.5" y="-153" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> addressDirectory</text>
+<text text-anchor="middle" x="257.5" y="-142" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">tag</text>
+<text text-anchor="middle" x="257.5" y="-131" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">requesterName</text>
+<text text-anchor="middle" x="257.5" y="-120" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">acceptorName</text>
 </g>
 <!-- Node9 -->
 <g id="node8" class="node">
 <title>Node9</title>
 <g id="a_node8"><a xlink:title="STL class. ">
-<polygon fill="#ffffff" stroke="#bfbfbf" points="170.5,-246.5 170.5,-276.5 265.5,-276.5 265.5,-246.5 170.5,-246.5"/>
-<text text-anchor="start" x="178.5" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::basic_string&lt;</text>
-<text text-anchor="middle" x="218" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> char &gt;</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="188,-246.5 188,-276.5 292,-276.5 292,-246.5 188,-246.5"/>
+<text text-anchor="start" x="196" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::basic_string&lt;</text>
+<text text-anchor="middle" x="240" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> char &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node9&#45;&gt;Node8</title>
-<path fill="none" stroke="#191970" d="M216.6099,-236.305C215.8993,-223.424 215.075,-208.4836 214.546,-198.8957"/>
-<polygon fill="#191970" stroke="#191970" points="213.1255,-236.686 217.1712,-246.478 220.1149,-236.3003 213.1255,-236.686"/>
+<path fill="none" stroke="#191970" d="M238.2624,-236.305C237.3741,-223.424 236.3437,-208.4836 235.6825,-198.8957"/>
+<polygon fill="#191970" stroke="#191970" points="234.7842,-236.7425 238.964,-246.478 241.7676,-236.2608 234.7842,-236.7425"/>
 </g>
 </g>
 </svg>

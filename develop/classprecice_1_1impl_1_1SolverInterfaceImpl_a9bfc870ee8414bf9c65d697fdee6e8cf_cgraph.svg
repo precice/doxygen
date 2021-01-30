@@ -46,340 +46,340 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 666;
+var viewWidth = 718;
 var viewHeight = 621;
-var sectionId = 'dynsection-24';
+var sectionId = 'dynsection-28';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::impl::SolverInterfaceImpl::setMeshQuadWithEdges</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-617 662,-617 662,4 -4,4"/>
-<!-- Node215 -->
-<g id="node1" class="node">
-<title>Node215</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-352.5 0,-382.5 150,-382.5 150,-352.5 0,-352.5"/>
-<text text-anchor="start" x="8" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::impl::SolverInterface</text>
-<text text-anchor="middle" x="75" y="-359.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Impl::setMeshQuadWithEdges</text>
-</g>
-<!-- Node216 -->
-<g id="node2" class="node">
-<title>Node216</title>
-<g id="a_node2"><a xlink:href="classprecice_1_1impl_1_1SolverInterfaceImpl.html#abafb6219d109dc3cdaab56cc1814ab82" target="_top" xlink:title="Allows to access a registered mesh. ">
-<polygon fill="#ffffff" stroke="#000000" points="186,-582.5 186,-612.5 330,-612.5 330,-582.5 186,-582.5"/>
-<text text-anchor="start" x="194" y="-600.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::impl::SolverInterface</text>
-<text text-anchor="middle" x="258" y="-589.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Impl::mesh</text>
-</a>
-</g>
-</g>
-<!-- Node215&#45;&gt;Node216 -->
-<g id="edge1" class="edge">
-<title>Node215&#45;&gt;Node216</title>
-<path fill="none" stroke="#191970" d="M78.949,-382.6648C89.584,-420.5337 122.4127,-520.0326 186,-573.5 187.5127,-574.772 189.0954,-575.9773 190.7345,-577.1194"/>
-<polygon fill="#191970" stroke="#191970" points="188.9706,-580.1428 199.3396,-582.319 192.5908,-574.1516 188.9706,-580.1428"/>
-</g>
-<!-- Node217 -->
-<g id="node3" class="node">
-<title>Node217</title>
-<g id="a_node3"><a xlink:href="namespaceprecice_1_1impl.html#a35061dd5dea8f5b6c982bbc1849fc61d" target="_top" xlink:title="precice::impl::errorInvalid\lVertexID">
-<polygon fill="#ffffff" stroke="#000000" points="195,-533.5 195,-563.5 321,-563.5 321,-533.5 195,-533.5"/>
-<text text-anchor="start" x="203" y="-551.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::impl::errorInvalid</text>
-<text text-anchor="middle" x="258" y="-540.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">VertexID</text>
-</a>
-</g>
-</g>
-<!-- Node215&#45;&gt;Node217 -->
-<g id="edge2" class="edge">
-<title>Node215&#45;&gt;Node217</title>
-<path fill="none" stroke="#191970" d="M81.8436,-382.7512C96.4987,-413.7377 133.8718,-484.4216 186,-523.5 188.4616,-525.3453 191.0699,-527.0617 193.778,-528.6573"/>
-<polygon fill="#191970" stroke="#191970" points="192.2291,-531.7971 202.7092,-533.3522 195.4862,-525.6011 192.2291,-531.7971"/>
-</g>
-<!-- Node218 -->
-<g id="node4" class="node">
-<title>Node218</title>
-<g id="a_node4"><a xlink:href="classprecice_1_1mesh_1_1Mesh.html#af5ee0ce0045f0f62382eadc5f4f5b105" target="_top" xlink:title="Returns true if the given vertexID is valid. ">
-<polygon fill="#ffffff" stroke="#000000" points="204,-308.5 204,-338.5 312,-338.5 312,-308.5 204,-308.5"/>
-<text text-anchor="start" x="212" y="-326.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Mesh</text>
-<text text-anchor="middle" x="258" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isValidVertexID</text>
-</a>
-</g>
-</g>
-<!-- Node215&#45;&gt;Node218 -->
-<g id="edge3" class="edge">
-<title>Node215&#45;&gt;Node218</title>
-<path fill="none" stroke="#191970" d="M137.4664,-352.4808C155.6381,-348.1116 175.5141,-343.3327 193.7911,-338.9382"/>
-<polygon fill="#191970" stroke="#191970" points="194.8548,-342.2823 203.7595,-336.5414 193.2183,-335.4762 194.8548,-342.2823"/>
-</g>
-<!-- Node220 -->
-<g id="node6" class="node">
-<title>Node220</title>
-<g id="a_node6"><a xlink:href="namespaceprecice_1_1utils.html#a5b6e7c7682a521aedca3fe44cc5c060c" target="_top" xlink:title="Function that generates an array from given elements. ">
-<polygon fill="#ffffff" stroke="#000000" points="207,-445.5 207,-475.5 309,-475.5 309,-445.5 207,-445.5"/>
-<text text-anchor="start" x="215" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::make</text>
-<text text-anchor="middle" x="258" y="-452.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_array</text>
-</a>
-</g>
-</g>
-<!-- Node215&#45;&gt;Node220 -->
-<g id="edge5" class="edge">
-<title>Node215&#45;&gt;Node220</title>
-<path fill="none" stroke="#191970" d="M95.851,-382.5395C117.5539,-397.6857 152.9315,-420.974 186,-436.5 189.9993,-438.3777 194.1861,-440.1752 198.4428,-441.8814"/>
-<polygon fill="#191970" stroke="#191970" points="197.2367,-445.1673 207.8273,-445.4663 199.7347,-438.6282 197.2367,-445.1673"/>
-</g>
-<!-- Node221 -->
-<g id="node7" class="node">
-<title>Node221</title>
-<g id="a_node7"><a xlink:href="namespaceprecice_1_1utils.html#a8f1caaf51865145ea758cbe2d1657d48" target="_top" xlink:title="precice::utils::unique\l_elements">
-<polygon fill="#ffffff" stroke="#000000" points="204.5,-396.5 204.5,-426.5 311.5,-426.5 311.5,-396.5 204.5,-396.5"/>
-<text text-anchor="start" x="212.5" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::unique</text>
-<text text-anchor="middle" x="258" y="-403.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_elements</text>
-</a>
-</g>
-</g>
-<!-- Node215&#45;&gt;Node221 -->
-<g id="edge6" class="edge">
-<title>Node215&#45;&gt;Node221</title>
-<path fill="none" stroke="#191970" d="M137.4664,-382.5192C155.8977,-386.9508 176.0825,-391.804 194.5736,-396.2499"/>
-<polygon fill="#191970" stroke="#191970" points="193.8182,-399.668 204.3594,-398.6028 195.4547,-392.862 193.8182,-399.668"/>
-</g>
-<!-- Node222 -->
-<g id="node8" class="node">
-<title>Node222</title>
-<g id="a_node8"><a xlink:href="namespaceprecice_1_1mesh.html#a5a7124e24a25e64c99ddf6ce6aba9f96" target="_top" xlink:title="Given a mesh and an array of vertexIDS, this function returns an array of coordinates of the vertices...">
-<polygon fill="#ffffff" stroke="#000000" points="194,-495 194,-514 322,-514 322,-495 194,-495"/>
-<text text-anchor="middle" x="258" y="-502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::coordsFor</text>
-</a>
-</g>
-</g>
-<!-- Node215&#45;&gt;Node222 -->
-<g id="edge7" class="edge">
-<title>Node215&#45;&gt;Node222</title>
-<path fill="none" stroke="#191970" d="M84.9953,-382.7324C102.4106,-408.0338 140.8076,-458.5954 186,-485.5 189.6866,-487.6948 193.6274,-489.6398 197.6945,-491.3629"/>
-<polygon fill="#191970" stroke="#191970" points="196.7615,-494.7513 207.3536,-494.9941 199.2248,-488.199 196.7615,-494.7513"/>
-</g>
-<!-- Node223 -->
-<g id="node9" class="node">
-<title>Node223</title>
-<g id="a_node9"><a xlink:href="namespaceprecice_1_1math_1_1geometry.html#ad42e2f02d09a55a766329ae82cde70d6" target="_top" xlink:title="precice::math::geometry\l::isConvexQuad">
-<polygon fill="#ffffff" stroke="#000000" points="197,-210.5 197,-240.5 319,-240.5 319,-210.5 197,-210.5"/>
-<text text-anchor="start" x="205" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::math::geometry</text>
-<text text-anchor="middle" x="258" y="-217.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isConvexQuad</text>
-</a>
-</g>
-</g>
-<!-- Node215&#45;&gt;Node223 -->
-<g id="edge9" class="edge">
-<title>Node215&#45;&gt;Node223</title>
-<path fill="none" stroke="#191970" d="M85.5431,-352.3731C103.4715,-327.7033 142.238,-278.7327 186,-250.5 189.1307,-248.4803 192.4437,-246.6024 195.861,-244.8596"/>
-<polygon fill="#191970" stroke="#191970" points="197.5102,-247.9525 205.097,-240.5572 194.5543,-241.6072 197.5102,-247.9525"/>
-</g>
-<!-- Node225 -->
-<g id="node11" class="node">
-<title>Node225</title>
-<g id="a_node11"><a xlink:href="namespaceprecice_1_1utils.html#a1385b0d82045a8400ae9c4033b9e896e" target="_top" xlink:title="Reorders an array given an array of unique indices. ">
-<polygon fill="#ffffff" stroke="#000000" points="204,-259.5 204,-289.5 312,-289.5 312,-259.5 204,-259.5"/>
-<text text-anchor="start" x="212" y="-277.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::reorder</text>
-<text text-anchor="middle" x="258" y="-266.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_array</text>
-</a>
-</g>
-</g>
-<!-- Node215&#45;&gt;Node225 -->
-<g id="edge11" class="edge">
-<title>Node215&#45;&gt;Node225</title>
-<path fill="none" stroke="#191970" d="M96.7421,-352.2291C118.5663,-337.3774 153.5189,-314.8677 186,-299.5 190.5919,-297.3275 195.4257,-295.2443 200.3257,-293.2726"/>
-<polygon fill="#191970" stroke="#191970" points="201.7138,-296.4885 209.784,-289.6239 199.1944,-289.9576 201.7138,-296.4885"/>
-</g>
-<!-- Node226 -->
-<g id="node12" class="node">
-<title>Node226</title>
-<g id="a_node12"><a xlink:href="namespaceprecice_1_1mesh.html#a8b0288a6bdcf6f936ef7e63713013742" target="_top" xlink:title="Given a mesh and an array of vertexIDS, this function returns an array of pointers to vertices...">
-<polygon fill="#ffffff" stroke="#000000" points="186.5,-358 186.5,-377 329.5,-377 329.5,-358 186.5,-358"/>
-<text text-anchor="middle" x="258" y="-365" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::vertexPtrsFor</text>
-</a>
-</g>
-</g>
-<!-- Node215&#45;&gt;Node226 -->
-<g id="edge12" class="edge">
-<title>Node215&#45;&gt;Node226</title>
-<path fill="none" stroke="#191970" d="M150.2253,-367.5C158.7989,-367.5 167.5694,-367.5 176.2226,-367.5"/>
-<polygon fill="#191970" stroke="#191970" points="176.308,-371.0001 186.308,-367.5 176.3079,-364.0001 176.308,-371.0001"/>
-</g>
-<!-- Node227 -->
-<g id="node13" class="node">
-<title>Node227</title>
-<g id="a_node13"><a xlink:href="classprecice_1_1mesh_1_1Mesh.html#aaeeb91bf6152969a12f3901841e1db0c" target="_top" xlink:title="Creates and initializes an Edge object or returns an already existing one. ">
-<polygon fill="#ffffff" stroke="#000000" points="204,-161.5 204,-191.5 312,-191.5 312,-161.5 204,-161.5"/>
-<text text-anchor="start" x="212" y="-179.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Mesh</text>
-<text text-anchor="middle" x="258" y="-168.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::createUniqueEdge</text>
-</a>
-</g>
-</g>
-<!-- Node215&#45;&gt;Node227 -->
-<g id="edge14" class="edge">
-<title>Node215&#45;&gt;Node227</title>
-<path fill="none" stroke="#191970" d="M81.1464,-352.2611C94.9851,-319.8187 131.6792,-243.4676 186,-201.5 188.7536,-199.3726 191.7011,-197.4185 194.7739,-195.6245"/>
-<polygon fill="#191970" stroke="#191970" points="196.4482,-198.6989 203.7074,-190.9817 193.2201,-192.4876 196.4482,-198.6989"/>
-</g>
-<!-- Node233 -->
-<g id="node19" class="node">
-<title>Node233</title>
-<g id="a_node19"><a xlink:href="classprecice_1_1mesh_1_1Mesh.html#a00c3db2576c63d8c6f351175ddc0a4d0" target="_top" xlink:title="Creates and initializes a Triangle object. ">
-<polygon fill="#ffffff" stroke="#000000" points="204,-44.5 204,-74.5 312,-74.5 312,-44.5 204,-44.5"/>
-<text text-anchor="start" x="212" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Mesh</text>
-<text text-anchor="middle" x="258" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::createTriangle</text>
-</a>
-</g>
-</g>
-<!-- Node215&#45;&gt;Node233 -->
-<g id="edge20" class="edge">
-<title>Node215&#45;&gt;Node233</title>
-<path fill="none" stroke="#191970" d="M81.6428,-352.3868C97.6409,-316.5462 140.3742,-224.0448 186,-152.5 201.9952,-127.4182 223.1033,-100.7646 238.3245,-82.4513"/>
-<polygon fill="#191970" stroke="#191970" points="241.1162,-84.5694 244.8643,-74.6596 235.7545,-80.0691 241.1162,-84.5694"/>
-</g>
-<!-- Node219 -->
-<g id="node5" class="node">
-<title>Node219</title>
-<g id="a_node5"><a xlink:href="classprecice_1_1mesh_1_1Mesh.html#a13faa9b03e5d20918ed6528db1415fa3" target="_top" xlink:title="Returns modifieable container holding all vertices. ">
-<polygon fill="#ffffff" stroke="#000000" points="368.5,-352.5 368.5,-382.5 476.5,-382.5 476.5,-352.5 368.5,-352.5"/>
-<text text-anchor="start" x="376.5" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Mesh</text>
-<text text-anchor="middle" x="422.5" y="-359.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::vertices</text>
-</a>
-</g>
-</g>
-<!-- Node218&#45;&gt;Node219 -->
-<g id="edge4" class="edge">
-<title>Node218&#45;&gt;Node219</title>
-<path fill="none" stroke="#191970" d="M312.3194,-338.0292C327.0589,-341.9717 343.1564,-346.2774 358.3816,-350.3498"/>
-<polygon fill="#191970" stroke="#191970" points="357.6729,-353.7832 368.2377,-352.9861 359.4817,-347.0209 357.6729,-353.7832"/>
-</g>
-<!-- Node222&#45;&gt;Node219 -->
-<g id="edge8" class="edge">
-<title>Node222&#45;&gt;Node219</title>
-<path fill="none" stroke="#191970" d="M310.4727,-494.9824C317.3493,-492.5144 324.0602,-489.4084 330,-485.5 366.3745,-461.5655 394.7073,-418.5278 409.977,-391.5712"/>
-<polygon fill="#191970" stroke="#191970" points="413.0685,-393.2129 414.8251,-382.7647 406.9363,-389.8371 413.0685,-393.2129"/>
-</g>
-<!-- Node224 -->
-<g id="node10" class="node">
-<title>Node224</title>
-<g id="a_node10"><a xlink:href="namespaceprecice_1_1math.html#a0e86802cfe992deba131d789d035b5b7" target="_top" xlink:title="Compares two Eigen::MatrixBase for equality up to tolerance. ">
-<polygon fill="#ffffff" stroke="#000000" points="367.5,-285 367.5,-304 477.5,-304 477.5,-285 367.5,-285"/>
-<text text-anchor="middle" x="422.5" y="-292" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::math::equals</text>
-</a>
-</g>
-</g>
-<!-- Node223&#45;&gt;Node224 -->
-<g id="edge10" class="edge">
-<title>Node223&#45;&gt;Node224</title>
-<path fill="none" stroke="#191970" d="M307.1616,-240.5477C314.9521,-243.5051 322.8058,-246.8402 330,-250.5 347.3622,-259.3324 348.5947,-266.7528 366,-275.5 370.2824,-277.6522 374.8645,-279.6475 379.4977,-281.4723"/>
-<polygon fill="#191970" stroke="#191970" points="378.4066,-284.8002 389,-284.9739 380.8271,-278.232 378.4066,-284.8002"/>
-</g>
-<!-- Node226&#45;&gt;Node219 -->
-<g id="edge13" class="edge">
-<title>Node226&#45;&gt;Node219</title>
-<path fill="none" stroke="#191970" d="M329.6736,-367.5C339.211,-367.5 348.9413,-367.5 358.3401,-367.5"/>
-<polygon fill="#191970" stroke="#191970" points="358.3838,-371.0001 368.3838,-367.5 358.3837,-364.0001 358.3838,-371.0001"/>
-</g>
-<!-- Node228 -->
-<g id="node14" class="node">
-<title>Node228</title>
-<g id="a_node14"><a xlink:href="classprecice_1_1mesh_1_1Vertex.html#aeccde29fd990bdba5a5792372c341ef4" target="_top" xlink:title="Returns the unique (among vertices of one mesh on one processor) ID of the vertex. ">
-<polygon fill="#ffffff" stroke="#000000" points="366,-235.5 366,-265.5 479,-265.5 479,-235.5 366,-235.5"/>
-<text text-anchor="start" x="374" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Vertex</text>
-<text text-anchor="middle" x="422.5" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getID</text>
-</a>
-</g>
-</g>
-<!-- Node227&#45;&gt;Node228 -->
-<g id="edge15" class="edge">
-<title>Node227&#45;&gt;Node228</title>
-<path fill="none" stroke="#191970" d="M307.1616,-191.5477C314.9521,-194.5051 322.8058,-197.8402 330,-201.5 347.3622,-210.3324 348.9456,-217.0869 366,-226.5 368.8458,-228.0707 371.8155,-229.6078 374.8391,-231.097"/>
-<polygon fill="#191970" stroke="#191970" points="373.4633,-234.3177 384.0021,-235.4067 376.4427,-227.9834 373.4633,-234.3177"/>
-</g>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-617 714,-617 714,4 -4,4"/>
 <!-- Node229 -->
-<g id="node15" class="node">
+<g id="node1" class="node">
 <title>Node229</title>
-<g id="a_node15"><a xlink:href="classprecice_1_1mesh_1_1Mesh.html#aec6f303d7791f8a64e2b78180531c89e" target="_top" xlink:title="Returns modifiable container holding all edges. ">
-<polygon fill="#ffffff" stroke="#000000" points="368.5,-186.5 368.5,-216.5 476.5,-216.5 476.5,-186.5 368.5,-186.5"/>
-<text text-anchor="start" x="376.5" y="-204.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Mesh</text>
-<text text-anchor="middle" x="422.5" y="-193.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::edges</text>
-</a>
-</g>
-</g>
-<!-- Node227&#45;&gt;Node229 -->
-<g id="edge16" class="edge">
-<title>Node227&#45;&gt;Node229</title>
-<path fill="none" stroke="#191970" d="M312.3194,-184.7552C326.9185,-186.9739 342.8499,-189.3951 357.9463,-191.6894"/>
-<polygon fill="#191970" stroke="#191970" points="357.8253,-195.2111 368.2377,-193.2534 358.8771,-188.2906 357.8253,-195.2111"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-352.5 0,-382.5 162,-382.5 162,-352.5 0,-352.5"/>
+<text text-anchor="start" x="8" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::impl::SolverInterface</text>
+<text text-anchor="middle" x="81" y="-359.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Impl::setMeshQuadWithEdges</text>
 </g>
 <!-- Node230 -->
-<g id="node16" class="node">
+<g id="node2" class="node">
 <title>Node230</title>
-<g id="a_node16"><a xlink:href="classprecice_1_1mesh_1_1Edge.html#a7fc88e0289fecf4c41c230d20311dcdb" target="_top" xlink:title="Returns the edge&#39;s vertex with index 0 or 1. ">
-<polygon fill="#ffffff" stroke="#000000" points="369,-137.5 369,-167.5 476,-167.5 476,-137.5 369,-137.5"/>
-<text text-anchor="start" x="377" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Edge</text>
-<text text-anchor="middle" x="422.5" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::vertex</text>
+<g id="a_node2"><a xlink:href="classprecice_1_1impl_1_1SolverInterfaceImpl.html#abafb6219d109dc3cdaab56cc1814ab82" target="_top" xlink:title="Allows to access a registered mesh. ">
+<polygon fill="#ffffff" stroke="#000000" points="198,-582.5 198,-612.5 358,-612.5 358,-582.5 198,-582.5"/>
+<text text-anchor="start" x="206" y="-600.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::impl::SolverInterface</text>
+<text text-anchor="middle" x="278" y="-589.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Impl::mesh</text>
 </a>
 </g>
 </g>
-<!-- Node227&#45;&gt;Node230 -->
-<g id="edge17" class="edge">
-<title>Node227&#45;&gt;Node230</title>
-<path fill="none" stroke="#191970" d="M312.3194,-168.575C327.2124,-166.4021 343.4919,-164.027 358.8571,-161.7853"/>
-<polygon fill="#191970" stroke="#191970" points="359.4085,-165.242 368.7984,-160.3349 358.3978,-158.3153 359.4085,-165.242"/>
+<!-- Node229&#45;&gt;Node230 -->
+<g id="edge1" class="edge">
+<title>Node229&#45;&gt;Node230</title>
+<path fill="none" stroke="#191970" d="M85.2295,-382.5131C96.7013,-420.4653 132.0615,-520.952 198,-573.5 199.6159,-574.7878 201.2999,-576.0066 203.0392,-577.16"/>
+<polygon fill="#191970" stroke="#191970" points="201.7268,-580.4431 212.1393,-582.4002 205.2199,-574.3769 201.7268,-580.4431"/>
 </g>
 <!-- Node231 -->
-<g id="node17" class="node">
+<g id="node3" class="node">
 <title>Node231</title>
-<g id="a_node17"><a xlink:href="classprecice_1_1mesh_1_1Mesh.html#ae05c5234aa9adc6f47a814622039c28e" target="_top" xlink:title="Creates and initializes an Edge object. ">
-<polygon fill="#ffffff" stroke="#000000" points="368.5,-88.5 368.5,-118.5 476.5,-118.5 476.5,-88.5 368.5,-88.5"/>
-<text text-anchor="start" x="376.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Mesh</text>
-<text text-anchor="middle" x="422.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::createEdge</text>
+<g id="a_node3"><a xlink:href="namespaceprecice_1_1impl.html#a35061dd5dea8f5b6c982bbc1849fc61d" target="_top" xlink:title="precice::impl::errorInvalid\lVertexID">
+<polygon fill="#ffffff" stroke="#000000" points="207,-533.5 207,-563.5 349,-563.5 349,-533.5 207,-533.5"/>
+<text text-anchor="start" x="215" y="-551.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::impl::errorInvalid</text>
+<text text-anchor="middle" x="278" y="-540.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">VertexID</text>
 </a>
 </g>
 </g>
-<!-- Node227&#45;&gt;Node231 -->
-<g id="edge18" class="edge">
-<title>Node227&#45;&gt;Node231</title>
-<path fill="none" stroke="#191970" d="M292.0427,-161.3527C313.3008,-151.8983 341.241,-139.4797 366,-128.5 370.3083,-126.5894 374.802,-124.5983 379.2906,-122.6105"/>
-<polygon fill="#191970" stroke="#191970" points="380.7088,-125.8104 388.4359,-118.5618 377.8751,-119.4096 380.7088,-125.8104"/>
+<!-- Node229&#45;&gt;Node231 -->
+<g id="edge2" class="edge">
+<title>Node229&#45;&gt;Node231</title>
+<path fill="none" stroke="#191970" d="M88.3376,-382.8814C104.0138,-414.1079 143.8071,-485.2115 198,-523.5 200.7334,-525.4312 203.6214,-527.2172 206.6141,-528.8685"/>
+<polygon fill="#191970" stroke="#191970" points="205.3403,-532.1427 215.8568,-533.4287 208.4375,-525.8652 205.3403,-532.1427"/>
 </g>
 <!-- Node232 -->
-<g id="node18" class="node">
+<g id="node4" class="node">
 <title>Node232</title>
-<g id="a_node18"><a xlink:href="classprecice_1_1utils_1_1ManageUniqueIDs.html#a02be264c279698ae293587b6576088b5" target="_top" xlink:title="precice::utils::ManageUnique\lIDs::getFreeID">
-<polygon fill="#ffffff" stroke="#000000" points="515,-66.5 515,-96.5 658,-96.5 658,-66.5 515,-66.5"/>
-<text text-anchor="start" x="523" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::ManageUnique</text>
-<text text-anchor="middle" x="586.5" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">IDs::getFreeID</text>
+<g id="a_node4"><a xlink:href="classprecice_1_1mesh_1_1Mesh.html#af5ee0ce0045f0f62382eadc5f4f5b105" target="_top" xlink:title="Returns true if the given vertexID is valid. ">
+<polygon fill="#ffffff" stroke="#000000" points="220,-308.5 220,-338.5 336,-338.5 336,-308.5 220,-308.5"/>
+<text text-anchor="start" x="228" y="-326.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Mesh</text>
+<text text-anchor="middle" x="278" y="-315.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isValidVertexID</text>
 </a>
 </g>
 </g>
-<!-- Node231&#45;&gt;Node232 -->
-<g id="edge19" class="edge">
-<title>Node231&#45;&gt;Node232</title>
-<path fill="none" stroke="#191970" d="M476.6542,-96.2354C485.7255,-95.0185 495.3126,-93.7325 504.8926,-92.4473"/>
-<polygon fill="#191970" stroke="#191970" points="505.4056,-95.91 514.8514,-91.1114 504.4749,-88.9721 505.4056,-95.91"/>
-</g>
-<!-- Node233&#45;&gt;Node232 -->
-<g id="edge22" class="edge">
-<title>Node233&#45;&gt;Node232</title>
-<path fill="none" stroke="#191970" d="M312.2451,-63.1329C364.6143,-66.6401 444.5957,-71.9965 504.6949,-76.0214"/>
-<polygon fill="#191970" stroke="#191970" points="504.705,-79.5299 514.9166,-76.706 505.1728,-72.5455 504.705,-79.5299"/>
+<!-- Node229&#45;&gt;Node232 -->
+<g id="edge3" class="edge">
+<title>Node229&#45;&gt;Node232</title>
+<path fill="none" stroke="#191970" d="M148.2452,-352.4808C168.1741,-348.0296 190.0073,-343.1532 209.9846,-338.6912"/>
+<polygon fill="#191970" stroke="#191970" points="210.9365,-342.065 219.9331,-336.4693 209.4106,-335.2333 210.9365,-342.065"/>
 </g>
 <!-- Node234 -->
-<g id="node20" class="node">
+<g id="node6" class="node">
 <title>Node234</title>
-<g id="a_node20"><a xlink:href="classprecice_1_1mesh_1_1Edge.html#af27f4bd02d0b67cc5c3d04e2cf1ddee7" target="_top" xlink:title="Checks whether both edges share a vertex. ">
-<polygon fill="#ffffff" stroke="#000000" points="369,-.5 369,-30.5 476,-30.5 476,-.5 369,-.5"/>
-<text text-anchor="start" x="377" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Edge</text>
-<text text-anchor="middle" x="422.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::connectedTo</text>
+<g id="a_node6"><a xlink:href="namespaceprecice_1_1utils.html#a5b6e7c7682a521aedca3fe44cc5c060c" target="_top" xlink:title="Function that generates an array from given elements. ">
+<polygon fill="#ffffff" stroke="#000000" points="221.5,-445.5 221.5,-475.5 334.5,-475.5 334.5,-445.5 221.5,-445.5"/>
+<text text-anchor="start" x="229.5" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::make</text>
+<text text-anchor="middle" x="278" y="-452.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_array</text>
 </a>
 </g>
 </g>
-<!-- Node233&#45;&gt;Node234 -->
+<!-- Node229&#45;&gt;Node234 -->
+<g id="edge5" class="edge">
+<title>Node229&#45;&gt;Node234</title>
+<path fill="none" stroke="#191970" d="M103.0064,-382.6706C125.9051,-397.9212 163.2127,-421.2913 198,-436.5 202.4177,-438.4314 207.0373,-440.2659 211.732,-441.9961"/>
+<polygon fill="#191970" stroke="#191970" points="210.8383,-445.3917 221.4331,-445.3989 213.1553,-438.7862 210.8383,-445.3917"/>
+</g>
+<!-- Node235 -->
+<g id="node7" class="node">
+<title>Node235</title>
+<g id="a_node7"><a xlink:href="namespaceprecice_1_1utils.html#a8f1caaf51865145ea758cbe2d1657d48" target="_top" xlink:title="precice::utils::unique\l_elements">
+<polygon fill="#ffffff" stroke="#000000" points="219,-396.5 219,-426.5 337,-426.5 337,-396.5 219,-396.5"/>
+<text text-anchor="start" x="227" y="-414.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::unique</text>
+<text text-anchor="middle" x="278" y="-403.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_elements</text>
+</a>
+</g>
+</g>
+<!-- Node229&#45;&gt;Node235 -->
+<g id="edge6" class="edge">
+<title>Node229&#45;&gt;Node235</title>
+<path fill="none" stroke="#191970" d="M148.2452,-382.5192C167.8881,-386.9065 189.3809,-391.7069 209.1232,-396.1164"/>
+<polygon fill="#191970" stroke="#191970" points="208.4398,-399.5499 218.9623,-398.3139 209.9657,-392.7182 208.4398,-399.5499"/>
+</g>
+<!-- Node236 -->
+<g id="node8" class="node">
+<title>Node236</title>
+<g id="a_node8"><a xlink:href="namespaceprecice_1_1mesh.html#a5a7124e24a25e64c99ddf6ce6aba9f96" target="_top" xlink:title="Given a mesh and an array of vertexIDS, this function returns an array of coordinates of the vertices...">
+<polygon fill="#ffffff" stroke="#000000" points="209,-495 209,-514 347,-514 347,-495 209,-495"/>
+<text text-anchor="middle" x="278" y="-502" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::coordsFor</text>
+</a>
+</g>
+</g>
+<!-- Node229&#45;&gt;Node236 -->
+<g id="edge7" class="edge">
+<title>Node229&#45;&gt;Node236</title>
+<path fill="none" stroke="#191970" d="M91.6641,-382.8418C110.2101,-408.3042 150.9545,-459.0971 198,-485.5 202.1392,-487.823 206.5528,-489.8631 211.0995,-491.6546"/>
+<polygon fill="#191970" stroke="#191970" points="209.9796,-494.9708 220.5744,-494.9936 212.3063,-488.3688 209.9796,-494.9708"/>
+</g>
+<!-- Node237 -->
+<g id="node9" class="node">
+<title>Node237</title>
+<g id="a_node9"><a xlink:href="namespaceprecice_1_1math_1_1geometry.html#ad42e2f02d09a55a766329ae82cde70d6" target="_top" xlink:title="precice::math::geometry\l::isConvexQuad">
+<polygon fill="#ffffff" stroke="#000000" points="209.5,-210.5 209.5,-240.5 346.5,-240.5 346.5,-210.5 209.5,-210.5"/>
+<text text-anchor="start" x="217.5" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::math::geometry</text>
+<text text-anchor="middle" x="278" y="-217.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isConvexQuad</text>
+</a>
+</g>
+</g>
+<!-- Node229&#45;&gt;Node237 -->
+<g id="edge9" class="edge">
+<title>Node229&#45;&gt;Node237</title>
+<path fill="none" stroke="#191970" d="M92.2058,-352.2447C111.2367,-327.3902 152.2861,-278.1602 198,-250.5 201.5715,-248.339 205.3471,-246.3484 209.2364,-244.5171"/>
+<polygon fill="#191970" stroke="#191970" points="210.6814,-247.7055 218.4746,-240.528 207.9064,-241.279 210.6814,-247.7055"/>
+</g>
+<!-- Node239 -->
+<g id="node11" class="node">
+<title>Node239</title>
+<g id="a_node11"><a xlink:href="namespaceprecice_1_1utils.html#a1385b0d82045a8400ae9c4033b9e896e" target="_top" xlink:title="Reorders an array given an array of unique indices. ">
+<polygon fill="#ffffff" stroke="#000000" points="218,-259.5 218,-289.5 338,-289.5 338,-259.5 218,-259.5"/>
+<text text-anchor="start" x="226" y="-277.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::reorder</text>
+<text text-anchor="middle" x="278" y="-266.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_array</text>
+</a>
+</g>
+</g>
+<!-- Node229&#45;&gt;Node239 -->
+<g id="edge11" class="edge">
+<title>Node229&#45;&gt;Node239</title>
+<path fill="none" stroke="#191970" d="M103.5052,-352.3737C126.4935,-337.4214 163.5956,-314.6451 198,-299.5 203.2897,-297.1714 208.8638,-294.9636 214.5066,-292.8951"/>
+<polygon fill="#191970" stroke="#191970" points="215.7557,-296.1661 224.03,-289.5489 213.4352,-289.5619 215.7557,-296.1661"/>
+</g>
+<!-- Node240 -->
+<g id="node12" class="node">
+<title>Node240</title>
+<g id="a_node12"><a xlink:href="namespaceprecice_1_1mesh.html#a8b0288a6bdcf6f936ef7e63713013742" target="_top" xlink:title="Given a mesh and an array of vertexIDS, this function returns an array of pointers to vertices...">
+<polygon fill="#ffffff" stroke="#000000" points="200,-358 200,-377 356,-377 356,-358 200,-358"/>
+<text text-anchor="middle" x="278" y="-365" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::vertexPtrsFor</text>
+</a>
+</g>
+</g>
+<!-- Node229&#45;&gt;Node240 -->
+<g id="edge12" class="edge">
+<title>Node229&#45;&gt;Node240</title>
+<path fill="none" stroke="#191970" d="M162.2648,-367.5C171.2746,-367.5 180.483,-367.5 189.5757,-367.5"/>
+<polygon fill="#191970" stroke="#191970" points="189.7757,-371.0001 199.7756,-367.5 189.7756,-364.0001 189.7757,-371.0001"/>
+</g>
+<!-- Node241 -->
+<g id="node13" class="node">
+<title>Node241</title>
+<g id="a_node13"><a xlink:href="classprecice_1_1mesh_1_1Mesh.html#aaeeb91bf6152969a12f3901841e1db0c" target="_top" xlink:title="Creates and initializes an Edge object or returns an already existing one. ">
+<polygon fill="#ffffff" stroke="#000000" points="220,-161.5 220,-191.5 336,-191.5 336,-161.5 220,-161.5"/>
+<text text-anchor="start" x="228" y="-179.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Mesh</text>
+<text text-anchor="middle" x="278" y="-168.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::createUniqueEdge</text>
+</a>
+</g>
+</g>
+<!-- Node229&#45;&gt;Node241 -->
+<g id="edge14" class="edge">
+<title>Node229&#45;&gt;Node241</title>
+<path fill="none" stroke="#191970" d="M87.6082,-352.1308C102.4467,-319.4353 141.5846,-242.6215 198,-201.5 201.9099,-198.6501 206.1536,-196.1187 210.5786,-193.8713"/>
+<polygon fill="#191970" stroke="#191970" points="212.2141,-196.9725 219.8671,-189.6457 209.3154,-190.6008 212.2141,-196.9725"/>
+</g>
+<!-- Node247 -->
+<g id="node19" class="node">
+<title>Node247</title>
+<g id="a_node19"><a xlink:href="classprecice_1_1mesh_1_1Mesh.html#a00c3db2576c63d8c6f351175ddc0a4d0" target="_top" xlink:title="Creates and initializes a Triangle object. ">
+<polygon fill="#ffffff" stroke="#000000" points="220,-44.5 220,-74.5 336,-74.5 336,-44.5 220,-44.5"/>
+<text text-anchor="start" x="228" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Mesh</text>
+<text text-anchor="middle" x="278" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::createTriangle</text>
+</a>
+</g>
+</g>
+<!-- Node229&#45;&gt;Node247 -->
+<g id="edge20" class="edge">
+<title>Node229&#45;&gt;Node247</title>
+<path fill="none" stroke="#191970" d="M87.9101,-352.2653C104.5748,-316.1621 149.2208,-223.1343 198,-152.5 215.5268,-127.1205 238.8253,-100.6936 255.7565,-82.5263"/>
+<polygon fill="#191970" stroke="#191970" points="258.7325,-84.4717 263.044,-74.7938 253.6383,-79.6707 258.7325,-84.4717"/>
+</g>
+<!-- Node233 -->
+<g id="node5" class="node">
+<title>Node233</title>
+<g id="a_node5"><a xlink:href="classprecice_1_1mesh_1_1Mesh.html#a13faa9b03e5d20918ed6528db1415fa3" target="_top" xlink:title="Returns modifieable container holding all vertices. ">
+<polygon fill="#ffffff" stroke="#000000" points="397,-352.5 397,-382.5 513,-382.5 513,-352.5 397,-352.5"/>
+<text text-anchor="start" x="405" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Mesh</text>
+<text text-anchor="middle" x="455" y="-359.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::vertices</text>
+</a>
+</g>
+</g>
+<!-- Node232&#45;&gt;Node233 -->
+<g id="edge4" class="edge">
+<title>Node232&#45;&gt;Node233</title>
+<path fill="none" stroke="#191970" d="M336.447,-338.0292C352.6928,-342.0677 370.4718,-346.4873 387.2046,-350.6469"/>
+<polygon fill="#191970" stroke="#191970" points="386.3672,-354.0452 396.9162,-353.0611 388.056,-347.2519 386.3672,-354.0452"/>
+</g>
+<!-- Node236&#45;&gt;Node233 -->
+<g id="edge8" class="edge">
+<title>Node236&#45;&gt;Node233</title>
+<path fill="none" stroke="#191970" d="M337.8585,-494.8773C344.9334,-492.4276 351.8238,-489.3547 358,-485.5 395.6327,-462.0124 425.5007,-418.8376 441.6835,-391.7323"/>
+<polygon fill="#191970" stroke="#191970" points="444.8326,-393.279 446.8271,-382.8736 438.779,-389.7641 444.8326,-393.279"/>
+</g>
+<!-- Node238 -->
+<g id="node10" class="node">
+<title>Node238</title>
+<g id="a_node10"><a xlink:href="namespaceprecice_1_1math.html#a0e86802cfe992deba131d789d035b5b7" target="_top" xlink:title="Compares two Eigen::MatrixBase for equality up to tolerance. ">
+<polygon fill="#ffffff" stroke="#000000" points="394,-285 394,-304 516,-304 516,-285 394,-285"/>
+<text text-anchor="middle" x="455" y="-292" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::math::equals</text>
+</a>
+</g>
+</g>
+<!-- Node237&#45;&gt;Node238 -->
+<g id="edge10" class="edge">
+<title>Node237&#45;&gt;Node238</title>
+<path fill="none" stroke="#191970" d="M333.9358,-240.5764C342.1662,-243.4802 350.4187,-246.7915 358,-250.5 375.4984,-259.0595 376.4976,-266.9487 394,-275.5 398.5549,-277.7254 403.4276,-279.7618 408.3595,-281.6057"/>
+<polygon fill="#191970" stroke="#191970" points="407.254,-284.9268 417.8488,-284.9136 409.5582,-278.3169 407.254,-284.9268"/>
+</g>
+<!-- Node240&#45;&gt;Node233 -->
+<g id="edge13" class="edge">
+<title>Node240&#45;&gt;Node233</title>
+<path fill="none" stroke="#191970" d="M356.15,-367.5C366.3225,-367.5 376.68,-367.5 386.6749,-367.5"/>
+<polygon fill="#191970" stroke="#191970" points="386.9364,-371.0001 396.9364,-367.5 386.9363,-364.0001 386.9364,-371.0001"/>
+</g>
+<!-- Node242 -->
+<g id="node14" class="node">
+<title>Node242</title>
+<g id="a_node14"><a xlink:href="classprecice_1_1mesh_1_1Vertex.html#aeccde29fd990bdba5a5792372c341ef4" target="_top" xlink:title="Returns the unique (among vertices of one mesh on one processor) ID of the vertex. ">
+<polygon fill="#ffffff" stroke="#000000" points="394,-235.5 394,-265.5 516,-265.5 516,-235.5 394,-235.5"/>
+<text text-anchor="start" x="402" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Vertex</text>
+<text text-anchor="middle" x="455" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getID</text>
+</a>
+</g>
+</g>
+<!-- Node241&#45;&gt;Node242 -->
+<g id="edge15" class="edge">
+<title>Node241&#45;&gt;Node242</title>
+<path fill="none" stroke="#191970" d="M333.9358,-191.5764C342.1662,-194.4802 350.4187,-197.7915 358,-201.5 375.4984,-210.0595 376.8209,-217.3167 394,-226.5 397.105,-228.1598 400.3505,-229.769 403.657,-231.3155"/>
+<polygon fill="#191970" stroke="#191970" points="402.5118,-234.6365 413.0715,-235.498 405.3538,-228.2394 402.5118,-234.6365"/>
+</g>
+<!-- Node243 -->
+<g id="node15" class="node">
+<title>Node243</title>
+<g id="a_node15"><a xlink:href="classprecice_1_1mesh_1_1Mesh.html#aec6f303d7791f8a64e2b78180531c89e" target="_top" xlink:title="Returns modifiable container holding all edges. ">
+<polygon fill="#ffffff" stroke="#000000" points="397,-186.5 397,-216.5 513,-216.5 513,-186.5 397,-186.5"/>
+<text text-anchor="start" x="405" y="-204.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Mesh</text>
+<text text-anchor="middle" x="455" y="-193.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::edges</text>
+</a>
+</g>
+</g>
+<!-- Node241&#45;&gt;Node243 -->
+<g id="edge16" class="edge">
+<title>Node241&#45;&gt;Node243</title>
+<path fill="none" stroke="#191970" d="M336.447,-184.7552C352.541,-187.0284 370.1396,-189.5141 386.7352,-191.8581"/>
+<polygon fill="#191970" stroke="#191970" points="386.525,-195.3631 396.9162,-193.2961 387.504,-188.4318 386.525,-195.3631"/>
+</g>
+<!-- Node244 -->
+<g id="node16" class="node">
+<title>Node244</title>
+<g id="a_node16"><a xlink:href="classprecice_1_1mesh_1_1Edge.html#a7fc88e0289fecf4c41c230d20311dcdb" target="_top" xlink:title="Returns the edge&#39;s vertex with index 0 or 1. ">
+<polygon fill="#ffffff" stroke="#000000" points="397.5,-137.5 397.5,-167.5 512.5,-167.5 512.5,-137.5 397.5,-137.5"/>
+<text text-anchor="start" x="405.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Edge</text>
+<text text-anchor="middle" x="455" y="-144.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::vertex</text>
+</a>
+</g>
+</g>
+<!-- Node241&#45;&gt;Node244 -->
+<g id="edge17" class="edge">
+<title>Node241&#45;&gt;Node244</title>
+<path fill="none" stroke="#191970" d="M336.447,-168.575C352.6243,-166.3814 370.322,-163.9818 386.9931,-161.7213"/>
+<polygon fill="#191970" stroke="#191970" points="387.7787,-165.1469 397.2177,-160.3349 386.8381,-158.2103 387.7787,-165.1469"/>
+</g>
+<!-- Node245 -->
+<g id="node17" class="node">
+<title>Node245</title>
+<g id="a_node17"><a xlink:href="classprecice_1_1mesh_1_1Mesh.html#ae05c5234aa9adc6f47a814622039c28e" target="_top" xlink:title="Creates and initializes an Edge object. ">
+<polygon fill="#ffffff" stroke="#000000" points="397,-88.5 397,-118.5 513,-118.5 513,-88.5 397,-88.5"/>
+<text text-anchor="start" x="405" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Mesh</text>
+<text text-anchor="middle" x="455" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::createEdge</text>
+</a>
+</g>
+</g>
+<!-- Node241&#45;&gt;Node245 -->
+<g id="edge18" class="edge">
+<title>Node241&#45;&gt;Node245</title>
+<path fill="none" stroke="#191970" d="M314.2991,-161.4428C337.1612,-151.9685 367.2973,-139.4965 394,-128.5 398.7722,-126.5347 403.7559,-124.4861 408.7285,-122.4445"/>
+<polygon fill="#191970" stroke="#191970" points="410.2959,-125.5846 418.2189,-118.5507 407.6388,-119.1085 410.2959,-125.5846"/>
+</g>
+<!-- Node246 -->
+<g id="node18" class="node">
+<title>Node246</title>
+<g id="a_node18"><a xlink:href="classprecice_1_1utils_1_1ManageUniqueIDs.html#a02be264c279698ae293587b6576088b5" target="_top" xlink:title="precice::utils::ManageUnique\lIDs::getFreeID">
+<polygon fill="#ffffff" stroke="#000000" points="552,-66.5 552,-96.5 710,-96.5 710,-66.5 552,-66.5"/>
+<text text-anchor="start" x="560" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::ManageUnique</text>
+<text text-anchor="middle" x="631" y="-73.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">IDs::getFreeID</text>
+</a>
+</g>
+</g>
+<!-- Node245&#45;&gt;Node246 -->
+<g id="edge19" class="edge">
+<title>Node245&#45;&gt;Node246</title>
+<path fill="none" stroke="#191970" d="M513.1168,-96.2354C522.3315,-95.0836 532.0424,-93.8697 541.7733,-92.6533"/>
+<polygon fill="#191970" stroke="#191970" points="542.4125,-96.1008 551.9011,-91.3874 541.5442,-89.1548 542.4125,-96.1008"/>
+</g>
+<!-- Node247&#45;&gt;Node246 -->
+<g id="edge22" class="edge">
+<title>Node247&#45;&gt;Node246</title>
+<path fill="none" stroke="#191970" d="M336.2908,-63.1329C392.1477,-66.614 477.237,-71.917 541.6511,-75.9315"/>
+<polygon fill="#191970" stroke="#191970" points="541.6056,-79.4354 551.804,-76.5643 542.0411,-72.4489 541.6056,-79.4354"/>
+</g>
+<!-- Node248 -->
+<g id="node20" class="node">
+<title>Node248</title>
+<g id="a_node20"><a xlink:href="classprecice_1_1mesh_1_1Edge.html#af27f4bd02d0b67cc5c3d04e2cf1ddee7" target="_top" xlink:title="Checks whether both edges share a vertex. ">
+<polygon fill="#ffffff" stroke="#000000" points="397.5,-.5 397.5,-30.5 512.5,-30.5 512.5,-.5 397.5,-.5"/>
+<text text-anchor="start" x="405.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Edge</text>
+<text text-anchor="middle" x="455" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::connectedTo</text>
+</a>
+</g>
+</g>
+<!-- Node247&#45;&gt;Node248 -->
 <g id="edge21" class="edge">
-<title>Node233&#45;&gt;Node234</title>
-<path fill="none" stroke="#191970" d="M312.3194,-44.9708C327.2124,-40.9873 343.4919,-36.6329 358.8571,-32.523"/>
-<polygon fill="#191970" stroke="#191970" points="360.0424,-35.8291 368.7984,-29.864 358.2336,-29.0668 360.0424,-35.8291"/>
+<title>Node247&#45;&gt;Node248</title>
+<path fill="none" stroke="#191970" d="M336.447,-44.9708C352.777,-40.9114 370.6561,-36.4669 387.4646,-32.2885"/>
+<polygon fill="#191970" stroke="#191970" points="388.3575,-35.6731 397.2177,-29.864 386.6687,-28.8799 388.3575,-35.6731"/>
 </g>
 </g>
 </svg>

@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 554;
+var viewWidth = 599;
 var viewHeight = 110;
 var sectionId = 'dynsection-6';
 </script>
@@ -54,65 +54,65 @@ var sectionId = 'dynsection-6';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::cplscheme::tests::DummyCouplingScheme::isTimeWindowComplete</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-106 550,-106 550,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-106 595,-106 595,4 -4,4"/>
 <!-- Node25 -->
 <g id="node1" class="node">
 <title>Node25</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-30.5 0,-71.5 159,-71.5 159,-30.5 0,-30.5"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-30.5 0,-71.5 173,-71.5 173,-30.5 0,-30.5"/>
 <text text-anchor="start" x="8" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
 <text text-anchor="start" x="8" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::tests::DummyCouplingScheme</text>
-<text text-anchor="middle" x="79.5" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isTimeWindowComplete</text>
+<text text-anchor="middle" x="86.5" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isTimeWindowComplete</text>
 </g>
 <!-- Node26 -->
 <g id="node2" class="node">
 <title>Node26</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1cplscheme_1_1tests_1_1DummyCouplingScheme.html#acc93fe7851ebdc0f8c4f24bd30634dab" target="_top" xlink:title="Not implemented. ">
-<polygon fill="#ffffff" stroke="#000000" points="195,-30.5 195,-71.5 354,-71.5 354,-30.5 195,-30.5"/>
-<text text-anchor="start" x="203" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="203" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::tests::DummyCouplingScheme</text>
-<text text-anchor="middle" x="274.5" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isActionRequired</text>
+<polygon fill="#ffffff" stroke="#000000" points="209,-30.5 209,-71.5 382,-71.5 382,-30.5 209,-30.5"/>
+<text text-anchor="start" x="217" y="-59.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="217" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::tests::DummyCouplingScheme</text>
+<text text-anchor="middle" x="295.5" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isActionRequired</text>
 </a>
 </g>
 </g>
 <!-- Node25&#45;&gt;Node26 -->
 <g id="edge1" class="edge">
 <title>Node25&#45;&gt;Node26</title>
-<path fill="none" stroke="#191970" d="M159.0952,-51C167.5728,-51 176.2374,-51 184.8207,-51"/>
-<polygon fill="#191970" stroke="#191970" points="184.8433,-54.5001 194.8432,-51 184.8432,-47.5001 184.8433,-54.5001"/>
+<path fill="none" stroke="#191970" d="M173.017,-51C181.492,-51 190.1298,-51 198.6982,-51"/>
+<polygon fill="#191970" stroke="#191970" points="198.711,-54.5001 208.711,-51 198.7109,-47.5001 198.711,-54.5001"/>
 </g>
 <!-- Node27 -->
 <g id="node3" class="node">
 <title>Node27</title>
 <g id="a_node3"><a xlink:href="namespaceprecice_1_1cplscheme_1_1constants.html#ae6a2667f9452de16a239be70945c8172" target="_top" xlink:title="precice::cplscheme\l::constants::actionWriteIteration\lCheckpoint">
-<polygon fill="#ffffff" stroke="#000000" points="390,-60.5 390,-101.5 546,-101.5 546,-60.5 390,-60.5"/>
-<text text-anchor="start" x="398" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="398" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::constants::actionWriteIteration</text>
-<text text-anchor="middle" x="468" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Checkpoint</text>
+<polygon fill="#ffffff" stroke="#000000" points="418,-60.5 418,-101.5 591,-101.5 591,-60.5 418,-60.5"/>
+<text text-anchor="start" x="426" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="426" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::constants::actionWriteIteration</text>
+<text text-anchor="middle" x="504.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Checkpoint</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node27 -->
 <g id="edge2" class="edge">
 <title>Node26&#45;&gt;Node27</title>
-<path fill="none" stroke="#191970" d="M354.0415,-63.332C362.5076,-64.6446 371.1554,-65.9853 379.7141,-67.3123"/>
-<polygon fill="#191970" stroke="#191970" points="379.286,-70.7876 389.7042,-68.8611 380.3585,-63.8703 379.286,-70.7876"/>
+<path fill="none" stroke="#191970" d="M382.017,-63.4187C390.492,-64.6352 399.1298,-65.8751 407.6982,-67.105"/>
+<polygon fill="#191970" stroke="#191970" points="407.3151,-70.5858 417.711,-68.5422 408.3098,-63.6568 407.3151,-70.5858"/>
 </g>
 <!-- Node28 -->
 <g id="node4" class="node">
 <title>Node28</title>
 <g id="a_node4"><a xlink:href="namespaceprecice_1_1cplscheme_1_1constants.html#a6ee5e554181352c02568f33215195519" target="_top" xlink:title="precice::cplscheme\l::constants::actionReadIteration\lCheckpoint">
-<polygon fill="#ffffff" stroke="#000000" points="390,-.5 390,-41.5 546,-41.5 546,-.5 390,-.5"/>
-<text text-anchor="start" x="398" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="398" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::constants::actionReadIteration</text>
-<text text-anchor="middle" x="468" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Checkpoint</text>
+<polygon fill="#ffffff" stroke="#000000" points="419,-.5 419,-41.5 590,-41.5 590,-.5 419,-.5"/>
+<text text-anchor="start" x="427" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="427" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::constants::actionReadIteration</text>
+<text text-anchor="middle" x="504.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Checkpoint</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node28 -->
 <g id="edge3" class="edge">
 <title>Node26&#45;&gt;Node28</title>
-<path fill="none" stroke="#191970" d="M354.0415,-38.668C362.5076,-37.3554 371.1554,-36.0147 379.7141,-34.6877"/>
-<polygon fill="#191970" stroke="#191970" points="380.3585,-38.1297 389.7042,-33.1389 379.286,-31.2124 380.3585,-38.1297"/>
+<path fill="none" stroke="#191970" d="M382.017,-38.5813C390.8289,-37.3164 399.8168,-36.0263 408.7197,-34.7484"/>
+<polygon fill="#191970" stroke="#191970" points="409.3201,-38.1981 418.7213,-33.3127 408.3254,-31.2692 409.3201,-38.1981"/>
 </g>
 </g>
 </svg>

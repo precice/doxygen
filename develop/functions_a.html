@@ -97,8 +97,8 @@ $(function() {
 </li>
 <li>acceptPreConnection()
 : <a class="el" href="classprecice_1_1m2n_1_1DistributedCommunication.html#aeb1565c64beb8eada9f3c5a0c7b71be5">precice::m2n::DistributedCommunication</a>
-, <a class="el" href="classprecice_1_1m2n_1_1GatherScatterCommunication.html#a4d9eb0791940f208418c4cc61f06cc3f">precice::m2n::GatherScatterCommunication</a>
-, <a class="el" href="classprecice_1_1m2n_1_1PointToPointCommunication.html#aa528e41612b6b8d7cc3febc335c1268e">precice::m2n::PointToPointCommunication</a>
+, <a class="el" href="classprecice_1_1m2n_1_1GatherScatterCommunication.html#aaab21b40743c43c022fff88dc052ce10">precice::m2n::GatherScatterCommunication</a>
+, <a class="el" href="classprecice_1_1m2n_1_1PointToPointCommunication.html#a576eb87ad9657fa382bc0c53586d9a74">precice::m2n::PointToPointCommunication</a>
 </li>
 <li>acceptSlavesConnection()
 : <a class="el" href="classprecice_1_1m2n_1_1M2N.html#ae40597511bf2857350167c41d425d517">precice::m2n::M2N</a>
@@ -175,6 +175,9 @@ $(function() {
 <li>addExportContext()
 : <a class="el" href="classprecice_1_1impl_1_1Participant.html#a1b8a265241cfff88e190df2b2d463a40">precice::impl::Participant</a>
 </li>
+<li>addFromMapping()
+: <a class="el" href="classprecice_1_1partition_1_1Partition.html#ab69025ec69fe95e960299d2cddc37e27">precice::partition::Partition</a>
+</li>
 <li>addM2N()
 : <a class="el" href="classprecice_1_1partition_1_1Partition.html#abfdabe3f93448f7d5baf1698e9bd4301">precice::partition::Partition</a>
 </li>
@@ -249,6 +252,9 @@ $(function() {
 <li>addTagResidualRelativeConvergenceMeasure()
 : <a class="el" href="classprecice_1_1cplscheme_1_1CouplingSchemeConfiguration.html#ac3a43f6008e6e9cbfccfff399b412b87">precice::cplscheme::CouplingSchemeConfiguration</a>
 </li>
+<li>addToMapping()
+: <a class="el" href="classprecice_1_1partition_1_1Partition.html#ac9d36cd7b32afdbda2c73f0b0fb94c74">precice::partition::Partition</a>
+</li>
 <li>addTransientLimitTags()
 : <a class="el" href="classprecice_1_1cplscheme_1_1CouplingSchemeConfiguration.html#acc4f61a3c1e067f2501817fcc8638ff2">precice::cplscheme::CouplingSchemeConfiguration</a>
 </li>
@@ -257,6 +263,9 @@ $(function() {
 </li>
 <li>addTypeSpecificSubtags()
 : <a class="el" href="classprecice_1_1acceleration_1_1AccelerationConfiguration.html#aea2d7397625bfdd666c11a6050d114db">precice::acceleration::AccelerationConfiguration</a>
+</li>
+<li>addWatchIntegral()
+: <a class="el" href="classprecice_1_1impl_1_1Participant.html#aa1d58aadd952ad7ac4fe67257b73ed25">precice::impl::Participant</a>
 </li>
 <li>addWatchPoint()
 : <a class="el" href="classprecice_1_1impl_1_1Participant.html#adc26a8d775c1ca56ab9e394fcfcf93fe">precice::impl::Participant</a>
@@ -298,7 +307,7 @@ $(function() {
 <li>allreduceSum()
 : <a class="el" href="classprecice_1_1com_1_1Communication.html#ab51a4a3d5b89bff04e9aa64a2d9dfb96">precice::com::Communication</a>
 , <a class="el" href="classprecice_1_1com_1_1MPIDirectCommunication.html#a13b7de5723db109283a6f6c2231e448d">precice::com::MPIDirectCommunication</a>
-, <a class="el" href="classprecice_1_1utils_1_1MasterSlave.html#a5495a21e8779643af56152273c123ae2">precice::utils::MasterSlave</a>
+, <a class="el" href="classprecice_1_1utils_1_1MasterSlave.html#a3b0851f2f282f3de9763fb336543263b">precice::utils::MasterSlave</a>
 </li>
 <li>alwaysBuildJacobian
 : <a class="el" href="structprecice_1_1acceleration_1_1AccelerationConfiguration_1_1ConfigurationData.html#a63630027fd887f325dc353d98649b6ae">precice::acceleration::AccelerationConfiguration::ConfigurationData</a>
@@ -328,17 +337,14 @@ $(function() {
 </li>
 <li>aReceive()
 : <a class="el" href="classprecice_1_1com_1_1Communication.html#a5460dcca7939aa7f22aba4a7f68b656f">precice::com::Communication</a>
-, <a class="el" href="classprecice_1_1com_1_1MPICommunication.html#a69685f7290bf806a759a9e579aea754c">precice::com::MPICommunication</a>
-, <a class="el" href="classprecice_1_1com_1_1SocketCommunication.html#a3e3ff7e89345a1495938cfc08e87f528">precice::com::SocketCommunication</a>
-</li>
-<li>areProvidedMeshesEmpty()
-: <a class="el" href="classprecice_1_1partition_1_1ReceivedPartition.html#ad362ec8e23e4b9b1830b6fa627f27f0c">precice::partition::ReceivedPartition</a>
+, <a class="el" href="classprecice_1_1com_1_1MPICommunication.html#a118ac6af2c752f8abf116101b21a5779">precice::com::MPICommunication</a>
+, <a class="el" href="classprecice_1_1com_1_1SocketCommunication.html#ab6ca34b90c557b46350d4d53252bd275">precice::com::SocketCommunication</a>
 </li>
 <li>asEigen()
 : <a class="el" href="structVertexSpecification.html#a8f61cdb821f613db99bf4f4ce3c72684">VertexSpecification</a>
 </li>
 <li>aSend()
-: <a class="el" href="classprecice_1_1com_1_1Communication.html#a2b066f1614159978e6e3f334bdd3e6e4">precice::com::Communication</a>
+: <a class="el" href="classprecice_1_1com_1_1Communication.html#a1ab2da696572afe406801d329442da10">precice::com::Communication</a>
 , <a class="el" href="classprecice_1_1com_1_1MPICommunication.html#ac82fb727ab4c731939117472d0cfdb65">precice::com::MPICommunication</a>
 , <a class="el" href="classprecice_1_1com_1_1SocketCommunication.html#ab825d3f6eb932539b7bfa11177fd5010">precice::com::SocketCommunication</a>
 </li>
@@ -476,6 +482,9 @@ $(function() {
 <li>ATTR_SAFETY_FACTOR
 : <a class="el" href="classprecice_1_1config_1_1ParticipantConfiguration.html#a6ca49ac6d6eaca43f5e4f0049d19a469">precice::config::ParticipantConfiguration</a>
 </li>
+<li>ATTR_SCALE_WITH_CONN
+: <a class="el" href="classprecice_1_1config_1_1ParticipantConfiguration.html#adfaec3dd91fe875fc02adbda6ede7697">precice::config::ParticipantConfiguration</a>
+</li>
 <li>ATTR_SCALING
 : <a class="el" href="classprecice_1_1acceleration_1_1AccelerationConfiguration.html#adc4a4866ff767bc3fd58c254be035864">precice::acceleration::AccelerationConfiguration</a>
 </li>
@@ -517,9 +526,6 @@ $(function() {
 <li>ATTR_TO
 : <a class="el" href="classprecice_1_1cplscheme_1_1CouplingSchemeConfiguration.html#ab7aa34cc91e425c0674a8e6e9a41ef4e">precice::cplscheme::CouplingSchemeConfiguration</a>
 , <a class="el" href="classprecice_1_1mapping_1_1MappingConfiguration.html#a0331d0f83aa5eabed9c2ed6ae5073d5b">precice::mapping::MappingConfiguration</a>
-</li>
-<li>ATTR_TRIGGER_SOLVER
-: <a class="el" href="classprecice_1_1io_1_1ExportConfiguration.html#ae10447f5f5a07799839704c61f70647b">precice::io::ExportConfiguration</a>
 </li>
 <li>ATTR_TYPE
 : <a class="el" href="classprecice_1_1acceleration_1_1AccelerationConfiguration.html#a67911f67c57c9fa6f8bb05c12463901e">precice::acceleration::AccelerationConfiguration</a>

@@ -31,6 +31,7 @@ var searchData=
   ['ptrpartition',['PtrPartition',['../namespaceprecice_1_1partition.html#aaf636256805a09da6d5fc3265ff8b6b2',1,'precice::partition']]],
   ['ptrpreconditioner',['PtrPreconditioner',['../namespaceprecice_1_1acceleration_1_1impl.html#ac8eab749a8800272d95199b82ab0b686',1,'precice::acceleration::impl']]],
   ['ptrrequest',['PtrRequest',['../namespaceprecice_1_1com.html#a669ff6bd2a1d588843768808b7a82532',1,'precice::com']]],
+  ['ptrwatchintegral',['PtrWatchIntegral',['../namespaceprecice_1_1impl.html#ae4ce8fb56b71d902796bb691b0839231',1,'precice::impl']]],
   ['ptrwatchpoint',['PtrWatchPoint',['../namespaceprecice_1_1impl.html#aaa397cc9d2f8315d80ed2713e9d5beb9',1,'precice::impl']]],
   ['pyobject',['PyObject',['../PythonAction_8hpp.html#ace7fa79ebe2bc43a688b29a52dc5baab',1,'PythonAction.hpp']]]
 ];

@@ -49,6 +49,7 @@ var searchData=
   ['ptrvectorindexable',['PtrVectorIndexable',['../classprecice_1_1mesh_1_1impl_1_1PtrVectorIndexable.html#a2d8031df404e1deaa9d5a1d010c2baaf',1,'precice::mesh::impl::PtrVectorIndexable']]],
   ['push_5fback',['push_back',['../classprecice_1_1utils_1_1ptr__vector.html#a7f5c14176ee165c2c89035f54e5d1772',1,'precice::utils::ptr_vector']]],
   ['pushback',['pushBack',['../classprecice_1_1acceleration_1_1impl_1_1QRFactorization.html#a5f075506a7f1216cb97e5680c69b38a1',1,'precice::acceleration::impl::QRFactorization']]],
+  ['pushformat',['pushFormat',['../structprecice_1_1utils_1_1petsc_1_1Viewer.html#abef2bcc619991b561cf75f47e4537e11',1,'precice::utils::petsc::Viewer']]],
   ['pushfront',['pushFront',['../classprecice_1_1acceleration_1_1impl_1_1QRFactorization.html#aab85088acbc55d5b9d616ab446ee536c',1,'precice::acceleration::impl::QRFactorization']]],
   ['pushstate',['pushState',['../classprecice_1_1utils_1_1Parallel.html#a603b416754124be0703ca4cdbe886456',1,'precice::utils::Parallel']]],
   ['put',['put',['../classprecice_1_1utils_1_1EventData.html#ad8f550253023a44a217afab25a47ebe2',1,'precice::utils::EventData::put()'],['../classprecice_1_1utils_1_1RankData.html#af82582650131e75324f03836215482f4',1,'precice::utils::RankData::put()'],['../classprecice_1_1utils_1_1EventRegistry.html#ae2cd83819174207b743e580c381dd022',1,'precice::utils::EventRegistry::put()']]],

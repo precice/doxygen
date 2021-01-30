@@ -336,7 +336,8 @@ $(function() {
 , <a class="el" href="classprecice_1_1impl_1_1SolverInterfaceImpl.html#a95d39c6af06bd4e349a7f9d241c6219b">precice::impl::SolverInterfaceImpl</a>
 </li>
 <li>_dataToExport
-: <a class="el" href="classprecice_1_1impl_1_1WatchPoint.html#a64d95e44a71240dfa271b0560ad747bc">precice::impl::WatchPoint</a>
+: <a class="el" href="classprecice_1_1impl_1_1WatchIntegral.html#a2119e132b7b2025e0f305dfcf05cfbf9">precice::impl::WatchIntegral</a>
+, <a class="el" href="classprecice_1_1impl_1_1WatchPoint.html#a64d95e44a71240dfa271b0560ad747bc">precice::impl::WatchPoint</a>
 </li>
 <li>_deadAxis
 : <a class="el" href="classprecice_1_1mapping_1_1PetRadialBasisFctMapping.html#ab97b2f67cb875ada0b969ca8d1e987e6">precice::mapping::PetRadialBasisFctMapping&lt; RADIAL_BASIS_FUNCTION_T &gt;</a>
@@ -445,11 +446,11 @@ $(function() {
 <li>_forceInitialRelaxation
 : <a class="el" href="classprecice_1_1acceleration_1_1BaseQNAcceleration.html#ae2bd1d2a29960d0e4a03a768caef2049">precice::acceleration::BaseQNAcceleration</a>
 </li>
-<li>_freezed
-: <a class="el" href="classprecice_1_1acceleration_1_1impl_1_1Preconditioner.html#a9eb569231cd5f3bd96bfec1e0f6e0f62">precice::acceleration::impl::Preconditioner</a>
+<li>_fromMappings
+: <a class="el" href="classprecice_1_1partition_1_1Partition.html#ac3ed014cb6f72eff28eaab386f3245dc">precice::partition::Partition</a>
 </li>
-<li>_fromMapping
-: <a class="el" href="classprecice_1_1partition_1_1Partition.html#a14a40b110a2900bdae74454a2608ea77">precice::partition::Partition</a>
+<li>_frozen
+: <a class="el" href="classprecice_1_1acceleration_1_1impl_1_1Preconditioner.html#af83ad094acee25453db35fc6f324f109">precice::acceleration::impl::Preconditioner</a>
 </li>
 <li>_fstream_set
 : <a class="el" href="classprecice_1_1acceleration_1_1impl_1_1QRFactorization.html#ade279d42fb28bfad0cda42211c319076">precice::acceleration::impl::QRFactorization</a>
@@ -603,6 +604,9 @@ $(function() {
 <li>_isOngoing
 : <a class="el" href="classprecice_1_1cplscheme_1_1tests_1_1DummyCouplingScheme.html#a1710a25adde0f4ae4f8d2234fe5df068">precice::cplscheme::tests::DummyCouplingScheme</a>
 </li>
+<li>_isScalingOn
+: <a class="el" href="classprecice_1_1impl_1_1WatchIntegral.html#a7b7c268361feaae852f09bb5351779c4">precice::impl::WatchIntegral</a>
+</li>
 <li>_isSlave
 : <a class="el" href="classprecice_1_1utils_1_1MasterSlave.html#a12cbcd1be4805664698a9619aace398d">precice::utils::MasterSlave</a>
 </li>
@@ -684,6 +688,7 @@ $(function() {
 , <a class="el" href="classprecice_1_1cplscheme_1_1tests_1_1DummyCouplingScheme.html#a00e11ccaa5dfefccaa30bc98ab3a01bc">precice::cplscheme::tests::DummyCouplingScheme</a>
 , <a class="el" href="classprecice_1_1impl_1_1Participant.html#a6f4b06990a810b8bf25b5a36819cd648">precice::impl::Participant</a>
 , <a class="el" href="classprecice_1_1impl_1_1SolverInterfaceImpl.html#a3563165b9cbd107d472bfc715a63f496">precice::impl::SolverInterfaceImpl</a>
+, <a class="el" href="classprecice_1_1impl_1_1WatchIntegral.html#a2d182327e53aa8e353f77fe802c8ba5b">precice::impl::WatchIntegral</a>
 , <a class="el" href="classprecice_1_1impl_1_1WatchPoint.html#a7eb71ff6e808e46544890c429c2b49d4">precice::impl::WatchPoint</a>
 , <a class="el" href="classprecice_1_1io_1_1ExportConfiguration.html#a6f99801372589a349694dda62609e36d">precice::io::ExportConfiguration</a>
 , <a class="el" href="classprecice_1_1io_1_1ExportVTK.html#a0f75fdaee5a2efda5c5aef165d12844f">precice::io::ExportVTK</a>
@@ -831,6 +836,7 @@ $(function() {
 </li>
 <li>_mesh
 : <a class="el" href="classprecice_1_1action_1_1Action.html#a2986c42c307050fc229820dee095f73a">precice::action::Action</a>
+, <a class="el" href="classprecice_1_1impl_1_1WatchIntegral.html#a120e79929fed16fbcb26da1f38f56336">precice::impl::WatchIntegral</a>
 , <a class="el" href="classprecice_1_1impl_1_1WatchPoint.html#af32c5b16e6c88da67cbfb955503d76d8">precice::impl::WatchPoint</a>
 , <a class="el" href="classprecice_1_1m2n_1_1DistributedCommunication.html#a715c5148c762656d7e05d6df8870ddb4">precice::m2n::DistributedCommunication</a>
 , <a class="el" href="classprecice_1_1partition_1_1Partition.html#abf090c5087b28301c5f85dbdc3cd95b3">precice::partition::Partition</a>
@@ -1311,8 +1317,8 @@ $(function() {
 <li>_timing
 : <a class="el" href="classprecice_1_1action_1_1Action.html#a33b348371bde8c8bb4df4c4580fd315f">precice::action::Action</a>
 </li>
-<li>_toMapping
-: <a class="el" href="classprecice_1_1partition_1_1Partition.html#aad0e8b8164db9ec503d656763af69aef">precice::partition::Partition</a>
+<li>_toMappings
+: <a class="el" href="classprecice_1_1partition_1_1Partition.html#a206ad1c5760adda7b48d6fb4e6dbcd77">precice::partition::Partition</a>
 </li>
 <li>_totalIterations
 : <a class="el" href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a6a72f903212b513db0255bad57f703c0">precice::cplscheme::BaseCouplingScheme</a>
@@ -1324,7 +1330,8 @@ $(function() {
 : <a class="el" href="classprecice_1_1acceleration_1_1impl_1_1SVDFactorization.html#a2a0827fc1d91e0522770a6280a6ff711">precice::acceleration::impl::SVDFactorization</a>
 </li>
 <li>_txtWriter
-: <a class="el" href="classprecice_1_1impl_1_1WatchPoint.html#a73419ee6f093a16ea4c1c643e71ab76e">precice::impl::WatchPoint</a>
+: <a class="el" href="classprecice_1_1impl_1_1WatchIntegral.html#adc1c9acefad23f9b95484794f6dd91c2">precice::impl::WatchIntegral</a>
+, <a class="el" href="classprecice_1_1impl_1_1WatchPoint.html#a73419ee6f093a16ea4c1c643e71ab76e">precice::impl::WatchPoint</a>
 </li>
 <li>_uniqueDataAndMeshNames
 : <a class="el" href="classprecice_1_1acceleration_1_1AccelerationConfiguration.html#a274e9bc3d9b256058c81719013889eef">precice::acceleration::AccelerationConfiguration</a>
@@ -1390,6 +1397,12 @@ $(function() {
 </li>
 <li>_waste
 : <a class="el" href="classprecice_1_1acceleration_1_1impl_1_1SVDFactorization.html#ade53ce61283ec00adcc33a4e727849ca">precice::acceleration::impl::SVDFactorization</a>
+</li>
+<li>_watchIntegralConfigs
+: <a class="el" href="classprecice_1_1config_1_1ParticipantConfiguration.html#aaf600b9d6cb6057de6c75fab737a2598">precice::config::ParticipantConfiguration</a>
+</li>
+<li>_watchIntegrals
+: <a class="el" href="classprecice_1_1impl_1_1Participant.html#a0d583e5d0f60a0594d79cac17f5162c3">precice::impl::Participant</a>
 </li>
 <li>_watchPointConfigs
 : <a class="el" href="classprecice_1_1config_1_1ParticipantConfiguration.html#a7606ca9f62517bdf8f31b699e56bef15">precice::config::ParticipantConfiguration</a>

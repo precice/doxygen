@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 823;
+var viewWidth = 884;
 var viewHeight = 411;
 var sectionId = 'dynsection-2';
 </script>
@@ -54,243 +54,243 @@ var sectionId = 'dynsection-2';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::acceleration::BroydenAcceleration::~BroydenAcceleration</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-406.5 819,-406.5 819,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-406.5 880,-406.5 880,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-150.5 0,-191.5 119,-191.5 119,-150.5 0,-150.5"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-150.5 0,-191.5 132,-191.5 132,-150.5 0,-150.5"/>
 <text text-anchor="start" x="8" y="-179.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
 <text text-anchor="start" x="8" y="-168.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BroydenAcceleration</text>
-<text text-anchor="middle" x="59.5" y="-157.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::~BroydenAcceleration</text>
+<text text-anchor="middle" x="66" y="-157.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::~BroydenAcceleration</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1acceleration_1_1BroydenAcceleration.html#a02170d6b8b06508ff022107a5a6b48df" target="_top" xlink:title="Initializes the acceleration. ">
-<polygon fill="#ffffff" stroke="#000000" points="178,-180.5 178,-221.5 291,-221.5 291,-180.5 178,-180.5"/>
-<text text-anchor="start" x="186" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
-<text text-anchor="start" x="186" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BroydenAcceleration</text>
-<text text-anchor="middle" x="234.5" y="-187.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::initialize</text>
+<polygon fill="#ffffff" stroke="#000000" points="194,-180.5 194,-221.5 318,-221.5 318,-180.5 194,-180.5"/>
+<text text-anchor="start" x="202" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
+<text text-anchor="start" x="202" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BroydenAcceleration</text>
+<text text-anchor="middle" x="256" y="-187.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::initialize</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="#191970" d="M119.2356,-181.2404C134.8306,-183.9138 151.7383,-186.8123 167.6754,-189.5443"/>
-<polygon fill="#191970" stroke="#191970" points="167.5369,-193.0716 177.9846,-191.3116 168.7197,-186.1722 167.5369,-193.0716"/>
+<path fill="none" stroke="#191970" d="M132.1861,-181.4504C148.9275,-184.0938 166.9877,-186.9454 184.0007,-189.6317"/>
+<polygon fill="#191970" stroke="#191970" points="183.4553,-193.0889 193.8788,-191.1914 184.5471,-186.1745 183.4553,-193.0889"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
 <g id="a_node14"><a xlink:href="classprecice_1_1acceleration_1_1BroydenAcceleration.html#a312f2685f79f3e905c60b6844519f9e8" target="_top" xlink:title="Marks a iteration sequence as converged. ">
-<polygon fill="#ffffff" stroke="#000000" points="155,-120.5 155,-161.5 314,-161.5 314,-120.5 155,-120.5"/>
-<text text-anchor="start" x="163" y="-149.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
-<text text-anchor="start" x="163" y="-138.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BroydenAcceleration</text>
-<text text-anchor="middle" x="234.5" y="-127.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::specializedIterationsConverged</text>
+<polygon fill="#ffffff" stroke="#000000" points="168,-120.5 168,-161.5 344,-161.5 344,-120.5 168,-120.5"/>
+<text text-anchor="start" x="176" y="-149.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
+<text text-anchor="start" x="176" y="-138.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BroydenAcceleration</text>
+<text text-anchor="middle" x="256" y="-127.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::specializedIterationsConverged</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node14 -->
 <g id="edge16" class="edge">
 <title>Node1&#45;&gt;Node14</title>
-<path fill="none" stroke="#191970" d="M119.2356,-160.7596C127.5808,-159.329 136.3019,-157.834 145.049,-156.3345"/>
-<polygon fill="#191970" stroke="#191970" points="145.6523,-159.7822 154.9171,-154.6428 144.4695,-152.8828 145.6523,-159.7822"/>
+<path fill="none" stroke="#191970" d="M132.1861,-160.5496C140.5898,-159.2227 149.3259,-157.8433 158.095,-156.4587"/>
+<polygon fill="#191970" stroke="#191970" points="158.662,-159.9126 167.9937,-154.8957 157.5702,-152.9983 158.662,-159.9126"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1acceleration_1_1BaseQNAcceleration.html#a804da7c60036086dcda5c4623a6e042f" target="_top" xlink:title="Initializes the acceleration. ">
-<polygon fill="#ffffff" stroke="#000000" points="350,-180.5 350,-221.5 464,-221.5 464,-180.5 350,-180.5"/>
-<text text-anchor="start" x="358" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
-<text text-anchor="start" x="358" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseQNAcceleration</text>
-<text text-anchor="middle" x="407" y="-187.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::initialize</text>
+<polygon fill="#ffffff" stroke="#000000" points="380,-180.5 380,-221.5 502,-221.5 502,-180.5 380,-180.5"/>
+<text text-anchor="start" x="388" y="-209.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
+<text text-anchor="start" x="388" y="-198.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseQNAcceleration</text>
+<text text-anchor="middle" x="441" y="-187.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::initialize</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="#191970" d="M291.461,-201C306.8369,-201 323.6219,-201 339.5138,-201"/>
-<polygon fill="#191970" stroke="#191970" points="339.8043,-204.5001 349.8043,-201 339.8042,-197.5001 339.8043,-204.5001"/>
+<path fill="none" stroke="#191970" d="M318.117,-201C334.6333,-201 352.6034,-201 369.574,-201"/>
+<polygon fill="#191970" stroke="#191970" points="369.9896,-204.5001 379.9895,-201 369.9895,-197.5001 369.9896,-204.5001"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="classprecice_1_1acceleration_1_1Acceleration.html#a3dcd51bdc9d092fa639077056493b76c" target="_top" xlink:title="Checks if all dataIDs are contained in cplData. ">
-<polygon fill="#ffffff" stroke="#000000" points="500,-372 500,-402 646,-402 646,-372 500,-372"/>
-<text text-anchor="start" x="508" y="-390" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
-<text text-anchor="middle" x="573" y="-379" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::Acceleration::checkDataIDs</text>
+<polygon fill="#ffffff" stroke="#000000" points="538,-372 538,-402 695,-402 695,-372 538,-372"/>
+<text text-anchor="start" x="546" y="-390" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
+<text text-anchor="middle" x="616.5" y="-379" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::Acceleration::checkDataIDs</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="#191970" d="M414.2983,-221.5524C426.9278,-254.4027 455.8227,-318.908 500,-357 504.4541,-360.8405 509.4667,-364.2366 514.7253,-367.2292"/>
-<polygon fill="#191970" stroke="#191970" points="513.2613,-370.4123 523.7523,-371.8919 516.4739,-364.193 513.2613,-370.4123"/>
+<path fill="none" stroke="#191970" d="M448.7426,-221.6785C462.0984,-254.7058 492.4877,-319.4545 538,-357 542.8007,-360.9604 548.1811,-364.4339 553.8146,-367.4728"/>
+<polygon fill="#191970" stroke="#191970" points="552.3098,-370.633 562.8288,-371.898 555.3946,-364.3493 552.3098,-370.633"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="namespaceprecice_1_1utils.html#a434eabaa71f97a31726281a4df77bbcf" target="_top" xlink:title="Returns true, if given element is in vector, otherwise false. ">
-<polygon fill="#ffffff" stroke="#000000" points="688.5,-333.5 688.5,-352.5 808.5,-352.5 808.5,-333.5 688.5,-333.5"/>
-<text text-anchor="middle" x="748.5" y="-340.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::contained</text>
+<polygon fill="#ffffff" stroke="#000000" points="737,-333.5 737,-352.5 870,-352.5 870,-333.5 737,-333.5"/>
+<text text-anchor="middle" x="803.5" y="-340.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::contained</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node6 -->
 <g id="edge14" class="edge">
 <title>Node3&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M418.7808,-221.6931C434.0717,-246.4438 463.2062,-287.0306 500,-307 554.8662,-336.7779 626.1086,-344.506 678.2376,-345.5351"/>
-<polygon fill="#191970" stroke="#191970" points="678.357,-349.0366 688.398,-345.6561 678.4405,-342.0371 678.357,-349.0366"/>
+<path fill="none" stroke="#191970" d="M453.1392,-221.5345C469.1449,-246.561 499.8016,-287.981 538,-308 596.3445,-338.5771 671.4309,-346.0293 726.8568,-346.5875"/>
+<polygon fill="#191970" stroke="#191970" points="726.9591,-350.0877 736.9688,-346.6155 726.9786,-343.0877 726.9591,-350.0877"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="classprecice_1_1utils_1_1MasterSlave.html#a5e934392c32335daa8e2b4a01bc75fd3" target="_top" xlink:title="True if this process is running the master. ">
-<polygon fill="#ffffff" stroke="#000000" points="682,-262 682,-292 815,-292 815,-262 682,-262"/>
-<text text-anchor="start" x="690" y="-280" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
-<text text-anchor="middle" x="748.5" y="-269" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isMaster</text>
+<polygon fill="#ffffff" stroke="#000000" points="731,-262 731,-292 876,-292 876,-262 731,-262"/>
+<text text-anchor="start" x="739" y="-280" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
+<text text-anchor="middle" x="803.5" y="-269" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isMaster</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node3&#45;&gt;Node7</title>
-<path fill="none" stroke="#191970" d="M422.0467,-221.7784C438.4985,-242.5455 466.9658,-273.1781 500,-286 557.3497,-308.2598 627.8505,-302.9496 679.0917,-293.8653"/>
-<polygon fill="#191970" stroke="#191970" points="679.884,-297.278 689.0736,-292.0052 678.6016,-290.3964 679.884,-297.278"/>
+<path fill="none" stroke="#191970" d="M456.8977,-221.7991C474.2233,-242.5831 504.0488,-273.2292 538,-286 600.6841,-309.5787 677.6809,-303.5123 732.5842,-293.8457"/>
+<polygon fill="#191970" stroke="#191970" points="733.3704,-297.2599 742.5703,-292.0052 732.1016,-290.3758 733.3704,-297.2599"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="classprecice_1_1utils_1_1MasterSlave.html#a3837ad42361b53d7e930443ba07a9eb5" target="_top" xlink:title="True if this process is running a slave. ">
-<polygon fill="#ffffff" stroke="#000000" points="682,-134 682,-164 815,-164 815,-134 682,-134"/>
-<text text-anchor="start" x="690" y="-152" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
-<text text-anchor="middle" x="748.5" y="-141" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isSlave</text>
+<polygon fill="#ffffff" stroke="#000000" points="731,-134 731,-164 876,-164 876,-134 731,-134"/>
+<text text-anchor="start" x="739" y="-152" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
+<text text-anchor="middle" x="803.5" y="-141" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isSlave</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node3&#45;&gt;Node8</title>
-<path fill="none" stroke="#191970" d="M414.1729,-180.3864C426.2901,-149.1754 454.0836,-91.024 500,-67 557.4947,-36.9181 584.769,-45.5213 646,-67 679.4122,-78.7204 710.0242,-106.42 728.9271,-126.3847"/>
-<polygon fill="#191970" stroke="#191970" points="726.4684,-128.8817 735.8149,-133.871 731.6197,-124.1421 726.4684,-128.8817"/>
+<path fill="none" stroke="#191970" d="M448.7458,-180.3564C461.738,-149.1052 491.1927,-90.901 538,-67 600.1448,-35.2673 628.8437,-44.8127 695,-67 729.9359,-78.7167 762.5991,-106.6221 782.7771,-126.6239"/>
+<polygon fill="#191970" stroke="#191970" points="780.3733,-129.1714 789.8779,-133.8526 785.3671,-124.266 780.3733,-129.1714"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="classprecice_1_1utils_1_1MasterSlave.html#ae8671e778dec26782120295d51bb3fde" target="_top" xlink:title="Number of ranks. This includes ranks from both participants, e.g. minimal size is 2...">
-<polygon fill="#ffffff" stroke="#000000" points="506.5,-186 506.5,-216 639.5,-216 639.5,-186 506.5,-186"/>
-<text text-anchor="start" x="514.5" y="-204" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
-<text text-anchor="middle" x="573" y="-193" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getSize</text>
+<polygon fill="#ffffff" stroke="#000000" points="544,-186 544,-216 689,-216 689,-186 544,-186"/>
+<text text-anchor="start" x="552" y="-204" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
+<text text-anchor="middle" x="616.5" y="-193" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getSize</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node3&#45;&gt;Node9</title>
-<path fill="none" stroke="#191970" d="M464.1278,-201C474.4331,-201 485.3297,-201 496.0891,-201"/>
-<polygon fill="#191970" stroke="#191970" points="496.339,-204.5001 506.339,-201 496.339,-197.5001 496.339,-204.5001"/>
+<path fill="none" stroke="#191970" d="M502.3814,-201C512.4938,-201 523.1212,-201 533.6542,-201"/>
+<polygon fill="#191970" stroke="#191970" points="533.704,-204.5001 543.7039,-201 533.7039,-197.5001 533.704,-204.5001"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
 <g id="a_node10"><a xlink:href="classprecice_1_1utils_1_1MasterSlave.html#af0deae7c83eae7f8e6908a2879bfb0e3" target="_top" xlink:title="Current rank. ">
-<polygon fill="#ffffff" stroke="#000000" points="506.5,-137 506.5,-167 639.5,-167 639.5,-137 506.5,-137"/>
-<text text-anchor="start" x="514.5" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
-<text text-anchor="middle" x="573" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getRank</text>
+<polygon fill="#ffffff" stroke="#000000" points="544,-137 544,-167 689,-167 689,-137 544,-137"/>
+<text text-anchor="start" x="552" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
+<text text-anchor="middle" x="616.5" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getRank</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node10 -->
 <g id="edge9" class="edge">
 <title>Node3&#45;&gt;Node10</title>
-<path fill="none" stroke="#191970" d="M464.1278,-184.137C479.7386,-179.529 496.7061,-174.5205 512.4982,-169.859"/>
-<polygon fill="#191970" stroke="#191970" points="513.5565,-173.1959 522.1565,-167.008 511.5747,-166.4823 513.5565,-173.1959"/>
+<path fill="none" stroke="#191970" d="M502.3814,-183.8622C518.6709,-179.3141 536.2969,-174.3929 552.7114,-169.8099"/>
+<polygon fill="#191970" stroke="#191970" points="554.062,-173.0668 562.7524,-167.0064 552.1795,-166.3246 554.062,-173.0668"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
 <g id="a_node11"><a xlink:href="classprecice_1_1acceleration_1_1impl_1_1QRFactorization.html#a13169fb9aa29fb2493c5dab787246054" target="_top" xlink:title="precice::acceleration\l::impl::QRFactorization\l::setGlobalRows">
-<polygon fill="#ffffff" stroke="#000000" points="514,-76.5 514,-117.5 632,-117.5 632,-76.5 514,-76.5"/>
-<text text-anchor="start" x="522" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
-<text text-anchor="start" x="522" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::impl::QRFactorization</text>
-<text text-anchor="middle" x="573" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::setGlobalRows</text>
+<polygon fill="#ffffff" stroke="#000000" points="553,-76.5 553,-117.5 680,-117.5 680,-76.5 553,-76.5"/>
+<text text-anchor="start" x="561" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
+<text text-anchor="start" x="561" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::impl::QRFactorization</text>
+<text text-anchor="middle" x="616.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::setGlobalRows</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node11 -->
 <g id="edge10" class="edge">
 <title>Node3&#45;&gt;Node11</title>
-<path fill="none" stroke="#191970" d="M429.8376,-180.266C447.9417,-164.5459 474.3742,-143.1366 500,-128 503.4362,-125.9703 507.0301,-124.0029 510.7019,-122.1095"/>
-<polygon fill="#191970" stroke="#191970" points="512.5161,-125.1177 519.944,-117.5628 509.426,-118.8366 512.5161,-125.1177"/>
+<path fill="none" stroke="#191970" d="M464.467,-180.4784C483.3791,-164.6677 511.1537,-143.0388 538,-128 541.8431,-125.8472 545.866,-123.7725 549.9737,-121.7873"/>
+<polygon fill="#191970" stroke="#191970" points="551.4536,-124.9591 559.0644,-117.5885 548.5184,-118.6042 551.4536,-124.9591"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
 <g id="a_node12"><a xlink:href="classprecice_1_1acceleration_1_1BaseQNAcceleration.html#a619e8998fd765613100c5753380753b2" target="_top" xlink:title="precice::acceleration\l::BaseQNAcceleration\l::getLSSystemRows">
-<polygon fill="#ffffff" stroke="#000000" points="516,-235.5 516,-276.5 630,-276.5 630,-235.5 516,-235.5"/>
-<text text-anchor="start" x="524" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
-<text text-anchor="start" x="524" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseQNAcceleration</text>
-<text text-anchor="middle" x="573" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getLSSystemRows</text>
+<polygon fill="#ffffff" stroke="#000000" points="555.5,-235.5 555.5,-276.5 677.5,-276.5 677.5,-235.5 555.5,-235.5"/>
+<text text-anchor="start" x="563.5" y="-264.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
+<text text-anchor="start" x="563.5" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseQNAcceleration</text>
+<text text-anchor="middle" x="616.5" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getLSSystemRows</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node12 -->
 <g id="edge11" class="edge">
 <title>Node3&#45;&gt;Node12</title>
-<path fill="none" stroke="#191970" d="M464.1278,-219.9279C477.6914,-224.4219 492.2793,-229.2552 506.2305,-233.8776"/>
-<polygon fill="#191970" stroke="#191970" points="505.1736,-237.2144 515.7669,-237.0372 507.3752,-230.5697 505.1736,-237.2144"/>
+<path fill="none" stroke="#191970" d="M502.3814,-220.2363C516.3557,-224.6158 531.3136,-229.3034 545.6465,-233.7952"/>
+<polygon fill="#191970" stroke="#191970" points="544.8606,-237.2167 555.4496,-236.8674 546.9539,-230.537 544.8606,-237.2167"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
 <g id="a_node13"><a xlink:href="namespaceprecice_1_1utils.html#a70a03ea1367189736d49351c6385c8c9" target="_top" xlink:title="precice::utils::append">
-<polygon fill="#ffffff" stroke="#000000" points="518,-.5 518,-19.5 628,-19.5 628,-.5 518,-.5"/>
-<text text-anchor="middle" x="573" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::append</text>
+<polygon fill="#ffffff" stroke="#000000" points="556,-.5 556,-19.5 677,-19.5 677,-.5 556,-.5"/>
+<text text-anchor="middle" x="616.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::append</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node13 -->
 <g id="edge15" class="edge">
 <title>Node3&#45;&gt;Node13</title>
-<path fill="none" stroke="#191970" d="M413.0157,-180.3185C424.2855,-145.1657 451.8891,-73.7205 500,-34 504.996,-29.8753 510.7235,-26.4518 516.7251,-23.612"/>
-<polygon fill="#191970" stroke="#191970" points="518.4334,-26.6918 526.3162,-19.6129 515.7394,-20.231 518.4334,-26.6918"/>
+<path fill="none" stroke="#191970" d="M447.3479,-180.4842C459.2978,-145.2578 488.4862,-73.2797 538,-34 543.3259,-29.7749 549.3927,-26.2911 555.7393,-23.419"/>
+<polygon fill="#191970" stroke="#191970" points="557.2041,-26.6026 565.1843,-19.6337 554.6,-20.105 557.2041,-26.6026"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
 <g id="a_node5"><a xlink:href="classprecice_1_1acceleration_1_1Acceleration.html#a249bfb8884e09425c28bbc8e3120ca46" target="_top" xlink:title="precice::acceleration\l::Acceleration::getDataIDs">
-<polygon fill="#ffffff" stroke="#000000" points="682,-372 682,-402 815,-402 815,-372 682,-372"/>
-<text text-anchor="start" x="690" y="-390" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
-<text text-anchor="middle" x="748.5" y="-379" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::Acceleration::getDataIDs</text>
+<polygon fill="#ffffff" stroke="#000000" points="731.5,-372 731.5,-402 875.5,-402 875.5,-372 731.5,-372"/>
+<text text-anchor="start" x="739.5" y="-390" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
+<text text-anchor="middle" x="803.5" y="-379" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::Acceleration::getDataIDs</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="#191970" d="M646.157,-387C654.5821,-387 663.1918,-387 671.6638,-387"/>
-<polygon fill="#191970" stroke="#191970" points="671.9076,-390.5001 681.9076,-387 671.9075,-383.5001 671.9076,-390.5001"/>
+<path fill="none" stroke="#191970" d="M695.2629,-387C703.872,-387 712.6521,-387 721.3013,-387"/>
+<polygon fill="#191970" stroke="#191970" points="721.3765,-390.5001 731.3765,-387 721.3764,-383.5001 721.3765,-390.5001"/>
 </g>
 <!-- Node4&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node4&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M632.9063,-371.9808C655.008,-366.4396 679.7389,-360.2393 700.6361,-355.0001"/>
-<polygon fill="#191970" stroke="#191970" points="701.7098,-358.3393 710.5584,-352.5124 700.0074,-351.5494 701.7098,-358.3393"/>
+<path fill="none" stroke="#191970" d="M680.3318,-371.9808C704.0959,-366.3892 730.7125,-360.1265 753.1059,-354.8574"/>
+<polygon fill="#191970" stroke="#191970" points="754.1397,-358.2098 763.0722,-352.5124 752.5364,-351.3959 754.1397,-358.2098"/>
 </g>
 <!-- Node12&#45;&gt;Node7 -->
 <g id="edge12" class="edge">
 <title>Node12&#45;&gt;Node7</title>
-<path fill="none" stroke="#191970" d="M630.4653,-262.8762C643.6578,-264.4548 657.8913,-266.1579 671.7527,-267.8166"/>
-<polygon fill="#191970" stroke="#191970" points="671.4149,-271.301 681.7599,-269.014 672.2466,-264.3506 671.4149,-271.301"/>
+<path fill="none" stroke="#191970" d="M677.7308,-262.8762C691.4916,-264.4215 706.3152,-266.0862 720.7893,-267.7116"/>
+<polygon fill="#191970" stroke="#191970" points="720.4085,-271.1908 730.7366,-268.8287 721.1897,-264.2345 720.4085,-271.1908"/>
 </g>
 <!-- Node12&#45;&gt;Node8 -->
 <g id="edge13" class="edge">
 <title>Node12&#45;&gt;Node8</title>
-<path fill="none" stroke="#191970" d="M627.5529,-235.3869C633.8873,-232.4668 640.1638,-229.3192 646,-226 674.227,-209.9468 703.5724,-187.1817 723.5931,-170.5692"/>
-<polygon fill="#191970" stroke="#191970" points="725.9043,-173.1988 731.31,-164.0867 721.4019,-167.8389 725.9043,-173.1988"/>
+<path fill="none" stroke="#191970" d="M675.1079,-235.4897C681.9292,-232.5515 688.696,-229.3715 695,-226 724.849,-210.0361 756.0791,-187.1165 777.3277,-170.4361"/>
+<polygon fill="#191970" stroke="#191970" points="779.5824,-173.115 785.2353,-164.1542 775.2282,-167.634 779.5824,-173.115"/>
 </g>
 </g>
 </svg>

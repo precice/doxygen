@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1026;
+var viewWidth = 1108;
 var viewHeight = 162;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,143 +54,143 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>src/precice/impl/DataContext.hpp</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-158 1022,-158 1022,4 -4,4"/>
-<!-- Node42 -->
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-158 1104,-158 1104,4 -4,4"/>
+<!-- Node41 -->
 <g id="node1" class="node">
+<title>Node41</title>
+<polygon fill="#bfbfbf" stroke="#000000" points="367,-134.5 367,-153.5 546,-153.5 546,-134.5 367,-134.5"/>
+<text text-anchor="middle" x="456.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/impl/DataContext.hpp</text>
+</g>
+<!-- Node42 -->
+<g id="node2" class="node">
 <title>Node42</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="338,-134.5 338,-153.5 501,-153.5 501,-134.5 338,-134.5"/>
-<text text-anchor="middle" x="419.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/impl/DataContext.hpp</text>
+<g id="a_node2"><a xlink:href="ParticipantConfiguration_8cpp.html" target="_top" xlink:title="src/precice/config\l/ParticipantConfiguration.cpp">
+<polygon fill="#ffffff" stroke="#000000" points="0,-67.5 0,-97.5 157,-97.5 157,-67.5 0,-67.5"/>
+<text text-anchor="start" x="8" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/config</text>
+<text text-anchor="middle" x="78.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/ParticipantConfiguration.cpp</text>
+</a>
+</g>
+</g>
+<!-- Node41&#45;&gt;Node42 -->
+<g id="edge1" class="edge">
+<title>Node41&#45;&gt;Node42</title>
+<path fill="none" stroke="#191970" d="M384.0476,-132.9492C325.1336,-123.8665 239.8839,-110.5041 165.5,-98 162.7766,-97.5422 160.0062,-97.0721 157.2086,-96.5938"/>
+<polygon fill="#191970" stroke="#191970" points="383.5846,-136.419 394.0008,-134.4815 384.6498,-129.5006 383.5846,-136.419"/>
 </g>
 <!-- Node43 -->
-<g id="node2" class="node">
+<g id="node3" class="node">
 <title>Node43</title>
-<g id="a_node2"><a xlink:href="ParticipantConfiguration_8cpp.html" target="_top" xlink:title="src/precice/config\l/ParticipantConfiguration.cpp">
-<polygon fill="#ffffff" stroke="#000000" points="0,-67.5 0,-97.5 143,-97.5 143,-67.5 0,-67.5"/>
-<text text-anchor="start" x="8" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/config</text>
-<text text-anchor="middle" x="71.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/ParticipantConfiguration.cpp</text>
+<g id="a_node3"><a xlink:href="DataContext_8cpp.html" target="_top" xlink:title="src/precice/impl/DataContext.cpp">
+<polygon fill="#ffffff" stroke="#000000" points="175,-73 175,-92 354,-92 354,-73 175,-73"/>
+<text text-anchor="middle" x="264.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/impl/DataContext.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node42&#45;&gt;Node43 -->
-<g id="edge1" class="edge">
-<title>Node42&#45;&gt;Node43</title>
-<path fill="none" stroke="#191970" d="M351.7511,-132.7832C297.526,-123.7062 219.5595,-110.4327 151.5,-98 148.7166,-97.4915 145.8799,-96.9679 143.0151,-96.4346"/>
-<polygon fill="#191970" stroke="#191970" points="351.4903,-136.2881 361.9305,-134.4845 352.6444,-129.3838 351.4903,-136.2881"/>
+<!-- Node41&#45;&gt;Node43 -->
+<g id="edge2" class="edge">
+<title>Node41&#45;&gt;Node43</title>
+<path fill="none" stroke="#191970" d="M416.6974,-131.2507C380.2676,-119.5818 327.1738,-102.5752 294.2893,-92.0419"/>
+<polygon fill="#191970" stroke="#191970" points="415.9089,-134.6733 426.5,-134.3906 418.0443,-128.0069 415.9089,-134.6733"/>
 </g>
 <!-- Node44 -->
-<g id="node3" class="node">
+<g id="node4" class="node">
 <title>Node44</title>
-<g id="a_node3"><a xlink:href="DataContext_8cpp.html" target="_top" xlink:title="src/precice/impl/DataContext.cpp">
-<polygon fill="#ffffff" stroke="#000000" points="161,-73 161,-92 324,-92 324,-73 161,-73"/>
-<text text-anchor="middle" x="242.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/impl/DataContext.cpp</text>
+<g id="a_node4"><a xlink:href="Participant_8cpp.html" target="_top" xlink:title="src/precice/impl/Participant.cpp">
+<polygon fill="#ffffff" stroke="#000000" points="372,-73 372,-92 541,-92 541,-73 372,-73"/>
+<text text-anchor="middle" x="456.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/impl/Participant.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node42&#45;&gt;Node44 -->
-<g id="edge2" class="edge">
-<title>Node42&#45;&gt;Node44</title>
-<path fill="none" stroke="#191970" d="M382.3756,-131.1009C348.8053,-119.4366 300.1479,-102.5302 269.962,-92.0419"/>
-<polygon fill="#191970" stroke="#191970" points="381.2489,-134.4146 391.8438,-134.3906 383.5465,-127.8023 381.2489,-134.4146"/>
+<!-- Node41&#45;&gt;Node44 -->
+<g id="edge3" class="edge">
+<title>Node41&#45;&gt;Node44</title>
+<path fill="none" stroke="#191970" d="M456.5,-124.2462C456.5,-113.5519 456.5,-100.814 456.5,-92.2449"/>
+<polygon fill="#191970" stroke="#191970" points="453.0001,-124.3906 456.5,-134.3906 460.0001,-124.3907 453.0001,-124.3906"/>
 </g>
 <!-- Node45 -->
-<g id="node4" class="node">
+<g id="node5" class="node">
 <title>Node45</title>
-<g id="a_node4"><a xlink:href="Participant_8cpp.html" target="_top" xlink:title="src/precice/impl/Participant.cpp">
-<polygon fill="#ffffff" stroke="#000000" points="342.5,-73 342.5,-92 496.5,-92 496.5,-73 342.5,-73"/>
-<text text-anchor="middle" x="419.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/impl/Participant.cpp</text>
+<g id="a_node5"><a xlink:href="SolverInterfaceImpl_8hpp.html" target="_top" xlink:title="src/precice/impl/SolverInterface\lImpl.hpp">
+<polygon fill="#ffffff" stroke="#000000" points="633,-67.5 633,-97.5 804,-97.5 804,-67.5 633,-67.5"/>
+<text text-anchor="start" x="641" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/impl/SolverInterface</text>
+<text text-anchor="middle" x="718.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Impl.hpp</text>
 </a>
 </g>
 </g>
-<!-- Node42&#45;&gt;Node45 -->
-<g id="edge3" class="edge">
-<title>Node42&#45;&gt;Node45</title>
-<path fill="none" stroke="#191970" d="M419.5,-124.2462C419.5,-113.5519 419.5,-100.814 419.5,-92.2449"/>
-<polygon fill="#191970" stroke="#191970" points="416.0001,-124.3906 419.5,-134.3906 423.0001,-124.3907 416.0001,-124.3906"/>
+<!-- Node41&#45;&gt;Node45 -->
+<g id="edge4" class="edge">
+<title>Node41&#45;&gt;Node45</title>
+<path fill="none" stroke="#191970" d="M506.894,-132.1709C548.9308,-122.3035 609.0821,-108.184 654.5153,-97.5193"/>
+<polygon fill="#191970" stroke="#191970" points="506.0856,-128.7654 497.15,-134.4581 507.6853,-135.5802 506.0856,-128.7654"/>
 </g>
 <!-- Node46 -->
-<g id="node5" class="node">
+<g id="node6" class="node">
 <title>Node46</title>
-<g id="a_node5"><a xlink:href="SolverInterfaceImpl_8hpp.html" target="_top" xlink:title="src/precice/impl/SolverInterface\lImpl.hpp">
-<polygon fill="#ffffff" stroke="#000000" points="586,-67.5 586,-97.5 741,-97.5 741,-67.5 586,-67.5"/>
-<text text-anchor="start" x="594" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/impl/SolverInterface</text>
-<text text-anchor="middle" x="663.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Impl.hpp</text>
+<g id="a_node6"><a xlink:href="SolverInterfaceImpl_8cpp.html" target="_top" xlink:title="src/precice/impl/SolverInterface\lImpl.cpp">
+<polygon fill="#ffffff" stroke="#000000" points="446,-.5 446,-30.5 617,-30.5 617,-.5 446,-.5"/>
+<text text-anchor="start" x="454" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/impl/SolverInterface</text>
+<text text-anchor="middle" x="531.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Impl.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node42&#45;&gt;Node46 -->
-<g id="edge4" class="edge">
-<title>Node42&#45;&gt;Node46</title>
-<path fill="none" stroke="#191970" d="M467.4086,-131.9247C506.4354,-122.088 561.7436,-108.1476 603.6767,-97.5784"/>
-<polygon fill="#191970" stroke="#191970" points="466.1986,-128.6201 457.3573,-134.4581 467.9095,-135.4078 466.1986,-128.6201"/>
+<!-- Node41&#45;&gt;Node46 -->
+<g id="edge9" class="edge">
+<title>Node41&#45;&gt;Node46</title>
+<path fill="none" stroke="#191970" d="M507.2752,-130.6855C523.6258,-123.7334 539.9673,-113.3501 549.5,-98 562.4931,-77.0776 550.6808,-48.0861 541.0245,-30.6267"/>
+<polygon fill="#191970" stroke="#191970" points="505.7599,-127.519 497.6985,-134.3939 508.2877,-134.0466 505.7599,-127.519"/>
+</g>
+<!-- Node45&#45;&gt;Node46 -->
+<g id="edge5" class="edge">
+<title>Node45&#45;&gt;Node46</title>
+<path fill="none" stroke="#191970" d="M666.872,-64.0023C637.5326,-53.4903 601.2607,-40.4945 573.6495,-30.6017"/>
+<polygon fill="#191970" stroke="#191970" points="665.939,-67.3858 676.5335,-67.4639 668.3001,-60.796 665.939,-67.3858"/>
 </g>
 <!-- Node47 -->
-<g id="node6" class="node">
+<g id="node7" class="node">
 <title>Node47</title>
-<g id="a_node6"><a xlink:href="SolverInterfaceImpl_8cpp.html" target="_top" xlink:title="src/precice/impl/SolverInterface\lImpl.cpp">
-<polygon fill="#ffffff" stroke="#000000" points="414,-.5 414,-30.5 569,-30.5 569,-.5 414,-.5"/>
-<text text-anchor="start" x="422" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/impl/SolverInterface</text>
-<text text-anchor="middle" x="491.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Impl.cpp</text>
+<g id="a_node7"><a xlink:href="SolverInterface_8cpp.html" target="_top" xlink:title="src/precice/SolverInterface.cpp">
+<polygon fill="#ffffff" stroke="#000000" points="635,-6 635,-25 802,-25 802,-6 635,-6"/>
+<text text-anchor="middle" x="718.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/SolverInterface.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node42&#45;&gt;Node47 -->
-<g id="edge9" class="edge">
-<title>Node42&#45;&gt;Node47</title>
-<path fill="none" stroke="#191970" d="M465.0987,-130.4841C480.7066,-123.4323 496.4913,-113.0351 505.5,-98 518.0444,-77.064 508.095,-48.0767 499.7725,-30.6218"/>
-<polygon fill="#191970" stroke="#191970" points="463.3777,-127.4077 455.4657,-134.454 466.0449,-133.8797 463.3777,-127.4077"/>
-</g>
-<!-- Node46&#45;&gt;Node47 -->
-<g id="edge5" class="edge">
-<title>Node46&#45;&gt;Node47</title>
-<path fill="none" stroke="#191970" d="M615.3078,-63.7275C588.4477,-53.2645 555.4441,-40.4084 530.2685,-30.6017"/>
-<polygon fill="#191970" stroke="#191970" points="614.3114,-67.0954 624.8998,-67.4639 616.8522,-60.5728 614.3114,-67.0954"/>
+<!-- Node45&#45;&gt;Node47 -->
+<g id="edge6" class="edge">
+<title>Node45&#45;&gt;Node47</title>
+<path fill="none" stroke="#191970" d="M718.5,-57.1199C718.5,-45.9072 718.5,-33.4031 718.5,-25.055"/>
+<polygon fill="#191970" stroke="#191970" points="715.0001,-57.2966 718.5,-67.2967 722.0001,-57.2967 715.0001,-57.2966"/>
 </g>
 <!-- Node48 -->
-<g id="node7" class="node">
+<g id="node8" class="node">
 <title>Node48</title>
-<g id="a_node7"><a xlink:href="SolverInterface_8cpp.html" target="_top" xlink:title="src/precice/SolverInterface.cpp">
-<polygon fill="#ffffff" stroke="#000000" points="587.5,-6 587.5,-25 739.5,-25 739.5,-6 587.5,-6"/>
-<text text-anchor="middle" x="663.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/SolverInterface.cpp</text>
+<g id="a_node8"><a xlink:href="ParallelTests_8cpp.html" target="_top" xlink:title="src/precice/tests/Parallel\lTests.cpp">
+<polygon fill="#ffffff" stroke="#000000" points="820,-.5 820,-30.5 955,-30.5 955,-.5 820,-.5"/>
+<text text-anchor="start" x="828" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/tests/Parallel</text>
+<text text-anchor="middle" x="887.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Tests.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node46&#45;&gt;Node48 -->
-<g id="edge6" class="edge">
-<title>Node46&#45;&gt;Node48</title>
-<path fill="none" stroke="#191970" d="M663.5,-57.1199C663.5,-45.9072 663.5,-33.4031 663.5,-25.055"/>
-<polygon fill="#191970" stroke="#191970" points="660.0001,-57.2966 663.5,-67.2967 667.0001,-57.2967 660.0001,-57.2966"/>
+<!-- Node45&#45;&gt;Node48 -->
+<g id="edge7" class="edge">
+<title>Node45&#45;&gt;Node48</title>
+<path fill="none" stroke="#191970" d="M765.8516,-63.7275C792.2433,-53.2645 824.6713,-40.4084 849.4077,-30.6017"/>
+<polygon fill="#191970" stroke="#191970" points="764.4331,-60.5248 756.4269,-67.4639 767.0129,-67.032 764.4331,-60.5248"/>
 </g>
 <!-- Node49 -->
-<g id="node8" class="node">
-<title>Node49</title>
-<g id="a_node8"><a xlink:href="ParallelTests_8cpp.html" target="_top" xlink:title="src/precice/tests/Parallel\lTests.cpp">
-<polygon fill="#ffffff" stroke="#000000" points="758,-.5 758,-30.5 883,-30.5 883,-.5 758,-.5"/>
-<text text-anchor="start" x="766" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/tests/Parallel</text>
-<text text-anchor="middle" x="820.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Tests.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node46&#45;&gt;Node49 -->
-<g id="edge7" class="edge">
-<title>Node46&#45;&gt;Node49</title>
-<path fill="none" stroke="#191970" d="M708.1359,-63.4516C732.535,-53.0392 762.334,-40.3224 785.1125,-30.6017"/>
-<polygon fill="#191970" stroke="#191970" points="706.5576,-60.3197 698.7339,-67.4639 709.3052,-66.7579 706.5576,-60.3197"/>
-</g>
-<!-- Node50 -->
 <g id="node9" class="node">
-<title>Node50</title>
+<title>Node49</title>
 <g id="a_node9"><a xlink:href="SerialTests_8cpp.html" target="_top" xlink:title="src/precice/tests/Serial\lTests.cpp">
-<polygon fill="#ffffff" stroke="#000000" points="901,-.5 901,-30.5 1018,-30.5 1018,-.5 901,-.5"/>
-<text text-anchor="start" x="909" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/tests/Serial</text>
-<text text-anchor="middle" x="959.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Tests.cpp</text>
+<polygon fill="#ffffff" stroke="#000000" points="973,-.5 973,-30.5 1100,-30.5 1100,-.5 973,-.5"/>
+<text text-anchor="start" x="981" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/tests/Serial</text>
+<text text-anchor="middle" x="1036.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Tests.cpp</text>
 </a>
 </g>
 </g>
-<!-- Node46&#45;&gt;Node50 -->
+<!-- Node45&#45;&gt;Node49 -->
 <g id="edge8" class="edge">
-<title>Node46&#45;&gt;Node50</title>
-<path fill="none" stroke="#191970" d="M740.7647,-65.2477C785.1701,-55.3014 841.9902,-42.522 892.5,-31 895.1772,-30.3893 897.9142,-29.7632 900.6786,-29.1294"/>
-<polygon fill="#191970" stroke="#191970" points="739.9043,-61.8536 730.9107,-67.454 741.4338,-68.6844 739.9043,-61.8536"/>
+<title>Node45&#45;&gt;Node49</title>
+<path fill="none" stroke="#191970" d="M800.896,-65.3721C848.6841,-55.4079 910.0073,-42.5694 964.5,-31 967.2517,-30.4158 970.0621,-29.8175 972.901,-29.2119"/>
+<polygon fill="#191970" stroke="#191970" points="799.9867,-61.9863 790.9113,-67.4533 801.4151,-68.8391 799.9867,-61.9863"/>
 </g>
 </g>
 </svg>

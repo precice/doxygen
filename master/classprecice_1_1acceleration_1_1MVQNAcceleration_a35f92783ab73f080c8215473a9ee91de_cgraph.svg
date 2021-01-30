@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 517;
+var viewWidth = 551;
 var viewHeight = 228;
 var sectionId = 'dynsection-3';
 </script>
@@ -54,117 +54,117 @@ var sectionId = 'dynsection-3';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::acceleration::MVQNAcceleration::buildWtil</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-224 513,-224 513,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-224 547,-224 547,4 -4,4"/>
 <!-- Node13 -->
 <g id="node1" class="node">
 <title>Node13</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-109.5 0,-139.5 150,-139.5 150,-109.5 0,-109.5"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-109.5 0,-139.5 163,-139.5 163,-109.5 0,-109.5"/>
 <text text-anchor="start" x="8" y="-127.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
-<text text-anchor="middle" x="75" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::MVQNAcceleration::buildWtil</text>
+<text text-anchor="middle" x="81.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::MVQNAcceleration::buildWtil</text>
 </g>
 <!-- Node14 -->
 <g id="node2" class="node">
 <title>Node14</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1acceleration_1_1impl_1_1QRFactorization.html#a66a9bc32b0651f4cc31470f792fedebe" target="_top" xlink:title="precice::acceleration\l::impl::QRFactorization::rows">
-<polygon fill="#ffffff" stroke="#000000" points="186,-189.5 186,-219.5 331,-219.5 331,-189.5 186,-189.5"/>
-<text text-anchor="start" x="194" y="-207.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
-<text text-anchor="middle" x="258.5" y="-196.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::impl::QRFactorization::rows</text>
+<polygon fill="#ffffff" stroke="#000000" points="199,-189.5 199,-219.5 355,-219.5 355,-189.5 199,-189.5"/>
+<text text-anchor="start" x="207" y="-207.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
+<text text-anchor="middle" x="277" y="-196.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::impl::QRFactorization::rows</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node14 -->
 <g id="edge1" class="edge">
 <title>Node13&#45;&gt;Node14</title>
-<path fill="none" stroke="#191970" d="M102.8242,-139.528C125.0011,-151.201 157.0307,-167.3867 186,-179.5 191.1437,-181.6508 196.5445,-183.7669 201.9807,-185.8021"/>
-<polygon fill="#191970" stroke="#191970" points="201.1621,-189.229 211.7561,-189.368 203.5611,-182.6529 201.1621,-189.229"/>
+<path fill="none" stroke="#191970" d="M110.9837,-139.5833C134.4757,-151.2869 168.3886,-167.4866 199,-179.5 204.8203,-181.7842 210.9422,-184.0212 217.0904,-186.1599"/>
+<polygon fill="#191970" stroke="#191970" points="216.1397,-189.5332 226.734,-189.4324 218.3892,-182.9045 216.1397,-189.5332"/>
 </g>
 <!-- Node15 -->
 <g id="node3" class="node">
 <title>Node15</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1acceleration_1_1BaseQNAcceleration.html#a2354cc9c97ebd8ff1ba76b5959e79f20" target="_top" xlink:title=": computes number of cols in least squares system, i.e, number of cols in _matrixV, _matrixW, _qrV, etc.. This is necessary only for master&#45;slave mode, when some procs do not have any nodes on the coupling interface. In this case, the matrices are not constructed and we have no information about the number of cols. This info is needed for master&#45;slave communication. Number of its =! _cols in general. ">
-<polygon fill="#ffffff" stroke="#000000" points="201.5,-129 201.5,-170 315.5,-170 315.5,-129 201.5,-129"/>
-<text text-anchor="start" x="209.5" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
-<text text-anchor="start" x="209.5" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseQNAcceleration</text>
-<text text-anchor="middle" x="258.5" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getLSSystemCols</text>
+<polygon fill="#ffffff" stroke="#000000" points="216,-129 216,-170 338,-170 338,-129 216,-129"/>
+<text text-anchor="start" x="224" y="-158" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
+<text text-anchor="start" x="224" y="-147" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseQNAcceleration</text>
+<text text-anchor="middle" x="277" y="-136" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getLSSystemCols</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node15 -->
 <g id="edge2" class="edge">
 <title>Node13&#45;&gt;Node15</title>
-<path fill="none" stroke="#191970" d="M150.1659,-134.7406C163.8108,-136.5996 177.9618,-138.5275 191.3572,-140.3525"/>
-<polygon fill="#191970" stroke="#191970" points="191.0516,-143.8431 201.4326,-141.7251 191.9966,-136.9072 191.0516,-143.8431"/>
+<path fill="none" stroke="#191970" d="M163.2768,-134.9574C177.4219,-136.7662 192.0256,-138.6337 205.8597,-140.4028"/>
+<polygon fill="#191970" stroke="#191970" points="205.4162,-143.8745 215.7794,-141.6713 206.3042,-136.931 205.4162,-143.8745"/>
 </g>
 <!-- Node16 -->
 <g id="node4" class="node">
 <title>Node16</title>
 <g id="a_node4"><a xlink:href="classprecice_1_1acceleration_1_1impl_1_1QRFactorization.html#a8a1d26479a03fe3a6f477a19d6fb7d80" target="_top" xlink:title="precice::acceleration\l::impl::QRFactorization::cols">
-<polygon fill="#ffffff" stroke="#000000" points="367,-122.5 367,-152.5 509,-152.5 509,-122.5 367,-122.5"/>
-<text text-anchor="start" x="375" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
-<text text-anchor="middle" x="438" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::impl::QRFactorization::cols</text>
+<polygon fill="#ffffff" stroke="#000000" points="391,-122.5 391,-152.5 543,-152.5 543,-122.5 391,-122.5"/>
+<text text-anchor="start" x="399" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
+<text text-anchor="middle" x="467" y="-129.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::impl::QRFactorization::cols</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node16 -->
 <g id="edge4" class="edge">
 <title>Node13&#45;&gt;Node16</title>
-<path fill="none" stroke="#191970" d="M150.1812,-118.9773C201.2616,-116.2193 270.3108,-114.4309 331,-119.5 339.3653,-120.1987 348.0605,-121.1996 356.7172,-122.3763"/>
-<polygon fill="#191970" stroke="#191970" points="356.4436,-125.8728 366.8398,-123.8308 357.4393,-118.944 356.4436,-125.8728"/>
+<path fill="none" stroke="#191970" d="M163.0069,-118.8455C217.4526,-116.0918 290.6177,-114.3594 355,-119.5 363.3955,-120.1703 372.1116,-121.119 380.8069,-122.2344"/>
+<polygon fill="#191970" stroke="#191970" points="380.6049,-125.7389 390.9843,-123.6136 381.5449,-118.8023 380.6049,-125.7389"/>
 </g>
 <!-- Node17 -->
 <g id="node5" class="node">
 <title>Node17</title>
 <g id="a_node5"><a xlink:href="classprecice_1_1acceleration_1_1BaseQNAcceleration.html#a619e8998fd765613100c5753380753b2" target="_top" xlink:title="precice::acceleration\l::BaseQNAcceleration\l::getLSSystemRows">
-<polygon fill="#ffffff" stroke="#000000" points="201.5,-31 201.5,-72 315.5,-72 315.5,-31 201.5,-31"/>
-<text text-anchor="start" x="209.5" y="-60" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
-<text text-anchor="start" x="209.5" y="-49" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseQNAcceleration</text>
-<text text-anchor="middle" x="258.5" y="-38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getLSSystemRows</text>
+<polygon fill="#ffffff" stroke="#000000" points="216,-31 216,-72 338,-72 338,-31 216,-31"/>
+<text text-anchor="start" x="224" y="-60" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::acceleration</text>
+<text text-anchor="start" x="224" y="-49" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseQNAcceleration</text>
+<text text-anchor="middle" x="277" y="-38" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getLSSystemRows</text>
 </a>
 </g>
 </g>
 <!-- Node13&#45;&gt;Node17 -->
 <g id="edge5" class="edge">
 <title>Node13&#45;&gt;Node17</title>
-<path fill="none" stroke="#191970" d="M113.0213,-109.3744C137.449,-99.6565 169.7221,-86.8176 197.6637,-75.7019"/>
-<polygon fill="#191970" stroke="#191970" points="198.9579,-78.9539 206.9559,-72.0053 196.3704,-72.4497 198.9579,-78.9539"/>
+<path fill="none" stroke="#191970" d="M122.0077,-109.3744C148.146,-99.6143 182.7156,-86.7059 212.5733,-75.557"/>
+<polygon fill="#191970" stroke="#191970" points="213.9413,-78.7823 222.0852,-72.0053 211.4926,-72.2246 213.9413,-78.7823"/>
 </g>
 <!-- Node15&#45;&gt;Node16 -->
 <g id="edge3" class="edge">
 <title>Node15&#45;&gt;Node16</title>
-<path fill="none" stroke="#191970" d="M315.7884,-145.6701C328.8333,-144.7981 342.9354,-143.8553 356.7655,-142.9307"/>
-<polygon fill="#191970" stroke="#191970" points="357.0246,-146.4213 366.7688,-142.262 356.5576,-139.4369 357.0246,-146.4213"/>
+<path fill="none" stroke="#191970" d="M338.163,-145.6371C351.6937,-144.7825 366.2778,-143.8614 380.599,-142.9569"/>
+<polygon fill="#191970" stroke="#191970" points="381.2024,-146.4259 390.9619,-142.3024 380.7611,-139.4398 381.2024,-146.4259"/>
 </g>
 <!-- Node18 -->
 <g id="node6" class="node">
 <title>Node18</title>
 <g id="a_node6"><a xlink:href="classprecice_1_1utils_1_1MasterSlave.html#a5e934392c32335daa8e2b4a01bc75fd3" target="_top" xlink:title="True if this process is running the master. ">
-<polygon fill="#ffffff" stroke="#000000" points="371.5,-49.5 371.5,-79.5 504.5,-79.5 504.5,-49.5 371.5,-49.5"/>
-<text text-anchor="start" x="379.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
-<text text-anchor="middle" x="438" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isMaster</text>
+<polygon fill="#ffffff" stroke="#000000" points="394.5,-49.5 394.5,-79.5 539.5,-79.5 539.5,-49.5 394.5,-49.5"/>
+<text text-anchor="start" x="402.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
+<text text-anchor="middle" x="467" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isMaster</text>
 </a>
 </g>
 </g>
 <!-- Node17&#45;&gt;Node18 -->
 <g id="edge6" class="edge">
 <title>Node17&#45;&gt;Node18</title>
-<path fill="none" stroke="#191970" d="M315.7884,-55.649C330.127,-56.6875 345.7431,-57.8184 360.871,-58.9141"/>
-<polygon fill="#191970" stroke="#191970" points="361.0178,-62.4338 371.2445,-59.6653 361.5235,-55.4521 361.0178,-62.4338"/>
+<path fill="none" stroke="#191970" d="M338.163,-55.6848C352.8463,-56.6895 368.7701,-57.779 384.2524,-58.8383"/>
+<polygon fill="#191970" stroke="#191970" points="384.1296,-62.338 394.3453,-59.5289 384.6075,-55.3543 384.1296,-62.338"/>
 </g>
 <!-- Node19 -->
 <g id="node7" class="node">
 <title>Node19</title>
 <g id="a_node7"><a xlink:href="classprecice_1_1utils_1_1MasterSlave.html#a3837ad42361b53d7e930443ba07a9eb5" target="_top" xlink:title="True if this process is running a slave. ">
-<polygon fill="#ffffff" stroke="#000000" points="371.5,-.5 371.5,-30.5 504.5,-30.5 504.5,-.5 371.5,-.5"/>
-<text text-anchor="start" x="379.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
-<text text-anchor="middle" x="438" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isSlave</text>
+<polygon fill="#ffffff" stroke="#000000" points="394.5,-.5 394.5,-30.5 539.5,-30.5 539.5,-.5 394.5,-.5"/>
+<text text-anchor="start" x="402.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::MasterSlave</text>
+<text text-anchor="middle" x="467" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isSlave</text>
 </a>
 </g>
 </g>
 <!-- Node17&#45;&gt;Node19 -->
 <g id="edge7" class="edge">
 <title>Node17&#45;&gt;Node19</title>
-<path fill="none" stroke="#191970" d="M315.7884,-40.0104C330.2649,-37.107 346.0435,-33.9425 361.3073,-30.8813"/>
-<polygon fill="#191970" stroke="#191970" points="362.1281,-34.2864 371.2445,-28.8883 360.7515,-27.4231 362.1281,-34.2864"/>
+<path fill="none" stroke="#191970" d="M338.163,-39.9112C352.8463,-37.1291 368.7701,-34.112 384.2524,-31.1785"/>
+<polygon fill="#191970" stroke="#191970" points="385.1717,-34.5667 394.3453,-29.2662 383.8685,-27.689 385.1717,-34.5667"/>
 </g>
 </g>
 </svg>

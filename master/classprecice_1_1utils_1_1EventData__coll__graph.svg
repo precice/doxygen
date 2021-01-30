@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 685;
+var viewWidth = 747;
 var viewHeight = 118;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,92 +54,92 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::utils::EventData</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-114 681,-114 681,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-114 743,-114 743,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="552,-36 552,-55 677,-55 677,-36 552,-36"/>
-<text text-anchor="middle" x="614.5" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::EventData</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="603,-36 603,-55 739,-55 739,-36 603,-36"/>
+<text text-anchor="middle" x="671" y="-43" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::EventData</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="303,-79.5 303,-109.5 452,-109.5 452,-79.5 303,-79.5"/>
-<text text-anchor="start" x="311" y="-97.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::vector&lt; std::pair</text>
-<text text-anchor="middle" x="377.5" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; State, Clock::time_point &gt; &gt;</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="330,-79.5 330,-109.5 497,-109.5 497,-79.5 330,-79.5"/>
+<text text-anchor="start" x="338" y="-97.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::vector&lt; std::pair</text>
+<text text-anchor="middle" x="413.5" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">&lt; State, Clock::time_point &gt; &gt;</text>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M460.3022,-77.3806C496.5615,-69.8839 537.7392,-61.3704 568.4158,-55.028"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="459.3027,-74.0131 450.2184,-79.4654 460.72,-80.8681 459.3027,-74.0131"/>
-<text text-anchor="middle" x="502" y="-76.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> stateChanges</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M502.4555,-77.5726C542.0945,-70.0296 587.3147,-61.4246 620.9296,-55.028"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="501.6779,-74.1576 492.5084,-79.4654 502.9865,-81.0342 501.6779,-74.1576"/>
+<text text-anchor="middle" x="550" y="-76.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> stateChanges</text>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:title="STL class. ">
-<polygon fill="#ffffff" stroke="#bfbfbf" points="148,-6 148,-25 208,-25 208,-6 148,-6"/>
-<text text-anchor="middle" x="178" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::string</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="160.5,-6 160.5,-25 225.5,-25 225.5,-6 160.5,-6"/>
+<text text-anchor="middle" x="193" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::string</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M218.0571,-13.0878C242.5733,-11.7332 274.5874,-10.1815 303,-9.5 369.2032,-7.912 386.1708,-2.2955 452,-9.5 497.528,-14.4827 548.9715,-27.0955 581.553,-35.9801"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="217.8284,-9.595 208.0415,-13.6531 218.2229,-16.5839 217.8284,-9.595"/>
-<text text-anchor="middle" x="377.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> name</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M235.9178,-13.1377C262.9128,-11.7715 298.4812,-10.1899 330,-9.5 404.2045,-7.8759 423.1636,-1.9418 497,-9.5 545.6401,-14.479 600.7504,-27.0927 635.6735,-35.9785"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="235.4565,-9.6567 225.6503,-13.6677 235.8175,-16.6474 235.4565,-9.6567"/>
+<text text-anchor="middle" x="413.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> name</text>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="322.5,-30.5 322.5,-60.5 432.5,-60.5 432.5,-30.5 322.5,-30.5"/>
-<text text-anchor="start" x="330.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::map&lt; std::string,</text>
-<text text-anchor="middle" x="377.5" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> std::vector&lt; int &gt; &gt;</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="352.5,-30.5 352.5,-60.5 474.5,-60.5 474.5,-30.5 352.5,-30.5"/>
+<text text-anchor="start" x="360.5" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::map&lt; std::string,</text>
+<text text-anchor="middle" x="413.5" y="-37.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> std::vector&lt; int &gt; &gt;</text>
 </g>
 <!-- Node3&#45;&gt;Node5 -->
 <g id="edge5" class="edge">
 <title>Node3&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M218.3839,-21.5728C248.304,-26.072 289.4254,-32.2557 322.3688,-37.2096"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="218.7091,-18.0824 208.2998,-20.0564 217.6681,-25.0046 218.7091,-18.0824"/>
-<text text-anchor="middle" x="263.5" y="-34.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> keys</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M235.8145,-21.3251C268.9937,-25.8393 315.4034,-32.1535 352.4718,-37.1968"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="235.9161,-17.8068 225.5355,-19.9266 234.9724,-24.7429 235.9161,-17.8068"/>
+<text text-anchor="middle" x="287.5" y="-34.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> keys</text>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:title="STL class. ">
-<polygon fill="#ffffff" stroke="#bfbfbf" points="0,-.5 0,-30.5 95,-30.5 95,-.5 0,-.5"/>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="0,-.5 0,-30.5 104,-30.5 104,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::basic_string&lt;</text>
-<text text-anchor="middle" x="47.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> char &gt;</text>
+<text text-anchor="middle" x="52" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> char &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node3</title>
-<path fill="none" stroke="#191970" d="M105.4095,-15.5C120.1065,-15.5 135.3066,-15.5 147.9762,-15.5"/>
-<polygon fill="#191970" stroke="#191970" points="105.3524,-12.0001 95.3524,-15.5 105.3523,-19.0001 105.3524,-12.0001"/>
+<path fill="none" stroke="#191970" d="M114.3999,-15.5C130.2431,-15.5 146.6392,-15.5 160.3306,-15.5"/>
+<polygon fill="#191970" stroke="#191970" points="114.1026,-12.0001 104.1026,-15.5 114.1026,-19.0001 114.1026,-12.0001"/>
 </g>
 <!-- Node5&#45;&gt;Node1 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M443.0357,-45.5C476.9306,-45.5 518.1042,-45.5 551.6081,-45.5"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="442.7669,-42.0001 432.7669,-45.5 442.7668,-49.0001 442.7669,-42.0001"/>
-<text text-anchor="middle" x="502" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> data</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M484.6916,-45.5C521.5332,-45.5 566.2922,-45.5 602.7051,-45.5"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="484.5239,-42.0001 474.5239,-45.5 484.5239,-49.0001 484.5239,-42.0001"/>
+<text text-anchor="middle" x="550" y="-48.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> data</text>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="132,-58 132,-77 224,-77 224,-58 132,-58"/>
-<text text-anchor="middle" x="178" y="-65" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::vector&lt; int &gt;</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="141,-58 141,-77 245,-77 245,-58 141,-58"/>
+<text text-anchor="middle" x="193" y="-65" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">std::vector&lt; int &gt;</text>
 </g>
 <!-- Node6&#45;&gt;Node5 -->
 <g id="edge6" class="edge">
 <title>Node6&#45;&gt;Node5</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M234.5188,-61.2674C262.0119,-58.2355 294.9376,-54.6046 322.2592,-51.5917"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="233.8268,-57.8224 224.2708,-62.3975 234.5942,-64.7802 233.8268,-57.8224"/>
-<text text-anchor="middle" x="263.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> elements</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M255.2998,-61.2841C285.6503,-58.256 322.0221,-54.627 352.2341,-51.6127"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="254.8585,-57.8107 245.2554,-62.2863 255.5535,-64.7761 254.8585,-57.8107"/>
+<text text-anchor="middle" x="287.5" y="-62.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000"> elements</text>
 </g>
 </g>
 </svg>

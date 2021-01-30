@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 539;
+var viewWidth = 578;
 var viewHeight = 78;
 var sectionId = 'dynsection-2';
 </script>
@@ -54,61 +54,61 @@ var sectionId = 'dynsection-2';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::testing::com::masterslave::TestReducePrimitiveTypes</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-73.5 535,-73.5 535,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-73.5 574,-73.5 574,4 -4,4"/>
 <!-- Node9 -->
 <g id="node1" class="node">
 <title>Node9</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-11.5 0,-52.5 173,-52.5 173,-11.5 0,-11.5"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-11.5 0,-52.5 188,-52.5 188,-11.5 0,-11.5"/>
 <text text-anchor="start" x="8" y="-40.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::testing::com</text>
 <text text-anchor="start" x="8" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::masterslave::TestReducePrimitive</text>
-<text text-anchor="middle" x="86.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Types</text>
+<text text-anchor="middle" x="94" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Types</text>
 </g>
 <!-- Node10 -->
 <g id="node2" class="node">
 <title>Node10</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1testing_1_1TestContext.html#ae29e764c55d02af8024417f307aba70b" target="_top" xlink:title="precice::testing::TestContext\l::isMaster">
-<polygon fill="#ffffff" stroke="#000000" points="209,-39 209,-69 352,-69 352,-39 209,-39"/>
-<text text-anchor="start" x="217" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::testing::TestContext</text>
-<text text-anchor="middle" x="280.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isMaster</text>
+<polygon fill="#ffffff" stroke="#000000" points="224,-39 224,-69 379,-69 379,-39 224,-39"/>
+<text text-anchor="start" x="232" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::testing::TestContext</text>
+<text text-anchor="middle" x="301.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isMaster</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node10 -->
 <g id="edge1" class="edge">
 <title>Node9&#45;&gt;Node10</title>
-<path fill="none" stroke="#191970" d="M173.0037,-41.8097C181.6459,-42.7897 190.4005,-43.7825 198.9889,-44.7565"/>
-<polygon fill="#191970" stroke="#191970" points="198.6471,-48.2401 208.9778,-45.8892 199.4359,-41.2846 198.6471,-48.2401"/>
+<path fill="none" stroke="#191970" d="M188.0361,-41.9701C196.6681,-42.8853 205.3907,-43.8101 213.9618,-44.7188"/>
+<polygon fill="#191970" stroke="#191970" points="213.6263,-48.2028 223.9396,-45.7767 214.3644,-41.2418 213.6263,-48.2028"/>
 </g>
 <!-- Node12 -->
 <g id="node4" class="node">
 <title>Node12</title>
 <g id="a_node4"><a xlink:href="RTreeTests_8cpp.html#a9849f5c774ff22e557184d988b1cf9ea" target="_top" xlink:title="BOOST_TEST">
-<polygon fill="#ffffff" stroke="#000000" points="239.5,-.5 239.5,-19.5 321.5,-19.5 321.5,-.5 239.5,-.5"/>
-<text text-anchor="middle" x="280.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">BOOST_TEST</text>
+<polygon fill="#ffffff" stroke="#000000" points="261.5,-.5 261.5,-19.5 341.5,-19.5 341.5,-.5 261.5,-.5"/>
+<text text-anchor="middle" x="301.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">BOOST_TEST</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node12 -->
 <g id="edge3" class="edge">
 <title>Node9&#45;&gt;Node12</title>
-<path fill="none" stroke="#191970" d="M173.0037,-22.1903C192.1652,-20.0173 211.8797,-17.7817 229.1086,-15.8279"/>
-<polygon fill="#191970" stroke="#191970" points="229.9458,-19.2555 239.4877,-14.6509 229.157,-12.3 229.9458,-19.2555"/>
+<path fill="none" stroke="#191970" d="M188.0361,-22.0299C209.7502,-19.7277 232.0369,-17.3648 251.0465,-15.3493"/>
+<polygon fill="#191970" stroke="#191970" points="251.6707,-18.8028 261.2459,-14.2679 250.9326,-11.8418 251.6707,-18.8028"/>
 </g>
 <!-- Node11 -->
 <g id="node3" class="node">
 <title>Node11</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1testing_1_1TestContext.html#a8fefcbe2f6def4d4cc9816d238b2797e" target="_top" xlink:title="Check wheater this context has a given rank inside the Partiticipant. ">
-<polygon fill="#ffffff" stroke="#000000" points="388,-39 388,-69 531,-69 531,-39 388,-39"/>
-<text text-anchor="start" x="396" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::testing::TestContext</text>
-<text text-anchor="middle" x="459.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isRank</text>
+<polygon fill="#ffffff" stroke="#000000" points="415,-39 415,-69 570,-69 570,-39 415,-39"/>
+<text text-anchor="start" x="423" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::testing::TestContext</text>
+<text text-anchor="middle" x="492.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::isRank</text>
 </a>
 </g>
 </g>
 <!-- Node10&#45;&gt;Node11 -->
 <g id="edge2" class="edge">
 <title>Node10&#45;&gt;Node11</title>
-<path fill="none" stroke="#191970" d="M352.0172,-54C360.4862,-54 369.1793,-54 377.776,-54"/>
-<polygon fill="#191970" stroke="#191970" points="377.8043,-57.5001 387.8042,-54 377.8042,-50.5001 377.8043,-57.5001"/>
+<path fill="none" stroke="#191970" d="M379.187,-54C387.6495,-54 396.3055,-54 404.8763,-54"/>
+<polygon fill="#191970" stroke="#191970" points="404.8819,-57.5001 414.8818,-54 404.8818,-50.5001 404.8819,-57.5001"/>
 </g>
 </g>
 </svg>

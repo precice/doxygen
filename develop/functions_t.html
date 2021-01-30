@@ -180,6 +180,9 @@ $(function() {
 <li>TAG_USE_MESH
 : <a class="el" href="classprecice_1_1config_1_1ParticipantConfiguration.html#a6a37a01772aaa3eaf0b8ae08c86c1327">precice::config::ParticipantConfiguration</a>
 </li>
+<li>TAG_WATCH_INTEGRAL
+: <a class="el" href="classprecice_1_1config_1_1ParticipantConfiguration.html#a284a8bdb31b91352bf1c583e6e062504">precice::config::ParticipantConfiguration</a>
+</li>
 <li>TAG_WATCH_POINT
 : <a class="el" href="classprecice_1_1config_1_1ParticipantConfiguration.html#aeeae87249f320638f9b0dbba5e047365">precice::config::ParticipantConfiguration</a>
 </li>
@@ -195,6 +198,7 @@ $(function() {
 , <a class="el" href="classprecice_1_1mapping_1_1NearestProjectionMapping.html#a1babde78ff8e77a6e8941691516cdcbe">precice::mapping::NearestProjectionMapping</a>
 , <a class="el" href="classprecice_1_1mapping_1_1PetRadialBasisFctMapping.html#a2b699a4b239dc20cc2e91e27d0f278ba">precice::mapping::PetRadialBasisFctMapping&lt; RADIAL_BASIS_FUNCTION_T &gt;</a>
 , <a class="el" href="classprecice_1_1mapping_1_1RadialBasisFctMapping.html#a3bc58d0cee4810307434beb9483765f0">precice::mapping::RadialBasisFctMapping&lt; RADIAL_BASIS_FUNCTION_T &gt;</a>
+, <a class="el" href="classprecice_1_1partition_1_1ReceivedPartition.html#a2e693c3bc7ef0afd32790e280d2cbc81">precice::partition::ReceivedPartition</a>
 </li>
 <li>tagMeshSecondRound()
 : <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a0d524e2e9181ac1b6065f72a11a4579e">precice::mapping::Mapping</a>
@@ -202,6 +206,7 @@ $(function() {
 , <a class="el" href="classprecice_1_1mapping_1_1NearestProjectionMapping.html#a4c4f051145ed1dc307b20aacd247e6ce">precice::mapping::NearestProjectionMapping</a>
 , <a class="el" href="classprecice_1_1mapping_1_1PetRadialBasisFctMapping.html#a97053cf776b4a1c5340e3ef4aa279df9">precice::mapping::PetRadialBasisFctMapping&lt; RADIAL_BASIS_FUNCTION_T &gt;</a>
 , <a class="el" href="classprecice_1_1mapping_1_1RadialBasisFctMapping.html#af06149d7c4ab016d0bd8ff19c2924e74">precice::mapping::RadialBasisFctMapping&lt; RADIAL_BASIS_FUNCTION_T &gt;</a>
+, <a class="el" href="classprecice_1_1partition_1_1ReceivedPartition.html#a6388a36c5c111da0539d9d8ce2509770">precice::partition::ReceivedPartition</a>
 </li>
 <li>targetData
 : <a class="el" href="structprecice_1_1action_1_1ActionConfiguration_1_1ConfiguredAction.html#aa0ef4969ea6d8f25d8479bd8f484a9d4">precice::action::ActionConfiguration::ConfiguredAction</a>
@@ -213,7 +218,7 @@ $(function() {
 , <a class="el" href="classprecice_1_1mesh_1_1impl_1_1IsDirectIndexableHelper.html#a39966ab471436c025ceb65778821d6e2">precice::mesh::impl::IsDirectIndexableHelper&lt; Primitive &gt;</a>
 </li>
 <li>TestContext()
-: <a class="el" href="classprecice_1_1testing_1_1TestContext.html#af281262bdb246d30b54a718240acc7aa">precice::testing::TestContext</a>
+: <a class="el" href="classprecice_1_1testing_1_1TestContext.html#acaf95d2e2b4dc0ede17be20f9e9cd323">precice::testing::TestContext</a>
 </li>
 <li>testing::accessors::rtree
 : <a class="el" href="classprecice_1_1mesh_1_1rtree.html#afab8b8ac400d113e787e8c6a2217f81c">precice::mesh::rtree</a>
@@ -242,11 +247,14 @@ $(function() {
 <li>Timing
 : <a class="el" href="classprecice_1_1mapping_1_1MappingConfiguration.html#a4619c5f6b5ce722de25f62773a6b18c4">precice::mapping::MappingConfiguration</a>
 </li>
+<li>to
+: <a class="el" href="structprecice_1_1cplscheme_1_1CouplingSchemeConfiguration_1_1Config_1_1Exchange.html#a565dba84dd5eb6ef56ba128607b0d657">precice::cplscheme::CouplingSchemeConfiguration::Config::Exchange</a>
+</li>
 <li>toData
 : <a class="el" href="structprecice_1_1impl_1_1DataContext.html#a1e8ea4da5bca1418dda117fda7227a0b">precice::impl::DataContext</a>
 </li>
-<li>toMappingContext
-: <a class="el" href="structprecice_1_1impl_1_1MeshContext.html#a5fc8aacbebfd87395999a3133894b2f9">precice::impl::MeshContext</a>
+<li>toMappingContexts
+: <a class="el" href="structprecice_1_1impl_1_1MeshContext.html#a6e4657e9daed09b4f12da877fd736116">precice::impl::MeshContext</a>
 </li>
 <li>toMesh
 : <a class="el" href="structprecice_1_1mapping_1_1MappingConfiguration_1_1ConfiguredMapping.html#a301cda66872f25df5cde07c01fc98ae8">precice::mapping::MappingConfiguration::ConfiguredMapping</a>
@@ -279,9 +287,6 @@ $(function() {
 <li>triangles()
 : <a class="el" href="classprecice_1_1mesh_1_1Mesh.html#ad24f3877f1ea7cd5cd5f93a6f2e4d3f9">precice::mesh::Mesh</a>
 , <a class="el" href="structprecice_1_1mesh_1_1rtree_1_1MeshIndices.html#a4754407c66a30fc19244b05bd3f2df6b">precice::mesh::rtree::MeshIndices</a>
-</li>
-<li>triggerSolverPlot
-: <a class="el" href="structprecice_1_1io_1_1ExportContext.html#ac736ecac82defbc8f5805f96c7d7a7db">precice::io::ExportContext</a>
 </li>
 <li>tSteps
 : <a class="el" href="classprecice_1_1acceleration_1_1BaseQNAcceleration.html#a97d5675d0223d20bf3405248d7e8abe4">precice::acceleration::BaseQNAcceleration</a>

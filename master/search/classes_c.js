@@ -5,7 +5,7 @@ var searchData=
   ['parallelimplicitcouplingschemefixture',['ParallelImplicitCouplingSchemeFixture',['../structParallelImplicitCouplingSchemeFixture.html',1,'']]],
   ['parallelmatrixoperations',['ParallelMatrixOperations',['../classprecice_1_1acceleration_1_1impl_1_1ParallelMatrixOperations.html',1,'precice::acceleration::impl']]],
   ['paralleltestfixture',['ParallelTestFixture',['../structParallelTestFixture.html',1,'']]],
-  ['participant',['Participant',['../structprecice_1_1testing_1_1Participant.html',1,'precice::testing::Participant'],['../classprecice_1_1impl_1_1Participant.html',1,'precice::impl::Participant']]],
+  ['participant',['Participant',['../classprecice_1_1impl_1_1Participant.html',1,'precice::impl::Participant'],['../structprecice_1_1testing_1_1Participant.html',1,'precice::testing::Participant']]],
   ['participantconfiguration',['ParticipantConfiguration',['../classprecice_1_1config_1_1ParticipantConfiguration.html',1,'precice::config']]],
   ['partition',['Partition',['../classprecice_1_1partition_1_1Partition.html',1,'precice::partition']]],
   ['petradialbasisfctmapping',['PetRadialBasisFctMapping',['../classprecice_1_1mapping_1_1PetRadialBasisFctMapping.html',1,'precice::mapping']]],

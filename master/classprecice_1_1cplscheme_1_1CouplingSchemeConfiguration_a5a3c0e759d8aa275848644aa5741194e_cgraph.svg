@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 809;
+var viewWidth = 874;
 var viewHeight = 138;
 var sectionId = 'dynsection-11';
 </script>
@@ -54,109 +54,109 @@ var sectionId = 'dynsection-11';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::cplscheme::CouplingSchemeConfiguration::addTagAbsoluteConvergenceMeasure</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-134 805,-134 805,4 -4,4"/>
-<!-- Node51 -->
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-134 870,-134 870,4 -4,4"/>
+<!-- Node53 -->
 <g id="node1" class="node">
-<title>Node51</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-22 0,-63 188,-63 188,-22 0,-22"/>
+<title>Node53</title>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-22 0,-63 205,-63 205,-22 0,-22"/>
 <text text-anchor="start" x="8" y="-51" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
 <text text-anchor="start" x="8" y="-40" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CouplingSchemeConfiguration</text>
-<text text-anchor="middle" x="94" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::addTagAbsoluteConvergenceMeasure</text>
-</g>
-<!-- Node52 -->
-<g id="node2" class="node">
-<title>Node52</title>
-<g id="a_node2"><a xlink:href="classprecice_1_1cplscheme_1_1CouplingSchemeConfiguration.html#a18bd32eda5f1036e13dbc3ef00340bc7" target="_top" xlink:title="precice::cplscheme\l::CouplingSchemeConfiguration\l::addBaseAttributesTagConvergenceMeasure">
-<polygon fill="#ffffff" stroke="#000000" points="224,-50 224,-91 439,-91 439,-50 224,-50"/>
-<text text-anchor="start" x="232" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="232" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CouplingSchemeConfiguration</text>
-<text text-anchor="middle" x="331.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::addBaseAttributesTagConvergenceMeasure</text>
-</a>
-</g>
-</g>
-<!-- Node51&#45;&gt;Node52 -->
-<g id="edge1" class="edge">
-<title>Node51&#45;&gt;Node52</title>
-<path fill="none" stroke="#191970" d="M188.2074,-53.6066C196.585,-54.5942 205.133,-55.602 213.6747,-56.609"/>
-<polygon fill="#191970" stroke="#191970" points="213.3472,-60.0946 223.6883,-57.7896 214.1669,-53.1427 213.3472,-60.0946"/>
-</g>
-<!-- Node57 -->
-<g id="node7" class="node">
-<title>Node57</title>
-<g id="a_node7"><a xlink:href="classprecice_1_1xml_1_1XMLTag.html#af81dc6eea2b9a75e14ddd6033ed9a1d4" target="_top" xlink:title="Adds an XML tag as subtag by making a copy of the given tag. ">
-<polygon fill="#ffffff" stroke="#000000" points="275,-.5 275,-30.5 388,-30.5 388,-.5 275,-.5"/>
-<text text-anchor="start" x="283" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::xml::XMLTag</text>
-<text text-anchor="middle" x="331.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::addSubtag</text>
-</a>
-</g>
-</g>
-<!-- Node51&#45;&gt;Node57 -->
-<g id="edge6" class="edge">
-<title>Node51&#45;&gt;Node57</title>
-<path fill="none" stroke="#191970" d="M188.2074,-31.7901C213.8178,-28.8786 241.0207,-25.7861 264.7655,-23.0867"/>
-<polygon fill="#191970" stroke="#191970" points="265.1748,-26.5628 274.7154,-21.9555 264.3841,-19.6076 265.1748,-26.5628"/>
-</g>
-<!-- Node53 -->
-<g id="node3" class="node">
-<title>Node53</title>
-<g id="a_node3"><a xlink:href="classprecice_1_1xml_1_1XMLTag.html#af1e842f982d0efa6f85412a23a110529" target="_top" xlink:title="Removes the XML subtag with given name. ">
-<polygon fill="#ffffff" stroke="#000000" points="497,-77.5 497,-107.5 610,-107.5 610,-77.5 497,-77.5"/>
-<text text-anchor="start" x="505" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::xml::XMLTag</text>
-<text text-anchor="middle" x="553.5" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::addAttribute</text>
-</a>
-</g>
-</g>
-<!-- Node52&#45;&gt;Node53 -->
-<g id="edge2" class="edge">
-<title>Node52&#45;&gt;Node53</title>
-<path fill="none" stroke="#191970" d="M439.2485,-81.1778C455.4052,-82.7789 471.6539,-84.3891 486.6237,-85.8726"/>
-<polygon fill="#191970" stroke="#191970" points="486.4698,-89.3744 496.7662,-86.8777 487.1602,-82.4085 486.4698,-89.3744"/>
-</g>
-<!-- Node56 -->
-<g id="node6" class="node">
-<title>Node56</title>
-<g id="a_node6"><a xlink:href="namespaceprecice_1_1xml.html#a89fcda8bdfaf70ef8ed7914aebf01945" target="_top" xlink:title="precice::xml::makeXMLAttribute">
-<polygon fill="#ffffff" stroke="#000000" points="475,-39 475,-58 632,-58 632,-39 475,-39"/>
-<text text-anchor="middle" x="553.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::xml::makeXMLAttribute</text>
-</a>
-</g>
-</g>
-<!-- Node52&#45;&gt;Node56 -->
-<g id="edge5" class="edge">
-<title>Node52&#45;&gt;Node56</title>
-<path fill="none" stroke="#191970" d="M439.2485,-59.8222C447.8093,-58.9739 456.3959,-58.1229 464.8045,-57.2896"/>
-<polygon fill="#191970" stroke="#191970" points="465.3529,-60.7525 474.959,-56.2833 464.6625,-53.7867 465.3529,-60.7525"/>
+<text text-anchor="middle" x="102.5" y="-29" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::addTagAbsoluteConvergenceMeasure</text>
 </g>
 <!-- Node54 -->
-<g id="node4" class="node">
+<g id="node2" class="node">
 <title>Node54</title>
-<g id="a_node4"><a xlink:href="classprecice_1_1xml_1_1XMLAttribute.html#a2c9a93a56a82b30a878f40a33891340e" target="_top" xlink:title="precice::xml::XMLAttribute\l::getName">
-<polygon fill="#ffffff" stroke="#000000" points="668,-99.5 668,-129.5 801,-129.5 801,-99.5 668,-99.5"/>
-<text text-anchor="start" x="676" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::xml::XMLAttribute</text>
-<text text-anchor="middle" x="734.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getName</text>
+<g id="a_node2"><a xlink:href="classprecice_1_1cplscheme_1_1CouplingSchemeConfiguration.html#a18bd32eda5f1036e13dbc3ef00340bc7" target="_top" xlink:title="precice::cplscheme\l::CouplingSchemeConfiguration\l::addBaseAttributesTagConvergenceMeasure">
+<polygon fill="#ffffff" stroke="#000000" points="241,-50 241,-91 475,-91 475,-50 241,-50"/>
+<text text-anchor="start" x="249" y="-79" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="249" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CouplingSchemeConfiguration</text>
+<text text-anchor="middle" x="358" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::addBaseAttributesTagConvergenceMeasure</text>
 </a>
 </g>
 </g>
 <!-- Node53&#45;&gt;Node54 -->
-<g id="edge3" class="edge">
+<g id="edge1" class="edge">
 <title>Node53&#45;&gt;Node54</title>
-<path fill="none" stroke="#191970" d="M610.2729,-99.4006C625.2409,-101.2199 641.6453,-103.2138 657.4858,-105.1392"/>
-<polygon fill="#191970" stroke="#191970" points="657.4439,-108.6597 667.7931,-106.392 658.2885,-101.7109 657.4439,-108.6597"/>
+<path fill="none" stroke="#191970" d="M205.3172,-53.7676C213.6891,-54.6851 222.2097,-55.6189 230.7274,-56.5523"/>
+<polygon fill="#191970" stroke="#191970" points="230.3943,-60.0367 240.7161,-57.647 231.157,-53.0783 230.3943,-60.0367"/>
 </g>
-<!-- Node55 -->
-<g id="node5" class="node">
-<title>Node55</title>
-<g id="a_node5"><a xlink:href="namespaceprecice_1_1utils.html#a434eabaa71f97a31726281a4df77bbcf" target="_top" xlink:title="Returns true, if given element is in vector, otherwise false. ">
-<polygon fill="#ffffff" stroke="#000000" points="674.5,-61 674.5,-80 794.5,-80 794.5,-61 674.5,-61"/>
-<text text-anchor="middle" x="734.5" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::contained</text>
+<!-- Node59 -->
+<g id="node7" class="node">
+<title>Node59</title>
+<g id="a_node7"><a xlink:href="classprecice_1_1xml_1_1XMLTag.html#af81dc6eea2b9a75e14ddd6033ed9a1d4" target="_top" xlink:title="Adds an XML tag as subtag by making a copy of the given tag. ">
+<polygon fill="#ffffff" stroke="#000000" points="299,-.5 299,-30.5 417,-30.5 417,-.5 299,-.5"/>
+<text text-anchor="start" x="307" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::xml::XMLTag</text>
+<text text-anchor="middle" x="358" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::addSubtag</text>
 </a>
 </g>
 </g>
-<!-- Node53&#45;&gt;Node55 -->
+<!-- Node53&#45;&gt;Node59 -->
+<g id="edge6" class="edge">
+<title>Node53&#45;&gt;Node59</title>
+<path fill="none" stroke="#191970" d="M205.3172,-31.6348C233.3504,-28.6724 263.0501,-25.5338 288.7297,-22.8201"/>
+<polygon fill="#191970" stroke="#191970" points="289.1535,-26.2949 298.7303,-21.7633 288.4178,-19.3337 289.1535,-26.2949"/>
+</g>
+<!-- Node55 -->
+<g id="node3" class="node">
+<title>Node55</title>
+<g id="a_node3"><a xlink:href="classprecice_1_1xml_1_1XMLTag.html#af1e842f982d0efa6f85412a23a110529" target="_top" xlink:title="Removes the XML subtag with given name. ">
+<polygon fill="#ffffff" stroke="#000000" points="538.5,-77.5 538.5,-107.5 656.5,-107.5 656.5,-77.5 538.5,-77.5"/>
+<text text-anchor="start" x="546.5" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::xml::XMLTag</text>
+<text text-anchor="middle" x="597.5" y="-84.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::addAttribute</text>
+</a>
+</g>
+</g>
+<!-- Node54&#45;&gt;Node55 -->
+<g id="edge2" class="edge">
+<title>Node54&#45;&gt;Node55</title>
+<path fill="none" stroke="#191970" d="M475.2943,-81.2744C493.452,-82.9424 511.6849,-84.6172 528.3224,-86.1455"/>
+<polygon fill="#191970" stroke="#191970" points="528.1822,-89.6472 538.4604,-87.0767 528.8225,-82.6766 528.1822,-89.6472"/>
+</g>
+<!-- Node58 -->
+<g id="node6" class="node">
+<title>Node58</title>
+<g id="a_node6"><a xlink:href="namespaceprecice_1_1xml.html#a89fcda8bdfaf70ef8ed7914aebf01945" target="_top" xlink:title="precice::xml::makeXMLAttribute">
+<polygon fill="#ffffff" stroke="#000000" points="511,-39 511,-58 684,-58 684,-39 511,-39"/>
+<text text-anchor="middle" x="597.5" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::xml::makeXMLAttribute</text>
+</a>
+</g>
+</g>
+<!-- Node54&#45;&gt;Node58 -->
+<g id="edge5" class="edge">
+<title>Node54&#45;&gt;Node58</title>
+<path fill="none" stroke="#191970" d="M475.2943,-59.7256C483.8046,-58.9438 492.3315,-58.1606 500.7028,-57.3916"/>
+<polygon fill="#191970" stroke="#191970" points="501.1875,-60.8619 510.8254,-56.4618 500.5471,-53.8913 501.1875,-60.8619"/>
+</g>
+<!-- Node56 -->
+<g id="node4" class="node">
+<title>Node56</title>
+<g id="a_node4"><a xlink:href="classprecice_1_1xml_1_1XMLAttribute.html#a2c9a93a56a82b30a878f40a33891340e" target="_top" xlink:title="precice::xml::XMLAttribute\l::getName">
+<polygon fill="#ffffff" stroke="#000000" points="720,-99.5 720,-129.5 866,-129.5 866,-99.5 720,-99.5"/>
+<text text-anchor="start" x="728" y="-117.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::xml::XMLAttribute</text>
+<text text-anchor="middle" x="793" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getName</text>
+</a>
+</g>
+</g>
+<!-- Node55&#45;&gt;Node56 -->
+<g id="edge3" class="edge">
+<title>Node55&#45;&gt;Node56</title>
+<path fill="none" stroke="#191970" d="M656.687,-99.1604C673.3155,-101.0317 691.717,-103.1024 709.4782,-105.1011"/>
+<polygon fill="#191970" stroke="#191970" points="709.5148,-108.6273 719.8435,-106.2676 710.2977,-101.6712 709.5148,-108.6273"/>
+</g>
+<!-- Node57 -->
+<g id="node5" class="node">
+<title>Node57</title>
+<g id="a_node5"><a xlink:href="namespaceprecice_1_1utils.html#a434eabaa71f97a31726281a4df77bbcf" target="_top" xlink:title="Returns true, if given element is in vector, otherwise false. ">
+<polygon fill="#ffffff" stroke="#000000" points="726.5,-61 726.5,-80 859.5,-80 859.5,-61 726.5,-61"/>
+<text text-anchor="middle" x="793" y="-68" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::contained</text>
+</a>
+</g>
+</g>
+<!-- Node55&#45;&gt;Node57 -->
 <g id="edge4" class="edge">
-<title>Node53&#45;&gt;Node55</title>
-<path fill="none" stroke="#191970" d="M610.2729,-85.5994C627.4258,-83.5145 646.465,-81.2004 664.3802,-79.0228"/>
-<polygon fill="#191970" stroke="#191970" points="664.9813,-82.4756 674.4859,-77.7945 664.1367,-75.5268 664.9813,-82.4756"/>
+<title>Node55&#45;&gt;Node57</title>
+<path fill="none" stroke="#191970" d="M656.687,-85.8396C675.5307,-83.7191 696.6513,-81.3423 716.5367,-79.1046"/>
+<polygon fill="#191970" stroke="#191970" points="716.9471,-82.5806 726.4929,-77.9842 716.1642,-75.6245 716.9471,-82.5806"/>
 </g>
 </g>
 </svg>

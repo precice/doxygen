@@ -10,7 +10,6 @@ var searchData=
   ['onstructurederrorfunc',['OnStructuredErrorFunc',['../namespaceprecice_1_1xml.html#a99ecd990fbffacfc4e0b5d789250bcbf',1,'precice::xml']]],
   ['ontextsection',['OnTextSection',['../classprecice_1_1xml_1_1ConfigParser.html#a0ff864a595f1372bc59d37b7590ec375',1,'precice::xml::ConfigParser']]],
   ['openfile',['openFile',['../classprecice_1_1io_1_1ExportVTK.html#a657591752d640167400a0033d27ee3aa',1,'precice::io::ExportVTK']]],
-  ['openviewer',['openViewer',['../namespaceprecice_1_1utils_1_1petsc.html#aa6d0cb131f6ee15553ffd3672f58bca5',1,'precice::utils::petsc']]],
   ['operator_20ksp_20_26',['operator KSP &amp;',['../classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#af034539b81bb9e0490ccb6acd2f77cef',1,'precice::utils::petsc::KSPSolver']]],
   ['operator_20mat_20_26',['operator Mat &amp;',['../classprecice_1_1utils_1_1petsc_1_1Matrix.html#a77aafe2837ca82e03775aef6ae5db390',1,'precice::utils::petsc::Matrix']]],
   ['operator_20vec_20_26',['operator Vec &amp;',['../classprecice_1_1utils_1_1petsc_1_1Vector.html#a93eed37ef88c797bdd5ee00efd11e825',1,'precice::utils::petsc::Vector']]],

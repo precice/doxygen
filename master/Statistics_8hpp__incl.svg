@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 920;
+var viewWidth = 998;
 var viewHeight = 95;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,115 +54,115 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>src/utils/Statistics.hpp</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-91 915.5,-91 915.5,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-91 994,-91 994,4 -4,4"/>
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="421,-67.5 421,-86.5 535,-86.5 535,-67.5 421,-67.5"/>
-<text text-anchor="middle" x="478" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/utils/Statistics.hpp</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="457.5,-67.5 457.5,-86.5 581.5,-86.5 581.5,-67.5 457.5,-67.5"/>
+<text text-anchor="middle" x="519.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/utils/Statistics.hpp</text>
 </g>
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="0,-.5 0,-30.5 102,-30.5 102,-.5 0,-.5"/>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="0,-.5 0,-30.5 113,-30.5 113,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost/accumulators</text>
-<text text-anchor="middle" x="51" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/accumulators.hpp</text>
+<text text-anchor="middle" x="56.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/accumulators.hpp</text>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node0&#45;&gt;Node1</title>
-<path fill="none" stroke="#191970" d="M420.7473,-72.1151C350.2905,-65.5945 226.8825,-52.521 112.2852,-31.1046"/>
-<polygon fill="#191970" stroke="#191970" points="112.7659,-27.6335 102.2892,-29.2107 111.4628,-34.5112 112.7659,-27.6335"/>
+<path fill="none" stroke="#191970" d="M457.4659,-72.1335C380.9593,-65.6183 246.7998,-52.5246 123.1581,-31.1778"/>
+<polygon fill="#191970" stroke="#191970" points="123.5909,-27.7004 113.1374,-29.4253 122.385,-34.5958 123.5909,-27.7004"/>
 </g>
 <!-- Node2 -->
 <g id="node3" class="node">
 <title>Node2</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="120.5,-.5 120.5,-30.5 225.5,-30.5 225.5,-.5 120.5,-.5"/>
-<text text-anchor="start" x="128.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost/accumulators</text>
-<text text-anchor="middle" x="173" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/statistics/count.hpp</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="131,-.5 131,-30.5 246,-30.5 246,-.5 131,-.5"/>
+<text text-anchor="start" x="139" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost/accumulators</text>
+<text text-anchor="middle" x="188.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/statistics/count.hpp</text>
 </g>
 <!-- Node0&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node0&#45;&gt;Node2</title>
-<path fill="none" stroke="#191970" d="M422.8048,-67.4913C375.6496,-59.1544 305.7883,-46.3009 235.6174,-31.065"/>
-<polygon fill="#191970" stroke="#191970" points="236.2332,-27.6171 225.7163,-28.8996 234.7376,-34.4554 236.2332,-27.6171"/>
+<path fill="none" stroke="#191970" d="M458.5265,-67.461C407.0046,-59.1627 331.0295,-46.3703 256.1289,-31.2727"/>
+<polygon fill="#191970" stroke="#191970" points="256.5456,-27.786 246.0491,-29.2255 255.1523,-34.6459 256.5456,-27.786"/>
 </g>
 <!-- Node3 -->
 <g id="node4" class="node">
 <title>Node3</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="244,-.5 244,-30.5 346,-30.5 346,-.5 244,-.5"/>
-<text text-anchor="start" x="252" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost/accumulators</text>
-<text text-anchor="middle" x="295" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/statistics/max.hpp</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="264,-.5 264,-30.5 377,-30.5 377,-.5 264,-.5"/>
+<text text-anchor="start" x="272" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost/accumulators</text>
+<text text-anchor="middle" x="320.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/statistics/max.hpp</text>
 </g>
 <!-- Node0&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node0&#45;&gt;Node3</title>
-<path fill="none" stroke="#191970" d="M449.4063,-67.3906C422.6902,-58.4123 382.1065,-44.7735 349.2502,-33.7316"/>
-<polygon fill="#191970" stroke="#191970" points="350.3609,-30.4126 339.7668,-30.5446 348.1309,-37.0479 350.3609,-30.4126"/>
+<path fill="none" stroke="#191970" d="M488.4063,-67.3906C459.2297,-58.3737 414.8433,-44.6563 379.0338,-33.5896"/>
+<polygon fill="#191970" stroke="#191970" points="379.7685,-30.1534 369.1809,-30.5446 377.7016,-36.8413 379.7685,-30.1534"/>
 </g>
 <!-- Node4 -->
 <g id="node5" class="node">
 <title>Node4</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="364.5,-.5 364.5,-30.5 469.5,-30.5 469.5,-.5 364.5,-.5"/>
-<text text-anchor="start" x="372.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost/accumulators</text>
-<text text-anchor="middle" x="417" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/statistics/mean.hpp</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="395.5,-.5 395.5,-30.5 511.5,-30.5 511.5,-.5 395.5,-.5"/>
+<text text-anchor="start" x="403.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost/accumulators</text>
+<text text-anchor="middle" x="453.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/statistics/mean.hpp</text>
 </g>
 <!-- Node0&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node0&#45;&gt;Node4</title>
-<path fill="none" stroke="#191970" d="M468.4688,-67.3906C460.5953,-59.4527 449.1087,-47.8718 438.9833,-37.6635"/>
-<polygon fill="#191970" stroke="#191970" points="441.4494,-35.1797 431.9223,-30.5446 436.4795,-40.1093 441.4494,-35.1797"/>
+<path fill="none" stroke="#191970" d="M509.1875,-67.3906C500.586,-59.3756 487.9988,-47.6466 476.9666,-37.3666"/>
+<polygon fill="#191970" stroke="#191970" points="479.3476,-34.8012 469.6454,-30.5446 474.5755,-39.9225 479.3476,-34.8012"/>
 </g>
 <!-- Node5 -->
 <g id="node6" class="node">
 <title>Node5</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="488,-.5 488,-30.5 590,-30.5 590,-.5 488,-.5"/>
-<text text-anchor="start" x="496" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost/accumulators</text>
-<text text-anchor="middle" x="539" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/statistics/min.hpp</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="530,-.5 530,-30.5 643,-30.5 643,-.5 530,-.5"/>
+<text text-anchor="start" x="538" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost/accumulators</text>
+<text text-anchor="middle" x="586.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/statistics/min.hpp</text>
 </g>
 <!-- Node0&#45;&gt;Node5 -->
 <g id="edge5" class="edge">
 <title>Node0&#45;&gt;Node5</title>
-<path fill="none" stroke="#191970" d="M487.5313,-67.3906C495.4047,-59.4527 506.8913,-47.8718 517.0167,-37.6635"/>
-<polygon fill="#191970" stroke="#191970" points="519.5205,-40.1093 524.0777,-30.5446 514.5506,-35.1797 519.5205,-40.1093"/>
+<path fill="none" stroke="#191970" d="M529.9688,-67.3906C538.7005,-59.3756 551.4785,-47.6466 562.6779,-37.3666"/>
+<polygon fill="#191970" stroke="#191970" points="565.1097,-39.8853 570.11,-30.5446 560.3762,-34.7284 565.1097,-39.8853"/>
 </g>
 <!-- Node6 -->
 <g id="node7" class="node">
 <title>Node6</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="608.5,-.5 608.5,-30.5 711.5,-30.5 711.5,-.5 608.5,-.5"/>
-<text text-anchor="start" x="616.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost/accumulators</text>
-<text text-anchor="middle" x="660" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/statistics/stats.hpp</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="661,-.5 661,-30.5 774,-30.5 774,-.5 661,-.5"/>
+<text text-anchor="start" x="669" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost/accumulators</text>
+<text text-anchor="middle" x="717.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/statistics/stats.hpp</text>
 </g>
 <!-- Node0&#45;&gt;Node6 -->
 <g id="edge6" class="edge">
 <title>Node0&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M506.4375,-67.3906C532.8935,-58.4508 573.0233,-44.8905 605.6251,-33.8739"/>
-<polygon fill="#191970" stroke="#191970" points="607.1245,-37.0618 615.4778,-30.5446 604.8836,-30.4301 607.1245,-37.0618"/>
+<path fill="none" stroke="#191970" d="M550.4375,-67.3906C579.4675,-58.3737 623.6308,-44.6563 659.2604,-33.5896"/>
+<polygon fill="#191970" stroke="#191970" points="660.552,-36.8534 669.0638,-30.5446 658.4756,-30.1684 660.552,-36.8534"/>
 </g>
 <!-- Node7 -->
 <g id="node8" class="node">
 <title>Node7</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="730,-.5 730,-30.5 848,-30.5 848,-.5 730,-.5"/>
-<text text-anchor="start" x="738" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost/accumulators</text>
-<text text-anchor="middle" x="789" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/statistics/variance.hpp</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="792.5,-.5 792.5,-30.5 922.5,-30.5 922.5,-.5 792.5,-.5"/>
+<text text-anchor="start" x="800.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">boost/accumulators</text>
+<text text-anchor="middle" x="857.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/statistics/variance.hpp</text>
 </g>
 <!-- Node0&#45;&gt;Node7 -->
 <g id="edge7" class="edge">
 <title>Node0&#45;&gt;Node7</title>
-<path fill="none" stroke="#191970" d="M531.6819,-67.4274C578.7811,-58.8951 649.3679,-45.7863 719.7611,-31.2198"/>
-<polygon fill="#191970" stroke="#191970" points="720.6122,-34.6178 729.6901,-29.1551 719.187,-27.7644 720.6122,-34.6178"/>
+<path fill="none" stroke="#191970" d="M577.5422,-67.469C628.7998,-58.9198 705.8246,-45.7528 781.9136,-31.2711"/>
+<polygon fill="#191970" stroke="#191970" points="782.9896,-34.6289 792.1542,-29.3129 781.6748,-27.7534 782.9896,-34.6289"/>
 </g>
 <!-- Node8 -->
 <g id="node9" class="node">
 <title>Node8</title>
-<polygon fill="#ffffff" stroke="#bfbfbf" points="866.5,-6 866.5,-25 911.5,-25 911.5,-6 866.5,-6"/>
-<text text-anchor="middle" x="889" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">iosfwd</text>
+<polygon fill="#ffffff" stroke="#bfbfbf" points="941,-6 941,-25 990,-25 990,-6 941,-6"/>
+<text text-anchor="middle" x="965.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">iosfwd</text>
 </g>
 <!-- Node0&#45;&gt;Node8 -->
 <g id="edge8" class="edge">
 <title>Node0&#45;&gt;Node8</title>
-<path fill="none" stroke="#191970" d="M535.3461,-72.3694C625.9823,-64.6586 798.0993,-48.3157 857,-31 858.7101,-30.4973 860.4415,-29.9108 862.1677,-29.2657"/>
-<polygon fill="#191970" stroke="#191970" points="864.0146,-32.281 871.812,-25.1081 861.2434,-25.8529 864.0146,-32.281"/>
+<path fill="none" stroke="#191970" d="M581.7867,-72.4682C680.2405,-64.897 867.2414,-48.7469 931.5,-31 933.4697,-30.456 935.4695,-29.8112 937.4621,-29.0986"/>
+<polygon fill="#191970" stroke="#191970" points="939.2589,-32.1455 947.193,-25.1241 936.612,-25.6652 939.2589,-32.1455"/>
 </g>
 </g>
 </svg>

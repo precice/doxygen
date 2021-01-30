@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 881;
+var viewWidth = 948;
 var viewHeight = 813;
 var sectionId = 'dynsection-2';
 </script>
@@ -54,331 +54,331 @@ var sectionId = 'dynsection-2';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::query::FindClosest::operator()</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-808.5 877,-808.5 877,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-808.5 944,-808.5 944,4 -4,4"/>
 <!-- Node25 -->
 <g id="node1" class="node">
 <title>Node25</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-392.5 0,-422.5 137,-422.5 137,-392.5 0,-392.5"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-392.5 0,-422.5 146,-422.5 146,-392.5 0,-392.5"/>
 <text text-anchor="start" x="8" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
-<text text-anchor="middle" x="68.5" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::operator()</text>
+<text text-anchor="middle" x="73" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::operator()</text>
 </g>
 <!-- Node26 -->
 <g id="node2" class="node">
 <title>Node26</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1query_1_1FindClosest.html#a763716554180f82f65e1566c96ee7131" target="_top" xlink:title="Determines the closest element from all FindXY member objects. ">
-<polygon fill="#ffffff" stroke="#000000" points="173,-392.5 173,-422.5 310,-422.5 310,-392.5 173,-392.5"/>
-<text text-anchor="start" x="181" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
-<text text-anchor="middle" x="241.5" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::determineClosest</text>
+<polygon fill="#ffffff" stroke="#000000" points="182,-392.5 182,-422.5 328,-422.5 328,-392.5 182,-392.5"/>
+<text text-anchor="start" x="190" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
+<text text-anchor="middle" x="255" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::determineClosest</text>
 </a>
 </g>
 </g>
 <!-- Node25&#45;&gt;Node26 -->
 <g id="edge1" class="edge">
 <title>Node25&#45;&gt;Node26</title>
-<path fill="none" stroke="#191970" d="M137.3713,-407.5C145.678,-407.5 154.2111,-407.5 162.6466,-407.5"/>
-<polygon fill="#191970" stroke="#191970" points="162.8657,-411.0001 172.8657,-407.5 162.8657,-404.0001 162.8657,-411.0001"/>
+<path fill="none" stroke="#191970" d="M146.2397,-407.5C154.5962,-407.5 163.1607,-407.5 171.6361,-407.5"/>
+<polygon fill="#191970" stroke="#191970" points="171.9103,-411.0001 181.9103,-407.5 171.9102,-404.0001 171.9103,-411.0001"/>
 </g>
 <!-- Node27 -->
 <g id="node3" class="node">
 <title>Node27</title>
 <g id="a_node3"><a xlink:href="namespaceprecice_1_1math.html#abdb7ef543f323c2e8a0d48d1774739e6" target="_top" xlink:title="precice::math::greater">
-<polygon fill="#ffffff" stroke="#000000" points="381,-785 381,-804 493,-804 493,-785 381,-785"/>
-<text text-anchor="middle" x="437" y="-792" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::math::greater</text>
+<polygon fill="#ffffff" stroke="#000000" points="401.5,-785 401.5,-804 526.5,-804 526.5,-785 401.5,-785"/>
+<text text-anchor="middle" x="464" y="-792" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::math::greater</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node27 -->
 <g id="edge2" class="edge">
 <title>Node26&#45;&gt;Node27</title>
-<path fill="none" stroke="#191970" d="M243.6858,-422.5903C253.0862,-485.4113 292.0582,-725.2507 346,-775.5 353.0994,-782.1134 361.8828,-786.6685 371.1677,-789.7673"/>
-<polygon fill="#191970" stroke="#191970" points="370.4034,-793.1875 380.9756,-792.4946 372.2789,-786.4434 370.4034,-793.1875"/>
+<path fill="none" stroke="#191970" d="M257.3546,-422.6239C267.4602,-485.58 309.1474,-725.8856 364,-775.5 371.7965,-782.5519 381.3694,-787.3524 391.4721,-790.5671"/>
+<polygon fill="#191970" stroke="#191970" points="390.7155,-793.9876 401.2799,-793.185 392.5208,-787.2244 390.7155,-793.9876"/>
 </g>
 <!-- Node28 -->
 <g id="node4" class="node">
 <title>Node28</title>
 <g id="a_node4"><a xlink:href="classprecice_1_1query_1_1FindClosestVertex.html#aa21f1f7d9141f5ae2d3b210fea87314b" target="_top" xlink:title="Returns the euclidian distance to the closest vertex found. ">
-<polygon fill="#ffffff" stroke="#000000" points="365.5,-735.5 365.5,-765.5 508.5,-765.5 508.5,-735.5 365.5,-735.5"/>
-<text text-anchor="start" x="373.5" y="-753.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
-<text text-anchor="middle" x="437" y="-742.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Vertex::getEuclidianDistance</text>
+<polygon fill="#ffffff" stroke="#000000" points="385.5,-735.5 385.5,-765.5 542.5,-765.5 542.5,-735.5 385.5,-735.5"/>
+<text text-anchor="start" x="393.5" y="-753.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
+<text text-anchor="middle" x="464" y="-742.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Vertex::getEuclidianDistance</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node28 -->
 <g id="edge3" class="edge">
 <title>Node26&#45;&gt;Node28</title>
-<path fill="none" stroke="#191970" d="M244.5082,-422.8212C256.1034,-480.3922 299.5717,-682.7203 346,-726.5 349.1427,-729.4634 352.6069,-732.0708 356.2925,-734.3639"/>
-<polygon fill="#191970" stroke="#191970" points="354.7801,-737.5243 365.2473,-739.1642 358.0874,-731.3549 354.7801,-737.5243"/>
+<path fill="none" stroke="#191970" d="M258.2029,-422.8611C270.5327,-480.5762 316.6118,-683.3568 364,-726.5 367.6842,-729.8542 371.7536,-732.7623 376.0802,-735.2818"/>
+<polygon fill="#191970" stroke="#191970" points="374.7772,-738.5446 385.2817,-739.9258 377.9312,-732.2954 374.7772,-738.5446"/>
 </g>
 <!-- Node29 -->
 <g id="node5" class="node">
 <title>Node29</title>
 <g id="a_node5"><a xlink:href="classprecice_1_1query_1_1FindClosestEdge.html#a08b40339d39463335c8c2abc6e354a46" target="_top" xlink:title="precice::query::FindClosest\lEdge::getEuclidianDistance">
-<polygon fill="#ffffff" stroke="#000000" points="368.5,-686.5 368.5,-716.5 505.5,-716.5 505.5,-686.5 368.5,-686.5"/>
-<text text-anchor="start" x="376.5" y="-704.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
-<text text-anchor="middle" x="437" y="-693.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Edge::getEuclidianDistance</text>
+<polygon fill="#ffffff" stroke="#000000" points="389.5,-686.5 389.5,-716.5 538.5,-716.5 538.5,-686.5 389.5,-686.5"/>
+<text text-anchor="start" x="397.5" y="-704.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
+<text text-anchor="middle" x="464" y="-693.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Edge::getEuclidianDistance</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node29 -->
 <g id="edge4" class="edge">
 <title>Node26&#45;&gt;Node29</title>
-<path fill="none" stroke="#191970" d="M242.6921,-422.7147C247.1244,-468.571 266.7607,-606.6316 346,-677.5 349.9333,-681.0178 354.3226,-684.03 358.9901,-686.6081"/>
-<polygon fill="#191970" stroke="#191970" points="357.7317,-689.8861 368.2624,-691.0499 360.7559,-683.5731 357.7317,-689.8861"/>
+<path fill="none" stroke="#191970" d="M256.3942,-422.8117C261.4451,-468.9432 283.0123,-607.7022 364,-677.5 368.8371,-681.6688 374.2745,-685.1412 380.0501,-688.0304"/>
+<polygon fill="#191970" stroke="#191970" points="378.8022,-691.3047 389.3666,-692.1068 381.6082,-684.8917 378.8022,-691.3047"/>
 </g>
 <!-- Node30 -->
 <g id="node6" class="node">
 <title>Node30</title>
 <g id="a_node6"><a xlink:href="classprecice_1_1query_1_1FindClosestTriangle.html#a66a1f6c5acab16bf46f6862122e7b9a4" target="_top" xlink:title="Returns the distance to the found triangle. ">
-<polygon fill="#ffffff" stroke="#000000" points="362.5,-637.5 362.5,-667.5 511.5,-667.5 511.5,-637.5 362.5,-637.5"/>
-<text text-anchor="start" x="370.5" y="-655.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
-<text text-anchor="middle" x="437" y="-644.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Triangle::getEuclidianDistance</text>
+<polygon fill="#ffffff" stroke="#000000" points="382,-637.5 382,-667.5 546,-667.5 546,-637.5 382,-637.5"/>
+<text text-anchor="start" x="390" y="-655.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
+<text text-anchor="middle" x="464" y="-644.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Triangle::getEuclidianDistance</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node30 -->
 <g id="edge5" class="edge">
 <title>Node26&#45;&gt;Node30</title>
-<path fill="none" stroke="#191970" d="M244.0943,-422.5182C251.8121,-462.5071 278.4388,-572.3424 346,-628.5 348.297,-630.4093 350.7301,-632.1683 353.2679,-633.7888"/>
-<polygon fill="#191970" stroke="#191970" points="351.814,-636.9848 362.2554,-638.7814 355.2133,-630.8656 351.814,-636.9848"/>
+<path fill="none" stroke="#191970" d="M257.847,-422.6153C266.2471,-462.8452 294.8118,-573.2256 364,-628.5 366.8051,-630.741 369.7865,-632.778 372.8993,-634.6293"/>
+<polygon fill="#191970" stroke="#191970" points="371.4975,-637.8456 381.9821,-639.3697 374.7364,-631.6399 371.4975,-637.8456"/>
 </g>
 <!-- Node31 -->
 <g id="node7" class="node">
 <title>Node31</title>
 <g id="a_node7"><a xlink:href="classprecice_1_1query_1_1FindClosestVertex.html#a27637b9ecfdfabc3085cf6e9fc018608" target="_top" xlink:title="Returns the closest vertex found. ">
-<polygon fill="#ffffff" stroke="#000000" points="368.5,-588.5 368.5,-618.5 505.5,-618.5 505.5,-588.5 368.5,-588.5"/>
-<text text-anchor="start" x="376.5" y="-606.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
-<text text-anchor="middle" x="437" y="-595.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Vertex::getClosestVertex</text>
+<polygon fill="#ffffff" stroke="#000000" points="391,-588.5 391,-618.5 537,-618.5 537,-588.5 391,-588.5"/>
+<text text-anchor="start" x="399" y="-606.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
+<text text-anchor="middle" x="464" y="-595.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Vertex::getClosestVertex</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node31 -->
 <g id="edge6" class="edge">
 <title>Node26&#45;&gt;Node31</title>
-<path fill="none" stroke="#191970" d="M246.2755,-422.5888C257.7206,-456.2284 290.0054,-537.6918 346,-579.5 349.9645,-582.46 354.2643,-585.0556 358.7646,-587.3315"/>
-<polygon fill="#191970" stroke="#191970" points="357.683,-590.6818 368.2407,-591.5686 360.5404,-584.2915 357.683,-590.6818"/>
+<path fill="none" stroke="#191970" d="M260.1091,-422.6869C272.3092,-456.5274 306.4857,-538.3751 364,-579.5 369.2897,-583.2823 375.0983,-586.4742 381.1713,-589.1671"/>
+<polygon fill="#191970" stroke="#191970" points="380.3085,-592.5891 390.8953,-593.0011 382.8762,-586.077 380.3085,-592.5891"/>
 </g>
 <!-- Node32 -->
 <g id="node8" class="node">
 <title>Node32</title>
 <g id="a_node8"><a xlink:href="classprecice_1_1mesh_1_1Vertex.html#a382386665b94b9ae8ded5fca26fd2b0b" target="_top" xlink:title="Returns the coordinates of the vertex. ">
-<polygon fill="#ffffff" stroke="#000000" points="380.5,-539.5 380.5,-569.5 493.5,-569.5 493.5,-539.5 380.5,-539.5"/>
-<text text-anchor="start" x="388.5" y="-557.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Vertex</text>
-<text text-anchor="middle" x="437" y="-546.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getCoords</text>
+<polygon fill="#ffffff" stroke="#000000" points="403,-539.5 403,-569.5 525,-569.5 525,-539.5 403,-539.5"/>
+<text text-anchor="start" x="411" y="-557.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Vertex</text>
+<text text-anchor="middle" x="464" y="-546.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getCoords</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node32 -->
 <g id="edge7" class="edge">
 <title>Node26&#45;&gt;Node32</title>
-<path fill="none" stroke="#191970" d="M250.0195,-422.5644C265.5874,-448.6813 301.1925,-502.2704 346,-530.5 353.533,-535.2459 361.9822,-539.0589 370.6163,-542.121"/>
-<polygon fill="#191970" stroke="#191970" points="369.8126,-545.539 380.404,-545.2688 371.9558,-538.8751 369.8126,-545.539"/>
+<path fill="none" stroke="#191970" d="M263.9893,-422.6622C280.3867,-448.9304 317.7637,-502.7464 364,-530.5 372.9325,-535.8618 382.9884,-540.0262 393.1915,-543.2605"/>
+<polygon fill="#191970" stroke="#191970" points="392.4088,-546.6773 402.987,-546.0852 394.3483,-539.9514 392.4088,-546.6773"/>
 </g>
 <!-- Node33 -->
 <g id="node9" class="node">
 <title>Node33</title>
 <g id="a_node9"><a xlink:href="classprecice_1_1mesh_1_1Vertex.html#a1317f549385f38f4e31d933defcb025c" target="_top" xlink:title="Returns the normal of the vertex. ">
-<polygon fill="#ffffff" stroke="#000000" points="380.5,-490.5 380.5,-520.5 493.5,-520.5 493.5,-490.5 380.5,-490.5"/>
-<text text-anchor="start" x="388.5" y="-508.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Vertex</text>
-<text text-anchor="middle" x="437" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getNormal</text>
+<polygon fill="#ffffff" stroke="#000000" points="403,-490.5 403,-520.5 525,-520.5 525,-490.5 403,-490.5"/>
+<text text-anchor="start" x="411" y="-508.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Vertex</text>
+<text text-anchor="middle" x="464" y="-497.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getNormal</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node33 -->
 <g id="edge8" class="edge">
 <title>Node26&#45;&gt;Node33</title>
-<path fill="none" stroke="#191970" d="M258.7688,-422.7163C278.5521,-439.4033 312.5655,-465.8814 346,-481.5 353.6607,-485.0786 361.9428,-488.1911 370.2821,-490.8798"/>
-<polygon fill="#191970" stroke="#191970" points="369.4788,-494.2935 380.0641,-493.8438 371.5088,-487.5942 369.4788,-494.2935"/>
+<path fill="none" stroke="#191970" d="M272.6936,-422.5164C293.3208,-439.2769 329.0603,-466.0649 364,-481.5 373.1252,-485.5312 383.0309,-488.946 392.9416,-491.8214"/>
+<polygon fill="#191970" stroke="#191970" points="392.2565,-495.2624 402.8253,-494.5199 394.1003,-488.5096 392.2565,-495.2624"/>
 </g>
 <!-- Node34 -->
 <g id="node10" class="node">
 <title>Node34</title>
 <g id="a_node10"><a xlink:href="classprecice_1_1query_1_1FindClosestEdge.html#a4428fe3939786e3a7a3d6b05e698ec33" target="_top" xlink:title="precice::query::FindClosest\lEdge::getClosestEdge">
-<polygon fill="#ffffff" stroke="#000000" points="368.5,-441.5 368.5,-471.5 505.5,-471.5 505.5,-441.5 368.5,-441.5"/>
-<text text-anchor="start" x="376.5" y="-459.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
-<text text-anchor="middle" x="437" y="-448.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Edge::getClosestEdge</text>
+<polygon fill="#ffffff" stroke="#000000" points="391,-441.5 391,-471.5 537,-471.5 537,-441.5 391,-441.5"/>
+<text text-anchor="start" x="399" y="-459.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
+<text text-anchor="middle" x="464" y="-448.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Edge::getClosestEdge</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node34 -->
 <g id="edge9" class="edge">
 <title>Node26&#45;&gt;Node34</title>
-<path fill="none" stroke="#191970" d="M301.485,-422.5346C322.3148,-427.7554 345.848,-433.6537 367.3885,-439.0526"/>
-<polygon fill="#191970" stroke="#191970" points="366.5775,-442.4575 377.1284,-441.4938 368.2794,-435.6676 366.5775,-442.4575"/>
+<path fill="none" stroke="#191970" d="M319.1272,-422.5346C341.596,-427.8024 367.0072,-433.7601 390.2034,-439.1984"/>
+<polygon fill="#191970" stroke="#191970" points="389.4591,-442.6187 399.994,-441.4938 391.057,-435.8035 389.4591,-442.6187"/>
 </g>
 <!-- Node35 -->
 <g id="node11" class="node">
 <title>Node35</title>
 <g id="a_node11"><a xlink:href="classprecice_1_1query_1_1FindClosestEdge.html#a402d3c40779408edaf62020bb34e7350" target="_top" xlink:title="precice::query::FindClosest\lEdge::getVectorToProjectionPoint">
-<polygon fill="#ffffff" stroke="#000000" points="355,-392.5 355,-422.5 519,-422.5 519,-392.5 355,-392.5"/>
-<text text-anchor="start" x="363" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
-<text text-anchor="middle" x="437" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Edge::getVectorToProjectionPoint</text>
+<polygon fill="#ffffff" stroke="#000000" points="375.5,-392.5 375.5,-422.5 552.5,-422.5 552.5,-392.5 375.5,-392.5"/>
+<text text-anchor="start" x="383.5" y="-410.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
+<text text-anchor="middle" x="464" y="-399.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Edge::getVectorToProjectionPoint</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node35 -->
 <g id="edge10" class="edge">
 <title>Node26&#45;&gt;Node35</title>
-<path fill="none" stroke="#191970" d="M310.1511,-407.5C321.2986,-407.5 333.0016,-407.5 344.6038,-407.5"/>
-<polygon fill="#191970" stroke="#191970" points="344.7572,-411.0001 354.7571,-407.5 344.7571,-404.0001 344.7572,-411.0001"/>
+<path fill="none" stroke="#191970" d="M328.0981,-407.5C340.1729,-407.5 352.8645,-407.5 365.4409,-407.5"/>
+<polygon fill="#191970" stroke="#191970" points="365.4883,-411.0001 375.4883,-407.5 365.4882,-404.0001 365.4883,-411.0001"/>
 </g>
 <!-- Node36 -->
 <g id="node12" class="node">
 <title>Node36</title>
 <g id="a_node12"><a xlink:href="classprecice_1_1mesh_1_1Edge.html#a83b09c1c7fec84f5d5edab1639adfdb6" target="_top" xlink:title="Returns the normal of the edge. ">
-<polygon fill="#ffffff" stroke="#000000" points="383.5,-343.5 383.5,-373.5 490.5,-373.5 490.5,-343.5 383.5,-343.5"/>
-<text text-anchor="start" x="391.5" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Edge</text>
-<text text-anchor="middle" x="437" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getNormal</text>
+<polygon fill="#ffffff" stroke="#000000" points="406.5,-343.5 406.5,-373.5 521.5,-373.5 521.5,-343.5 406.5,-343.5"/>
+<text text-anchor="start" x="414.5" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Edge</text>
+<text text-anchor="middle" x="464" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getNormal</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node36 -->
 <g id="edge11" class="edge">
 <title>Node26&#45;&gt;Node36</title>
-<path fill="none" stroke="#191970" d="M301.485,-392.4654C324.3685,-386.7299 350.5148,-380.1766 373.6972,-374.3662"/>
-<polygon fill="#191970" stroke="#191970" points="374.5838,-377.7523 383.4328,-371.926 372.8819,-370.9623 374.5838,-377.7523"/>
+<path fill="none" stroke="#191970" d="M319.1272,-392.4654C343.5946,-386.729 371.5512,-380.1746 396.3373,-374.3635"/>
+<polygon fill="#191970" stroke="#191970" points="397.4471,-377.6983 406.3842,-372.008 395.8492,-370.8831 397.4471,-377.6983"/>
 </g>
 <!-- Node39 -->
 <g id="node15" class="node">
 <title>Node39</title>
 <g id="a_node15"><a xlink:href="classprecice_1_1mesh_1_1Edge.html#a7fc88e0289fecf4c41c230d20311dcdb" target="_top" xlink:title="Returns the edge&#39;s vertex with index 0 or 1. ">
-<polygon fill="#ffffff" stroke="#000000" points="383.5,-294.5 383.5,-324.5 490.5,-324.5 490.5,-294.5 383.5,-294.5"/>
-<text text-anchor="start" x="391.5" y="-312.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Edge</text>
-<text text-anchor="middle" x="437" y="-301.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::vertex</text>
+<polygon fill="#ffffff" stroke="#000000" points="406.5,-294.5 406.5,-324.5 521.5,-324.5 521.5,-294.5 406.5,-294.5"/>
+<text text-anchor="start" x="414.5" y="-312.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Edge</text>
+<text text-anchor="middle" x="464" y="-301.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::vertex</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node39 -->
 <g id="edge14" class="edge">
 <title>Node26&#45;&gt;Node39</title>
-<path fill="none" stroke="#191970" d="M259.1958,-392.268C279.0892,-375.8582 312.946,-350.0183 346,-334.5 354.6957,-330.4175 364.1818,-326.8937 373.64,-323.8867"/>
-<polygon fill="#191970" stroke="#191970" points="374.8822,-327.1681 383.4521,-320.9385 372.8678,-320.4642 374.8822,-327.1681"/>
+<path fill="none" stroke="#191970" d="M273.1293,-392.4612C293.8692,-375.9745 329.4408,-349.8316 364,-334.5 374.248,-329.9536 385.469,-326.1352 396.5731,-322.9608"/>
+<polygon fill="#191970" stroke="#191970" points="397.5357,-326.3263 406.2737,-320.3348 395.7066,-319.5695 397.5357,-326.3263"/>
 </g>
 <!-- Node40 -->
 <g id="node16" class="node">
 <title>Node40</title>
 <g id="a_node16"><a xlink:href="classprecice_1_1query_1_1FindClosestEdge.html#a8ce175911e89b4d1e8ae4a9eda3591ed" target="_top" xlink:title="Returns parametric description value (index 0,1) of projected point. ">
-<polygon fill="#ffffff" stroke="#000000" points="352,-245.5 352,-275.5 522,-275.5 522,-245.5 352,-245.5"/>
-<text text-anchor="start" x="360" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
-<text text-anchor="middle" x="437" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Edge::getProjectionPointParameter</text>
+<polygon fill="#ffffff" stroke="#000000" points="371,-245.5 371,-275.5 557,-275.5 557,-245.5 371,-245.5"/>
+<text text-anchor="start" x="379" y="-263.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
+<text text-anchor="middle" x="464" y="-252.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Edge::getProjectionPointParameter</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node40 -->
 <g id="edge15" class="edge">
 <title>Node26&#45;&gt;Node40</title>
-<path fill="none" stroke="#191970" d="M250.3312,-392.1941C266.1223,-366.2159 301.7268,-313.5856 346,-285.5 349.329,-283.3882 352.8362,-281.4524 356.4587,-279.6784"/>
-<polygon fill="#191970" stroke="#191970" points="357.9437,-282.8486 365.6647,-275.5934 355.1045,-276.4502 357.9437,-282.8486"/>
+<path fill="none" stroke="#191970" d="M264.3112,-392.0922C280.9329,-365.9602 318.2915,-313.1043 364,-285.5 367.619,-283.3144 371.4217,-281.3193 375.3434,-279.4981"/>
+<polygon fill="#191970" stroke="#191970" points="376.8282,-282.6705 384.6795,-275.5566 374.1055,-276.2216 376.8282,-282.6705"/>
 </g>
 <!-- Node41 -->
 <g id="node17" class="node">
 <title>Node41</title>
 <g id="a_node17"><a xlink:href="classprecice_1_1query_1_1FindClosestTriangle.html#aac2bf1843e3b22af6a2697aa508048a1" target="_top" xlink:title="Returns the found triangle. ">
-<polygon fill="#ffffff" stroke="#000000" points="367.5,-196.5 367.5,-226.5 506.5,-226.5 506.5,-196.5 367.5,-196.5"/>
-<text text-anchor="start" x="375.5" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
-<text text-anchor="middle" x="437" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Triangle::getClosestTriangle</text>
+<polygon fill="#ffffff" stroke="#000000" points="388.5,-196.5 388.5,-226.5 539.5,-226.5 539.5,-196.5 388.5,-196.5"/>
+<text text-anchor="start" x="396.5" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
+<text text-anchor="middle" x="464" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Triangle::getClosestTriangle</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node41 -->
 <g id="edge16" class="edge">
 <title>Node26&#45;&gt;Node41</title>
-<path fill="none" stroke="#191970" d="M246.4196,-392.2878C258.0571,-358.7729 290.5417,-278.2393 346,-236.5 349.8086,-233.6336 353.9268,-231.0958 358.2351,-228.849"/>
-<polygon fill="#191970" stroke="#191970" points="359.7132,-232.0216 367.3072,-224.6336 356.7635,-225.6734 359.7132,-232.0216"/>
+<path fill="none" stroke="#191970" d="M260.1633,-392.4391C272.4745,-358.8727 306.8635,-277.6488 364,-236.5 368.5833,-233.1991 373.5566,-230.3322 378.7539,-227.8424"/>
+<polygon fill="#191970" stroke="#191970" points="380.4956,-230.9043 388.3153,-223.7556 377.7444,-224.4676 380.4956,-230.9043"/>
 </g>
 <!-- Node42 -->
 <g id="node18" class="node">
 <title>Node42</title>
 <g id="a_node18"><a xlink:href="classprecice_1_1query_1_1FindClosestTriangle.html#a9e70f3824867ed74496e7140c8643c83" target="_top" xlink:title="Returns the vector from the search point to the projection point. ">
-<polygon fill="#ffffff" stroke="#000000" points="349,-147.5 349,-177.5 525,-177.5 525,-147.5 349,-147.5"/>
-<text text-anchor="start" x="357" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
-<text text-anchor="middle" x="437" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Triangle::getVectorToProjectionPoint</text>
+<polygon fill="#ffffff" stroke="#000000" points="368.5,-147.5 368.5,-177.5 559.5,-177.5 559.5,-147.5 368.5,-147.5"/>
+<text text-anchor="start" x="376.5" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
+<text text-anchor="middle" x="464" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Triangle::getVectorToProjectionPoint</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node42 -->
 <g id="edge17" class="edge">
 <title>Node26&#45;&gt;Node42</title>
-<path fill="none" stroke="#191970" d="M244.2052,-392.2972C252.1292,-352.3419 279.0887,-243.5994 346,-187.5 348.0324,-185.796 350.1715,-184.2076 352.3959,-182.7269"/>
-<polygon fill="#191970" stroke="#191970" points="354.4571,-185.5776 361.3521,-177.5334 350.9456,-179.5221 354.4571,-185.5776"/>
+<path fill="none" stroke="#191970" d="M257.8978,-392.4874C266.4241,-352.5246 295.2741,-242.836 364,-187.5 366.0734,-185.8306 368.2435,-184.2707 370.492,-182.8134"/>
+<polygon fill="#191970" stroke="#191970" points="372.5503,-185.6694 379.515,-177.6855 369.0916,-179.5836 372.5503,-185.6694"/>
 </g>
 <!-- Node43 -->
 <g id="node19" class="node">
 <title>Node43</title>
 <g id="a_node19"><a xlink:href="classprecice_1_1mesh_1_1Triangle.html#aaa0de2be16c8a87d7c6e0b5ea8b777c3" target="_top" xlink:title="Returns the outer normal of the triangle. ">
-<polygon fill="#ffffff" stroke="#000000" points="377.5,-98.5 377.5,-128.5 496.5,-128.5 496.5,-98.5 377.5,-98.5"/>
-<text text-anchor="start" x="385.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Triangle</text>
-<text text-anchor="middle" x="437" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getNormal</text>
+<polygon fill="#ffffff" stroke="#000000" points="399.5,-98.5 399.5,-128.5 528.5,-128.5 528.5,-98.5 399.5,-98.5"/>
+<text text-anchor="start" x="407.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Triangle</text>
+<text text-anchor="middle" x="464" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getNormal</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node43 -->
 <g id="edge18" class="edge">
 <title>Node26&#45;&gt;Node43</title>
-<path fill="none" stroke="#191970" d="M242.7441,-392.3769C247.3239,-346.7904 267.3344,-209.4947 346,-138.5 352.2944,-132.8194 359.7626,-128.4139 367.6728,-125"/>
-<polygon fill="#191970" stroke="#191970" points="369.0007,-128.2398 377.118,-121.431 366.5263,-121.6917 369.0007,-128.2398"/>
+<path fill="none" stroke="#191970" d="M256.4434,-392.278C261.6335,-346.4111 283.5541,-208.4037 364,-138.5 371.497,-131.9855 380.4434,-127.1206 389.8584,-123.4962"/>
+<polygon fill="#191970" stroke="#191970" points="391.0425,-126.7906 399.3934,-120.2703 388.7991,-120.1598 391.0425,-126.7906"/>
 </g>
 <!-- Node44 -->
 <g id="node20" class="node">
 <title>Node44</title>
 <g id="a_node20"><a xlink:href="classprecice_1_1mesh_1_1Triangle.html#ac4d5ab22ef769607eb78676efe7dd11e" target="_top" xlink:title="Returns triangle vertex with index 0, 1 or 2. ">
-<polygon fill="#ffffff" stroke="#000000" points="377.5,-49.5 377.5,-79.5 496.5,-79.5 496.5,-49.5 377.5,-49.5"/>
-<text text-anchor="start" x="385.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Triangle</text>
-<text text-anchor="middle" x="437" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::vertex</text>
+<polygon fill="#ffffff" stroke="#000000" points="399.5,-49.5 399.5,-79.5 528.5,-79.5 528.5,-49.5 399.5,-49.5"/>
+<text text-anchor="start" x="407.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Triangle</text>
+<text text-anchor="middle" x="464" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::vertex</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node44 -->
 <g id="edge19" class="edge">
 <title>Node26&#45;&gt;Node44</title>
-<path fill="none" stroke="#191970" d="M244.5292,-392.2411C256.2003,-334.9024 299.907,-133.371 346,-89.5 352.2269,-83.5733 359.7239,-79.0259 367.7088,-75.5413"/>
-<polygon fill="#191970" stroke="#191970" points="369.1502,-78.738 377.2598,-71.92 366.6684,-72.1927 369.1502,-78.738"/>
+<path fill="none" stroke="#191970" d="M258.2227,-392.2004C270.624,-334.7147 316.9275,-132.7219 364,-89.5 371.3652,-82.7373 380.2792,-77.7357 389.7149,-74.0486"/>
+<polygon fill="#191970" stroke="#191970" points="390.9523,-77.3246 399.2866,-70.7831 388.6921,-70.6995 390.9523,-77.3246"/>
 </g>
 <!-- Node45 -->
 <g id="node21" class="node">
 <title>Node45</title>
 <g id="a_node21"><a xlink:href="classprecice_1_1query_1_1FindClosestTriangle.html#a8baed3eaae9f2398254bbbdb3e8d35d6" target="_top" xlink:title="Returns parametric description value (index 0, 1, 2) of proj. point. ">
-<polygon fill="#ffffff" stroke="#000000" points="346,-.5 346,-30.5 528,-30.5 528,-.5 346,-.5"/>
-<text text-anchor="start" x="354" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
-<text text-anchor="middle" x="437" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Triangle::getProjectionPointParameter</text>
+<polygon fill="#ffffff" stroke="#000000" points="364,-.5 364,-30.5 564,-30.5 564,-.5 364,-.5"/>
+<text text-anchor="start" x="372" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::FindClosest</text>
+<text text-anchor="middle" x="464" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Triangle::getProjectionPointParameter</text>
 </a>
 </g>
 </g>
 <!-- Node26&#45;&gt;Node45 -->
 <g id="edge20" class="edge">
 <title>Node26&#45;&gt;Node45</title>
-<path fill="none" stroke="#191970" d="M243.8424,-392.114C253.72,-329.1656 293.8795,-92.1386 346,-40.5 347.4403,-39.073 348.954,-37.7256 350.5307,-36.4533"/>
-<polygon fill="#191970" stroke="#191970" points="352.6378,-39.2519 358.8899,-30.6984 348.6684,-33.4862 352.6378,-39.2519"/>
+<path fill="none" stroke="#191970" d="M257.437,-392.4984C267.8736,-330.0402 310.7035,-91.5155 364,-40.5 365.5028,-39.0615 367.0754,-37.7021 368.7082,-36.4175"/>
+<polygon fill="#191970" stroke="#191970" points="370.9993,-39.0939 377.3312,-30.5993 367.084,-33.2912 370.9993,-39.0939"/>
 </g>
 <!-- Node37 -->
 <g id="node13" class="node">
 <title>Node37</title>
 <g id="a_node13"><a xlink:href="namespaceprecice_1_1mesh.html#ac9eb0be9c8594184b6dc6d8ac8c9e427" target="_top" xlink:title="precice::mesh::operator\&lt;\&lt;">
-<polygon fill="#ffffff" stroke="#000000" points="564,-349 564,-368 695,-368 695,-349 564,-349"/>
-<text text-anchor="middle" x="629.5" y="-356" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::operator&lt;&lt;</text>
+<polygon fill="#ffffff" stroke="#000000" points="600,-349 600,-368 749,-368 749,-349 600,-349"/>
+<text text-anchor="middle" x="674.5" y="-356" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::operator&lt;&lt;</text>
 </a>
 </g>
 </g>
 <!-- Node36&#45;&gt;Node37 -->
 <g id="edge12" class="edge">
 <title>Node36&#45;&gt;Node37</title>
-<path fill="none" stroke="#191970" d="M490.622,-358.5C510.1252,-358.5 532.5548,-358.5 553.6201,-358.5"/>
-<polygon fill="#191970" stroke="#191970" points="553.8329,-362.0001 563.8328,-358.5 553.8328,-355.0001 553.8329,-362.0001"/>
+<path fill="none" stroke="#191970" d="M521.5201,-358.5C542.5154,-358.5 566.7256,-358.5 589.6022,-358.5"/>
+<polygon fill="#191970" stroke="#191970" points="589.6558,-362.0001 599.6558,-358.5 589.6558,-355.0001 589.6558,-362.0001"/>
 </g>
 <!-- Node38 -->
 <g id="node14" class="node">
 <title>Node38</title>
 <g id="a_node14"><a xlink:href="classprecice_1_1mesh_1_1BoundingBox.html#a162ff398c9a95bea24f447668b32b3cd" target="_top" xlink:title="Print bounds of bounding box, output operator overload. ">
-<polygon fill="#ffffff" stroke="#000000" points="731,-343.5 731,-373.5 873,-373.5 873,-343.5 731,-343.5"/>
-<text text-anchor="start" x="739" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::BoundingBox</text>
-<text text-anchor="middle" x="802" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::print</text>
+<polygon fill="#ffffff" stroke="#000000" points="785,-343.5 785,-373.5 940,-373.5 940,-343.5 785,-343.5"/>
+<text text-anchor="start" x="793" y="-361.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::BoundingBox</text>
+<text text-anchor="middle" x="862.5" y="-350.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::print</text>
 </a>
 </g>
 </g>
 <!-- Node37&#45;&gt;Node38 -->
 <g id="edge13" class="edge">
 <title>Node37&#45;&gt;Node38</title>
-<path fill="none" stroke="#191970" d="M695.2069,-358.5C703.4651,-358.5 711.99,-358.5 720.4543,-358.5"/>
-<polygon fill="#191970" stroke="#191970" points="720.7269,-362.0001 730.7268,-358.5 720.7268,-355.0001 720.7269,-362.0001"/>
+<path fill="none" stroke="#191970" d="M749.0726,-358.5C757.5462,-358.5 766.2401,-358.5 774.8622,-358.5"/>
+<polygon fill="#191970" stroke="#191970" points="774.9335,-362.0001 784.9335,-358.5 774.9334,-355.0001 774.9335,-362.0001"/>
 </g>
 </g>
 </svg>

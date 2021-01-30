@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 576;
+var viewWidth = 626;
 var viewHeight = 127;
 var sectionId = 'dynsection-5';
 </script>
@@ -54,71 +54,71 @@ var sectionId = 'dynsection-5';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::cplscheme::CompositionalCouplingScheme::determineActiveCouplingSchemes</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-122.7256 572,-122.7256 572,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-122.8694 622,-122.8694 622,4 -4,4"/>
 <!-- Node39 -->
 <g id="node1" class="node">
 <title>Node39</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-60.5 0,-101.5 173,-101.5 173,-60.5 0,-60.5"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-60.5 0,-101.5 191,-101.5 191,-60.5 0,-60.5"/>
 <text text-anchor="start" x="8" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
 <text text-anchor="start" x="8" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CompositionalCouplingScheme</text>
-<text text-anchor="middle" x="86.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::determineActiveCouplingSchemes</text>
+<text text-anchor="middle" x="95.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::determineActiveCouplingSchemes</text>
 </g>
 <!-- Node40 -->
 <g id="node2" class="node">
 <title>Node40</title>
 <g id="a_node2"><a xlink:href="namespaceprecice_1_1cplscheme_1_1constants.html#ae6a2667f9452de16a239be70945c8172" target="_top" xlink:title="precice::cplscheme\l::constants::actionWriteIteration\lCheckpoint">
-<polygon fill="#ffffff" stroke="#000000" points="412,-54.5 412,-95.5 568,-95.5 568,-54.5 412,-54.5"/>
-<text text-anchor="start" x="420" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="420" y="-72.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::constants::actionWriteIteration</text>
-<text text-anchor="middle" x="490" y="-61.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Checkpoint</text>
+<polygon fill="#ffffff" stroke="#000000" points="445,-54.5 445,-95.5 618,-95.5 618,-54.5 445,-54.5"/>
+<text text-anchor="start" x="453" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="453" y="-72.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::constants::actionWriteIteration</text>
+<text text-anchor="middle" x="531.5" y="-61.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Checkpoint</text>
 </a>
 </g>
 </g>
 <!-- Node39&#45;&gt;Node40 -->
 <g id="edge1" class="edge">
 <title>Node39&#45;&gt;Node40</title>
-<path fill="none" stroke="#191970" d="M157.8688,-101.528C174.5099,-105.4614 192.2616,-108.9802 209,-111 282.6877,-119.8916 302.6441,-122.3073 376,-111 392.7324,-108.4208 410.3759,-103.8303 426.6511,-98.772"/>
-<polygon fill="#191970" stroke="#191970" points="428.1396,-101.9699 436.5875,-95.5759 425.9961,-95.3061 428.1396,-101.9699"/>
+<path fill="none" stroke="#191970" d="M172.1867,-101.5308C190.0469,-105.464 209.0826,-108.9821 227,-111 307.3807,-120.0526 328.9358,-122.5209 409,-111 427.2348,-108.3761 446.5408,-103.6616 464.3006,-98.4906"/>
+<polygon fill="#191970" stroke="#191970" points="465.4202,-101.8088 473.9914,-95.5811 463.4073,-95.1045 465.4202,-101.8088"/>
 </g>
 <!-- Node41 -->
 <g id="node3" class="node">
 <title>Node41</title>
 <g id="a_node3"><a xlink:href="namespaceprecice_1_1cplscheme_1_1constants.html#a6ee5e554181352c02568f33215195519" target="_top" xlink:title="precice::cplscheme\l::constants::actionReadIteration\lCheckpoint">
-<polygon fill="#ffffff" stroke="#000000" points="214.5,-60.5 214.5,-101.5 370.5,-101.5 370.5,-60.5 214.5,-60.5"/>
-<text text-anchor="start" x="222.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="222.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::constants::actionReadIteration</text>
-<text text-anchor="middle" x="292.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Checkpoint</text>
+<polygon fill="#ffffff" stroke="#000000" points="232.5,-60.5 232.5,-101.5 403.5,-101.5 403.5,-60.5 232.5,-60.5"/>
+<text text-anchor="start" x="240.5" y="-89.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="240.5" y="-78.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::constants::actionReadIteration</text>
+<text text-anchor="middle" x="318" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Checkpoint</text>
 </a>
 </g>
 </g>
 <!-- Node39&#45;&gt;Node41 -->
 <g id="edge2" class="edge">
 <title>Node39&#45;&gt;Node41</title>
-<path fill="none" stroke="#191970" d="M173.2655,-81C183.4916,-81 193.9366,-81 204.1838,-81"/>
-<polygon fill="#191970" stroke="#191970" points="204.3495,-84.5001 214.3495,-81 204.3494,-77.5001 204.3495,-84.5001"/>
+<path fill="none" stroke="#191970" d="M191.1513,-81C201.3985,-81 211.8257,-81 222.0761,-81"/>
+<polygon fill="#191970" stroke="#191970" points="222.2542,-84.5001 232.2542,-81 222.2541,-77.5001 222.2542,-84.5001"/>
 </g>
 <!-- Node42 -->
 <g id="node4" class="node">
 <title>Node42</title>
 <g id="a_node4"><a xlink:href="classprecice_1_1cplscheme_1_1CompositionalCouplingScheme.html#a4181a7d671462ed53726008af01150a1" target="_top" xlink:title="Advances the active set of coupling schemes. ">
-<polygon fill="#ffffff" stroke="#000000" points="209,-.5 209,-41.5 376,-41.5 376,-.5 209,-.5"/>
-<text text-anchor="start" x="217" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="217" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CompositionalCouplingScheme</text>
-<text text-anchor="middle" x="292.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::advanceActiveCouplingSchemes</text>
+<polygon fill="#ffffff" stroke="#000000" points="227,-.5 227,-41.5 409,-41.5 409,-.5 227,-.5"/>
+<text text-anchor="start" x="235" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="235" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::CompositionalCouplingScheme</text>
+<text text-anchor="middle" x="318" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::advanceActiveCouplingSchemes</text>
 </a>
 </g>
 </g>
 <!-- Node39&#45;&gt;Node42 -->
 <g id="edge3" class="edge">
 <title>Node39&#45;&gt;Node42</title>
-<path fill="none" stroke="#191970" d="M157.1053,-60.4353C174.8761,-55.2594 194.0793,-49.6662 212.283,-44.3642"/>
-<polygon fill="#191970" stroke="#191970" points="213.3647,-47.6946 221.987,-41.5378 211.4071,-40.9739 213.3647,-47.6946"/>
+<path fill="none" stroke="#191970" d="M171.7606,-60.4353C191.2202,-55.1878 212.2699,-49.5115 232.1727,-44.1444"/>
+<polygon fill="#191970" stroke="#191970" points="233.0952,-47.5208 241.8391,-41.5378 231.2727,-40.7622 233.0952,-47.5208"/>
 </g>
 <!-- Node42&#45;&gt;Node40 -->
 <g id="edge4" class="edge">
 <title>Node42&#45;&gt;Node40</title>
-<path fill="none" stroke="#191970" d="M367.7297,-41.5691C379.944,-44.9087 392.668,-48.3877 405.0937,-51.7851"/>
-<polygon fill="#191970" stroke="#191970" points="404.4104,-55.2267 414.9795,-54.4881 406.2566,-48.4745 404.4104,-55.2267"/>
+<path fill="none" stroke="#191970" d="M399.3242,-41.5691C412.7895,-44.9749 426.8278,-48.5255 440.5128,-51.9868"/>
+<polygon fill="#191970" stroke="#191970" points="439.8489,-55.4291 450.4019,-54.4881 441.5654,-48.6428 439.8489,-55.4291"/>
 </g>
 </g>
 </svg>

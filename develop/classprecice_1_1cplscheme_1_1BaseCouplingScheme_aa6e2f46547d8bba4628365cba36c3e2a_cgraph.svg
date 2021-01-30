@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 673;
+var viewWidth = 729;
 var viewHeight = 112;
 var sectionId = 'dynsection-22';
 </script>
@@ -54,75 +54,75 @@ var sectionId = 'dynsection-22';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>precice::cplscheme::BaseCouplingScheme::reachedEndOfTimeWindow</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-108 669,-108 669,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-108 725,-108 725,4 -4,4"/>
 <!-- Node134 -->
 <g id="node1" class="node">
 <title>Node134</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-62.5 0,-103.5 142,-103.5 142,-62.5 0,-62.5"/>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-62.5 0,-103.5 155,-103.5 155,-62.5 0,-62.5"/>
 <text text-anchor="start" x="8" y="-91.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
 <text text-anchor="start" x="8" y="-80.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
-<text text-anchor="middle" x="71" y="-69.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::reachedEndOfTimeWindow</text>
+<text text-anchor="middle" x="77.5" y="-69.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::reachedEndOfTimeWindow</text>
 </g>
 <!-- Node135 -->
 <g id="node2" class="node">
 <title>Node135</title>
 <g id="a_node2"><a xlink:href="namespaceprecice_1_1math.html#a0e86802cfe992deba131d789d035b5b7" target="_top" xlink:title="Compares two Eigen::MatrixBase for equality up to tolerance. ">
-<polygon fill="#ffffff" stroke="#000000" points="555,-60.5 555,-79.5 665,-79.5 665,-60.5 555,-60.5"/>
-<text text-anchor="middle" x="610" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::math::equals</text>
+<polygon fill="#ffffff" stroke="#000000" points="599,-60.5 599,-79.5 721,-79.5 721,-60.5 599,-60.5"/>
+<text text-anchor="middle" x="660" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::math::equals</text>
 </a>
 </g>
 </g>
 <!-- Node134&#45;&gt;Node135 -->
 <g id="edge1" class="edge">
 <title>Node134&#45;&gt;Node135</title>
-<path fill="none" stroke="#191970" d="M142.058,-87.5436C154.0502,-88.1501 166.3761,-88.6744 178,-89 329.5749,-93.2464 367.7809,-89.2147 519,-78 527.2985,-77.3846 536.018,-76.6854 544.6373,-75.9625"/>
-<polygon fill="#191970" stroke="#191970" points="545.0117,-79.4434 554.6784,-75.1068 544.4173,-72.4687 545.0117,-79.4434"/>
+<path fill="none" stroke="#191970" d="M155.0175,-87.6447C167.0597,-88.2082 179.362,-88.6926 191,-89 356.3479,-93.3674 397.9884,-89.4095 563,-78 571.3601,-77.422 580.1215,-76.7676 588.8149,-76.0883"/>
+<polygon fill="#191970" stroke="#191970" points="589.2694,-79.5633 598.9608,-75.2824 588.715,-72.5853 589.2694,-79.5633"/>
 </g>
 <!-- Node136 -->
 <g id="node3" class="node">
 <title>Node136</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a1f72b0cf12e0edbeab962c30e0ff2683" target="_top" xlink:title="Returns the remaining timestep length within the current time window. ">
-<polygon fill="#ffffff" stroke="#000000" points="178,-38.5 178,-79.5 337,-79.5 337,-38.5 178,-38.5"/>
-<text text-anchor="start" x="186" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="186" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
-<text text-anchor="middle" x="257.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getThisTimeWindowRemainder</text>
+<polygon fill="#ffffff" stroke="#000000" points="191,-38.5 191,-79.5 366,-79.5 366,-38.5 191,-38.5"/>
+<text text-anchor="start" x="199" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="199" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
+<text text-anchor="middle" x="278.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getThisTimeWindowRemainder</text>
 </a>
 </g>
 </g>
 <!-- Node134&#45;&gt;Node136 -->
 <g id="edge2" class="edge">
 <title>Node134&#45;&gt;Node136</title>
-<path fill="none" stroke="#191970" d="M142.0397,-73.8582C150.4743,-72.7728 159.1662,-71.6542 167.8172,-70.5409"/>
-<polygon fill="#191970" stroke="#191970" points="168.4645,-73.9866 177.936,-69.2388 167.571,-67.0438 168.4645,-73.9866"/>
+<path fill="none" stroke="#191970" d="M155.2118,-73.721C163.6284,-72.716 172.27,-71.6842 180.8834,-70.6557"/>
+<polygon fill="#191970" stroke="#191970" points="181.4521,-74.1128 190.9666,-69.4518 180.6221,-67.1621 181.4521,-74.1128"/>
 </g>
 <!-- Node136&#45;&gt;Node135 -->
 <g id="edge3" class="edge">
 <title>Node136&#45;&gt;Node135</title>
-<path fill="none" stroke="#191970" d="M337.0474,-61.4823C399.6868,-63.437 485.9286,-66.1283 544.5938,-67.959"/>
-<polygon fill="#191970" stroke="#191970" points="544.7472,-71.4654 554.8515,-68.2791 544.9656,-64.4688 544.7472,-71.4654"/>
+<path fill="none" stroke="#191970" d="M366.0238,-61.5236C433.4358,-63.4673 525.4622,-66.1208 588.4902,-67.9381"/>
+<polygon fill="#191970" stroke="#191970" points="588.6409,-71.4438 598.7377,-68.2336 588.8427,-64.4467 588.6409,-71.4438"/>
 </g>
 <!-- Node137 -->
 <g id="node4" class="node">
 <title>Node137</title>
 <g id="a_node4"><a xlink:href="classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a3106c1e6390270f5fa725508f11fc12a" target="_top" xlink:title="Returns the maximal length of the next timestep to be computed. ">
-<polygon fill="#ffffff" stroke="#000000" points="373,-.5 373,-41.5 519,-41.5 519,-.5 373,-.5"/>
-<text text-anchor="start" x="381" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
-<text text-anchor="start" x="381" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
-<text text-anchor="middle" x="446" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getNextTimestepMaxLength</text>
+<polygon fill="#ffffff" stroke="#000000" points="402,-.5 402,-41.5 563,-41.5 563,-.5 402,-.5"/>
+<text text-anchor="start" x="410" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::cplscheme</text>
+<text text-anchor="start" x="410" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::BaseCouplingScheme</text>
+<text text-anchor="middle" x="482.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getNextTimestepMaxLength</text>
 </a>
 </g>
 </g>
 <!-- Node136&#45;&gt;Node137 -->
 <g id="edge4" class="edge">
 <title>Node136&#45;&gt;Node137</title>
-<path fill="none" stroke="#191970" d="M337.1678,-42.9397C345.6897,-41.2217 354.3747,-39.4709 362.9349,-37.7452"/>
-<polygon fill="#191970" stroke="#191970" points="363.798,-41.1417 372.9092,-35.7345 362.4147,-34.2798 363.798,-41.1417"/>
+<path fill="none" stroke="#191970" d="M366.1983,-42.664C374.7362,-41.0736 383.4106,-39.4578 391.9757,-37.8624"/>
+<polygon fill="#191970" stroke="#191970" points="392.7754,-41.2737 401.9653,-36.0016 391.4935,-34.3921 392.7754,-41.2737"/>
 </g>
 <!-- Node137&#45;&gt;Node135 -->
 <g id="edge5" class="edge">
 <title>Node137&#45;&gt;Node135</title>
-<path fill="none" stroke="#191970" d="M515.0754,-41.6384C533.1988,-47.0533 552.1862,-52.7264 568.3756,-57.5634"/>
-<polygon fill="#191970" stroke="#191970" points="567.478,-60.9481 578.0614,-60.4574 569.4819,-54.241 567.478,-60.9481"/>
+<path fill="none" stroke="#191970" d="M557.0045,-41.5674C576.8314,-47.0408 597.6322,-52.783 615.3087,-57.6627"/>
+<polygon fill="#191970" stroke="#191970" points="614.7535,-61.1403 625.3243,-60.4276 616.6163,-54.3927 614.7535,-61.1403"/>
 </g>
 </g>
 </svg>
