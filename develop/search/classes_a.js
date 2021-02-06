@@ -12,7 +12,7 @@ var searchData=
   ['meshconfiguration',['MeshConfiguration',['../classprecice_1_1mesh_1_1MeshConfiguration.html',1,'precice::mesh']]],
   ['meshcontext',['MeshContext',['../structprecice_1_1impl_1_1MeshContext.html',1,'precice::impl']]],
   ['meshfixture',['MeshFixture',['../structMeshFixture.html',1,'']]],
-  ['meshindices',['MeshIndices',['../structprecice_1_1mesh_1_1rtree_1_1MeshIndices.html',1,'precice::mesh::rtree']]],
+  ['meshindices',['MeshIndices',['../structprecice_1_1query_1_1rtree_1_1MeshIndices.html',1,'precice::query::rtree']]],
   ['miniterationconvergencemeasure',['MinIterationConvergenceMeasure',['../classprecice_1_1cplscheme_1_1impl_1_1MinIterationConvergenceMeasure.html',1,'precice::cplscheme::impl']]],
   ['mpi_5feventdata',['MPI_EventData',['../structprecice_1_1utils_1_1MPI__EventData.html',1,'precice::utils']]],
   ['mpi_5fselect_5funsigned_5finteger_5fdatatype',['MPI_Select_unsigned_integer_datatype',['../structMPI__Select__unsigned__integer__datatype.html',1,'']]],

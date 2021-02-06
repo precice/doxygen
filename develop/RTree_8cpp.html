@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>preCICE: src/mesh/RTree.cpp File Reference</title>
+<title>preCICE: src/query/RTree.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -60,7 +60,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_7be0d8c199b9408ae01f5d77515b8def.html">mesh</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_cc12abc95cb54c18d5c8d7ca0d3d5af5.html">query</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -71,7 +71,7 @@ $(function() {
 <div class="title">RTree.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="RTree_8hpp_source.html">mesh/RTree.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="RTree_8hpp_source.html">query/RTree.hpp</a>&quot;</code><br />
 <code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;boost/range/irange.hpp&gt;</code><br />
 <code>#include &lt;cstddef&gt;</code><br />
@@ -93,14 +93,14 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceprecice"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice.html">precice</a></td></tr>
 <tr class="memdesc:namespaceprecice"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main namespace of the precice library. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceprecice_1_1mesh"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mesh.html">precice::mesh</a></td></tr>
-<tr class="memdesc:namespaceprecice_1_1mesh"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides <a class="el" href="classprecice_1_1mesh_1_1Mesh.html" title="Container and creator for meshes. ">Mesh</a>, <a class="el" href="classprecice_1_1mesh_1_1Data.html" title="Describes a set of data values belonging to the vertices of a mesh. ">Data</a> and primitives. <br /></td></tr>
+<tr class="memitem:namespaceprecice_1_1query"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html">precice::query</a></td></tr>
+<tr class="memdesc:namespaceprecice_1_1query"><td class="mdescLeft">&#160;</td><td class="mdescRight">contains geometrical queries. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab01f557f8ab1d6a0f0f43c5583fddcbb"><td class="memItemLeft" align="right" valign="top">Box3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mesh.html#ab01f557f8ab1d6a0f0f43c5583fddcbb">precice::mesh::getEnclosingBox</a> (Vertex const &amp;middlePoint, double sphereRadius)</td></tr>
-<tr class="memdesc:ab01f557f8ab1d6a0f0f43c5583fddcbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="namespaceboost_1_1geometry.html">boost::geometry</a> box that encloses a sphere of given radius around a middle point.  <a href="namespaceprecice_1_1mesh.html#ab01f557f8ab1d6a0f0f43c5583fddcbb">More...</a><br /></td></tr>
-<tr class="separator:ab01f557f8ab1d6a0f0f43c5583fddcbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa82a99b117244ee6a42e6f36cda64fd5"><td class="memItemLeft" align="right" valign="top">Box3d&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#aa82a99b117244ee6a42e6f36cda64fd5">precice::query::getEnclosingBox</a> (mesh::Vertex const &amp;middlePoint, double sphereRadius)</td></tr>
+<tr class="memdesc:aa82a99b117244ee6a42e6f36cda64fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="namespaceboost_1_1geometry.html">boost::geometry</a> box that encloses a sphere of given radius around a middle point.  <a href="namespaceprecice_1_1query.html#aa82a99b117244ee6a42e6f36cda64fd5">More...</a><br /></td></tr>
+<tr class="separator:aa82a99b117244ee6a42e6f36cda64fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

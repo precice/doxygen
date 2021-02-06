@@ -65,6 +65,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
@@ -76,6 +77,11 @@ $(function() {
 <p>contains geometrical queries.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceprecice_1_1query_1_1impl"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query_1_1impl.html">impl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprecice_1_1query_1_1ClosestElement.html">ClosestElement</a></td></tr>
@@ -96,12 +102,19 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprecice_1_1query_1_1InterpolationElement.html">InterpolationElement</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weighting and reference to target element for a value to interpolate.  <a href="structprecice_1_1query_1_1InterpolationElement.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1rtree.html">rtree</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a427710aee8223d9f9db70baec61cf3cb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#a427710aee8223d9f9db70baec61cf3cb">InterpolationElements</a> = std::vector&lt; <a class="el" href="structprecice_1_1query_1_1InterpolationElement.html">InterpolationElement</a> &gt;</td></tr>
 <tr class="memdesc:a427710aee8223d9f9db70baec61cf3cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">A vector of <a class="el" href="structprecice_1_1query_1_1InterpolationElement.html" title="Weighting and reference to target element for a value to interpolate. ">InterpolationElement</a>.  <a href="#a427710aee8223d9f9db70baec61cf3cb">More...</a><br /></td></tr>
 <tr class="separator:a427710aee8223d9f9db70baec61cf3cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa26346a5adc78c8a6e02ddb6aab0e5cf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#aa26346a5adc78c8a6e02ddb6aab0e5cf">RTreeBox</a> = boost::geometry::model::box&lt; Eigen::VectorXd &gt;</td></tr>
+<tr class="memdesc:aa26346a5adc78c8a6e02ddb6aab0e5cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The RTree box type.  <a href="#aa26346a5adc78c8a6e02ddb6aab0e5cf">More...</a><br /></td></tr>
+<tr class="separator:aa26346a5adc78c8a6e02ddb6aab0e5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58dbc006a787324a19f131f4eb9338fe"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#a58dbc006a787324a19f131f4eb9338fe">Box3d</a> = boost::geometry::model::box&lt; boost::geometry::model::point&lt; double, 3, boost::geometry::cs::cartesian &gt; &gt;</td></tr>
+<tr class="separator:a58dbc006a787324a19f131f4eb9338fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -116,10 +129,29 @@ Functions</h2></td></tr>
 <tr class="memitem:ad1bd9347985787b5e32c3005939a0696"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceprecice_1_1query.html#a427710aee8223d9f9db70baec61cf3cb">InterpolationElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#ad1bd9347985787b5e32c3005939a0696">generateInterpolationElements</a> (const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;location, const <a class="el" href="classprecice_1_1mesh_1_1Triangle.html">mesh::Triangle</a> &amp;element)</td></tr>
 <tr class="memdesc:ad1bd9347985787b5e32c3005939a0696"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the InterpolationElements for projecting a Vertex on a Triangle.  <a href="#ad1bd9347985787b5e32c3005939a0696">More...</a><br /></td></tr>
 <tr class="separator:ad1bd9347985787b5e32c3005939a0696"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa82a99b117244ee6a42e6f36cda64fd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceprecice_1_1query.html#a58dbc006a787324a19f131f4eb9338fe">Box3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#aa82a99b117244ee6a42e6f36cda64fd5">getEnclosingBox</a> (<a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> const &amp;middlePoint, double sphereRadius)</td></tr>
+<tr class="memdesc:aa82a99b117244ee6a42e6f36cda64fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="namespaceboost_1_1geometry.html">boost::geometry</a> box that encloses a sphere of given radius around a middle point.  <a href="#aa82a99b117244ee6a42e6f36cda64fd5">More...</a><br /></td></tr>
+<tr class="separator:aa82a99b117244ee6a42e6f36cda64fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>contains geometrical queries. </p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="a58dbc006a787324a19f131f4eb9338fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58dbc006a787324a19f131f4eb9338fe">&#9670;&nbsp;</a></span>Box3d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceprecice_1_1query.html#a58dbc006a787324a19f131f4eb9338fe">precice::query::Box3d</a> = typedef boost::geometry::model::box&lt;boost::geometry::model::point&lt;double, 3, boost::geometry::cs::cartesian&gt; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="RTree_8hpp_source.html#l00061">61</a> of file <a class="el" href="RTree_8hpp_source.html">RTree.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a427710aee8223d9f9db70baec61cf3cb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a427710aee8223d9f9db70baec61cf3cb">&#9670;&nbsp;</a></span>InterpolationElements</h2>
 
@@ -135,6 +167,24 @@ Functions</h2></td></tr>
 <p>A vector of <a class="el" href="structprecice_1_1query_1_1InterpolationElement.html" title="Weighting and reference to target element for a value to interpolate. ">InterpolationElement</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="FindClosest_8hpp_source.html#l00043">43</a> of file <a class="el" href="FindClosest_8hpp_source.html">FindClosest.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aa26346a5adc78c8a6e02ddb6aab0e5cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa26346a5adc78c8a6e02ddb6aab0e5cf">&#9670;&nbsp;</a></span>RTreeBox</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceprecice_1_1query.html#aa26346a5adc78c8a6e02ddb6aab0e5cf">precice::query::RTreeBox</a> = typedef boost::geometry::model::box&lt;Eigen::VectorXd&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The RTree box type. </p>
+
+<p class="definition">Definition at line <a class="el" href="RTreeAdapter_8hpp_source.html#l00163">163</a> of file <a class="el" href="RTreeAdapter_8hpp_source.html">RTreeAdapter.hpp</a>.</p>
 
 </div>
 </div>
@@ -242,6 +292,44 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="namespaceprecice_1_1query_ad1bd9347985787b5e32c3005939a0696_cgraph.svg" width="484" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aa82a99b117244ee6a42e6f36cda64fd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa82a99b117244ee6a42e6f36cda64fd5">&#9670;&nbsp;</a></span>getEnclosingBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceprecice_1_1query.html#a58dbc006a787324a19f131f4eb9338fe">Box3d</a> precice::query::getEnclosingBox </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> const &amp;&#160;</td>
+          <td class="paramname"><em>middlePoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>sphereRadius</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a <a class="el" href="namespaceboost_1_1geometry.html">boost::geometry</a> box that encloses a sphere of given radius around a middle point. </p>
+
+<p class="definition">Definition at line <a class="el" href="RTree_8cpp_source.html#l00101">101</a> of file <a class="el" href="RTree_8cpp_source.html">RTree.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceprecice_1_1query_aa82a99b117244ee6a42e6f36cda64fd5_cgraph.svg" width="451" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

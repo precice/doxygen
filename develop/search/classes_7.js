@@ -8,6 +8,6 @@ var searchData=
   ['interpolationelement',['InterpolationElement',['../structprecice_1_1query_1_1InterpolationElement.html',1,'precice::query']]],
   ['inversemultiquadrics',['InverseMultiquadrics',['../classprecice_1_1mapping_1_1InverseMultiquadrics.html',1,'precice::mapping']]],
   ['iqnilsacceleration',['IQNILSAcceleration',['../classprecice_1_1acceleration_1_1IQNILSAcceleration.html',1,'precice::acceleration']]],
-  ['isdirectindexable',['IsDirectIndexable',['../structprecice_1_1mesh_1_1IsDirectIndexable.html',1,'precice::mesh']]],
-  ['isdirectindexablehelper',['IsDirectIndexableHelper',['../classprecice_1_1mesh_1_1impl_1_1IsDirectIndexableHelper.html',1,'precice::mesh::impl']]]
+  ['isdirectindexable',['IsDirectIndexable',['../structprecice_1_1query_1_1impl_1_1IsDirectIndexable.html',1,'precice::query::impl']]],
+  ['isdirectindexablehelper',['IsDirectIndexableHelper',['../classprecice_1_1query_1_1impl_1_1IsDirectIndexableHelper.html',1,'precice::query::impl']]]
 ];

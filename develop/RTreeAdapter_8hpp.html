@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>preCICE: src/mesh/impl/RTreeAdapter.hpp File Reference</title>
+<title>preCICE: src/query/impl/RTreeAdapter.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -60,13 +60,14 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_7be0d8c199b9408ae01f5d77515b8def.html">mesh</a></li><li class="navelem"><a class="el" href="dir_7e52d7b428956be59a25cbc7909fb1ca.html">impl</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_cc12abc95cb54c18d5c8d7ca0d3d5af5.html">query</a></li><li class="navelem"><a class="el" href="dir_d0f9e8246559ec349d883278ea295df5.html">impl</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">RTreeAdapter.hpp File Reference</div>  </div>
@@ -129,11 +130,27 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structboost_1_1geometry_1_1traits_1_1closure_3_01pm_1_1Triangle_01_4.html">boost::geometry::traits::closure&lt; pm::Triangle &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mesh_1_1impl_1_1PtrVectorIndexable.html">precice::mesh::impl::PtrVectorIndexable&lt; Container &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a utils::PtrVector indexable and thus be usable in boost::geometry::rtree.  <a href="classprecice_1_1mesh_1_1impl_1_1PtrVectorIndexable.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprecice_1_1query_1_1impl_1_1PrimitiveTraits.html">precice::query::impl::PrimitiveTraits&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type trait to extract information based on the type of a Primitive.  <a href="structprecice_1_1query_1_1impl_1_1PrimitiveTraits.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mesh_1_1impl_1_1VectorIndexable.html">precice::mesh::impl::VectorIndexable&lt; Container &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a std::vector indexable and thus be usable in boost::geometry::rtree.  <a href="classprecice_1_1mesh_1_1impl_1_1VectorIndexable.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprecice_1_1query_1_1impl_1_1PrimitiveTraits_3_01mesh_1_1Vertex_01_4.html">precice::query::impl::PrimitiveTraits&lt; mesh::Vertex &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprecice_1_1query_1_1impl_1_1PrimitiveTraits_3_01mesh_1_1Edge_01_4.html">precice::query::impl::PrimitiveTraits&lt; mesh::Edge &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprecice_1_1query_1_1impl_1_1PrimitiveTraits_3_01mesh_1_1Triangle_01_4.html">precice::query::impl::PrimitiveTraits&lt; mesh::Triangle &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1impl_1_1PtrVectorIndexable.html">precice::query::impl::PtrVectorIndexable&lt; Container &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a utils::PtrVector indexable and thus be usable in boost::geometry::rtree.  <a href="classprecice_1_1query_1_1impl_1_1PtrVectorIndexable.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1impl_1_1VectorIndexable.html">precice::query::impl::VectorIndexable&lt; Container &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a std::vector indexable and thus be usable in boost::geometry::rtree.  <a href="classprecice_1_1query_1_1impl_1_1VectorIndexable.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1impl_1_1IsDirectIndexableHelper.html">precice::query::impl::IsDirectIndexableHelper&lt; Primitive &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprecice_1_1query_1_1impl_1_1IsDirectIndexable.html">precice::query::impl::IsDirectIndexable&lt; Primitive &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprecice_1_1query_1_1impl_1_1RTreeTraits.html">precice::query::impl::RTreeTraits&lt; Primitive &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type traits of a rtree based on a Primitive.  <a href="structprecice_1_1query_1_1impl_1_1RTreeTraits.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -150,8 +167,20 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceboost_1_1geometry_1_1traits"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1geometry_1_1traits.html">boost::geometry::traits</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceprecice_1_1mesh_1_1impl"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mesh_1_1impl.html">precice::mesh::impl</a></td></tr>
+<tr class="memitem:namespaceprecice_1_1query"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html">precice::query</a></td></tr>
+<tr class="memdesc:namespaceprecice_1_1query"><td class="mdescLeft">&#160;</td><td class="mdescRight">contains geometrical queries. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceprecice_1_1query_1_1impl"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query_1_1impl.html">precice::query::impl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:aa26346a5adc78c8a6e02ddb6aab0e5cf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#aa26346a5adc78c8a6e02ddb6aab0e5cf">precice::query::RTreeBox</a> = boost::geometry::model::box&lt; Eigen::VectorXd &gt;</td></tr>
+<tr class="memdesc:aa26346a5adc78c8a6e02ddb6aab0e5cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The RTree box type.  <a href="namespaceprecice_1_1query.html#aa26346a5adc78c8a6e02ddb6aab0e5cf">More...</a><br /></td></tr>
+<tr class="separator:aa26346a5adc78c8a6e02ddb6aab0e5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38d9dd9583a144865541bacadcf934a1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query_1_1impl.html#a38d9dd9583a144865541bacadcf934a1">precice::query::impl::RTreeParameters</a> = boost::geometry::index::rstar&lt; 16 &gt;</td></tr>
+<tr class="memdesc:a38d9dd9583a144865541bacadcf934a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The general rtree parameter type used in precice.  <a href="namespaceprecice_1_1query_1_1impl.html#a38d9dd9583a144865541bacadcf934a1">More...</a><br /></td></tr>
+<tr class="separator:a38d9dd9583a144865541bacadcf934a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>

@@ -2,7 +2,7 @@ var searchData=
 [
   ['par',['Par',['../namespaceprecice_1_1testing.html#abd5026c993fad5e8340244727e758298',1,'precice::testing']]],
   ['participants',['Participants',['../classprecice_1_1testing_1_1TestContext.html#aa2f6a581db1ce45c48bfdd3e3759a5fc',1,'precice::testing::TestContext']]],
-  ['ptr',['Ptr',['../structprecice_1_1mesh_1_1RTreeTraits.html#a298c844843aa2220a4b55a1b54624bda',1,'precice::mesh::RTreeTraits']]],
+  ['ptr',['Ptr',['../structprecice_1_1query_1_1impl_1_1RTreeTraits.html#ae7f0509ebb0d77ebeaa7467568595880',1,'precice::query::impl::RTreeTraits']]],
   ['ptracceleration',['PtrAcceleration',['../namespaceprecice_1_1acceleration.html#a7d8deab810eb555e163c8610df269b07',1,'precice::acceleration']]],
   ['ptraccelerationconfiguration',['PtrAccelerationConfiguration',['../namespaceprecice_1_1acceleration.html#afa954ac9e7bfbb9e4277783990c568bd',1,'precice::acceleration']]],
   ['ptraction',['PtrAction',['../namespaceprecice_1_1action.html#a44294c07ed1607f79289bb0219d61997',1,'precice::action']]],

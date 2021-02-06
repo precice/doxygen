@@ -27,7 +27,7 @@ var searchData=
   ['_5fboundingbox',['_boundingBox',['../classprecice_1_1mesh_1_1Mesh.html#a105541687d343032d139fac57b559280',1,'precice::mesh::Mesh']]],
   ['_5fboundingboxprepared',['_boundingBoxPrepared',['../classprecice_1_1partition_1_1ReceivedPartition.html#abdc841b6a76d7d54250a299462911120',1,'precice::partition::ReceivedPartition']]],
   ['_5fbounds',['_bounds',['../classprecice_1_1mesh_1_1BoundingBox.html#aedcef0075bd8566bb7bfcda802366b3b',1,'precice::mesh::BoundingBox']]],
-  ['_5fcached_5ftrees',['_cached_trees',['../classprecice_1_1mesh_1_1rtree.html#a1383cbecefb3c01f41e959c5053561f6',1,'precice::mesh::rtree']]],
+  ['_5fcached_5ftrees',['_cached_trees',['../classprecice_1_1query_1_1rtree.html#a39896a979a43b13f706404c5d0925305',1,'precice::query::rtree']]],
   ['_5fchunksize',['_chunkSize',['../classprecice_1_1acceleration_1_1MVQNAcceleration.html#a3cc09316e37c25cfb94cf12ef1ea81e5',1,'precice::acceleration::MVQNAcceleration']]],
   ['_5fclosest',['_closest',['../classprecice_1_1query_1_1FindClosest.html#abef8758dfa3088695879c6ab572480cb',1,'precice::query::FindClosest']]],
   ['_5fclosestedge',['_closestEdge',['../classprecice_1_1query_1_1FindClosestEdge.html#a599be7f3646f2c2e2f6e658a5415d58f',1,'precice::query::FindClosestEdge']]],

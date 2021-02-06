@@ -46,7 +46,7 @@ var searchData=
   ['projectvector',['projectVector',['../namespaceprecice_1_1math_1_1geometry.html#a3496c627f2dc2b173329a028740d5fa0',1,'precice::math::geometry']]],
   ['providedpartition',['ProvidedPartition',['../classprecice_1_1partition_1_1ProvidedPartition.html#a5b1b40832e283c3024303306f54de4b2',1,'precice::partition::ProvidedPartition']]],
   ['pseudoinverse',['pseudoInverse',['../classprecice_1_1acceleration_1_1MVQNAcceleration.html#a16143151ad64becf503286e273e734a7',1,'precice::acceleration::MVQNAcceleration']]],
-  ['ptrvectorindexable',['PtrVectorIndexable',['../classprecice_1_1mesh_1_1impl_1_1PtrVectorIndexable.html#a2d8031df404e1deaa9d5a1d010c2baaf',1,'precice::mesh::impl::PtrVectorIndexable']]],
+  ['ptrvectorindexable',['PtrVectorIndexable',['../classprecice_1_1query_1_1impl_1_1PtrVectorIndexable.html#ac9daaf4a82ce3aa435f18f932337030a',1,'precice::query::impl::PtrVectorIndexable']]],
   ['push_5fback',['push_back',['../classprecice_1_1utils_1_1ptr__vector.html#a7f5c14176ee165c2c89035f54e5d1772',1,'precice::utils::ptr_vector']]],
   ['pushback',['pushBack',['../classprecice_1_1acceleration_1_1impl_1_1QRFactorization.html#a5f075506a7f1216cb97e5680c69b38a1',1,'precice::acceleration::impl::QRFactorization']]],
   ['pushformat',['pushFormat',['../structprecice_1_1utils_1_1petsc_1_1Viewer.html#abef2bcc619991b561cf75f47e4537e11',1,'precice::utils::petsc::Viewer']]],
