@@ -13,6 +13,5 @@ var searchData=
   ['residualrelativeconvergencemeasure',['ResidualRelativeConvergenceMeasure',['../classprecice_1_1cplscheme_1_1impl_1_1ResidualRelativeConvergenceMeasure.html',1,'precice::cplscheme::impl']]],
   ['residualsumpreconditioner',['ResidualSumPreconditioner',['../classprecice_1_1acceleration_1_1impl_1_1ResidualSumPreconditioner.html',1,'precice::acceleration::impl']]],
   ['respreconditionerfixture',['ResPreconditionerFixture',['../structResPreconditionerFixture.html',1,'']]],
-  ['rtree',['rtree',['../classprecice_1_1query_1_1rtree.html',1,'precice::query::rtree'],['../structprecice_1_1testing_1_1accessors_1_1rtree.html',1,'precice::testing::accessors::rtree']]],
   ['rtreetraits',['RTreeTraits',['../structprecice_1_1query_1_1impl_1_1RTreeTraits.html',1,'precice::query::impl']]]
 ];

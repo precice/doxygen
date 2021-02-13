@@ -58,23 +58,23 @@ var sectionId = 'dynsection-1';
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="0,-115 0,-134 143,-134 143,-115 0,-115"/>
-<text text-anchor="middle" x="71.5" y="-122" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">BOOST_AUTO_TEST_CASE</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="0,-137 0,-156 143,-156 143,-137 0,-137"/>
+<text text-anchor="middle" x="71.5" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">BOOST_AUTO_TEST_CASE</text>
 </g>
 <!-- Node1 -->
 <g id="node2" class="node">
 <title>Node1</title>
 <g id="a_node2"><a xlink:href="namespaceprecice_1_1testing.html#a6a116337529290bbb1bf2545b5fb315a" target="_top" xlink:title="equals to be used in tests. Prints both operatorans on failure ">
-<polygon fill="#ffffff" stroke="#000000" points="388.5,-175 388.5,-194 518.5,-194 518.5,-175 388.5,-175"/>
-<text text-anchor="middle" x="453.5" y="-182" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::testing::equals</text>
+<polygon fill="#ffffff" stroke="#000000" points="199,-175 199,-194 329,-194 329,-175 199,-175"/>
+<text text-anchor="middle" x="264" y="-182" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::testing::equals</text>
 </a>
 </g>
 </g>
 <!-- Node0&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node0&#45;&gt;Node1</title>
-<path fill="none" stroke="#191970" d="M94.9656,-134.15C116.4514,-142.5514 149.3256,-154.3246 179,-160.5 245.4663,-174.332 322.5986,-180.2038 378.1449,-182.6902"/>
-<polygon fill="#191970" stroke="#191970" points="378.1195,-186.1921 388.258,-183.1162 378.4142,-179.1983 378.1195,-186.1921"/>
+<path fill="none" stroke="#191970" d="M120.0759,-156.089C146.1649,-161.239 178.5058,-167.6232 205.9179,-173.0344"/>
+<polygon fill="#191970" stroke="#191970" points="205.2849,-176.477 215.7734,-174.9799 206.6406,-169.6095 205.2849,-176.477"/>
 </g>
 <!-- Node2 -->
 <g id="node3" class="node">
@@ -86,53 +86,38 @@ var sectionId = 'dynsection-1';
 </g>
 </g>
 <!-- Node0&#45;&gt;Node2 -->
-<g id="edge10" class="edge">
+<g id="edge9" class="edge">
 <title>Node0&#45;&gt;Node2</title>
-<path fill="none" stroke="#191970" d="M143.1985,-126.6824C155.1533,-126.9941 167.4264,-127.2823 179,-127.5 331.4201,-130.3665 369.5599,-130.9586 522,-129.5 532.7664,-129.397 544.1559,-129.2343 555.3013,-129.0451"/>
-<polygon fill="#191970" stroke="#191970" points="555.5071,-132.5421 565.4433,-128.8648 555.3827,-125.5432 555.5071,-132.5421"/>
+<path fill="none" stroke="#191970" d="M143.2037,-144.0453C249.7994,-140.3961 448.886,-133.5805 555.2301,-129.9399"/>
+<polygon fill="#191970" stroke="#191970" points="555.3513,-133.4379 565.2257,-129.5977 555.1118,-126.442 555.3513,-133.4379"/>
 </g>
 <!-- Node3 -->
 <g id="node4" class="node">
 <title>Node3</title>
 <g id="a_node4"><a xlink:href="namespaceprecice_1_1math_1_1barycenter.html#a29c422302eabada808ff038d5b115333" target="_top" xlink:title="precice::math::barycenter\l::calcBarycentricCoordsForEdge">
-<polygon fill="#ffffff" stroke="#000000" points="179,-87.5 179,-117.5 349,-117.5 349,-87.5 179,-87.5"/>
-<text text-anchor="start" x="187" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::math::barycenter</text>
-<text text-anchor="middle" x="264" y="-94.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::calcBarycentricCoordsForEdge</text>
+<polygon fill="#ffffff" stroke="#000000" points="179,-68.5 179,-98.5 349,-98.5 349,-68.5 179,-68.5"/>
+<text text-anchor="start" x="187" y="-86.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::math::barycenter</text>
+<text text-anchor="middle" x="264" y="-75.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::calcBarycentricCoordsForEdge</text>
 </a>
 </g>
 </g>
 <!-- Node0&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node0&#45;&gt;Node3</title>
-<path fill="none" stroke="#191970" d="M143.1799,-116.308C151.5545,-115.3509 160.195,-114.3634 168.8241,-113.3772"/>
-<polygon fill="#191970" stroke="#191970" points="169.394,-116.835 178.9319,-112.2221 168.5991,-109.8803 169.394,-116.835"/>
-</g>
-<!-- Node7 -->
-<g id="node8" class="node">
-<title>Node7</title>
-<g id="a_node8"><a xlink:href="RTreeTests_8cpp.html#a9849f5c774ff22e557184d988b1cf9ea" target="_top" xlink:title="BOOST_TEST">
-<polygon fill="#ffffff" stroke="#000000" points="224,-49 224,-68 304,-68 304,-49 224,-49"/>
-<text text-anchor="middle" x="264" y="-56" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">BOOST_TEST</text>
-</a>
-</g>
-</g>
-<!-- Node0&#45;&gt;Node7 -->
-<g id="edge9" class="edge">
-<title>Node0&#45;&gt;Node7</title>
-<path fill="none" stroke="#191970" d="M90.4842,-114.8654C111.6319,-104.4511 147.0557,-87.9458 179,-77.5 190.116,-73.8651 202.2739,-70.6922 213.8295,-68.0341"/>
-<polygon fill="#191970" stroke="#191970" points="214.7796,-71.4086 223.788,-65.8319 213.2681,-64.5737 214.7796,-71.4086"/>
+<path fill="none" stroke="#191970" d="M100.7366,-136.9317C129.1939,-127.6184 173.1666,-113.2273 208.31,-101.7258"/>
+<polygon fill="#191970" stroke="#191970" points="209.5526,-105.0019 217.9679,-98.565 207.3753,-98.3491 209.5526,-105.0019"/>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="#191970" d="M482.4563,-174.9595C511.2725,-165.4651 555.6817,-150.8332 587.5711,-140.3263"/>
-<polygon fill="#191970" stroke="#191970" points="589.0467,-143.5252 597.4492,-137.0716 586.8562,-136.8768 589.0467,-143.5252"/>
+<path fill="none" stroke="#191970" d="M329.2354,-182.2733C381.7331,-179.5633 457.1812,-173.5934 522,-160.5 545.7707,-155.6983 571.7771,-147.4971 591.8997,-140.472"/>
+<polygon fill="#191970" stroke="#191970" points="593.3091,-143.6856 601.5559,-137.0342 590.9612,-137.091 593.3091,-143.6856"/>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge7" class="edge">
 <title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="#191970" d="M349.4484,-108.393C412.1735,-112.7189 496.3802,-118.5262 555.4361,-122.599"/>
-<polygon fill="#191970" stroke="#191970" points="555.2068,-126.0914 565.4239,-123.2879 555.6885,-119.108 555.2068,-126.0914"/>
+<path fill="none" stroke="#191970" d="M349.4484,-93.8717C412.1735,-101.4852 496.3802,-111.7061 555.4361,-118.8743"/>
+<polygon fill="#191970" stroke="#191970" points="555.075,-122.3561 565.4239,-120.0866 555.9185,-115.4071 555.075,-122.3561"/>
 </g>
 <!-- Node4 -->
 <g id="node5" class="node">
@@ -147,8 +132,8 @@ var sectionId = 'dynsection-1';
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="#191970" d="M338.8954,-87.4814C350.7765,-85.0989 363.0936,-82.629 375.0535,-80.2307"/>
-<polygon fill="#191970" stroke="#191970" points="375.8816,-83.6344 384.9983,-78.2365 374.5053,-76.771 375.8816,-83.6344"/>
+<path fill="none" stroke="#191970" d="M349.0496,-74.9726C357.5836,-74.117 366.2237,-73.2507 374.689,-72.4019"/>
+<polygon fill="#191970" stroke="#191970" points="375.3084,-75.8574 384.9093,-71.3772 374.61,-68.8924 375.3084,-75.8574"/>
 </g>
 <!-- Node6 -->
 <g id="node7" class="node">
@@ -163,8 +148,8 @@ var sectionId = 'dynsection-1';
 <!-- Node3&#45;&gt;Node6 -->
 <g id="edge8" class="edge">
 <title>Node3&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M328.6839,-87.4406C335.7784,-84.6423 342.7026,-81.3544 349,-77.5 368.8428,-65.3551 365.473,-52.1463 385,-39.5 387.4294,-37.9267 389.9742,-36.4425 392.5943,-35.0441"/>
-<polygon fill="#191970" stroke="#191970" points="394.2609,-38.1258 401.7336,-30.6152 391.2083,-31.8264 394.2609,-38.1258"/>
+<path fill="none" stroke="#191970" d="M305.1199,-68.4114C328.5126,-59.8617 358.3698,-49.0066 385,-39.5 390.1179,-37.673 395.4554,-35.7804 400.7933,-33.8963"/>
+<polygon fill="#191970" stroke="#191970" points="402.0844,-37.1524 410.3545,-30.5299 399.7596,-30.5497 402.0844,-37.1524"/>
 </g>
 <!-- Node4&#45;&gt;Node2 -->
 <g id="edge5" class="edge">

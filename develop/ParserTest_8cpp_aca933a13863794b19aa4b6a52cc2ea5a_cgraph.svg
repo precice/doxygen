@@ -9,15 +9,15 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 128)">
 <title>BOOST_AUTO_TEST_CASE</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-128 471,-128 471,4 -4,4"/>
-<!-- Node9 -->
+<!-- Node8 -->
 <g id="node1" class="node">
-<title>Node9</title>
+<title>Node8</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-55 0,-74 143,-74 143,-55 0,-55"/>
 <text text-anchor="middle" x="71.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">BOOST_AUTO_TEST_CASE</text>
 </g>
-<!-- Node10 -->
+<!-- Node9 -->
 <g id="node2" class="node">
-<title>Node10</title>
+<title>Node9</title>
 <g id="a_node2"><a xlink:href="namespaceprecice_1_1testing.html#ae1327e613df5bf60b9ff50eb80f9e42e" target="_top" xlink:title="Returns $PRECICE_ROOT/src, the base path to the sources. ">
 <polygon fill="#ffffff" stroke="#000000" points="179,-93.5 179,-123.5 313,-123.5 313,-93.5 179,-93.5"/>
 <text text-anchor="start" x="187" y="-111.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::testing::getPath</text>
@@ -25,15 +25,15 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node10 -->
+<!-- Node8&#45;&gt;Node9 -->
 <g id="edge1" class="edge">
-<title>Node9&#45;&gt;Node10</title>
+<title>Node8&#45;&gt;Node9</title>
 <path fill="none" stroke="#191970" d="M109.3639,-74.0473C129.0105,-79.0012 153.6386,-85.2112 176.5551,-90.9895"/>
 <polygon fill="#191970" stroke="#191970" points="175.6999,-94.3834 186.2521,-93.4346 177.4114,-87.5958 175.6999,-94.3834"/>
 </g>
-<!-- Node11 -->
+<!-- Node10 -->
 <g id="node3" class="node">
-<title>Node11</title>
+<title>Node10</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1xml_1_1XMLTag.html#af81dc6eea2b9a75e14ddd6033ed9a1d4" target="_top" xlink:title="Adds an XML tag as subtag by making a copy of the given tag. ">
 <polygon fill="#ffffff" stroke="#000000" points="349,-49.5 349,-79.5 467,-79.5 467,-49.5 349,-49.5"/>
 <text text-anchor="start" x="357" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::xml::XMLTag</text>
@@ -41,36 +41,36 @@
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node11 -->
+<!-- Node8&#45;&gt;Node10 -->
 <g id="edge2" class="edge">
-<title>Node9&#45;&gt;Node11</title>
+<title>Node8&#45;&gt;Node10</title>
 <path fill="none" stroke="#191970" d="M143.275,-64.5C201.0877,-64.5 281.8538,-64.5 338.9336,-64.5"/>
 <polygon fill="#191970" stroke="#191970" points="338.9488,-68.0001 348.9488,-64.5 338.9487,-61.0001 338.9488,-68.0001"/>
 </g>
-<!-- Node12 -->
+<!-- Node11 -->
 <g id="node4" class="node">
-<title>Node12</title>
+<title>Node11</title>
 <g id="a_node4"><a xlink:href="namespaceprecice_1_1xml.html#a747851d233cc337d88fa1fd8aaa5b4ad" target="_top" xlink:title="Configures the given configuration from file configurationFilename. ">
 <polygon fill="#ffffff" stroke="#000000" points="182,-17 182,-36 310,-36 310,-17 182,-17"/>
 <text text-anchor="middle" x="246" y="-24" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::xml::configure</text>
 </a>
 </g>
 </g>
-<!-- Node9&#45;&gt;Node12 -->
+<!-- Node8&#45;&gt;Node11 -->
 <g id="edge3" class="edge">
-<title>Node9&#45;&gt;Node12</title>
+<title>Node8&#45;&gt;Node11</title>
 <path fill="none" stroke="#191970" d="M115.5337,-54.911C138.8721,-49.8287 167.7296,-43.5446 192.3658,-38.1797"/>
 <polygon fill="#191970" stroke="#191970" points="193.2567,-41.5678 202.2829,-36.0201 191.7672,-34.7281 193.2567,-41.5678"/>
 </g>
-<!-- Node12&#45;&gt;Node11 -->
+<!-- Node11&#45;&gt;Node10 -->
 <g id="edge5" class="edge">
-<title>Node12&#45;&gt;Node11</title>
+<title>Node11&#45;&gt;Node10</title>
 <path fill="none" stroke="#191970" d="M286.8794,-36.089C302.6968,-39.7993 321.245,-44.1501 339.0056,-48.3161"/>
 <polygon fill="#191970" stroke="#191970" points="338.2342,-51.7301 348.7692,-50.6064 339.8328,-44.9151 338.2342,-51.7301"/>
 </g>
-<!-- Node13 -->
+<!-- Node12 -->
 <g id="node5" class="node">
-<title>Node13</title>
+<title>Node12</title>
 <g id="a_node5"><a xlink:href="classprecice_1_1xml_1_1XMLTag.html#aa90f7a05aeab6f674ee1499a84a8bb2e" target="_top" xlink:title="Returns full name consisting of xml namespace + &quot;:&quot; + name. ">
 <polygon fill="#ffffff" stroke="#000000" points="349,-.5 349,-30.5 467,-30.5 467,-.5 349,-.5"/>
 <text text-anchor="start" x="357" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::xml::XMLTag</text>
@@ -78,9 +78,9 @@
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node13 -->
+<!-- Node11&#45;&gt;Node12 -->
 <g id="edge4" class="edge">
-<title>Node12&#45;&gt;Node13</title>
+<title>Node11&#45;&gt;Node12</title>
 <path fill="none" stroke="#191970" d="M310.0267,-22.1525C319.4443,-21.513 329.1824,-20.8518 338.7003,-20.2055"/>
 <polygon fill="#191970" stroke="#191970" points="339.1764,-23.6814 348.9162,-19.5119 338.7021,-16.6974 339.1764,-23.6814"/>
 </g>

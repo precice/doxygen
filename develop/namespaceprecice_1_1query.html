@@ -99,10 +99,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1FindClosestVertex.html">FindClosestVertex</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the closest Vertex object hold by Mesh objects.  <a href="classprecice_1_1query_1_1FindClosestVertex.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html">Index</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to query the index trees of the mesh.  <a href="classprecice_1_1query_1_1Index.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprecice_1_1query_1_1InterpolationElement.html">InterpolationElement</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weighting and reference to target element for a value to interpolate.  <a href="structprecice_1_1query_1_1InterpolationElement.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1rtree.html">rtree</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprecice_1_1query_1_1MatchType.html">MatchType</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct to hold index and distance information of the closest primitive.  <a href="structprecice_1_1query_1_1MatchType.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -113,8 +117,13 @@ Typedefs</h2></td></tr>
 <tr class="memitem:aa26346a5adc78c8a6e02ddb6aab0e5cf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#aa26346a5adc78c8a6e02ddb6aab0e5cf">RTreeBox</a> = boost::geometry::model::box&lt; Eigen::VectorXd &gt;</td></tr>
 <tr class="memdesc:aa26346a5adc78c8a6e02ddb6aab0e5cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The RTree box type.  <a href="#aa26346a5adc78c8a6e02ddb6aab0e5cf">More...</a><br /></td></tr>
 <tr class="separator:aa26346a5adc78c8a6e02ddb6aab0e5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58dbc006a787324a19f131f4eb9338fe"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#a58dbc006a787324a19f131f4eb9338fe">Box3d</a> = boost::geometry::model::box&lt; boost::geometry::model::point&lt; double, 3, boost::geometry::cs::cartesian &gt; &gt;</td></tr>
-<tr class="separator:a58dbc006a787324a19f131f4eb9338fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81fc84f48479313dc71ecfb20505c95c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#a81fc84f48479313dc71ecfb20505c95c">VertexMatch</a> = <a class="el" href="structprecice_1_1query_1_1MatchType.html">MatchType</a>&lt; struct VertexMatchTag &gt;</td></tr>
+<tr class="memdesc:a81fc84f48479313dc71ecfb20505c95c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Match tags for each primitive type.  <a href="#a81fc84f48479313dc71ecfb20505c95c">More...</a><br /></td></tr>
+<tr class="separator:a81fc84f48479313dc71ecfb20505c95c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2da982ca98c7a20100715ee1f07ba4c5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#a2da982ca98c7a20100715ee1f07ba4c5">EdgeMatch</a> = <a class="el" href="structprecice_1_1query_1_1MatchType.html">MatchType</a>&lt; struct EdgeMatchTag &gt;</td></tr>
+<tr class="separator:a2da982ca98c7a20100715ee1f07ba4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c7820d447afc01ad5e2b00cc3e4cd7a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#a3c7820d447afc01ad5e2b00cc3e4cd7a">TriangleMatch</a> = <a class="el" href="structprecice_1_1query_1_1MatchType.html">MatchType</a>&lt; struct TriangleTag &gt;</td></tr>
+<tr class="separator:a3c7820d447afc01ad5e2b00cc3e4cd7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -129,26 +138,32 @@ Functions</h2></td></tr>
 <tr class="memitem:ad1bd9347985787b5e32c3005939a0696"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceprecice_1_1query.html#a427710aee8223d9f9db70baec61cf3cb">InterpolationElements</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#ad1bd9347985787b5e32c3005939a0696">generateInterpolationElements</a> (const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;location, const <a class="el" href="classprecice_1_1mesh_1_1Triangle.html">mesh::Triangle</a> &amp;element)</td></tr>
 <tr class="memdesc:ad1bd9347985787b5e32c3005939a0696"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the InterpolationElements for projecting a Vertex on a Triangle.  <a href="#ad1bd9347985787b5e32c3005939a0696">More...</a><br /></td></tr>
 <tr class="separator:ad1bd9347985787b5e32c3005939a0696"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa82a99b117244ee6a42e6f36cda64fd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceprecice_1_1query.html#a58dbc006a787324a19f131f4eb9338fe">Box3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#aa82a99b117244ee6a42e6f36cda64fd5">getEnclosingBox</a> (<a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> const &amp;middlePoint, double sphereRadius)</td></tr>
-<tr class="memdesc:aa82a99b117244ee6a42e6f36cda64fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="namespaceboost_1_1geometry.html">boost::geometry</a> box that encloses a sphere of given radius around a middle point.  <a href="#aa82a99b117244ee6a42e6f36cda64fd5">More...</a><br /></td></tr>
-<tr class="separator:aa82a99b117244ee6a42e6f36cda64fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9856f1f4af8c10026948b1b68adfdafa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#a9856f1f4af8c10026948b1b68adfdafa">clearCache</a> ()</td></tr>
+<tr class="memdesc:a9856f1f4af8c10026948b1b68adfdafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all the cache.  <a href="#a9856f1f4af8c10026948b1b68adfdafa">More...</a><br /></td></tr>
+<tr class="separator:a9856f1f4af8c10026948b1b68adfdafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa06ddfa6af358f56594abe261b4c3ea8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#aa06ddfa6af358f56594abe261b4c3ea8">clearCache</a> (int meshID)</td></tr>
+<tr class="memdesc:aa06ddfa6af358f56594abe261b4c3ea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the cache of given mesh.  <a href="#aa06ddfa6af358f56594abe261b4c3ea8">More...</a><br /></td></tr>
+<tr class="separator:aa06ddfa6af358f56594abe261b4c3ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb2ff10cda249d0cee7c8e4e8292ecf2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query.html#afb2ff10cda249d0cee7c8e4e8292ecf2">clearCache</a> (<a class="el" href="classprecice_1_1mesh_1_1Mesh.html">mesh::Mesh</a> &amp;mesh)</td></tr>
+<tr class="memdesc:afb2ff10cda249d0cee7c8e4e8292ecf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the cache of given mesh.  <a href="#afb2ff10cda249d0cee7c8e4e8292ecf2">More...</a><br /></td></tr>
+<tr class="separator:afb2ff10cda249d0cee7c8e4e8292ecf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>contains geometrical queries. </p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="a58dbc006a787324a19f131f4eb9338fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58dbc006a787324a19f131f4eb9338fe">&#9670;&nbsp;</a></span>Box3d</h2>
+<a id="a2da982ca98c7a20100715ee1f07ba4c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2da982ca98c7a20100715ee1f07ba4c5">&#9670;&nbsp;</a></span>EdgeMatch</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceprecice_1_1query.html#a58dbc006a787324a19f131f4eb9338fe">precice::query::Box3d</a> = typedef boost::geometry::model::box&lt;boost::geometry::model::point&lt;double, 3, boost::geometry::cs::cartesian&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="namespaceprecice_1_1query.html#a2da982ca98c7a20100715ee1f07ba4c5">precice::query::EdgeMatch</a> = typedef <a class="el" href="structprecice_1_1query_1_1MatchType.html">MatchType</a>&lt;struct EdgeMatchTag&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RTree_8hpp_source.html#l00061">61</a> of file <a class="el" href="RTree_8hpp_source.html">RTree.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Index_8hpp_source.html#l00032">32</a> of file <a class="el" href="Index_8hpp_source.html">Index.hpp</a>.</p>
 
 </div>
 </div>
@@ -184,11 +199,128 @@ Functions</h2></td></tr>
 
 <p>The RTree box type. </p>
 
-<p class="definition">Definition at line <a class="el" href="RTreeAdapter_8hpp_source.html#l00163">163</a> of file <a class="el" href="RTreeAdapter_8hpp_source.html">RTreeAdapter.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RTreeAdapter_8hpp_source.html#l00164">164</a> of file <a class="el" href="RTreeAdapter_8hpp_source.html">RTreeAdapter.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a3c7820d447afc01ad5e2b00cc3e4cd7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c7820d447afc01ad5e2b00cc3e4cd7a">&#9670;&nbsp;</a></span>TriangleMatch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceprecice_1_1query.html#a3c7820d447afc01ad5e2b00cc3e4cd7a">precice::query::TriangleMatch</a> = typedef <a class="el" href="structprecice_1_1query_1_1MatchType.html">MatchType</a>&lt;struct TriangleTag&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Index_8hpp_source.html#l00033">33</a> of file <a class="el" href="Index_8hpp_source.html">Index.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a81fc84f48479313dc71ecfb20505c95c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81fc84f48479313dc71ecfb20505c95c">&#9670;&nbsp;</a></span>VertexMatch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceprecice_1_1query.html#a81fc84f48479313dc71ecfb20505c95c">precice::query::VertexMatch</a> = typedef <a class="el" href="structprecice_1_1query_1_1MatchType.html">MatchType</a>&lt;struct VertexMatchTag&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Match tags for each primitive type. </p>
+
+<p class="definition">Definition at line <a class="el" href="Index_8hpp_source.html#l00031">31</a> of file <a class="el" href="Index_8hpp_source.html">Index.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a9856f1f4af8c10026948b1b68adfdafa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9856f1f4af8c10026948b1b68adfdafa">&#9670;&nbsp;</a></span>clearCache() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void precice::query::clearCache </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clear all the cache. </p>
+
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00136">136</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceprecice_1_1query_a9856f1f4af8c10026948b1b68adfdafa_cgraph.svg" width="403" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aa06ddfa6af358f56594abe261b4c3ea8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa06ddfa6af358f56594abe261b4c3ea8">&#9670;&nbsp;</a></span>clearCache() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void precice::query::clearCache </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>meshID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clear the cache of given mesh. </p>
+
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00141">141</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceprecice_1_1query_aa06ddfa6af358f56594abe261b4c3ea8_cgraph.svg" width="403" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="afb2ff10cda249d0cee7c8e4e8292ecf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb2ff10cda249d0cee7c8e4e8292ecf2">&#9670;&nbsp;</a></span>clearCache() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void precice::query::clearCache </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classprecice_1_1mesh_1_1Mesh.html">mesh::Mesh</a> &amp;&#160;</td>
+          <td class="paramname"><em>mesh</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clear the cache of given mesh. </p>
+
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00146">146</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceprecice_1_1query_afb2ff10cda249d0cee7c8e4e8292ecf2_cgraph.svg" width="407" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="af26087a458327ddbe22c10a6ee27dfd4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af26087a458327ddbe22c10a6ee27dfd4">&#9670;&nbsp;</a></span>generateInterpolationElements() <span class="overload">[1/3]</span></h2>
 
@@ -292,44 +424,6 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="namespaceprecice_1_1query_ad1bd9347985787b5e32c3005939a0696_cgraph.svg" width="484" height="248"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="aa82a99b117244ee6a42e6f36cda64fd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa82a99b117244ee6a42e6f36cda64fd5">&#9670;&nbsp;</a></span>getEnclosingBox()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceprecice_1_1query.html#a58dbc006a787324a19f131f4eb9338fe">Box3d</a> precice::query::getEnclosingBox </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> const &amp;&#160;</td>
-          <td class="paramname"><em>middlePoint</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>sphereRadius</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns a <a class="el" href="namespaceboost_1_1geometry.html">boost::geometry</a> box that encloses a sphere of given radius around a middle point. </p>
-
-<p class="definition">Definition at line <a class="el" href="RTree_8cpp_source.html#l00101">101</a> of file <a class="el" href="RTree_8cpp_source.html">RTree.cpp</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceprecice_1_1query_aa82a99b117244ee6a42e6f36cda64fd5_cgraph.svg" width="451" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

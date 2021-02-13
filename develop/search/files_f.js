@@ -20,8 +20,6 @@ var searchData=
   ['residualrelativeconvergencemeasuretest_2ecpp',['ResidualRelativeConvergenceMeasureTest.cpp',['../ResidualRelativeConvergenceMeasureTest_8cpp.html',1,'']]],
   ['residualsumpreconditioner_2ecpp',['ResidualSumPreconditioner.cpp',['../ResidualSumPreconditioner_8cpp.html',1,'']]],
   ['residualsumpreconditioner_2ehpp',['ResidualSumPreconditioner.hpp',['../ResidualSumPreconditioner_8hpp.html',1,'']]],
-  ['rtree_2ecpp',['RTree.cpp',['../RTree_8cpp.html',1,'']]],
-  ['rtree_2ehpp',['RTree.hpp',['../RTree_8hpp.html',1,'']]],
   ['rtreeadapter_2ehpp',['RTreeAdapter.hpp',['../RTreeAdapter_8hpp.html',1,'']]],
   ['rtreeadaptertests_2ecpp',['RTreeAdapterTests.cpp',['../RTreeAdapterTests_8cpp.html',1,'']]],
   ['rtreetests_2ecpp',['RTreeTests.cpp',['../RTreeTests_8cpp.html',1,'']]]

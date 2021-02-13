@@ -26,6 +26,7 @@ var searchData=
   ['_7eevent',['~Event',['../classprecice_1_1utils_1_1Event.html#aa40afbe9dbc4dfaee85cff54739aeefa',1,'precice::utils::Event']]],
   ['_7eexport',['~Export',['../classprecice_1_1io_1_1Export.html#a965b50348efce9f811adec2395bcdcb0',1,'precice::io::Export']]],
   ['_7egatherscattercommunication',['~GatherScatterCommunication',['../classprecice_1_1m2n_1_1GatherScatterCommunication.html#a3c83ce09265380ee24476f9973f9c3ce',1,'precice::m2n::GatherScatterCommunication']]],
+  ['_7eindex',['~Index',['../classprecice_1_1query_1_1Index.html#a16d88fb87320ba038ae3ad8c7739f780',1,'precice::query::Index']]],
   ['_7eiqnilsacceleration',['~IQNILSAcceleration',['../classprecice_1_1acceleration_1_1IQNILSAcceleration.html#a1e3886f5f017409b824aff23c03cc5cd',1,'precice::acceleration::IQNILSAcceleration']]],
   ['_7ekspsolver',['~KSPSolver',['../classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#afc52e3d49aed6e16bacea28cc208f632',1,'precice::utils::petsc::KSPSolver']]],
   ['_7elistener',['~Listener',['../structprecice_1_1xml_1_1XMLTag_1_1Listener.html#ad3508c9f0a4efb102e5c8a286bcfcd29',1,'precice::xml::XMLTag::Listener']]],

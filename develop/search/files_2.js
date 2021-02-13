@@ -8,7 +8,6 @@ var searchData=
   ['baseqnacceleration_2ecpp',['BaseQNAcceleration.cpp',['../BaseQNAcceleration_8cpp.html',1,'']]],
   ['baseqnacceleration_2ehpp',['BaseQNAcceleration.hpp',['../BaseQNAcceleration_8hpp.html',1,'']]],
   ['basisfunctions_2ehpp',['BasisFunctions.hpp',['../BasisFunctions_8hpp.html',1,'']]],
-  ['bbutils_2ehpp',['BBUtils.hpp',['../BBUtils_8hpp.html',1,'']]],
   ['bicouplingscheme_2ecpp',['BiCouplingScheme.cpp',['../BiCouplingScheme_8cpp.html',1,'']]],
   ['bicouplingscheme_2ehpp',['BiCouplingScheme.hpp',['../BiCouplingScheme_8hpp.html',1,'']]],
   ['boundingbox_2ecpp',['BoundingBox.cpp',['../BoundingBox_8cpp.html',1,'']]],

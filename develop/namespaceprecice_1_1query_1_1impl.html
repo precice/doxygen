@@ -74,9 +74,14 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1impl_1_1Indexer.html">Indexer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class to encapsulate <a class="el" href="namespaceboost_1_1geometry.html">boost::geometry</a> implementations.  <a href="classprecice_1_1query_1_1impl_1_1Indexer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprecice_1_1query_1_1impl_1_1IsDirectIndexable.html">IsDirectIndexable</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1impl_1_1IsDirectIndexableHelper.html">IsDirectIndexableHelper</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprecice_1_1query_1_1impl_1_1MeshIndices.html">MeshIndices</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprecice_1_1query_1_1impl_1_1PrimitiveTraits.html">PrimitiveTraits</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type trait to extract information based on the type of a Primitive.  <a href="structprecice_1_1query_1_1impl_1_1PrimitiveTraits.html#details">More...</a><br /></td></tr>
@@ -99,11 +104,51 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:ae158961df82fc8dc9a6accf259c30cfb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query_1_1impl.html#ae158961df82fc8dc9a6accf259c30cfb">VertexTraits</a> = <a class="el" href="structprecice_1_1query_1_1impl_1_1RTreeTraits.html">impl::RTreeTraits</a>&lt; <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &gt;</td></tr>
+<tr class="separator:ae158961df82fc8dc9a6accf259c30cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9862e061a46669bbc156339f9f93e955"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query_1_1impl.html#a9862e061a46669bbc156339f9f93e955">EdgeTraits</a> = <a class="el" href="structprecice_1_1query_1_1impl_1_1RTreeTraits.html">impl::RTreeTraits</a>&lt; <a class="el" href="classprecice_1_1mesh_1_1Edge.html">mesh::Edge</a> &gt;</td></tr>
+<tr class="separator:a9862e061a46669bbc156339f9f93e955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4be6f3ef3d41a5954d84ee25a229147a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query_1_1impl.html#a4be6f3ef3d41a5954d84ee25a229147a">TriangleTraits</a> = <a class="el" href="structprecice_1_1query_1_1impl_1_1RTreeTraits.html">impl::RTreeTraits</a>&lt; <a class="el" href="classprecice_1_1mesh_1_1Triangle.html">mesh::Triangle</a> &gt;</td></tr>
+<tr class="separator:a4be6f3ef3d41a5954d84ee25a229147a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38d9dd9583a144865541bacadcf934a1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query_1_1impl.html#a38d9dd9583a144865541bacadcf934a1">RTreeParameters</a> = boost::geometry::index::rstar&lt; 16 &gt;</td></tr>
 <tr class="memdesc:a38d9dd9583a144865541bacadcf934a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The general rtree parameter type used in precice.  <a href="#a38d9dd9583a144865541bacadcf934a1">More...</a><br /></td></tr>
 <tr class="separator:a38d9dd9583a144865541bacadcf934a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefa945dc04a326851815b9989d4f757d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1query_1_1impl.html#aefa945dc04a326851815b9989d4f757d">Box3d</a> = boost::geometry::model::box&lt; boost::geometry::model::point&lt; double, 3, boost::geometry::cs::cartesian &gt; &gt;</td></tr>
+<tr class="separator:aefa945dc04a326851815b9989d4f757d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="aefa945dc04a326851815b9989d4f757d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefa945dc04a326851815b9989d4f757d">&#9670;&nbsp;</a></span>Box3d</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceprecice_1_1query_1_1impl.html#aefa945dc04a326851815b9989d4f757d">precice::query::impl::Box3d</a> = typedef boost::geometry::model::box&lt;boost::geometry::model::point&lt;double, 3, boost::geometry::cs::cartesian&gt; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="RTreeAdapter_8hpp_source.html#l00170">170</a> of file <a class="el" href="RTreeAdapter_8hpp_source.html">RTreeAdapter.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a9862e061a46669bbc156339f9f93e955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9862e061a46669bbc156339f9f93e955">&#9670;&nbsp;</a></span>EdgeTraits</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceprecice_1_1query_1_1impl.html#a9862e061a46669bbc156339f9f93e955">precice::query::impl::EdgeTraits</a> = typedef <a class="el" href="structprecice_1_1query_1_1impl_1_1RTreeTraits.html">impl::RTreeTraits</a>&lt;<a class="el" href="classprecice_1_1mesh_1_1Edge.html">mesh::Edge</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Indexer_8hpp_source.html#l00011">11</a> of file <a class="el" href="Indexer_8hpp_source.html">Indexer.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a38d9dd9583a144865541bacadcf934a1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a38d9dd9583a144865541bacadcf934a1">&#9670;&nbsp;</a></span>RTreeParameters</h2>
 
@@ -118,7 +163,39 @@ Typedefs</h2></td></tr>
 
 <p>The general rtree parameter type used in precice. </p>
 
-<p class="definition">Definition at line <a class="el" href="RTreeAdapter_8hpp_source.html#l00168">168</a> of file <a class="el" href="RTreeAdapter_8hpp_source.html">RTreeAdapter.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RTreeAdapter_8hpp_source.html#l00169">169</a> of file <a class="el" href="RTreeAdapter_8hpp_source.html">RTreeAdapter.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a4be6f3ef3d41a5954d84ee25a229147a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4be6f3ef3d41a5954d84ee25a229147a">&#9670;&nbsp;</a></span>TriangleTraits</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceprecice_1_1query_1_1impl.html#a4be6f3ef3d41a5954d84ee25a229147a">precice::query::impl::TriangleTraits</a> = typedef <a class="el" href="structprecice_1_1query_1_1impl_1_1RTreeTraits.html">impl::RTreeTraits</a>&lt;<a class="el" href="classprecice_1_1mesh_1_1Triangle.html">mesh::Triangle</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Indexer_8hpp_source.html#l00012">12</a> of file <a class="el" href="Indexer_8hpp_source.html">Indexer.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ae158961df82fc8dc9a6accf259c30cfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae158961df82fc8dc9a6accf259c30cfb">&#9670;&nbsp;</a></span>VertexTraits</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceprecice_1_1query_1_1impl.html#ae158961df82fc8dc9a6accf259c30cfb">precice::query::impl::VertexTraits</a> = typedef <a class="el" href="structprecice_1_1query_1_1impl_1_1RTreeTraits.html">impl::RTreeTraits</a>&lt;<a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Indexer_8hpp_source.html#l00010">10</a> of file <a class="el" href="Indexer_8hpp_source.html">Indexer.hpp</a>.</p>
 
 </div>
 </div>

@@ -35,7 +35,6 @@ var searchData=
   ['todocumentation',['toDocumentation',['../namespaceprecice_1_1xml.html#a9bb6b846a3db9eac454ba17738a45507',1,'precice::xml']]],
   ['todtd',['toDTD',['../namespaceprecice_1_1xml.html#a5763778f25bd93e586ffdb6d0a10386d',1,'precice::xml']]],
   ['tomarkdown',['toMarkdown',['../namespaceprecice_1_1xml.html#a4dcfaca557decff46e612b00f27a20c8',1,'precice::xml']]],
-  ['tortreebox',['toRTreeBox',['../namespaceprecice_1_1mesh.html#ab615378402114c1c8c067ad1cf46fedb',1,'precice::mesh']]],
   ['tozero',['toZero',['../classprecice_1_1mesh_1_1Data.html#a97cbda9a74fd55fd134b2ead1d271bf5',1,'precice::mesh::Data']]],
   ['trace',['trace',['../classprecice_1_1logging_1_1Logger.html#a184fa1a12d1437aeeb20f1c0d922104f',1,'precice::logging::Logger']]],
   ['tracer',['Tracer',['../classprecice_1_1logging_1_1Tracer.html#a8cb14f7b752532c20c884dfa1e78ccda',1,'precice::logging::Tracer']]],

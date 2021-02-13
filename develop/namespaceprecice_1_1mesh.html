@@ -130,8 +130,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a4d9cfe7beb5bbe90d58d5705abdde19d"><td class="memTemplParams" colspan="2">template&lt;typename UnaryPredicate &gt; </td></tr>
 <tr class="memitem:a4d9cfe7beb5bbe90d58d5705abdde19d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mesh.html#a4d9cfe7beb5bbe90d58d5705abdde19d">filterMesh</a> (<a class="el" href="classprecice_1_1mesh_1_1Mesh.html">Mesh</a> &amp;destination, const <a class="el" href="classprecice_1_1mesh_1_1Mesh.html">Mesh</a> &amp;source, UnaryPredicate p)</td></tr>
 <tr class="separator:a4d9cfe7beb5bbe90d58d5705abdde19d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab615378402114c1c8c067ad1cf46fedb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceprecice_1_1query.html#aa26346a5adc78c8a6e02ddb6aab0e5cf">query::RTreeBox</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mesh.html#ab615378402114c1c8c067ad1cf46fedb">toRTreeBox</a> (<a class="el" href="classprecice_1_1mesh_1_1BoundingBox.html">BoundingBox</a> const &amp;bb)</td></tr>
-<tr class="separator:ab615378402114c1c8c067ad1cf46fedb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc2962752e70162fdf6ee1819a0c0144"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mesh.html#afc2962752e70162fdf6ee1819a0c0144">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classprecice_1_1mesh_1_1Mesh.html">Mesh</a> &amp;m)</td></tr>
 <tr class="separator:afc2962752e70162fdf6ee1819a0c0144"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ade3e5e1541c236814d4fb9ae134b55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mesh.html#a4ade3e5e1541c236814d4fb9ae134b55">BOOST_CONCEPT_ASSERT</a> ((boost::RandomAccessIteratorConcept&lt; <a class="el" href="classprecice_1_1mesh_1_1Triangle.html#acdc07bad26416b66a7a22dbae775ae7f">Triangle::iterator</a> &gt;))</td></tr>
@@ -150,11 +148,11 @@ Functions</h2></td></tr>
 <tr class="memitem:ad25fbe418df4389fce244ba338d49536"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structprecice_1_1mesh_1_1Chain.html">Chain</a>&lt; n &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mesh.html#ad25fbe418df4389fce244ba338d49536">asChain</a> (std::array&lt; <a class="el" href="classprecice_1_1mesh_1_1Edge.html">mesh::Edge</a> *, n &gt; edges)</td></tr>
 <tr class="separator:ad25fbe418df4389fce244ba338d49536"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b0288a6bdcf6f936ef7e63713013742"><td class="memTemplParams" colspan="2">template&lt;std::size_t n&gt; </td></tr>
-<tr class="memitem:a8b0288a6bdcf6f936ef7e63713013742"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">Vertex</a> *, n &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mesh.html#a8b0288a6bdcf6f936ef7e63713013742">vertexPtrsFor</a> (<a class="el" href="classprecice_1_1mesh_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="RTreeTests_8cpp.html#a2201e80a56e28447b1d515a2b5cbbf48">mesh</a>, const std::array&lt; int, n &gt; &amp;vertexIDs)</td></tr>
+<tr class="memitem:a8b0288a6bdcf6f936ef7e63713013742"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">Vertex</a> *, n &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mesh.html#a8b0288a6bdcf6f936ef7e63713013742">vertexPtrsFor</a> (<a class="el" href="classprecice_1_1mesh_1_1Mesh.html">Mesh</a> &amp;mesh, const std::array&lt; int, n &gt; &amp;vertexIDs)</td></tr>
 <tr class="memdesc:a8b0288a6bdcf6f936ef7e63713013742"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a mesh and an array of vertexIDS, this function returns an array of pointers to vertices.  <a href="#a8b0288a6bdcf6f936ef7e63713013742">More...</a><br /></td></tr>
 <tr class="separator:a8b0288a6bdcf6f936ef7e63713013742"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a7124e24a25e64c99ddf6ce6aba9f96"><td class="memTemplParams" colspan="2">template&lt;std::size_t n&gt; </td></tr>
-<tr class="memitem:a5a7124e24a25e64c99ddf6ce6aba9f96"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; Eigen::VectorXd, n &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mesh.html#a5a7124e24a25e64c99ddf6ce6aba9f96">coordsFor</a> (const <a class="el" href="classprecice_1_1mesh_1_1Mesh.html">Mesh</a> &amp;<a class="el" href="RTreeTests_8cpp.html#a2201e80a56e28447b1d515a2b5cbbf48">mesh</a>, const std::array&lt; int, n &gt; &amp;vertexIDs)</td></tr>
+<tr class="memitem:a5a7124e24a25e64c99ddf6ce6aba9f96"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; Eigen::VectorXd, n &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mesh.html#a5a7124e24a25e64c99ddf6ce6aba9f96">coordsFor</a> (const <a class="el" href="classprecice_1_1mesh_1_1Mesh.html">Mesh</a> &amp;mesh, const std::array&lt; int, n &gt; &amp;vertexIDs)</td></tr>
 <tr class="memdesc:a5a7124e24a25e64c99ddf6ce6aba9f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a mesh and an array of vertexIDS, this function returns an array of coordinates of the vertices.  <a href="#a5a7124e24a25e64c99ddf6ce6aba9f96">More...</a><br /></td></tr>
 <tr class="separator:a5a7124e24a25e64c99ddf6ce6aba9f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adac4c126439d15388087492ea62bda4a"><td class="memTemplParams" colspan="2">template&lt;std::size_t n&gt; </td></tr>
@@ -729,40 +727,6 @@ Here is the call graph for this function:</div>
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="namespaceprecice_1_1mesh_aeb5d253b5d4bc794c6744fe62636bd89_cgraph.svg" width="419" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-
-</div>
-</div>
-<a id="ab615378402114c1c8c067ad1cf46fedb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab615378402114c1c8c067ad1cf46fedb">&#9670;&nbsp;</a></span>toRTreeBox()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceprecice_1_1query.html#aa26346a5adc78c8a6e02ddb6aab0e5cf">query::RTreeBox</a> precice::mesh::toRTreeBox </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classprecice_1_1mesh_1_1BoundingBox.html">BoundingBox</a> const &amp;&#160;</td>
-          <td class="paramname"><em>bb</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="BBUtils_8hpp_source.html#l00009">9</a> of file <a class="el" href="BBUtils_8hpp_source.html">BBUtils.hpp</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceprecice_1_1mesh_ab615378402114c1c8c067ad1cf46fedb_cgraph.svg" width="460" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 

@@ -52,7 +52,7 @@ var searchData=
   ['dimensionstest_2ecpp',['DimensionsTest.cpp',['../DimensionsTest_8cpp.html',1,'']]],
   ['direction',['direction',['../structprecice_1_1mapping_1_1MappingConfiguration_1_1ConfiguredMapping.html#a14e50bf6d62fe6e2426a665472ec0e31',1,'precice::mapping::MappingConfiguration::ConfiguredMapping::direction()'],['../classprecice_1_1mapping_1_1MappingConfiguration.html#a9232280830e3b3b15f7decb339355c58',1,'precice::mapping::MappingConfiguration::Direction()']]],
   ['dispatch',['dispatch',['../classprecice_1_1com_1_1SocketSendQueue.html#aaf833eac1abd771f7c73f073bee023ff',1,'precice::com::SocketSendQueue']]],
-  ['distance',['distance',['../structprecice_1_1query_1_1ClosestElement.html#adb06f6b6db9204f989db092417595333',1,'precice::query::ClosestElement::distance()'],['../NearestProjectionMapping_8cpp.html#a79b8e036dca6911e3295a47d99f21f43',1,'distance():&#160;NearestProjectionMapping.cpp']]],
+  ['distance',['distance',['../structprecice_1_1query_1_1ClosestElement.html#adb06f6b6db9204f989db092417595333',1,'precice::query::ClosestElement::distance()'],['../structprecice_1_1query_1_1MatchType.html#a7220d2a13708219918709b5175afb076',1,'precice::query::MatchType::distance()'],['../NearestProjectionMapping_8cpp.html#a79b8e036dca6911e3295a47d99f21f43',1,'distance():&#160;NearestProjectionMapping.cpp']]],
   ['distance_5fto',['distance_to',['../classprecice_1_1mesh_1_1IndexRangeIterator.html#a0965f06a44a9675d9e992acf9199571b',1,'precice::mesh::IndexRangeIterator']]],
   ['distanceaccumulator',['DistanceAccumulator',['../classprecice_1_1utils_1_1statistics_1_1DistanceAccumulator.html',1,'precice::utils::statistics']]],
   ['distributedcomfactory',['DistributedComFactory',['../classprecice_1_1m2n_1_1DistributedComFactory.html',1,'precice::m2n']]],

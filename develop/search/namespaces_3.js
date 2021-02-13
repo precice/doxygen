@@ -1,7 +1,6 @@
 var searchData=
 [
   ['acceleration',['acceleration',['../namespaceprecice_1_1acceleration.html',1,'precice']]],
-  ['accessors',['accessors',['../namespaceprecice_1_1testing_1_1accessors.html',1,'precice::testing']]],
   ['action',['action',['../namespaceprecice_1_1action.html',1,'precice']]],
   ['barycenter',['barycenter',['../namespaceprecice_1_1math_1_1barycenter.html',1,'precice::math']]],
   ['com',['com',['../namespaceprecice_1_1com.html',1,'precice::com'],['../namespaceprecice_1_1testing_1_1com.html',1,'precice::testing::com']]],

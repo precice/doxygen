@@ -155,9 +155,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ad8a95ad5135e79da63a51578bd657bf0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mapping_1_1PetRadialBasisFctMapping.html#ad8a95ad5135e79da63a51578bd657bf0">printMappingInfo</a> (int inputDataID, int dim) const</td></tr>
 <tr class="memdesc:ad8a95ad5135e79da63a51578bd657bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints an INFO about the current mapping.  <a href="#ad8a95ad5135e79da63a51578bd657bf0">More...</a><br /></td></tr>
 <tr class="separator:ad8a95ad5135e79da63a51578bd657bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cb54b77df8aa37caadcfa04a6089a9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mapping_1_1PetRadialBasisFctMapping.html#a7cb54b77df8aa37caadcfa04a6089a9e">estimatePreallocationMatrixC</a> (int rows, int cols, <a class="el" href="namespaceprecice_1_1mesh.html#ad5dc7f42c512b2ef50c2d723489bca93">mesh::PtrMesh</a> <a class="el" href="RTreeTests_8cpp.html#a2201e80a56e28447b1d515a2b5cbbf48">mesh</a>)</td></tr>
+<tr class="memitem:a7cb54b77df8aa37caadcfa04a6089a9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mapping_1_1PetRadialBasisFctMapping.html#a7cb54b77df8aa37caadcfa04a6089a9e">estimatePreallocationMatrixC</a> (int rows, int cols, <a class="el" href="namespaceprecice_1_1mesh.html#ad5dc7f42c512b2ef50c2d723489bca93">mesh::PtrMesh</a> mesh)</td></tr>
 <tr class="separator:a7cb54b77df8aa37caadcfa04a6089a9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a360a169401a88fe95ed7032acebc6ef0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mapping_1_1PetRadialBasisFctMapping.html#a360a169401a88fe95ed7032acebc6ef0">estimatePreallocationMatrixA</a> (int rows, int cols, <a class="el" href="namespaceprecice_1_1mesh.html#ad5dc7f42c512b2ef50c2d723489bca93">mesh::PtrMesh</a> <a class="el" href="RTreeTests_8cpp.html#a2201e80a56e28447b1d515a2b5cbbf48">mesh</a>)</td></tr>
+<tr class="memitem:a360a169401a88fe95ed7032acebc6ef0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mapping_1_1PetRadialBasisFctMapping.html#a360a169401a88fe95ed7032acebc6ef0">estimatePreallocationMatrixA</a> (int rows, int cols, <a class="el" href="namespaceprecice_1_1mesh.html#ad5dc7f42c512b2ef50c2d723489bca93">mesh::PtrMesh</a> mesh)</td></tr>
 <tr class="separator:a360a169401a88fe95ed7032acebc6ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dc6fc60deab9af85eac02a42d894840"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mapping_1_1PetRadialBasisFctMapping.html#a3dc6fc60deab9af85eac02a42d894840">computePreallocationMatrixC</a> (const <a class="el" href="namespaceprecice_1_1mesh.html#ad5dc7f42c512b2ef50c2d723489bca93">mesh::PtrMesh</a> inMesh)</td></tr>
 <tr class="memdesc:a3dc6fc60deab9af85eac02a42d894840"><td class="mdescLeft">&#160;</td><td class="mdescRight">Preallocate matrix C by only deriving the preallocation pattern.  <a href="#a3dc6fc60deab9af85eac02a42d894840">More...</a><br /></td></tr>
@@ -275,7 +275,7 @@ class precice::mapping::PetRadialBasisFctMapping&lt; RADIAL_BASIS_FUNCTION_T &gt
 <p>With help of the input data points and values an interpolant is constructed. The interpolant is formed by a weighted sum of conditionally positive radial basis functions and a (low order) polynomial, and evaluated at the output data points.</p>
 <p>The radial basis function type has to be given as template parameter. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00058">58</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00049">49</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ab5293723cb98e15167de69010a9b60b0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab5293723cb98e15167de69010a9b60b0">&#9670;&nbsp;</a></span>VertexData</h2>
@@ -301,7 +301,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Stores col -&gt; value for each row. Used to return the already computed values from the preconditioning. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00107">107</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00098">98</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -391,7 +391,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 </dl>
 <p>For description on convergence testing and meaning of solverRtol see <a href="http://www.mcs.anl.gov/petsc/petsc-current/docs/manualpages/KSP/KSPConvergedDefault.html#KSPConvergedDefault">http://www.mcs.anl.gov/petsc/petsc-current/docs/manualpages/KSP/KSPConvergedDefault.html#KSPConvergedDefault</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00198">198</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00189">189</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -428,7 +428,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 
 <p>Deletes the PETSc objects and the _deadAxis array. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00248">248</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00239">239</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -475,7 +475,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l01390">1390</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l01371">1371</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -513,7 +513,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 
 <p>Preallocate matrix C and saves the coefficients using a <a class="el" href="namespaceboost_1_1geometry.html">boost::geometry</a> spatial tree for neighbor search. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l01300">1300</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l01286">1286</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -552,7 +552,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 
 <p>Implements <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a55c7dd27be2a1efef1d67a7abbb2ca14">precice::mapping::Mapping</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00622">622</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00613">613</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -591,7 +591,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 
 <p>Implements <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#abf2679ec4bbb86bd2380b088528cc1ff">precice::mapping::Mapping</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00254">254</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00245">245</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -637,7 +637,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l01062">1062</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l01048">1048</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -675,7 +675,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 
 <p>Preallocate matrix C by only deriving the preallocation pattern. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00985">985</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00971">971</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -727,7 +727,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00944">944</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00930">930</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -779,7 +779,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00903">903</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00889">889</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -818,7 +818,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 
 <p>Implements <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#ae7fcb351e225322b05e4cd7c45215b52">precice::mapping::Mapping</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00616">616</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00607">607</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -862,7 +862,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 
 <p>Implements <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a843b62d737d4e113bfa4db18682eb6fe">precice::mapping::Mapping</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00639">639</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00630">630</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -910,7 +910,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 
 <p>Prints an INFO about the current mapping. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00891">891</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00877">877</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -956,7 +956,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l01219">1219</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l01205">1205</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -992,7 +992,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l01141">1141</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l01127">1127</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1031,7 +1031,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 
 <p>Implements <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a916001398438572a4d109a7d1eb25c6f">precice::mapping::Mapping</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00821">821</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00812">812</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1070,11 +1070,11 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </div>
 
 <p>Implements <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a0d524e2e9181ac1b6065f72a11a4579e">precice::mapping::Mapping</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00857">857</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00845">845</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classprecice_1_1mapping_1_1PetRadialBasisFctMapping_a97053cf776b4a1c5340e3ef4aa279df9_cgraph.svg" width="100%" height="581"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classprecice_1_1mapping_1_1PetRadialBasisFctMapping_a97053cf776b4a1c5340e3ef4aa279df9_cgraph.svg" width="100%" height="510"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1105,7 +1105,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Maps globalIndex to local index. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00138">138</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00129">129</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1133,7 +1133,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Radial basis function type used in interpolation. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00114">114</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00105">105</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1161,7 +1161,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>The CommState used to communicate. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00170">170</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00161">161</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1189,7 +1189,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>true if the mapping along some axis should be ignored </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00143">143</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00134">134</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1215,7 +1215,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00111">111</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00102">102</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1241,7 +1241,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00109">109</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00100">100</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1269,7 +1269,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Interpolation evaluation matrix. Evaluated basis function on the output mesh. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00123">123</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00114">114</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1297,7 +1297,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Interpolation system matrix. Evaluated basis function on the input mesh. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00117">117</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00108">108</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1325,7 +1325,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Vandermonde Matrix for linear polynomial, constructed from vertices of the input mesh. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00120">120</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00111">111</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1353,7 +1353,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Coordinates of the output mesh to evaluate the separated polynomial. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00126">126</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00117">117</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1381,7 +1381,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Toggles the use of the additonal polynomial. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00146">146</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00137">137</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1409,7 +1409,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Toggles use of preallocation for matrix C and A. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00167">167</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00158">158</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1437,7 +1437,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Used to solve the under-determined system for the separated polynomial. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00135">135</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00126">126</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1465,7 +1465,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Used to solve matrixC for the RBF weighting factors. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00132">132</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00123">123</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1491,7 +1491,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00140">140</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00131">131</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1519,7 +1519,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Equals to polyparams if rank == 0. Is 0 everywhere else. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00158">158</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00149">149</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1547,7 +1547,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Interpolant of g(x) = 1 evaluated at output sites, used for rescaling. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00129">129</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00120">120</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1575,7 +1575,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Number of coefficients for the integrated polynomial. Depends on dimension and number of dead dimensions. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00152">152</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00143">143</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1603,7 +1603,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Caches the solution from the previous iteration, used as starting value for current iteration. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00161">161</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00152">152</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1631,7 +1631,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Number of coefficients for the separated polynomial. Depends on dimension and number of dead dimensions. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00155">155</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00146">146</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
@@ -1659,7 +1659,7 @@ template&lt;typename RADIAL_BASIS_FUNCTION_T&gt; </div>
 
 <p>Toggles use of rescaled basis functions, only active when Polynomial == SEPARATE. </p>
 
-<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00149">149</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html#l00140">140</a> of file <a class="el" href="PetRadialBasisFctMapping_8hpp_source.html">PetRadialBasisFctMapping.hpp</a>.</p>
 
 </div>
 </div>
