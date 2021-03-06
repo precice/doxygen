@@ -99,12 +99,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a1fec41e0dfa5de7ad9804063b0b9ea29"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1impl_1_1WatchIntegral.html#a1fec41e0dfa5de7ad9804063b0b9ea29">calculateVectorData</a> (<a class="el" href="namespaceprecice_1_1mesh.html#adcb13ac006aa0d128cacca620c9c0819">mesh::PtrData</a> data)</td></tr>
-<tr class="separator:a1fec41e0dfa5de7ad9804063b0b9ea29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44051e5035f7ba901bfccd445b451174"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1impl_1_1WatchIntegral.html#a44051e5035f7ba901bfccd445b451174">calculateScalarData</a> (<a class="el" href="namespaceprecice_1_1mesh.html#adcb13ac006aa0d128cacca620c9c0819">mesh::PtrData</a> data)</td></tr>
-<tr class="separator:a44051e5035f7ba901bfccd445b451174"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47043dc3ec321e4fd3db8714523dda79"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1impl_1_1WatchIntegral.html#a47043dc3ec321e4fd3db8714523dda79">calculateSurfaceArea</a> ()</td></tr>
-<tr class="separator:a47043dc3ec321e4fd3db8714523dda79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dbea53615dfaa386fc4502061c3a2a5"><td class="memItemLeft" align="right" valign="top">Eigen::VectorXd&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1impl_1_1WatchIntegral.html#a1dbea53615dfaa386fc4502061c3a2a5">calculateIntegral</a> (<a class="el" href="namespaceprecice_1_1mesh.html#adcb13ac006aa0d128cacca620c9c0819">mesh::PtrData</a> data) const</td></tr>
+<tr class="separator:a1dbea53615dfaa386fc4502061c3a2a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad509475bc558fa97bf90f9ad6daee7e0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1impl_1_1WatchIntegral.html#ad509475bc558fa97bf90f9ad6daee7e0">calculateSurfaceArea</a> () const</td></tr>
+<tr class="separator:ad509475bc558fa97bf90f9ad6daee7e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -167,7 +165,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="WatchIntegral_8cpp_source.html#l00015">15</a> of file <a class="el" href="WatchIntegral_8cpp_source.html">WatchIntegral.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="WatchIntegral_8cpp_source.html#l00016">16</a> of file <a class="el" href="WatchIntegral_8cpp_source.html">WatchIntegral.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -178,8 +176,8 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a44051e5035f7ba901bfccd445b451174"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44051e5035f7ba901bfccd445b451174">&#9670;&nbsp;</a></span>calculateScalarData()</h2>
+<a id="a1dbea53615dfaa386fc4502061c3a2a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dbea53615dfaa386fc4502061c3a2a5">&#9670;&nbsp;</a></span>calculateIntegral()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,11 +186,11 @@ Here is the call graph for this function:</div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double precice::impl::WatchIntegral::calculateScalarData </td>
+          <td class="memname">Eigen::VectorXd precice::impl::WatchIntegral::calculateIntegral </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceprecice_1_1mesh.html#adcb13ac006aa0d128cacca620c9c0819">mesh::PtrData</a>&#160;</td>
           <td class="paramname"><em>data</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -202,12 +200,18 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="WatchIntegral_8cpp_source.html#l00158">158</a> of file <a class="el" href="WatchIntegral_8cpp_source.html">WatchIntegral.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="WatchIntegral_8cpp_source.html#l00107">107</a> of file <a class="el" href="WatchIntegral_8cpp_source.html">WatchIntegral.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1impl_1_1WatchIntegral_a1dbea53615dfaa386fc4502061c3a2a5_cgraph.svg" width="443" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
-<a id="a47043dc3ec321e4fd3db8714523dda79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47043dc3ec321e4fd3db8714523dda79">&#9670;&nbsp;</a></span>calculateSurfaceArea()</h2>
+<a id="ad509475bc558fa97bf90f9ad6daee7e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad509475bc558fa97bf90f9ad6daee7e0">&#9670;&nbsp;</a></span>calculateSurfaceArea()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -219,7 +223,7 @@ Here is the call graph for this function:</div>
           <td class="memname">double precice::impl::WatchIntegral::calculateSurfaceArea </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -229,35 +233,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="WatchIntegral_8cpp_source.html#l00189">189</a> of file <a class="el" href="WatchIntegral_8cpp_source.html">WatchIntegral.cpp</a>.</p>
-
-</div>
-</div>
-<a id="a1fec41e0dfa5de7ad9804063b0b9ea29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fec41e0dfa5de7ad9804063b0b9ea29">&#9670;&nbsp;</a></span>calculateVectorData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Eigen::VectorXd precice::impl::WatchIntegral::calculateVectorData </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceprecice_1_1mesh.html#adcb13ac006aa0d128cacca620c9c0819">mesh::PtrData</a>&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="WatchIntegral_8cpp_source.html#l00120">120</a> of file <a class="el" href="WatchIntegral_8cpp_source.html">WatchIntegral.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="WatchIntegral_8cpp_source.html#l00126">126</a> of file <a class="el" href="WatchIntegral_8cpp_source.html">WatchIntegral.cpp</a>.</p>
 
 </div>
 </div>
@@ -279,11 +255,11 @@ Here is the call graph for this function:</div>
 
 <p>Writes one line with data of the integral over the mesh into the output file. </p>
 
-<p class="definition">Definition at line <a class="el" href="WatchIntegral_8cpp_source.html#l00057">57</a> of file <a class="el" href="WatchIntegral_8cpp_source.html">WatchIntegral.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="WatchIntegral_8cpp_source.html#l00058">58</a> of file <a class="el" href="WatchIntegral_8cpp_source.html">WatchIntegral.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1impl_1_1WatchIntegral_a98c1832c8ea8dca8bc03f0932346c952_cgraph.svg" width="467" height="444"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classprecice_1_1impl_1_1WatchIntegral_a98c1832c8ea8dca8bc03f0932346c952_cgraph.svg" width="100%" height="584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -306,7 +282,7 @@ Here is the call graph for this function:</div>
 
 <p>Adds surface area information based on mesh connectivity. </p>
 
-<p class="definition">Definition at line <a class="el" href="WatchIntegral_8cpp_source.html#l00046">46</a> of file <a class="el" href="WatchIntegral_8cpp_source.html">WatchIntegral.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="WatchIntegral_8cpp_source.html#l00047">47</a> of file <a class="el" href="WatchIntegral_8cpp_source.html">WatchIntegral.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

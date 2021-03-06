@@ -86,6 +86,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="Data_8hpp_source.html">mesh/Data.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Mesh_8hpp_source.html">mesh/Mesh.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mesh_2SharedPointer_8hpp_source.html">mesh/SharedPointer.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Utils_8hpp_source.html">mesh/Utils.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Vertex_8hpp_source.html">mesh/Vertex.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="TestContext_8hpp_source.html">testing/TestContext.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Testing_8hpp_source.html">testing/Testing.hpp</a>&quot;</code><br />
@@ -116,6 +117,8 @@ Typedefs</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a091feb1893c75899e59fa939e678debe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="RadialBasisFctMappingTest_8cpp.html#a091feb1893c75899e59fa939e678debe">addGlobalIndex</a> (<a class="el" href="namespaceprecice_1_1mesh.html#ad5dc7f42c512b2ef50c2d723489bca93">mesh::PtrMesh</a> &amp;mesh, int offset=0)</td></tr>
 <tr class="separator:a091feb1893c75899e59fa939e678debe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fe8cc401dc268d058f12ada538cbce3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="RadialBasisFctMappingTest_8cpp.html#a5fe8cc401dc268d058f12ada538cbce3">testSerialScaledConsistent</a> (<a class="el" href="namespaceprecice_1_1mesh.html#ad5dc7f42c512b2ef50c2d723489bca93">mesh::PtrMesh</a> inMesh, <a class="el" href="namespaceprecice_1_1mesh.html#ad5dc7f42c512b2ef50c2d723489bca93">mesh::PtrMesh</a> outMesh, <a class="el" href="namespaceprecice_1_1mesh.html#adcb13ac006aa0d128cacca620c9c0819">mesh::PtrData</a> inData, <a class="el" href="namespaceprecice_1_1mesh.html#adcb13ac006aa0d128cacca620c9c0819">mesh::PtrData</a> outData)</td></tr>
+<tr class="separator:a5fe8cc401dc268d058f12ada538cbce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe9a39799512d3777b5369d9a52fab13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="RadialBasisFctMappingTest_8cpp.html#abe9a39799512d3777b5369d9a52fab13">getDistributedMesh</a> (const <a class="el" href="classprecice_1_1testing_1_1TestContext.html">TestContext</a> &amp;context, <a class="el" href="PetRadialBasisFctMappingTest_8cpp.html#a77e13dd3b595fccfe5dff15006598565">MeshSpecification</a> const &amp;vertices, <a class="el" href="namespaceprecice_1_1mesh.html#ad5dc7f42c512b2ef50c2d723489bca93">mesh::PtrMesh</a> &amp;mesh, <a class="el" href="namespaceprecice_1_1mesh.html#adcb13ac006aa0d128cacca620c9c0819">mesh::PtrData</a> &amp;data, int globalIndexOffset=0)</td></tr>
 <tr class="separator:abe9a39799512d3777b5369d9a52fab13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7669e1df52fca7b42839a0fd234e995"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="RadialBasisFctMappingTest_8cpp.html#aa7669e1df52fca7b42839a0fd234e995">testDistributed</a> (const <a class="el" href="classprecice_1_1testing_1_1TestContext.html">TestContext</a> &amp;context, <a class="el" href="classprecice_1_1mapping_1_1Mapping.html">Mapping</a> &amp;mapping, <a class="el" href="PetRadialBasisFctMappingTest_8cpp.html#a77e13dd3b595fccfe5dff15006598565">MeshSpecification</a> inMeshSpec, <a class="el" href="PetRadialBasisFctMappingTest_8cpp.html#a77e13dd3b595fccfe5dff15006598565">MeshSpecification</a> outMeshSpec, <a class="el" href="PetRadialBasisFctMappingTest_8cpp.html#ab8204ba835ae3ffe610075a7244c0612">ReferenceSpecification</a> referenceSpec, int inGlobalIndexOffset=0)</td></tr>
@@ -173,6 +176,10 @@ Functions</h2></td></tr>
 <tr class="separator:a2201bafe4655348e36cd1ff12deba24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5423d88d692cb548f7ad7207ed87dffb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="RadialBasisFctMappingTest_8cpp.html#a5423d88d692cb548f7ad7207ed87dffb">perform3DTestConsistentMapping</a> (<a class="el" href="classprecice_1_1mapping_1_1Mapping.html">Mapping</a> &amp;mapping)</td></tr>
 <tr class="separator:a5423d88d692cb548f7ad7207ed87dffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20a0621775b46ccae21c2e6032bf3900"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="RadialBasisFctMappingTest_8cpp.html#a20a0621775b46ccae21c2e6032bf3900">perform2DTestScaledConsistentMapping</a> (<a class="el" href="classprecice_1_1mapping_1_1Mapping.html">Mapping</a> &amp;mapping)</td></tr>
+<tr class="separator:a20a0621775b46ccae21c2e6032bf3900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0745d5d9b8dcea11e1bbc20b5c1a7257"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="RadialBasisFctMappingTest_8cpp.html#a0745d5d9b8dcea11e1bbc20b5c1a7257">perform3DTestScaledConsistentMapping</a> (<a class="el" href="classprecice_1_1mapping_1_1Mapping.html">Mapping</a> &amp;mapping)</td></tr>
+<tr class="separator:a0745d5d9b8dcea11e1bbc20b5c1a7257"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98631e0f8282d85bafc9d8a601cef301"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="RadialBasisFctMappingTest_8cpp.html#a98631e0f8282d85bafc9d8a601cef301">perform2DTestConservativeMapping</a> (<a class="el" href="classprecice_1_1mapping_1_1Mapping.html">Mapping</a> &amp;mapping)</td></tr>
 <tr class="separator:a98631e0f8282d85bafc9d8a601cef301"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10fcc20a01095297078f359afc02b89f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="RadialBasisFctMappingTest_8cpp.html#a10fcc20a01095297078f359afc02b89f">perform2DTestConservativeMappingVector</a> (<a class="el" href="classprecice_1_1mapping_1_1Mapping.html">Mapping</a> &amp;mapping)</td></tr>
@@ -213,7 +220,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00060">60</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00072">72</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 
 </div>
 </div>
@@ -231,7 +238,7 @@ Functions</h2></td></tr>
 
 <p>Contains which values are expected on which rank: rank -&gt; vector of data. </p>
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00063">63</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00075">75</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 
 </div>
 </div>
@@ -262,13 +269,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00027">27</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="RadialBasisFctMappingTest_8cpp_a091feb1893c75899e59fa939e678debe_cgraph.svg" width="378" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00029">29</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 
 </div>
 </div>
@@ -290,7 +291,7 @@ Here is the call graph for this function:</div>
 
 <p>Test with a homogenous distribution of mesh amoung ranks. </p>
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00144">144</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00156">156</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -316,7 +317,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00180">180</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00192">192</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -344,7 +345,7 @@ Here is the call graph for this function:</div>
 
 <p>Using a more heterogenous distributon of vertices and owner. </p>
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00217">217</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00229">229</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -372,7 +373,7 @@ Here is the call graph for this function:</div>
 
 <p>Test with a very heterogenous distributed and non-continues ownership. </p>
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00255">255</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00267">267</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -400,7 +401,7 @@ Here is the call graph for this function:</div>
 
 <p>Test with a very heterogenous distributed and non-continues ownership. </p>
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00311">311</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00323">323</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -428,7 +429,7 @@ Here is the call graph for this function:</div>
 
 <p>Some ranks are empty, does not converge. </p>
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00367">367</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00379">379</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -454,7 +455,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00422">422</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00434">434</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -492,7 +493,7 @@ Here is the call graph for this function:</div>
 
 <p>same as 2DV4, but strictly linear input values, converges and gives correct results </p>
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00490">490</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00502">502</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -520,7 +521,7 @@ Here is the call graph for this function:</div>
 
 <p>Test with a homogenous distribution of mesh amoung ranks. </p>
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00546">546</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00558">558</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -548,7 +549,7 @@ Here is the call graph for this function:</div>
 
 <p>Test with a homogenous distribution of mesh amoung ranks. </p>
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00609">609</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00621">621</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -576,7 +577,7 @@ Here is the call graph for this function:</div>
 
 <p>Using a more heterogenous distribution of vertices and owner. </p>
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00672">672</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00684">684</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -604,7 +605,7 @@ Here is the call graph for this function:</div>
 
 <p>Using meshes of different sizes, inMesh is smaller then outMesh. </p>
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00737">737</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00749">749</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -642,7 +643,7 @@ Here is the call graph for this function:</div>
 
 <p>Using meshes of different sizes, outMesh is smaller then inMesh. </p>
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00801">801</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00813">813</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -670,7 +671,7 @@ Here is the call graph for this function:</div>
 
 <p>Tests a non-contigous owner distributed at the outMesh. </p>
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00862">862</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00874">874</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -698,7 +699,7 @@ Here is the call graph for this function:</div>
 
 <p>Tests a non-contigous owner distributed at the outMesh. </p>
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00925">925</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00937">937</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -724,7 +725,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01048">1048</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01060">1060</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -750,7 +751,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01610">1610</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01726">1726</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -776,7 +777,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01631">1631</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01751">1751</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -802,7 +803,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01648">1648</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01772">1772</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -828,7 +829,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01665">1665</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01793">1793</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -854,7 +855,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01682">1682</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01814">1814</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -880,7 +881,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01699">1699</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01835">1835</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -906,7 +907,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01718">1718</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01858">1858</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -932,7 +933,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01737">1737</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01881">1881</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -958,7 +959,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01756">1756</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01904">1904</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -984,7 +985,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01804">1804</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01952">1952</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1009,11 +1010,11 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01080">1080</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01092">1092</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="RadialBasisFctMappingTest_8cpp_a7779b70cfe2f527f9971605c923022db_cgraph.svg" width="100%" height="426"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="RadialBasisFctMappingTest_8cpp_a7779b70cfe2f527f9971605c923022db_cgraph.svg" width="100%" height="421"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1063,11 +1064,11 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00065">65</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00077">77</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="RadialBasisFctMappingTest_8cpp_abe9a39799512d3777b5369d9a52fab13_cgraph.svg" width="575" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="RadialBasisFctMappingTest_8cpp_abe9a39799512d3777b5369d9a52fab13_cgraph.svg" width="332" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1089,7 +1090,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01425">1425</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01541">1541</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1115,7 +1116,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01493">1493</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01609">1609</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1141,11 +1142,37 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01179">1179</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01191">1191</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="RadialBasisFctMappingTest_8cpp_a2201bafe4655348e36cd1ff12deba24c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a20a0621775b46ccae21c2e6032bf3900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20a0621775b46ccae21c2e6032bf3900">&#9670;&nbsp;</a></span>perform2DTestScaledConsistentMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void perform2DTestScaledConsistentMapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classprecice_1_1mapping_1_1Mapping.html">Mapping</a> &amp;&#160;</td>
+          <td class="paramname"><em>mapping</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01437">1437</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="RadialBasisFctMappingTest_8cpp_a20a0621775b46ccae21c2e6032bf3900_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1167,7 +1194,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01566">1566</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01682">1682</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1193,11 +1220,37 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01292">1292</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01304">1304</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="RadialBasisFctMappingTest_8cpp_a5423d88d692cb548f7ad7207ed87dffb_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a0745d5d9b8dcea11e1bbc20b5c1a7257"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0745d5d9b8dcea11e1bbc20b5c1a7257">&#9670;&nbsp;</a></span>perform3DTestScaledConsistentMapping()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void perform3DTestScaledConsistentMapping </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classprecice_1_1mapping_1_1Mapping.html">Mapping</a> &amp;&#160;</td>
+          <td class="paramname"><em>mapping</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l01487">1487</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="RadialBasisFctMappingTest_8cpp_a0745d5d9b8dcea11e1bbc20b5c1a7257_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -1253,11 +1306,59 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00101">101</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00113">113</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="RadialBasisFctMappingTest_8cpp_aa7669e1df52fca7b42839a0fd234e995_cgraph.svg" width="100%" height="564"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a5fe8cc401dc268d058f12ada538cbce3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fe8cc401dc268d058f12ada538cbce3">&#9670;&nbsp;</a></span>testSerialScaledConsistent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testSerialScaledConsistent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceprecice_1_1mesh.html#ad5dc7f42c512b2ef50c2d723489bca93">mesh::PtrMesh</a>&#160;</td>
+          <td class="paramname"><em>inMesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceprecice_1_1mesh.html#ad5dc7f42c512b2ef50c2d723489bca93">mesh::PtrMesh</a>&#160;</td>
+          <td class="paramname"><em>outMesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceprecice_1_1mesh.html#adcb13ac006aa0d128cacca620c9c0819">mesh::PtrData</a>&#160;</td>
+          <td class="paramname"><em>inData</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceprecice_1_1mesh.html#adcb13ac006aa0d128cacca620c9c0819">mesh::PtrData</a>&#160;</td>
+          <td class="paramname"><em>outData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00036">36</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="RadialBasisFctMappingTest_8cpp_a5fe8cc401dc268d058f12ada538cbce3_cgraph.svg" width="450" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -1313,7 +1414,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00987">987</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html#l00999">999</a> of file <a class="el" href="RadialBasisFctMappingTest_8cpp_source.html">RadialBasisFctMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

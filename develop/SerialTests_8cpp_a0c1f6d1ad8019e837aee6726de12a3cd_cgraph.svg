@@ -48,23 +48,23 @@ if (edges && edges.length) {
 <script type="text/javascript">
 var viewWidth = 546;
 var viewHeight = 421;
-var sectionId = 'dynsection-51';
+var sectionId = 'dynsection-53';
 </script>
 <script xlink:href="svgpan.js"/>
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>testQuadMappingNearestProjectionWideKite</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-417 542,-417 542,4 -4,4"/>
-<!-- Node760 -->
+<!-- Node790 -->
 <g id="node1" class="node">
-<title>Node760</title>
+<title>Node790</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-186.5 0,-216.5 189,-216.5 189,-186.5 0,-186.5"/>
 <text text-anchor="start" x="8" y="-204.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">testQuadMappingNearestProjection</text>
 <text text-anchor="middle" x="94.5" y="-193.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">WideKite</text>
 </g>
-<!-- Node761 -->
+<!-- Node791 -->
 <g id="node2" class="node">
-<title>Node761</title>
+<title>Node791</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1testing_1_1TestContext.html#a87ef3b67f676b69dfb8c4cfc2e8df819" target="_top" xlink:title="Check wheater this context has a given name. ">
 <polygon fill="#ffffff" stroke="#000000" points="225,-382.5 225,-412.5 380,-412.5 380,-382.5 225,-382.5"/>
 <text text-anchor="start" x="233" y="-400.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::testing::TestContext</text>
@@ -72,15 +72,15 @@ var sectionId = 'dynsection-51';
 </a>
 </g>
 </g>
-<!-- Node760&#45;&gt;Node761 -->
+<!-- Node790&#45;&gt;Node791 -->
 <g id="edge1" class="edge">
-<title>Node760&#45;&gt;Node761</title>
+<title>Node790&#45;&gt;Node791</title>
 <path fill="none" stroke="#191970" d="M101.8138,-216.667C118.7114,-250.1069 163.7514,-330.5988 225,-373.5 227.1199,-374.9848 229.3347,-376.3802 231.6199,-377.6912"/>
 <polygon fill="#191970" stroke="#191970" points="230.2332,-380.9129 240.7314,-382.341 233.4151,-374.6779 230.2332,-380.9129"/>
 </g>
-<!-- Node762 -->
+<!-- Node792 -->
 <g id="node3" class="node">
-<title>Node762</title>
+<title>Node792</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1SolverInterface.html#a46c45798758f01b9cfdd2885bc849764" target="_top" xlink:title="Returns the ID belonging to the mesh with given name. ">
 <polygon fill="#ffffff" stroke="#000000" points="236.5,-333.5 236.5,-363.5 368.5,-363.5 368.5,-333.5 236.5,-333.5"/>
 <text text-anchor="start" x="244.5" y="-351.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::SolverInterface</text>
@@ -88,15 +88,15 @@ var sectionId = 'dynsection-51';
 </a>
 </g>
 </g>
-<!-- Node760&#45;&gt;Node762 -->
+<!-- Node790&#45;&gt;Node792 -->
 <g id="edge2" class="edge">
-<title>Node760&#45;&gt;Node762</title>
+<title>Node790&#45;&gt;Node792</title>
 <path fill="none" stroke="#191970" d="M106.5297,-216.6824C127.7614,-242.4978 174.4416,-295.0082 225,-324.5 228.0112,-326.2565 231.1646,-327.8977 234.4045,-329.4295"/>
 <polygon fill="#191970" stroke="#191970" points="233.1505,-332.7005 243.718,-333.4615 235.9315,-326.2766 233.1505,-332.7005"/>
 </g>
-<!-- Node763 -->
+<!-- Node793 -->
 <g id="node4" class="node">
-<title>Node763</title>
+<title>Node793</title>
 <g id="a_node4"><a xlink:href="classprecice_1_1SolverInterface.html#a0f5dfe2e0932abeadc7276e0f7e0c443" target="_top" xlink:title="Creates a mesh vertex. ">
 <polygon fill="#ffffff" stroke="#000000" points="236.5,-284.5 236.5,-314.5 368.5,-314.5 368.5,-284.5 236.5,-284.5"/>
 <text text-anchor="start" x="244.5" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::SolverInterface</text>
@@ -104,15 +104,15 @@ var sectionId = 'dynsection-51';
 </a>
 </g>
 </g>
-<!-- Node760&#45;&gt;Node763 -->
+<!-- Node790&#45;&gt;Node793 -->
 <g id="edge3" class="edge">
-<title>Node760&#45;&gt;Node763</title>
+<title>Node790&#45;&gt;Node793</title>
 <path fill="none" stroke="#191970" d="M117.7577,-216.7346C143.2628,-232.9469 185.7932,-258.5491 225,-275.5 229.4523,-277.4249 234.1092,-279.2663 238.8351,-281.0117"/>
 <polygon fill="#191970" stroke="#191970" points="237.9941,-284.4265 248.5889,-284.4557 240.3248,-277.8259 237.9941,-284.4265"/>
 </g>
-<!-- Node764 -->
+<!-- Node794 -->
 <g id="node5" class="node">
-<title>Node764</title>
+<title>Node794</title>
 <g id="a_node5"><a xlink:href="classprecice_1_1SolverInterface.html#ac1431f702ad9c3aa898273db6afbd651" target="_top" xlink:title="Sets mesh edge from vertex IDs, returns edge ID. ">
 <polygon fill="#ffffff" stroke="#000000" points="236.5,-235.5 236.5,-265.5 368.5,-265.5 368.5,-235.5 236.5,-235.5"/>
 <text text-anchor="start" x="244.5" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::SolverInterface</text>
@@ -120,15 +120,15 @@ var sectionId = 'dynsection-51';
 </a>
 </g>
 </g>
-<!-- Node760&#45;&gt;Node764 -->
+<!-- Node790&#45;&gt;Node794 -->
 <g id="edge4" class="edge">
-<title>Node760&#45;&gt;Node764</title>
+<title>Node790&#45;&gt;Node794</title>
 <path fill="none" stroke="#191970" d="M158.3204,-216.5346C180.6816,-221.8024 205.9713,-227.7601 229.0565,-233.1984"/>
 <polygon fill="#191970" stroke="#191970" points="228.2641,-236.6075 238.8003,-235.4938 229.8693,-229.794 228.2641,-236.6075"/>
 </g>
-<!-- Node765 -->
+<!-- Node795 -->
 <g id="node6" class="node">
-<title>Node765</title>
+<title>Node795</title>
 <g id="a_node6"><a xlink:href="classprecice_1_1SolverInterface.html#aebc18aa8377710a718fe8e18650a04d6" target="_top" xlink:title="Sets mesh Quad from edge IDs. ">
 <polygon fill="#ffffff" stroke="#000000" points="236.5,-186.5 236.5,-216.5 368.5,-216.5 368.5,-186.5 236.5,-186.5"/>
 <text text-anchor="start" x="244.5" y="-204.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::SolverInterface</text>
@@ -136,15 +136,15 @@ var sectionId = 'dynsection-51';
 </a>
 </g>
 </g>
-<!-- Node760&#45;&gt;Node765 -->
+<!-- Node790&#45;&gt;Node795 -->
 <g id="edge5" class="edge">
-<title>Node760&#45;&gt;Node765</title>
+<title>Node790&#45;&gt;Node795</title>
 <path fill="none" stroke="#191970" d="M189.0662,-201.5C201.5586,-201.5 214.234,-201.5 226.3635,-201.5"/>
 <polygon fill="#191970" stroke="#191970" points="226.4079,-205.0001 236.4079,-201.5 226.4078,-198.0001 226.4079,-205.0001"/>
 </g>
-<!-- Node766 -->
+<!-- Node796 -->
 <g id="node7" class="node">
-<title>Node766</title>
+<title>Node796</title>
 <g id="a_node7"><a xlink:href="classprecice_1_1SolverInterface.html#ae327bcc1ae62c01b7a02eb2d90e6da42" target="_top" xlink:title="Sets surface mesh quadrangle from vertex IDs. ">
 <polygon fill="#ffffff" stroke="#000000" points="232.5,-137.5 232.5,-167.5 372.5,-167.5 372.5,-137.5 232.5,-137.5"/>
 <text text-anchor="start" x="240.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::SolverInterface</text>
@@ -152,15 +152,15 @@ var sectionId = 'dynsection-51';
 </a>
 </g>
 </g>
-<!-- Node760&#45;&gt;Node766 -->
+<!-- Node790&#45;&gt;Node796 -->
 <g id="edge6" class="edge">
-<title>Node760&#45;&gt;Node766</title>
+<title>Node790&#45;&gt;Node796</title>
 <path fill="none" stroke="#191970" d="M158.3204,-186.4654C180.6816,-181.1976 205.9713,-175.2399 229.0565,-169.8016"/>
 <polygon fill="#191970" stroke="#191970" points="229.8693,-173.206 238.8003,-167.5062 228.2641,-166.3925 229.8693,-173.206"/>
 </g>
-<!-- Node767 -->
+<!-- Node797 -->
 <g id="node8" class="node">
-<title>Node767</title>
+<title>Node797</title>
 <g id="a_node8"><a xlink:href="structprecice_1_1testing_1_1WhiteboxAccessor.html#aa07fe7a3cff9b0c7c89c4377eb4452fb" target="_top" xlink:title="precice::testing::Whitebox\lAccessor::impl">
 <polygon fill="#ffffff" stroke="#000000" points="230.5,-88.5 230.5,-118.5 374.5,-118.5 374.5,-88.5 230.5,-88.5"/>
 <text text-anchor="start" x="238.5" y="-106.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::testing::Whitebox</text>
@@ -168,30 +168,30 @@ var sectionId = 'dynsection-51';
 </a>
 </g>
 </g>
-<!-- Node760&#45;&gt;Node767 -->
+<!-- Node790&#45;&gt;Node797 -->
 <g id="edge7" class="edge">
-<title>Node760&#45;&gt;Node767</title>
+<title>Node790&#45;&gt;Node797</title>
 <path fill="none" stroke="#191970" d="M118.2964,-186.2915C143.9102,-170.3791 186.2095,-145.4072 225,-128.5 230.103,-126.2758 235.4697,-124.1444 240.8982,-122.1298"/>
 <polygon fill="#191970" stroke="#191970" points="242.4505,-125.2921 250.6926,-118.635 240.098,-118.6993 242.4505,-125.2921"/>
 </g>
-<!-- Node768 -->
+<!-- Node798 -->
 <g id="node9" class="node">
-<title>Node768</title>
+<title>Node798</title>
 <g id="a_node9"><a xlink:href="namespaceprecice_1_1mesh.html#ace4763095424f6b633b53a132a71dfe0" target="_top" xlink:title="precice::mesh::edgeLength">
 <polygon fill="#ffffff" stroke="#000000" points="228.5,-50 228.5,-69 376.5,-69 376.5,-50 228.5,-50"/>
 <text text-anchor="middle" x="302.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::edgeLength</text>
 </a>
 </g>
 </g>
-<!-- Node760&#45;&gt;Node768 -->
+<!-- Node790&#45;&gt;Node798 -->
 <g id="edge8" class="edge">
-<title>Node760&#45;&gt;Node768</title>
+<title>Node790&#45;&gt;Node798</title>
 <path fill="none" stroke="#191970" d="M106.413,-186.1896C127.4684,-160.2046 173.8902,-107.5643 225,-79.5 230.0719,-76.715 235.5444,-74.3069 241.1528,-72.2267"/>
 <polygon fill="#191970" stroke="#191970" points="242.3093,-75.5304 250.6731,-69.0268 240.0791,-68.8952 242.3093,-75.5304"/>
 </g>
-<!-- Node771 -->
+<!-- Node801 -->
 <g id="node12" class="node">
-<title>Node771</title>
+<title>Node801</title>
 <g id="a_node12"><a xlink:href="classprecice_1_1SolverInterface.html#adc06b8677288d97d005b633c932fedef" target="_top" xlink:title="Finalizes preCICE. ">
 <polygon fill="#ffffff" stroke="#000000" points="236.5,-.5 236.5,-30.5 368.5,-30.5 368.5,-.5 236.5,-.5"/>
 <text text-anchor="start" x="244.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::SolverInterface</text>
@@ -199,15 +199,15 @@ var sectionId = 'dynsection-51';
 </a>
 </g>
 </g>
-<!-- Node760&#45;&gt;Node771 -->
+<!-- Node790&#45;&gt;Node801 -->
 <g id="edge11" class="edge">
-<title>Node760&#45;&gt;Node771</title>
+<title>Node790&#45;&gt;Node801</title>
 <path fill="none" stroke="#191970" d="M102.7832,-186.1722C120.7711,-154.3114 166.533,-80.5721 225,-40.5 227.8862,-38.5218 230.9388,-36.6925 234.0985,-35.0017"/>
 <polygon fill="#191970" stroke="#191970" points="235.7504,-38.0909 243.2378,-30.595 232.7101,-31.7856 235.7504,-38.0909"/>
 </g>
-<!-- Node769 -->
+<!-- Node799 -->
 <g id="node10" class="node">
-<title>Node769</title>
+<title>Node799</title>
 <g id="a_node10"><a xlink:href="classprecice_1_1mesh_1_1Edge.html#a7fc88e0289fecf4c41c230d20311dcdb" target="_top" xlink:title="Returns the edge&#39;s vertex with index 0 or 1. ">
 <polygon fill="#ffffff" stroke="#000000" points="419.5,-69.5 419.5,-99.5 534.5,-99.5 534.5,-69.5 419.5,-69.5"/>
 <text text-anchor="start" x="427.5" y="-87.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Edge</text>
@@ -215,15 +215,15 @@ var sectionId = 'dynsection-51';
 </a>
 </g>
 </g>
-<!-- Node768&#45;&gt;Node769 -->
+<!-- Node798&#45;&gt;Node799 -->
 <g id="edge9" class="edge">
-<title>Node768&#45;&gt;Node769</title>
+<title>Node798&#45;&gt;Node799</title>
 <path fill="none" stroke="#191970" d="M368.9688,-69.0227C382.17,-70.914 396.0452,-72.9019 409.2875,-74.7991"/>
 <polygon fill="#191970" stroke="#191970" points="408.8735,-78.2754 419.2689,-76.2291 409.8663,-71.3462 408.8735,-78.2754"/>
 </g>
-<!-- Node770 -->
+<!-- Node800 -->
 <g id="node11" class="node">
-<title>Node770</title>
+<title>Node800</title>
 <g id="a_node11"><a xlink:href="classprecice_1_1mesh_1_1Vertex.html#a382386665b94b9ae8ded5fca26fd2b0b" target="_top" xlink:title="Returns the coordinates of the vertex. ">
 <polygon fill="#ffffff" stroke="#000000" points="416,-20.5 416,-50.5 538,-50.5 538,-20.5 416,-20.5"/>
 <text text-anchor="start" x="424" y="-38.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Vertex</text>
@@ -231,9 +231,9 @@ var sectionId = 'dynsection-51';
 </a>
 </g>
 </g>
-<!-- Node768&#45;&gt;Node770 -->
+<!-- Node798&#45;&gt;Node800 -->
 <g id="edge10" class="edge">
-<title>Node768&#45;&gt;Node770</title>
+<title>Node798&#45;&gt;Node800</title>
 <path fill="none" stroke="#191970" d="M371.7177,-49.9801C382.8642,-48.447 394.4212,-46.8575 405.6176,-45.3176"/>
 <polygon fill="#191970" stroke="#191970" points="406.3465,-48.7504 415.7764,-43.9204 405.3927,-41.8157 406.3465,-48.7504"/>
 </g>

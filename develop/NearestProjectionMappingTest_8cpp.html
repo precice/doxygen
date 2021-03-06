@@ -81,6 +81,7 @@ $(function() {
 <code>#include &quot;<a class="el" href="Data_8hpp_source.html">mesh/Data.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Mesh_8hpp_source.html">mesh/Mesh.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="mesh_2SharedPointer_8hpp_source.html">mesh/SharedPointer.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Utils_8hpp_source.html">mesh/Utils.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="TestContext_8hpp_source.html">testing/TestContext.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="Testing_8hpp_source.html">testing/Testing.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="assertion_8hpp_source.html">utils/assertion.hpp</a>&quot;</code><br />
@@ -108,6 +109,10 @@ Functions</h2></td></tr>
 <tr class="separator:aa91bbebb7597b7f49d23bcdfdd766f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a439679406216c91d912aef81fefdd891"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NearestProjectionMappingTest_8cpp.html#a439679406216c91d912aef81fefdd891">BOOST_AUTO_TEST_CASE</a> (ConsistentNonIncremental2D)</td></tr>
 <tr class="separator:a439679406216c91d912aef81fefdd891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ee70df6c67a812590626d88710eb312"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NearestProjectionMappingTest_8cpp.html#a0ee70df6c67a812590626d88710eb312">BOOST_AUTO_TEST_CASE</a> (ScaleConsistentNonIncremental2DCase1)</td></tr>
+<tr class="separator:a0ee70df6c67a812590626d88710eb312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a041a79dd5fb212a24034f5118a94435d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NearestProjectionMappingTest_8cpp.html#a041a79dd5fb212a24034f5118a94435d">BOOST_AUTO_TEST_CASE</a> (ScaleConsistentNonIncremental2DCase2)</td></tr>
+<tr class="separator:a041a79dd5fb212a24034f5118a94435d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a17a29b16241242637bbc1f5757ab36"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NearestProjectionMappingTest_8cpp.html#a7a17a29b16241242637bbc1f5757ab36">BOOST_AUTO_TEST_CASE</a> (ConsistentNonIncrementalPseudo3D)</td></tr>
 <tr class="separator:a7a17a29b16241242637bbc1f5757ab36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55b84218cadf0aab20a00384c1284cd9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NearestProjectionMappingTest_8cpp.html#a55b84218cadf0aab20a00384c1284cd9">BOOST_AUTO_TEST_CASE</a> (Consistent3DFalbackOnEdges)</td></tr>
@@ -118,10 +123,12 @@ Functions</h2></td></tr>
 <tr class="separator:a09689a2ee20f4a85fef3e5b2831eaae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bc56b9325a69ebacf07d5b6f248f50f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NearestProjectionMappingTest_8cpp.html#a1bc56b9325a69ebacf07d5b6f248f50f">BOOST_AUTO_TEST_CASE</a> (Query_3D_FullMesh)</td></tr>
 <tr class="separator:a1bc56b9325a69ebacf07d5b6f248f50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a776a0bcb31157a02974e6e7f14addb45"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="NearestProjectionMappingTest_8cpp.html#a776a0bcb31157a02974e6e7f14addb45">BOOST_AUTO_TEST_CASE</a> (ScaledConsistentQuery3DFullMesh)</td></tr>
+<tr class="separator:a776a0bcb31157a02974e6e7f14addb45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="aa91bbebb7597b7f49d23bcdfdd766f1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa91bbebb7597b7f49d23bcdfdd766f1c">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa91bbebb7597b7f49d23bcdfdd766f1c">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[1/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,7 +143,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00027">27</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00028">28</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -147,7 +154,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a439679406216c91d912aef81fefdd891"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a439679406216c91d912aef81fefdd891">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a439679406216c91d912aef81fefdd891">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -162,7 +169,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00123">123</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00124">124</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -172,8 +179,60 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a0ee70df6c67a812590626d88710eb312"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ee70df6c67a812590626d88710eb312">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[3/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOST_AUTO_TEST_CASE </td>
+          <td>(</td>
+          <td class="paramtype">ScaleConsistentNonIncremental2DCase1&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00217">217</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="NearestProjectionMappingTest_8cpp_a0ee70df6c67a812590626d88710eb312_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a041a79dd5fb212a24034f5118a94435d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a041a79dd5fb212a24034f5118a94435d">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[4/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOST_AUTO_TEST_CASE </td>
+          <td>(</td>
+          <td class="paramtype">ScaleConsistentNonIncremental2DCase2&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00277">277</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="NearestProjectionMappingTest_8cpp_a041a79dd5fb212a24034f5118a94435d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a7a17a29b16241242637bbc1f5757ab36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a17a29b16241242637bbc1f5757ab36">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a17a29b16241242637bbc1f5757ab36">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[5/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,7 +247,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00216">216</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00339">339</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -199,7 +258,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a55b84218cadf0aab20a00384c1284cd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55b84218cadf0aab20a00384c1284cd9">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a55b84218cadf0aab20a00384c1284cd9">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[6/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214,7 +273,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00328">328</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00451">451</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -225,7 +284,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a2f41f068605f4350f9eccd1301825b37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f41f068605f4350f9eccd1301825b37">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f41f068605f4350f9eccd1301825b37">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,7 +299,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00384">384</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00507">507</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -251,7 +310,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a09689a2ee20f4a85fef3e5b2831eaae8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09689a2ee20f4a85fef3e5b2831eaae8">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a09689a2ee20f4a85fef3e5b2831eaae8">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -266,7 +325,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00437">437</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00560">560</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -277,7 +336,7 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <a id="a1bc56b9325a69ebacf07d5b6f248f50f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bc56b9325a69ebacf07d5b6f248f50f">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bc56b9325a69ebacf07d5b6f248f50f">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,11 +351,37 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00486">486</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00609">609</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="NearestProjectionMappingTest_8cpp_a1bc56b9325a69ebacf07d5b6f248f50f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a776a0bcb31157a02974e6e7f14addb45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a776a0bcb31157a02974e6e7f14addb45">&#9670;&nbsp;</a></span>BOOST_AUTO_TEST_CASE() <span class="overload">[10/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOST_AUTO_TEST_CASE </td>
+          <td>(</td>
+          <td class="paramtype">ScaledConsistentQuery3DFullMesh&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="NearestProjectionMappingTest_8cpp_source.html#l00666">666</a> of file <a class="el" href="NearestProjectionMappingTest_8cpp_source.html">NearestProjectionMappingTest.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="NearestProjectionMappingTest_8cpp_a776a0bcb31157a02974e6e7f14addb45_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 

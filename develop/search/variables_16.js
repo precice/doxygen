@@ -45,6 +45,7 @@ var searchData=
   ['value_5fresidual_5fpreconditioner',['VALUE_RESIDUAL_PRECONDITIONER',['../classprecice_1_1acceleration_1_1AccelerationConfiguration.html#a225b1900867e6986f8063a0ce3db4a67',1,'precice::acceleration::AccelerationConfiguration']]],
   ['value_5fresidual_5fsum_5fpreconditioner',['VALUE_RESIDUAL_SUM_PRECONDITIONER',['../classprecice_1_1acceleration_1_1AccelerationConfiguration.html#a4caab97d3e4fc0806239e13becb9b44f',1,'precice::acceleration::AccelerationConfiguration']]],
   ['value_5fscalar',['VALUE_SCALAR',['../classprecice_1_1mesh_1_1DataConfiguration.html#a0f079a19c4ba9341118041224cc413cf',1,'precice::mesh::DataConfiguration']]],
+  ['value_5fscaled_5fconsistent',['VALUE_SCALED_CONSISTENT',['../classprecice_1_1mapping_1_1MappingConfiguration.html#a1ce23762cfa2c5d923047548b3558b88',1,'precice::mapping::MappingConfiguration']]],
   ['value_5fserial_5fexplicit',['VALUE_SERIAL_EXPLICIT',['../classprecice_1_1cplscheme_1_1CouplingSchemeConfiguration.html#a4bd842ef0e4688dc46d2d5d3209898be',1,'precice::cplscheme::CouplingSchemeConfiguration']]],
   ['value_5fserial_5fimplicit',['VALUE_SERIAL_IMPLICIT',['../classprecice_1_1cplscheme_1_1CouplingSchemeConfiguration.html#ab0c74de7d4ba6579bd41be8dd7cd2342',1,'precice::cplscheme::CouplingSchemeConfiguration']]],
   ['value_5fslide_5frestart',['VALUE_SLIDE_RESTART',['../classprecice_1_1acceleration_1_1AccelerationConfiguration.html#adb3a7da3f01411b8931cff12df03fd67',1,'precice::acceleration::AccelerationConfiguration']]],

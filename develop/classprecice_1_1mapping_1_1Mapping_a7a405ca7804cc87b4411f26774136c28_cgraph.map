@@ -1,19 +1,25 @@
 <map id="precice::mapping::Mapping::~Mapping" name="precice::mapping::Mapping::~Mapping">
-<area shape="rect" id="node2" href="$classprecice_1_1mapping_1_1Mapping.html#a5bf2ecf9adb1ae66977c1223f841a61f" title="Sets input and output meshes carrying data to be mapped. " alt="" coords="269,68,467,109"/>
-<area shape="rect" id="node3" href="$classprecice_1_1mapping_1_1Mapping.html#a61c3c55af467ada2bdd735efa0f960e4" title="Returns pointer to input mesh. " alt="" coords="533,23,731,64"/>
-<area shape="rect" id="node4" href="$classprecice_1_1mapping_1_1Mapping.html#a07a71a54b71eda6d54510c94fb188e70" title="Returns pointer to output mesh. " alt="" coords="533,101,731,143"/>
-<area shape="rect" id="node5" href="$classprecice_1_1mapping_1_1Mapping.html#ae059d2ac4c7e0ed84763466d74541876" title="precice::mapping::Mapping\l::getInputMesh" alt="" coords="269,185,467,227"/>
-<area shape="rect" id="node6" href="$classprecice_1_1mapping_1_1Mapping.html#ac616b61af159cde172a3f75dafb053de" title="precice::mapping::Mapping\l::getOutputMesh" alt="" coords="269,251,467,292"/>
-<area shape="rect" id="node7" href="$classprecice_1_1mapping_1_1Mapping.html#a6afbd9aaac2ab09b078db271cfd977a1" title="Returns the constraint (consistent/conservative) of the mapping. " alt="" coords="269,316,467,357"/>
-<area shape="rect" id="node8" href="$classprecice_1_1mapping_1_1Mapping.html#adac8e8495d0be786a66dbec963119737" title="Returns the requirement on the input mesh. " alt="" coords="269,381,467,423"/>
-<area shape="rect" id="node9" href="$classprecice_1_1mapping_1_1Mapping.html#ae731622a3333e7931b8de3f6b1a0d376" title="Returns the requirement on the output mesh. " alt="" coords="269,447,467,488"/>
-<area shape="rect" id="node10" href="$classprecice_1_1mapping_1_1Mapping.html#abf2679ec4bbb86bd2380b088528cc1ff" title="Computes the mapping coefficients from the in&#45; and output mesh. " alt="" coords="269,512,467,553"/>
-<area shape="rect" id="node11" href="$classprecice_1_1mapping_1_1Mapping.html#ae7fcb351e225322b05e4cd7c45215b52" title="Returns true, if the mapping has been computed. " alt="" coords="269,577,467,619"/>
-<area shape="rect" id="node12" href="$classprecice_1_1mapping_1_1Mapping.html#a55c7dd27be2a1efef1d67a7abbb2ca14" title="Removes a computed mapping. " alt="" coords="269,643,467,684"/>
-<area shape="rect" id="node13" href="$classprecice_1_1mapping_1_1Mapping.html#a843b62d737d4e113bfa4db18682eb6fe" title="Maps input data to output data from input mesh to output mesh. " alt="" coords="251,709,485,735"/>
-<area shape="rect" id="node14" href="$classprecice_1_1mapping_1_1Mapping.html#a916001398438572a4d109a7d1eb25c6f" title="Method used by partition. Tags vertices that could be owned by this rank. " alt="" coords="269,760,467,801"/>
-<area shape="rect" id="node15" href="$classprecice_1_1mapping_1_1Mapping.html#a0d524e2e9181ac1b6065f72a11a4579e" title="Method used by partition. Tags vertices that can be filtered out. " alt="" coords="269,825,467,867"/>
-<area shape="rect" id="node16" href="$classprecice_1_1mapping_1_1Mapping.html#a812fe6094e2862467acc81919505157d" title="Sets the mesh requirement for the input mesh. " alt="" coords="269,891,467,932"/>
-<area shape="rect" id="node17" href="$classprecice_1_1mapping_1_1Mapping.html#ac8b311598c20854ac46efc50f99029f8" title="Sets the mesh requirement for the output mesh. " alt="" coords="269,956,467,997"/>
-<area shape="rect" id="node18" href="$classprecice_1_1mapping_1_1Mapping.html#a393912fe4919edd098e96f66ffbe0d52" title="precice::mapping::Mapping\l::getDimensions" alt="" coords="269,1021,467,1063"/>
+<area shape="rect" id="node2" href="$classprecice_1_1mapping_1_1Mapping.html#a5bf2ecf9adb1ae66977c1223f841a61f" title="Sets input and output meshes carrying data to be mapped. " alt="" coords="269,75,467,117"/>
+<area shape="rect" id="node3" href="$classprecice_1_1mapping_1_1Mapping.html#a61c3c55af467ada2bdd735efa0f960e4" title="Returns pointer to input mesh. " alt="" coords="533,13,731,54"/>
+<area shape="rect" id="node4" href="$classprecice_1_1mapping_1_1Mapping.html#a07a71a54b71eda6d54510c94fb188e70" title="Returns pointer to output mesh. " alt="" coords="533,78,731,119"/>
+<area shape="rect" id="node5" href="$classprecice_1_1mapping_1_1Mapping.html#ae059d2ac4c7e0ed84763466d74541876" title="precice::mapping::Mapping\l::getInputMesh" alt="" coords="269,310,467,351"/>
+<area shape="rect" id="node6" href="$classprecice_1_1mapping_1_1Mapping.html#ac616b61af159cde172a3f75dafb053de" title="precice::mapping::Mapping\l::getOutputMesh" alt="" coords="269,375,467,417"/>
+<area shape="rect" id="node7" href="$classprecice_1_1mapping_1_1Mapping.html#a6afbd9aaac2ab09b078db271cfd977a1" title="Returns the constraint (consistent/conservative) of the mapping. " alt="" coords="533,475,731,517"/>
+<area shape="rect" id="node8" href="$classprecice_1_1mapping_1_1Mapping.html#adac8e8495d0be786a66dbec963119737" title="Returns the requirement on the input mesh. " alt="" coords="269,558,467,599"/>
+<area shape="rect" id="node9" href="$classprecice_1_1mapping_1_1Mapping.html#ae731622a3333e7931b8de3f6b1a0d376" title="Returns the requirement on the output mesh. " alt="" coords="269,623,467,665"/>
+<area shape="rect" id="node10" href="$classprecice_1_1mapping_1_1Mapping.html#abf2679ec4bbb86bd2380b088528cc1ff" title="Computes the mapping coefficients from the in&#45; and output mesh. " alt="" coords="269,689,467,730"/>
+<area shape="rect" id="node11" href="$classprecice_1_1mapping_1_1Mapping.html#ae7fcb351e225322b05e4cd7c45215b52" title="Returns true, if the mapping has been computed. " alt="" coords="269,754,467,795"/>
+<area shape="rect" id="node12" href="$classprecice_1_1mapping_1_1Mapping.html#aeea2d39f5e6ce0eaa97ebe436ff89991" title="Checks whether the mapping has the given constraint or not. " alt="" coords="269,441,467,482"/>
+<area shape="rect" id="node13" href="$classprecice_1_1mapping_1_1Mapping.html#a55c7dd27be2a1efef1d67a7abbb2ca14" title="Removes a computed mapping. " alt="" coords="269,819,467,861"/>
+<area shape="rect" id="node14" href="$classprecice_1_1mapping_1_1Mapping.html#a843b62d737d4e113bfa4db18682eb6fe" title="Maps input data to output data from input mesh to output mesh. " alt="" coords="251,885,485,912"/>
+<area shape="rect" id="node15" href="$classprecice_1_1mapping_1_1Mapping.html#a916001398438572a4d109a7d1eb25c6f" title="Method used by partition. Tags vertices that could be owned by this rank. " alt="" coords="269,937,467,978"/>
+<area shape="rect" id="node16" href="$classprecice_1_1mapping_1_1Mapping.html#a0d524e2e9181ac1b6065f72a11a4579e" title="Method used by partition. Tags vertices that can be filtered out. " alt="" coords="269,1002,467,1043"/>
+<area shape="rect" id="node17" href="$classprecice_1_1mapping_1_1Mapping.html#a1e001e2dd6f5fc0b7b1c48f56aad61d3" title="Scales the consistently mapped output data such that the surface integral of the values on input mesh..." alt="" coords="269,193,467,234"/>
+<area shape="rect" id="node20" href="$classprecice_1_1mapping_1_1Mapping.html#a393912fe4919edd098e96f66ffbe0d52" title="precice::mapping::Mapping\l::getDimensions" alt="" coords="533,391,731,433"/>
+<area shape="rect" id="node23" href="$classprecice_1_1mapping_1_1Mapping.html#a812fe6094e2862467acc81919505157d" title="Sets the mesh requirement for the input mesh. " alt="" coords="269,1067,467,1109"/>
+<area shape="rect" id="node24" href="$classprecice_1_1mapping_1_1Mapping.html#ac8b311598c20854ac46efc50f99029f8" title="Sets the mesh requirement for the output mesh. " alt="" coords="269,1133,467,1174"/>
+<area shape="rect" id="node18" href="$classprecice_1_1utils_1_1MasterSlave.html#a5e934392c32335daa8e2b4a01bc75fd3" title="True if this process is running the master. " alt="" coords="535,143,729,185"/>
+<area shape="rect" id="node19" href="$classprecice_1_1utils_1_1MasterSlave.html#a3837ad42361b53d7e930443ba07a9eb5" title="True if this process is running a slave. " alt="" coords="535,209,729,250"/>
+<area shape="rect" id="node21" href="$namespaceprecice_1_1utils_1_1petsc.html#a931b5a402aa2dec020afa7af6167d67e" title="precice::utils::petsc\l::getName" alt="" coords="558,274,706,315"/>
+<area shape="rect" id="node22" href="$namespaceprecice_1_1mesh.html#a821683799e9865ccd4b81f40a56c3d2d" title="Given the data and the mesh, this function returns the surface integral. Assumes no overlap exists fo..." alt="" coords="542,340,722,367"/>
 </map>

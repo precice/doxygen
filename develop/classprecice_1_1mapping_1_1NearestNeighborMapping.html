@@ -141,6 +141,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae731622a3333e7931b8de3f6b1a0d376 inherit pub_methods_classprecice_1_1mapping_1_1Mapping"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a3709050c77de789f8096335e4082759e">MeshRequirement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mapping_1_1Mapping.html#ae731622a3333e7931b8de3f6b1a0d376">getOutputRequirement</a> () const</td></tr>
 <tr class="memdesc:ae731622a3333e7931b8de3f6b1a0d376 inherit pub_methods_classprecice_1_1mapping_1_1Mapping"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the requirement on the output mesh.  <a href="classprecice_1_1mapping_1_1Mapping.html#ae731622a3333e7931b8de3f6b1a0d376">More...</a><br /></td></tr>
 <tr class="separator:ae731622a3333e7931b8de3f6b1a0d376 inherit pub_methods_classprecice_1_1mapping_1_1Mapping"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeea2d39f5e6ce0eaa97ebe436ff89991 inherit pub_methods_classprecice_1_1mapping_1_1Mapping"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mapping_1_1Mapping.html#aeea2d39f5e6ce0eaa97ebe436ff89991">hasConstraint</a> (const <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a37caeba6050062d41e46ad01dbb1459f">Constraint</a> &amp;constraint) const</td></tr>
+<tr class="memdesc:aeea2d39f5e6ce0eaa97ebe436ff89991 inherit pub_methods_classprecice_1_1mapping_1_1Mapping"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the mapping has the given constraint or not.  <a href="classprecice_1_1mapping_1_1Mapping.html#aeea2d39f5e6ce0eaa97ebe436ff89991">More...</a><br /></td></tr>
+<tr class="separator:aeea2d39f5e6ce0eaa97ebe436ff89991 inherit pub_methods_classprecice_1_1mapping_1_1Mapping"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e001e2dd6f5fc0b7b1c48f56aad61d3 inherit pub_methods_classprecice_1_1mapping_1_1Mapping"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a1e001e2dd6f5fc0b7b1c48f56aad61d3">scaleConsistentMapping</a> (int inputDataID, int outputDataID) const</td></tr>
+<tr class="memdesc:a1e001e2dd6f5fc0b7b1c48f56aad61d3 inherit pub_methods_classprecice_1_1mapping_1_1Mapping"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scales the consistently mapped output data such that the surface integral of the values on input mesh and output mesh are equal.  <a href="classprecice_1_1mapping_1_1Mapping.html#a1e001e2dd6f5fc0b7b1c48f56aad61d3">More...</a><br /></td></tr>
+<tr class="separator:a1e001e2dd6f5fc0b7b1c48f56aad61d3 inherit pub_methods_classprecice_1_1mapping_1_1Mapping"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -157,7 +163,8 @@ Private Attributes</h2></td></tr>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_types_classprecice_1_1mapping_1_1Mapping"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classprecice_1_1mapping_1_1Mapping')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classprecice_1_1mapping_1_1Mapping.html">precice::mapping::Mapping</a></td></tr>
 <tr class="memitem:a37caeba6050062d41e46ad01dbb1459f inherit pub_types_classprecice_1_1mapping_1_1Mapping"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a37caeba6050062d41e46ad01dbb1459f">Constraint</a> { <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a37caeba6050062d41e46ad01dbb1459faafff89215f8ed604c6798deaebb56980">CONSISTENT</a>, 
-<a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a37caeba6050062d41e46ad01dbb1459fa988c3c2094791fccc19365ea13d36471">CONSERVATIVE</a>
+<a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a37caeba6050062d41e46ad01dbb1459fa988c3c2094791fccc19365ea13d36471">CONSERVATIVE</a>, 
+<a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a37caeba6050062d41e46ad01dbb1459fa519e80760fb3ff263a2cd9abe7415205">SCALEDCONSISTENT</a>
  }<tr class="memdesc:a37caeba6050062d41e46ad01dbb1459f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies additional constraints for a mapping.  <a href="classprecice_1_1mapping_1_1Mapping.html#a37caeba6050062d41e46ad01dbb1459f">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a37caeba6050062d41e46ad01dbb1459f inherit pub_types_classprecice_1_1mapping_1_1Mapping"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,7 +234,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1mapping_1_1NearestNeighborMapping_ab78b715c7ecd50e7b612dfc025e0c04b_cgraph.svg" width="511" height="118"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classprecice_1_1mapping_1_1NearestNeighborMapping_ab78b715c7ecd50e7b612dfc025e0c04b_cgraph.svg" width="100%" height="437"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -296,7 +303,7 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a55c7dd27be2a1efef1d67a7abbb2ca14">precice::mapping::Mapping</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="NearestNeighborMapping_8cpp_source.html#l00091">91</a> of file <a class="el" href="NearestNeighborMapping_8cpp_source.html">NearestNeighborMapping.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="NearestNeighborMapping_8cpp_source.html#l00095">95</a> of file <a class="el" href="NearestNeighborMapping_8cpp_source.html">NearestNeighborMapping.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -333,11 +340,11 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#abf2679ec4bbb86bd2380b088528cc1ff">precice::mapping::Mapping</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="NearestNeighborMapping_8cpp_source.html#l00031">31</a> of file <a class="el" href="NearestNeighborMapping_8cpp_source.html">NearestNeighborMapping.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="NearestNeighborMapping_8cpp_source.html#l00036">36</a> of file <a class="el" href="NearestNeighborMapping_8cpp_source.html">NearestNeighborMapping.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classprecice_1_1mapping_1_1NearestNeighborMapping_a909eee072390ddd313b4c74a2d290be6_cgraph.svg" width="100%" height="584"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classprecice_1_1mapping_1_1NearestNeighborMapping_a909eee072390ddd313b4c74a2d290be6_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -370,7 +377,7 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#ae7fcb351e225322b05e4cd7c45215b52">precice::mapping::Mapping</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="NearestNeighborMapping_8cpp_source.html#l00085">85</a> of file <a class="el" href="NearestNeighborMapping_8cpp_source.html">NearestNeighborMapping.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="NearestNeighborMapping_8cpp_source.html#l00089">89</a> of file <a class="el" href="NearestNeighborMapping_8cpp_source.html">NearestNeighborMapping.cpp</a>.</p>
 
 </div>
 </div>
@@ -412,11 +419,11 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a843b62d737d4e113bfa4db18682eb6fe">precice::mapping::Mapping</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="NearestNeighborMapping_8cpp_source.html#l00103">103</a> of file <a class="el" href="NearestNeighborMapping_8cpp_source.html">NearestNeighborMapping.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="NearestNeighborMapping_8cpp_source.html#l00107">107</a> of file <a class="el" href="NearestNeighborMapping_8cpp_source.html">NearestNeighborMapping.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1mapping_1_1NearestNeighborMapping_a93123773a43748e252e0a1b23ae3441e_cgraph.svg" width="450" height="314"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classprecice_1_1mapping_1_1NearestNeighborMapping_a93123773a43748e252e0a1b23ae3441e_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 
@@ -449,7 +456,7 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a916001398438572a4d109a7d1eb25c6f">precice::mapping::Mapping</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="NearestNeighborMapping_8cpp_source.html#l00143">143</a> of file <a class="el" href="NearestNeighborMapping_8cpp_source.html">NearestNeighborMapping.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="NearestNeighborMapping_8cpp_source.html#l00149">149</a> of file <a class="el" href="NearestNeighborMapping_8cpp_source.html">NearestNeighborMapping.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -486,7 +493,7 @@ Here is the call graph for this function:</div>
 
 <p>Implements <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a0d524e2e9181ac1b6065f72a11a4579e">precice::mapping::Mapping</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="NearestNeighborMapping_8cpp_source.html#l00169">169</a> of file <a class="el" href="NearestNeighborMapping_8cpp_source.html">NearestNeighborMapping.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="NearestNeighborMapping_8cpp_source.html#l00175">175</a> of file <a class="el" href="NearestNeighborMapping_8cpp_source.html">NearestNeighborMapping.cpp</a>.</p>
 
 </div>
 </div>
