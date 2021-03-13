@@ -67,6 +67,7 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classprecice_1_1query_1_1Index-members.html">List of all members</a>  </div>
@@ -100,21 +101,39 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a73907e53b52a1b774bef741de1d3a09a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceprecice_1_1query.html#a81fc84f48479313dc71ecfb20505c95c">VertexMatch</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html#a73907e53b52a1b774bef741de1d3a09a">getClosestVertex</a> (const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;sourceVertex)</td></tr>
 <tr class="memdesc:a73907e53b52a1b774bef741de1d3a09a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get n number of closest vertices to the given vertex.  <a href="#a73907e53b52a1b774bef741de1d3a09a">More...</a><br /></td></tr>
 <tr class="separator:a73907e53b52a1b774bef741de1d3a09a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f2e3068411c053c5b4f99a6e02bea1b"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceprecice_1_1query.html#a81fc84f48479313dc71ecfb20505c95c">VertexMatch</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html#a6f2e3068411c053c5b4f99a6e02bea1b">getClosestVertices</a> (const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;sourceVertex, int n)</td></tr>
-<tr class="memdesc:a6f2e3068411c053c5b4f99a6e02bea1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get n number of closest vertices to the given vertex.  <a href="#a6f2e3068411c053c5b4f99a6e02bea1b">More...</a><br /></td></tr>
-<tr class="separator:a6f2e3068411c053c5b4f99a6e02bea1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa59f088f155ac04036b622702544e21c"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceprecice_1_1query.html#a2da982ca98c7a20100715ee1f07ba4c5">EdgeMatch</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html#aa59f088f155ac04036b622702544e21c">getClosestEdges</a> (const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;sourcesVertex, int n)</td></tr>
-<tr class="memdesc:aa59f088f155ac04036b622702544e21c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get n number of closest edges to the given vertex.  <a href="#aa59f088f155ac04036b622702544e21c">More...</a><br /></td></tr>
-<tr class="separator:aa59f088f155ac04036b622702544e21c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ff793fd31c44ae072341d03f882a32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceprecice_1_1query.html#a81fc84f48479313dc71ecfb20505c95c">VertexMatch</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html#a61ff793fd31c44ae072341d03f882a32">getClosestVertex</a> (const Eigen::VectorXd &amp;sourceCoord)</td></tr>
+<tr class="separator:a61ff793fd31c44ae072341d03f882a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceabe814c01e76f28252d1c618c145b1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceprecice_1_1query.html#a2da982ca98c7a20100715ee1f07ba4c5">EdgeMatch</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html#aceabe814c01e76f28252d1c618c145b1">getClosestEdges</a> (const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;sourceVertex, int n)</td></tr>
+<tr class="memdesc:aceabe814c01e76f28252d1c618c145b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get n number of closest edges to the given vertex.  <a href="#aceabe814c01e76f28252d1c618c145b1">More...</a><br /></td></tr>
+<tr class="separator:aceabe814c01e76f28252d1c618c145b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7246f8806501075e083cff367eb4813"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceprecice_1_1query.html#a2da982ca98c7a20100715ee1f07ba4c5">EdgeMatch</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html#ad7246f8806501075e083cff367eb4813">getClosestEdges</a> (const Eigen::VectorXd &amp;sourceCoord, int n)</td></tr>
+<tr class="separator:ad7246f8806501075e083cff367eb4813"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7db5e8ae3d9855930220aa2713220105"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceprecice_1_1query.html#a3c7820d447afc01ad5e2b00cc3e4cd7a">TriangleMatch</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html#a7db5e8ae3d9855930220aa2713220105">getClosestTriangles</a> (const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;sourceVertex, int n)</td></tr>
 <tr class="memdesc:a7db5e8ae3d9855930220aa2713220105"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get n number of closest triangles to the given vertex.  <a href="#a7db5e8ae3d9855930220aa2713220105">More...</a><br /></td></tr>
 <tr class="separator:a7db5e8ae3d9855930220aa2713220105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ea839d34f729a8bd497aaec52c5447a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespaceprecice_1_1query.html#a3c7820d447afc01ad5e2b00cc3e4cd7a">TriangleMatch</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html#a7ea839d34f729a8bd497aaec52c5447a">getClosestTriangles</a> (const Eigen::VectorXd &amp;sourceCoord, int n)</td></tr>
+<tr class="separator:a7ea839d34f729a8bd497aaec52c5447a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab70dd2f80e32dc1c5e968f9368edd78d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html#ab70dd2f80e32dc1c5e968f9368edd78d">getVerticesInsideBox</a> (const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;centerVertex, double radius)</td></tr>
 <tr class="memdesc:ab70dd2f80e32dc1c5e968f9368edd78d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all the vertices inside the box formed by vertex and radius.  <a href="#ab70dd2f80e32dc1c5e968f9368edd78d">More...</a><br /></td></tr>
 <tr class="separator:ab70dd2f80e32dc1c5e968f9368edd78d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa849e7d7af9ba8b398a87729fb961dff"><td class="memItemLeft" align="right" valign="top">std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html#aa849e7d7af9ba8b398a87729fb961dff">getVerticesInsideBox</a> (const <a class="el" href="classprecice_1_1mesh_1_1BoundingBox.html">mesh::BoundingBox</a> &amp;bb)</td></tr>
 <tr class="memdesc:aa849e7d7af9ba8b398a87729fb961dff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all the vertices inside a bounding box.  <a href="#aa849e7d7af9ba8b398a87729fb961dff">More...</a><br /></td></tr>
 <tr class="separator:aa849e7d7af9ba8b398a87729fb961dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9acb9a1e51eb54098c39faaa853c9ad"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="namespaceprecice_1_1query.html#a427710aee8223d9f9db70baec61cf3cb">InterpolationElements</a>, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html#af9acb9a1e51eb54098c39faaa853c9ad">findNearestProjection</a> (const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;sourceVertex, int n)</td></tr>
+<tr class="memdesc:af9acb9a1e51eb54098c39faaa853c9ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find the closest interpolation element to a vertex. If exists, triangle or edge projection element is returned. If not vertex projection element, which is the neares neighbor is returned.  <a href="#af9acb9a1e51eb54098c39faaa853c9ad">More...</a><br /></td></tr>
+<tr class="separator:af9acb9a1e51eb54098c39faaa853c9ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac49685efcc7858ea572989bfa21935f5"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="namespaceprecice_1_1query.html#a427710aee8223d9f9db70baec61cf3cb">InterpolationElements</a>, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html#ac49685efcc7858ea572989bfa21935f5">findVertexProjection</a> (const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;sourceVertex)</td></tr>
+<tr class="memdesc:ac49685efcc7858ea572989bfa21935f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Closest vertex projection element is always the nearest neighbor.  <a href="#ac49685efcc7858ea572989bfa21935f5">More...</a><br /></td></tr>
+<tr class="separator:ac49685efcc7858ea572989bfa21935f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab606a96054d26297ac2fc9e7337f7820"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="namespaceprecice_1_1query.html#a427710aee8223d9f9db70baec61cf3cb">InterpolationElements</a>, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html#ab606a96054d26297ac2fc9e7337f7820">findEdgeProjection</a> (const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;sourceVertex, int n)</td></tr>
+<tr class="memdesc:ab606a96054d26297ac2fc9e7337f7820"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find closest edge interpolation element. If cannot be found, it falls back to vertex projection.  <a href="#ab606a96054d26297ac2fc9e7337f7820">More...</a><br /></td></tr>
+<tr class="separator:ab606a96054d26297ac2fc9e7337f7820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36d33f6210b05493f3062e5f0250e7f8"><td class="memItemLeft" align="right" valign="top">std::pair&lt; <a class="el" href="namespaceprecice_1_1query.html#a427710aee8223d9f9db70baec61cf3cb">InterpolationElements</a>, double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1query_1_1Index.html#a36d33f6210b05493f3062e5f0250e7f8">findTriangleProjection</a> (const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;sourceVertex, int n)</td></tr>
+<tr class="memdesc:a36d33f6210b05493f3062e5f0250e7f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find closest face interpolation element. If cannot be found, it falls back to first edge interpolation element, then vertex if necessary.  <a href="#a36d33f6210b05493f3062e5f0250e7f8">More...</a><br /></td></tr>
+<tr class="separator:a36d33f6210b05493f3062e5f0250e7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -131,7 +150,7 @@ Static Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class to query the index trees of the mesh. </p>
 
-<p class="definition">Definition at line <a class="el" href="Index_8hpp_source.html#l00036">36</a> of file <a class="el" href="Index_8hpp_source.html">Index.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Index_8hpp_source.html#l00037">37</a> of file <a class="el" href="Index_8hpp_source.html">Index.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0ed1fd56e1d66bc2d2bead381a4e7c51"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ed1fd56e1d66bc2d2bead381a4e7c51">&#9670;&nbsp;</a></span>Index()</h2>
@@ -149,7 +168,7 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00020">20</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00021">21</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
 
 </div>
 </div>
@@ -168,13 +187,181 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00026">26</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00027">27</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa59f088f155ac04036b622702544e21c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa59f088f155ac04036b622702544e21c">&#9670;&nbsp;</a></span>getClosestEdges()</h2>
+<a id="ab606a96054d26297ac2fc9e7337f7820"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab606a96054d26297ac2fc9e7337f7820">&#9670;&nbsp;</a></span>findEdgeProjection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; <a class="el" href="namespaceprecice_1_1query.html#a427710aee8223d9f9db70baec61cf3cb">InterpolationElements</a>, double &gt; precice::query::Index::findEdgeProjection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;&#160;</td>
+          <td class="paramname"><em>sourceVertex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Find closest edge interpolation element. If cannot be found, it falls back to vertex projection. </p>
+
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00149">149</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classprecice_1_1query_1_1Index_ab606a96054d26297ac2fc9e7337f7820_cgraph.svg" width="100%" height="515"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="af9acb9a1e51eb54098c39faaa853c9ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9acb9a1e51eb54098c39faaa853c9ad">&#9670;&nbsp;</a></span>findNearestProjection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; <a class="el" href="namespaceprecice_1_1query.html#a427710aee8223d9f9db70baec61cf3cb">InterpolationElements</a>, double &gt; precice::query::Index::findNearestProjection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;&#160;</td>
+          <td class="paramname"><em>sourceVertex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find the closest interpolation element to a vertex. If exists, triangle or edge projection element is returned. If not vertex projection element, which is the neares neighbor is returned. </p>
+<p>param[in] sourceVertex param[in] n how many nearest edges/faces are going to be checked</p>
+<p>param[out] pair of interpolation elements and the distance to corresponding vertex/edge/triangle </p>
+
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00134">134</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classprecice_1_1query_1_1Index_af9acb9a1e51eb54098c39faaa853c9ad_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a36d33f6210b05493f3062e5f0250e7f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36d33f6210b05493f3062e5f0250e7f8">&#9670;&nbsp;</a></span>findTriangleProjection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; <a class="el" href="namespaceprecice_1_1query.html#a427710aee8223d9f9db70baec61cf3cb">InterpolationElements</a>, double &gt; precice::query::Index::findTriangleProjection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;&#160;</td>
+          <td class="paramname"><em>sourceVertex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Find closest face interpolation element. If cannot be found, it falls back to first edge interpolation element, then vertex if necessary. </p>
+
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00162">162</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classprecice_1_1query_1_1Index_a36d33f6210b05493f3062e5f0250e7f8_cgraph.svg" width="100%" height="591"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac49685efcc7858ea572989bfa21935f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac49685efcc7858ea572989bfa21935f5">&#9670;&nbsp;</a></span>findVertexProjection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::pair&lt; <a class="el" href="namespaceprecice_1_1query.html#a427710aee8223d9f9db70baec61cf3cb">InterpolationElements</a>, double &gt; precice::query::Index::findVertexProjection </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;&#160;</td>
+          <td class="paramname"><em>sourceVertex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Closest vertex projection element is always the nearest neighbor. </p>
+
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00143">143</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1query_1_1Index_ac49685efcc7858ea572989bfa21935f5_cgraph.svg" width="610" height="170"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="aceabe814c01e76f28252d1c618c145b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aceabe814c01e76f28252d1c618c145b1">&#9670;&nbsp;</a></span>getClosestEdges() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -183,7 +370,7 @@ Static Private Attributes</h2></td></tr>
           <td class="memname">std::vector&lt; <a class="el" href="namespaceprecice_1_1query.html#a2da982ca98c7a20100715ee1f07ba4c5">EdgeMatch</a> &gt; precice::query::Index::getClosestEdges </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;&#160;</td>
-          <td class="paramname"><em>sourcesVertex</em>, </td>
+          <td class="paramname"><em>sourceVertex</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -201,18 +388,54 @@ Static Private Attributes</h2></td></tr>
 
 <p>Get n number of closest edges to the given vertex. </p>
 
-<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00065">65</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00090">90</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1query_1_1Index_aa59f088f155ac04036b622702544e21c_cgraph.svg" width="367" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1query_1_1Index_aceabe814c01e76f28252d1c618c145b1_cgraph.svg" width="379" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ad7246f8806501075e083cff367eb4813"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7246f8806501075e083cff367eb4813">&#9670;&nbsp;</a></span>getClosestEdges() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="namespaceprecice_1_1query.html#a2da982ca98c7a20100715ee1f07ba4c5">EdgeMatch</a> &gt; precice::query::Index::getClosestEdges </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
+          <td class="paramname"><em>sourceCoord</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00048">48</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1query_1_1Index_ad7246f8806501075e083cff367eb4813_cgraph.svg" width="367" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
 <a id="a7db5e8ae3d9855930220aa2713220105"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7db5e8ae3d9855930220aa2713220105">&#9670;&nbsp;</a></span>getClosestTriangles()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7db5e8ae3d9855930220aa2713220105">&#9670;&nbsp;</a></span>getClosestTriangles() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -239,18 +462,54 @@ Here is the call graph for this function:</div>
 
 <p>Get n number of closest triangles to the given vertex. </p>
 
-<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00083">83</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00095">95</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1query_1_1Index_a7db5e8ae3d9855930220aa2713220105_cgraph.svg" width="367" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1query_1_1Index_a7db5e8ae3d9855930220aa2713220105_cgraph.svg" width="379" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a7ea839d34f729a8bd497aaec52c5447a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ea839d34f729a8bd497aaec52c5447a">&#9670;&nbsp;</a></span>getClosestTriangles() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="namespaceprecice_1_1query.html#a3c7820d447afc01ad5e2b00cc3e4cd7a">TriangleMatch</a> &gt; precice::query::Index::getClosestTriangles </td>
+          <td>(</td>
+          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
+          <td class="paramname"><em>sourceCoord</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00066">66</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1query_1_1Index_a7ea839d34f729a8bd497aaec52c5447a_cgraph.svg" width="367" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
 <a id="a73907e53b52a1b774bef741de1d3a09a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73907e53b52a1b774bef741de1d3a09a">&#9670;&nbsp;</a></span>getClosestVertex()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a73907e53b52a1b774bef741de1d3a09a">&#9670;&nbsp;</a></span>getClosestVertex() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -267,49 +526,37 @@ Here is the call graph for this function:</div>
 
 <p>Get n number of closest vertices to the given vertex. </p>
 
-<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00030">30</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00085">85</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1query_1_1Index_a73907e53b52a1b774bef741de1d3a09a_cgraph.svg" width="367" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1query_1_1Index_a73907e53b52a1b774bef741de1d3a09a_cgraph.svg" width="379" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
 </div>
 </div>
-<a id="a6f2e3068411c053c5b4f99a6e02bea1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f2e3068411c053c5b4f99a6e02bea1b">&#9670;&nbsp;</a></span>getClosestVertices()</h2>
+<a id="a61ff793fd31c44ae072341d03f882a32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61ff793fd31c44ae072341d03f882a32">&#9670;&nbsp;</a></span>getClosestVertex() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="namespaceprecice_1_1query.html#a81fc84f48479313dc71ecfb20505c95c">VertexMatch</a> &gt; precice::query::Index::getClosestVertices </td>
+          <td class="memname"><a class="el" href="namespaceprecice_1_1query.html#a81fc84f48479313dc71ecfb20505c95c">VertexMatch</a> precice::query::Index::getClosestVertex </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classprecice_1_1mesh_1_1Vertex.html">mesh::Vertex</a> &amp;&#160;</td>
-          <td class="paramname"><em>sourceVertex</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const Eigen::VectorXd &amp;&#160;</td>
+          <td class="paramname"><em>sourceCoord</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>n</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get n number of closest vertices to the given vertex. </p>
-
-<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00047">47</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00031">31</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1query_1_1Index_a6f2e3068411c053c5b4f99a6e02bea1b_cgraph.svg" width="367" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1query_1_1Index_a61ff793fd31c44ae072341d03f882a32_cgraph.svg" width="367" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -343,7 +590,7 @@ Here is the call graph for this function:</div>
 
 <p>Return all the vertices inside the box formed by vertex and radius. </p>
 
-<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00102">102</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00100">100</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -371,7 +618,7 @@ Here is the call graph for this function:</div>
 
 <p>Return all the vertices inside a bounding box. </p>
 
-<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00122">122</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Index_8cpp_source.html#l00120">120</a> of file <a class="el" href="Index_8cpp_source.html">Index.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -402,7 +649,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Index_8hpp_source.html#l00065">65</a> of file <a class="el" href="Index_8hpp_source.html">Index.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Index_8hpp_source.html#l00078">78</a> of file <a class="el" href="Index_8hpp_source.html">Index.hpp</a>.</p>
 
 </div>
 </div>
@@ -426,7 +673,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Index_8hpp_source.html#l00064">64</a> of file <a class="el" href="Index_8hpp_source.html">Index.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Index_8hpp_source.html#l00077">77</a> of file <a class="el" href="Index_8hpp_source.html">Index.hpp</a>.</p>
 
 </div>
 </div>
@@ -450,7 +697,7 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Index_8hpp_source.html#l00061">61</a> of file <a class="el" href="Index_8hpp_source.html">Index.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Index_8hpp_source.html#l00074">74</a> of file <a class="el" href="Index_8hpp_source.html">Index.hpp</a>.</p>
 
 </div>
 </div>

@@ -65,6 +65,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classprecice_1_1utils_1_1petsc_1_1KSPSolver-members.html">List of all members</a>  </div>
@@ -75,6 +76,15 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="Petsc_8hpp_source.html">Petsc.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:af40c02cf781e7cbd940ad1bbb51838bd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#af40c02cf781e7cbd940ad1bbb51838bd">SolverResult</a> { <a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#af40c02cf781e7cbd940ad1bbb51838bdada5418b1eb4e80d05f2c1c7c4fa1b6ec">SolverResult::Converged</a>, 
+<a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#af40c02cf781e7cbd940ad1bbb51838bdac23e2b09ebe6bf4cb5e2a9abe85c0be2">SolverResult::Stopped</a>, 
+<a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#af40c02cf781e7cbd940ad1bbb51838bda531b4ea128144242345020b6115538ce">SolverResult::Diverged</a>
+ }<tr class="memdesc:af40c02cf781e7cbd940ad1bbb51838bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The state of the KSP after returning from <a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#ad74fafa94e0ffec7fd8fbe11d408b0d9" title="Solves the linear system, returns false it not converged. ">solve()</a>  <a href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#af40c02cf781e7cbd940ad1bbb51838bd">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:af40c02cf781e7cbd940ad1bbb51838bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa46276af886fa468df80939a53b49345"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#aa46276af886fa468df80939a53b49345">KSPSolver</a> (const <a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html">KSPSolver</a> &amp;)=delete</td></tr>
@@ -95,15 +105,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9b229128f655ce655699eeff1ccbfb9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#a9b229128f655ce655699eeff1ccbfb9c">reset</a> ()</td></tr>
 <tr class="memdesc:a9b229128f655ce655699eeff1ccbfb9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys and recreates the ksp on the same communicator.  <a href="#a9b229128f655ce655699eeff1ccbfb9c">More...</a><br /></td></tr>
 <tr class="separator:a9b229128f655ce655699eeff1ccbfb9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3e8b3a4ca7be052135e32e4d9135645"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#ae3e8b3a4ca7be052135e32e4d9135645">solve</a> (<a class="el" href="classprecice_1_1utils_1_1petsc_1_1Vector.html">Vector</a> &amp;b, <a class="el" href="classprecice_1_1utils_1_1petsc_1_1Vector.html">Vector</a> &amp;x)</td></tr>
-<tr class="memdesc:ae3e8b3a4ca7be052135e32e4d9135645"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the linear system, returns false it not converged.  <a href="#ae3e8b3a4ca7be052135e32e4d9135645">More...</a><br /></td></tr>
-<tr class="separator:ae3e8b3a4ca7be052135e32e4d9135645"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb8822ced991cb6b558865ddc81af9c8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#aeb8822ced991cb6b558865ddc81af9c8">solveTranspose</a> (<a class="el" href="classprecice_1_1utils_1_1petsc_1_1Vector.html">Vector</a> &amp;b, <a class="el" href="classprecice_1_1utils_1_1petsc_1_1Vector.html">Vector</a> &amp;x)</td></tr>
-<tr class="memdesc:aeb8822ced991cb6b558865ddc81af9c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the transposed linear system, returns false it not converged.  <a href="#aeb8822ced991cb6b558865ddc81af9c8">More...</a><br /></td></tr>
-<tr class="separator:aeb8822ced991cb6b558865ddc81af9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f81d5a30e7264b1d00b105e9ab54df6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#af40c02cf781e7cbd940ad1bbb51838bd">SolverResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#a1f81d5a30e7264b1d00b105e9ab54df6">getSolverResult</a> ()</td></tr>
+<tr class="memdesc:a1f81d5a30e7264b1d00b105e9ab54df6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current convergence reason as a SolverRestult.  <a href="#a1f81d5a30e7264b1d00b105e9ab54df6">More...</a><br /></td></tr>
+<tr class="separator:a1f81d5a30e7264b1d00b105e9ab54df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad74fafa94e0ffec7fd8fbe11d408b0d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#af40c02cf781e7cbd940ad1bbb51838bd">SolverResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#ad74fafa94e0ffec7fd8fbe11d408b0d9">solve</a> (<a class="el" href="classprecice_1_1utils_1_1petsc_1_1Vector.html">Vector</a> &amp;b, <a class="el" href="classprecice_1_1utils_1_1petsc_1_1Vector.html">Vector</a> &amp;x)</td></tr>
+<tr class="memdesc:ad74fafa94e0ffec7fd8fbe11d408b0d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the linear system, returns false it not converged.  <a href="#ad74fafa94e0ffec7fd8fbe11d408b0d9">More...</a><br /></td></tr>
+<tr class="separator:ad74fafa94e0ffec7fd8fbe11d408b0d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ae4daa35988f2709cb0ef7a5462f407"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#af40c02cf781e7cbd940ad1bbb51838bd">SolverResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#a4ae4daa35988f2709cb0ef7a5462f407">solveTranspose</a> (<a class="el" href="classprecice_1_1utils_1_1petsc_1_1Vector.html">Vector</a> &amp;b, <a class="el" href="classprecice_1_1utils_1_1petsc_1_1Vector.html">Vector</a> &amp;x)</td></tr>
+<tr class="memdesc:a4ae4daa35988f2709cb0ef7a5462f407"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solves the transposed linear system, returns false it not converged.  <a href="#a4ae4daa35988f2709cb0ef7a5462f407">More...</a><br /></td></tr>
+<tr class="separator:a4ae4daa35988f2709cb0ef7a5462f407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39fad3b28ed988b4ee5a7a6288a3abe6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#a39fad3b28ed988b4ee5a7a6288a3abe6">summaryFor</a> (<a class="el" href="classprecice_1_1utils_1_1petsc_1_1Vector.html">Vector</a> &amp;b)</td></tr>
+<tr class="memdesc:a39fad3b28ed988b4ee5a7a6288a3abe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a summary the KSP solving for b.  <a href="#a39fad3b28ed988b4ee5a7a6288a3abe6">More...</a><br /></td></tr>
+<tr class="separator:a39fad3b28ed988b4ee5a7a6288a3abe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad22bd525b42a727b3725fe9a32ebd21d"><td class="memItemLeft" align="right" valign="top">PetscInt&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#ad22bd525b42a727b3725fe9a32ebd21d">getIterationNumber</a> ()</td></tr>
 <tr class="memdesc:ad22bd525b42a727b3725fe9a32ebd21d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the iteration number of solver, either during or after the solve call.  <a href="#ad22bd525b42a727b3725fe9a32ebd21d">More...</a><br /></td></tr>
 <tr class="separator:ad22bd525b42a727b3725fe9a32ebd21d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22f78d46b689e5845dee1e40034c95c4"><td class="memItemLeft" align="right" valign="top">PetscReal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#a22f78d46b689e5845dee1e40034c95c4">getRealtiveTolerance</a> ()</td></tr>
+<tr class="memdesc:a22f78d46b689e5845dee1e40034c95c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the relavtive tolerance of the KSP.  <a href="#a22f78d46b689e5845dee1e40034c95c4">More...</a><br /></td></tr>
+<tr class="separator:a22f78d46b689e5845dee1e40034c95c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6dc4b69358b4f8014e7e9002267b2f9"><td class="memItemLeft" align="right" valign="top">PetscReal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#aa6dc4b69358b4f8014e7e9002267b2f9">getResidualNorm</a> ()</td></tr>
+<tr class="memdesc:aa6dc4b69358b4f8014e7e9002267b2f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the last residual norm of the KSP.  <a href="#aa6dc4b69358b4f8014e7e9002267b2f9">More...</a><br /></td></tr>
+<tr class="separator:aa6dc4b69358b4f8014e7e9002267b2f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -112,8 +134,43 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="Petsc_8hpp_source.html#l00232">232</a> of file <a class="el" href="Petsc_8hpp_source.html">Petsc.hpp</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="Petsc_8hpp_source.html#l00235">235</a> of file <a class="el" href="Petsc_8hpp_source.html">Petsc.hpp</a>.</p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="af40c02cf781e7cbd940ad1bbb51838bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af40c02cf781e7cbd940ad1bbb51838bd">&#9670;&nbsp;</a></span>SolverResult</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#af40c02cf781e7cbd940ad1bbb51838bd">precice::utils::petsc::KSPSolver::SolverResult</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The state of the KSP after returning from <a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#ad74fafa94e0ffec7fd8fbe11d408b0d9" title="Solves the linear system, returns false it not converged. ">solve()</a> </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="af40c02cf781e7cbd940ad1bbb51838bdada5418b1eb4e80d05f2c1c7c4fa1b6ec"></a>Converged&#160;</td><td class="fielddoc"><p>The solver converged. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af40c02cf781e7cbd940ad1bbb51838bdac23e2b09ebe6bf4cb5e2a9abe85c0be2"></a>Stopped&#160;</td><td class="fielddoc"><p>The solver reached the maximum iterations. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="af40c02cf781e7cbd940ad1bbb51838bda531b4ea128144242345020b6115538ce"></a>Diverged&#160;</td><td class="fielddoc"><p>The solver diverged. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="Petsc_8hpp_source.html#l00260">260</a> of file <a class="el" href="Petsc_8hpp_source.html">Petsc.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa46276af886fa468df80939a53b49345"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa46276af886fa468df80939a53b49345">&#9670;&nbsp;</a></span>KSPSolver() <span class="overload">[1/3]</span></h2>
 
@@ -167,7 +224,7 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00601">601</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00612">612</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -220,7 +277,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00609">609</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00620">620</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -242,7 +299,70 @@ Here is the call graph for this function:</div>
 
 <p>Returns the iteration number of solver, either during or after the solve call. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00651">651</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00726">726</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a22f78d46b689e5845dee1e40034c95c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22f78d46b689e5845dee1e40034c95c4">&#9670;&nbsp;</a></span>getRealtiveTolerance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscReal precice::utils::petsc::KSPSolver::getRealtiveTolerance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the relavtive tolerance of the KSP. </p>
+
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00744">744</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+
+</div>
+</div>
+<a id="aa6dc4b69358b4f8014e7e9002267b2f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6dc4b69358b4f8014e7e9002267b2f9">&#9670;&nbsp;</a></span>getResidualNorm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PetscReal precice::utils::petsc::KSPSolver::getResidualNorm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the last residual norm of the KSP. </p>
+
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00735">735</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a1f81d5a30e7264b1d00b105e9ab54df6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f81d5a30e7264b1d00b105e9ab54df6">&#9670;&nbsp;</a></span>getSolverResult()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#af40c02cf781e7cbd940ad1bbb51838bd">KSPSolver::SolverResult</a> precice::utils::petsc::KSPSolver::getSolverResult </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the current convergence reason as a SolverRestult. </p>
+
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00642">642</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -263,7 +383,7 @@ Here is the call graph for this function:</div>
 
 <p>Enables implicit conversion into a reference to a PETSc KSP type. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00619">619</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00630">630</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -310,18 +430,18 @@ Here is the call graph for this function:</div>
 
 <p>Destroys and recreates the ksp on the same communicator. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00624">624</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00635">635</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
-<a id="ae3e8b3a4ca7be052135e32e4d9135645"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3e8b3a4ca7be052135e32e4d9135645">&#9670;&nbsp;</a></span>solve()</h2>
+<a id="ad74fafa94e0ffec7fd8fbe11d408b0d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad74fafa94e0ffec7fd8fbe11d408b0d9">&#9670;&nbsp;</a></span>solve()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool precice::utils::petsc::KSPSolver::solve </td>
+          <td class="memname"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#af40c02cf781e7cbd940ad1bbb51838bd">KSPSolver::SolverResult</a> precice::utils::petsc::KSPSolver::solve </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1Vector.html">Vector</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>, </td>
@@ -342,18 +462,18 @@ Here is the call graph for this function:</div>
 
 <p>Solves the linear system, returns false it not converged. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00631">631</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00660">660</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
-<a id="aeb8822ced991cb6b558865ddc81af9c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb8822ced991cb6b558865ddc81af9c8">&#9670;&nbsp;</a></span>solveTranspose()</h2>
+<a id="a4ae4daa35988f2709cb0ef7a5462f407"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ae4daa35988f2709cb0ef7a5462f407">&#9670;&nbsp;</a></span>solveTranspose()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool precice::utils::petsc::KSPSolver::solveTranspose </td>
+          <td class="memname"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#af40c02cf781e7cbd940ad1bbb51838bd">KSPSolver::SolverResult</a> precice::utils::petsc::KSPSolver::solveTranspose </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1Vector.html">Vector</a> &amp;&#160;</td>
           <td class="paramname"><em>b</em>, </td>
@@ -374,7 +494,35 @@ Here is the call graph for this function:</div>
 
 <p>Solves the transposed linear system, returns false it not converged. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00641">641</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00666">666</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a39fad3b28ed988b4ee5a7a6288a3abe6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39fad3b28ed988b4ee5a7a6288a3abe6">&#9670;&nbsp;</a></span>summaryFor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string precice::utils::petsc::KSPSolver::summaryFor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1Vector.html">Vector</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a summary the KSP solving for b. </p>
+
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00672">672</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classprecice_1_1utils_1_1petsc_1_1KSPSolver_a39fad3b28ed988b4ee5a7a6288a3abe6_cgraph.svg" width="394" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -391,7 +539,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8hpp_source.html#l00234">234</a> of file <a class="el" href="Petsc_8hpp_source.html">Petsc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8hpp_source.html#l00237">237</a> of file <a class="el" href="Petsc_8hpp_source.html">Petsc.hpp</a>.</p>
 
 </div>
 </div>

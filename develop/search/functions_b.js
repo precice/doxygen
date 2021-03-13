@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['l2norm',['l2norm',['../classprecice_1_1utils_1_1MasterSlave.html#afe25fce87eaede8702580df7aa2d4d25',1,'precice::utils::MasterSlave']]],
+  ['l2norm',['l2norm',['../classprecice_1_1utils_1_1MasterSlave.html#afe25fce87eaede8702580df7aa2d4d25',1,'precice::utils::MasterSlave::l2norm()'],['../classprecice_1_1utils_1_1petsc_1_1Vector.html#a2d711b1644b223d934cbfff319eb4da4',1,'precice::utils::petsc::Vector::l2norm()']]],
   ['linearize',['linearize',['../namespaceprecice_1_1utils.html#ad618160da03142844f93d82363783f2a',1,'precice::utils']]],
   ['lineintersection',['lineIntersection',['../namespaceprecice_1_1math_1_1geometry.html#a459e5343b640d359876abc26b1008690',1,'precice::math::geometry']]],
   ['localdirectory',['localDirectory',['../namespaceprecice_1_1com_1_1impl.html#a06941043fad1b71e4f1ac7bfd1c6775c',1,'precice::com::impl']]],

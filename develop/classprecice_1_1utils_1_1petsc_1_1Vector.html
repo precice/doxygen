@@ -136,6 +136,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a70016ad4861d885e10ab8d0d9a3f27aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1Vector.html#a70016ad4861d885e10ab8d0d9a3f27aa">view</a> () const</td></tr>
 <tr class="memdesc:a70016ad4861d885e10ab8d0d9a3f27aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the vector.  <a href="#a70016ad4861d885e10ab8d0d9a3f27aa">More...</a><br /></td></tr>
 <tr class="separator:a70016ad4861d885e10ab8d0d9a3f27aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d711b1644b223d934cbfff319eb4da4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1utils_1_1petsc_1_1Vector.html#a2d711b1644b223d934cbfff319eb4da4">l2norm</a> () const</td></tr>
+<tr class="memdesc:a2d711b1644b223d934cbfff319eb4da4"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the l2-norm of the vector  <a href="#a2d711b1644b223d934cbfff319eb4da4">More...</a><br /></td></tr>
+<tr class="separator:a2d711b1644b223d934cbfff319eb4da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -211,7 +214,7 @@ Public Attributes</h2></td></tr>
 
 <p>Creates a new vector on the given MPI communicator. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00211">211</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00215">215</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -238,7 +241,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Copy construction from another vector Duplicates the vector and copies the name </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00182">182</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00186">186</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -265,7 +268,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Move construction Takes ownership of the other vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00199">199</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00203">203</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -296,7 +299,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Constructs the object from another Vec Takes ownership of the other Vec </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00221">221</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00225">225</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -321,7 +324,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00227">227</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00231">231</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -352,7 +355,7 @@ Here is the call graph for this function:</div>
 
 <p>Allocates a new vector on the given MPI communicator. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00237">237</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00241">241</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -391,7 +394,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Allocated an uninitialized vector of identical shape. Duplicates type, row layout etc. (not values) of v. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00242">242</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00246">246</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -437,7 +440,7 @@ Here is the call graph for this function:</div>
 
 <p>Allocated an uninitialized vector of identical shape. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00247">247</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00251">251</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -483,7 +486,7 @@ Here is the call graph for this function:</div>
 
 <p>Allocates a vector with the same number of rows (default) or columns. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00256">256</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00260">260</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -535,7 +538,7 @@ Here is the call graph for this function:</div>
 
 <p>Allocates a vector with the same number of rows (default) or columns. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00261">261</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00265">265</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -565,7 +568,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00320">320</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00324">324</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -584,7 +587,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00368">368</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00372">372</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -603,7 +606,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00336">336</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00340">340</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -628,7 +631,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00304">304</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00308">308</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -647,7 +650,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00295">295</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00299">299</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -669,7 +672,28 @@ Here is the call graph for this function:</div>
 
 <p>Sets the size and calls VecSetFromOptions. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00286">286</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00290">290</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a2d711b1644b223d934cbfff319eb4da4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d711b1644b223d934cbfff319eb4da4">&#9670;&nbsp;</a></span>l2norm()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precice::utils::petsc::Vector::l2norm </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns the l2-norm of the vector </p>
+
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00394">394</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -690,7 +714,7 @@ Here is the call graph for this function:</div>
 
 <p>Enables implicit conversion into a reference to a PETSc Vec type. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00281">281</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00285">285</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -711,7 +735,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Copy assignement Destroys the current vector and takes ownership of the other. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00192">192</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00196">196</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -738,7 +762,7 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 <p>Move assignement Destroys the current vector and takes ownership of the other. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00205">205</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00209">209</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -765,7 +789,7 @@ Here is the call graph for this function:</div>
 
 <p>Returns a pair that mark the beginning and end of the vectors ownership range. Use first und second to access. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00377">377</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00381">381</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -797,7 +821,7 @@ Here is the call graph for this function:</div>
 
 <p>Reads the vector from file. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00390">390</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00401">401</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -833,7 +857,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00313">313</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00317">317</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -854,7 +878,7 @@ Here is the call graph for this function:</div>
 
 <p>Sorts the LOCAL partion of the vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00353">353</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00357">357</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -884,7 +908,7 @@ Here is the call graph for this function:</div>
 
 <p>Swaps the ownership of two vectors. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00275">275</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00279">279</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -911,7 +935,7 @@ Here is the call graph for this function:</div>
 
 <p>Prints the vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00396">396</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00407">407</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 
 </div>
 </div>
@@ -943,7 +967,7 @@ Here is the call graph for this function:</div>
 
 <p>Writes the vector to file. </p>
 
-<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00384">384</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Petsc_8cpp_source.html#l00388">388</a> of file <a class="el" href="Petsc_8cpp_source.html">Petsc.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">

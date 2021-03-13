@@ -150,7 +150,7 @@ $(function() {
 : <a class="el" href="classprecice_1_1query_1_1FindClosestEdge.html#a4428fe3939786e3a7a3d6b05e698ec33">precice::query::FindClosestEdge</a>
 </li>
 <li>getClosestEdges()
-: <a class="el" href="classprecice_1_1query_1_1Index.html#aa59f088f155ac04036b622702544e21c">precice::query::Index</a>
+: <a class="el" href="classprecice_1_1query_1_1Index.html#aceabe814c01e76f28252d1c618c145b1">precice::query::Index</a>
 </li>
 <li>getClosestTriangle()
 : <a class="el" href="classprecice_1_1query_1_1FindClosestTriangle.html#aac2bf1843e3b22af6a2697aa508048a1">precice::query::FindClosestTriangle</a>
@@ -161,9 +161,6 @@ $(function() {
 <li>getClosestVertex()
 : <a class="el" href="classprecice_1_1query_1_1FindClosestVertex.html#a27637b9ecfdfabc3085cf6e9fc018608">precice::query::FindClosestVertex</a>
 , <a class="el" href="classprecice_1_1query_1_1Index.html#a73907e53b52a1b774bef741de1d3a09a">precice::query::Index</a>
-</li>
-<li>getClosestVertices()
-: <a class="el" href="classprecice_1_1query_1_1Index.html#a6f2e3068411c053c5b4f99a6e02bea1b">precice::query::Index</a>
 </li>
 <li>getCommunicationMap()
 : <a class="el" href="classprecice_1_1mesh_1_1Mesh.html#a7ba22c6b21d147b6f858d889922ab300">precice::mesh::Mesh</a>
@@ -480,6 +477,9 @@ $(function() {
 <li>getRank()
 : <a class="el" href="classprecice_1_1utils_1_1MasterSlave.html#af0deae7c83eae7f8e6908a2879bfb0e3">precice::utils::MasterSlave</a>
 </li>
+<li>getRealtiveTolerance()
+: <a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#a22f78d46b689e5845dee1e40034c95c4">precice::utils::petsc::KSPSolver</a>
+</li>
 <li>getReceiveData()
 : <a class="el" href="classprecice_1_1cplscheme_1_1BiCouplingScheme.html#a9f50278c80ab37222105c81b74bb1f7c">precice::cplscheme::BiCouplingScheme</a>
 </li>
@@ -492,6 +492,9 @@ $(function() {
 , <a class="el" href="classprecice_1_1com_1_1MPIPortsCommunication.html#ac9e46f6d7a1458b6ac0d5eeeba148e52">precice::com::MPIPortsCommunication</a>
 , <a class="el" href="classprecice_1_1com_1_1MPISinglePortsCommunication.html#a76e20b72ec8b376a83998feb04d1132b">precice::com::MPISinglePortsCommunication</a>
 , <a class="el" href="classprecice_1_1com_1_1SocketCommunication.html#a6788aaf09f9b0289a21ed5931274a3a9">precice::com::SocketCommunication</a>
+</li>
+<li>getResidualNorm()
+: <a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#aa6dc4b69358b4f8014e7e9002267b2f9">precice::utils::petsc::KSPSolver</a>
 </li>
 <li>getSearchPoint()
 : <a class="el" href="classprecice_1_1query_1_1FindClosest.html#a0ce7a9919cdd0efbffcd25c0010433bf">precice::query::FindClosest</a>
@@ -509,6 +512,9 @@ $(function() {
 </li>
 <li>getSolverInterfaceConfiguration()
 : <a class="el" href="classprecice_1_1config_1_1Configuration.html#a8f4d6c7a8c3c4b0583593a3d7909d2da">precice::config::Configuration</a>
+</li>
+<li>getSolverResult()
+: <a class="el" href="classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#a1f81d5a30e7264b1d00b105e9ab54df6">precice::utils::petsc::KSPSolver</a>
 </li>
 <li>getStoredEvent()
 : <a class="el" href="classprecice_1_1utils_1_1EventRegistry.html#ab3063c18cee2113638df7b59101963fc">precice::utils::EventRegistry</a>
@@ -582,7 +588,7 @@ $(function() {
 : <a class="el" href="classprecice_1_1xml_1_1XMLAttribute.html#aa61e584ebc5b5aaf5b049ff315fb937a">precice::xml::XMLAttribute&lt; ATTRIBUTE_T &gt;</a>
 </li>
 <li>getValue()
-: <a class="el" href="classprecice_1_1impl_1_1WatchPoint.html#a844cfa23631f61086b1481233970ac09">precice::impl::WatchPoint</a>
+: <a class="el" href="classprecice_1_1impl_1_1WatchPoint.html#a1022813c40e563c4567d80bcfe83bc42">precice::impl::WatchPoint</a>
 , <a class="el" href="classprecice_1_1xml_1_1XMLAttribute.html#a73e6144beb145056fdac90fd157105b7">precice::xml::XMLAttribute&lt; ATTRIBUTE_T &gt;</a>
 </li>
 <li>getVectorToProjectionPoint()
@@ -590,10 +596,10 @@ $(function() {
 , <a class="el" href="classprecice_1_1query_1_1FindClosestTriangle.html#a9e70f3824867ed74496e7140c8643c83">precice::query::FindClosestTriangle</a>
 </li>
 <li>getVertexDistribution()
-: <a class="el" href="classprecice_1_1mesh_1_1Mesh.html#a7dedd0a7f11c247b1739858d910f9cb9">precice::mesh::Mesh</a>
+: <a class="el" href="classprecice_1_1mesh_1_1Mesh.html#aaedcb9ae0ee9f824137db42448674b57">precice::mesh::Mesh</a>
 </li>
 <li>getVertexOffsets()
-: <a class="el" href="classprecice_1_1mesh_1_1Mesh.html#a590d8e05844921733090cd5906657a93">precice::mesh::Mesh</a>
+: <a class="el" href="classprecice_1_1mesh_1_1Mesh.html#ad5a527dcf987f942ea042ffd9c7c2e61">precice::mesh::Mesh</a>
 </li>
 <li>getVertexRTree()
 : <a class="el" href="classprecice_1_1query_1_1impl_1_1Indexer.html#a818e1c5eee511feddd152760141186a4">precice::query::impl::Indexer</a>

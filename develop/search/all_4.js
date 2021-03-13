@@ -155,6 +155,7 @@ var searchData=
   ['contains',['contains',['../classprecice_1_1mesh_1_1BoundingBox.html#a09779bcc7aa8f1071c50907fc23be050',1,'precice::mesh::BoundingBox::contains()'],['../classprecice_1_1utils_1_1MultiLock.html#a371d88c2ad0bd5965e90d5fbad7720a8',1,'precice::utils::MultiLock::contains()']]],
   ['contextlistener',['ContextListener',['../structContextListener.html',1,'']]],
   ['controller',['controller',['../structprecice_1_1cplscheme_1_1CouplingSchemeConfiguration_1_1Config.html#a601252f550e65afb05093a94ab7b0165',1,'precice::cplscheme::CouplingSchemeConfiguration::Config']]],
+  ['converged',['Converged',['../classprecice_1_1utils_1_1petsc_1_1KSPSolver.html#af40c02cf781e7cbd940ad1bbb51838bdada5418b1eb4e80d05f2c1c7c4fa1b6ec',1,'precice::utils::petsc::KSPSolver']]],
   ['convergencemeasure',['ConvergenceMeasure',['../classprecice_1_1cplscheme_1_1impl_1_1ConvergenceMeasure.html',1,'precice::cplscheme::impl']]],
   ['convergencemeasure_2ehpp',['ConvergenceMeasure.hpp',['../ConvergenceMeasure_8hpp.html',1,'']]],
   ['convergencemeasurecontext',['ConvergenceMeasureContext',['../structprecice_1_1cplscheme_1_1BaseCouplingScheme_1_1ConvergenceMeasureContext.html',1,'precice::cplscheme::BaseCouplingScheme']]],
