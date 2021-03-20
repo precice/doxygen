@@ -1,49 +1,23 @@
 <map id="precice::mapping::RadialBasisFctMapping::tagMeshFirstRound" name="precice::mapping::RadialBasisFctMapping::tagMeshFirstRound">
-<area shape="rect" id="node2" href="$namespaceprecice_1_1mesh.html#a4d9cfe7beb5bbe90d58d5705abdde19d" title="precice::mesh::filterMesh" alt="" coords="321,471,506,498"/>
-<area shape="rect" id="node42" href="$classprecice_1_1mapping_1_1Mapping.html#aeea2d39f5e6ce0eaa97ebe436ff89991" title="Checks whether the mapping has the given constraint or not. " alt="" coords="315,1147,512,1188"/>
-<area shape="rect" id="node44" href="$classprecice_1_1mapping_1_1Mapping.html#a07a71a54b71eda6d54510c94fb188e70" title="Returns pointer to output mesh. " alt="" coords="315,1212,512,1253"/>
-<area shape="rect" id="node45" href="$classprecice_1_1mapping_1_1Mapping.html#a61c3c55af467ada2bdd735efa0f960e4" title="Returns pointer to input mesh. " alt="" coords="315,1277,512,1319"/>
-<area shape="rect" id="node46" href="$classprecice_1_1query_1_1Index.html#ab70dd2f80e32dc1c5e968f9368edd78d" title="Return all the vertices inside the box formed by vertex and radius. " alt="" coords="330,1343,497,1384"/>
-<area shape="rect" id="node3" href="$classprecice_1_1mesh_1_1Mesh.html#a13faa9b03e5d20918ed6528db1415fa3" title="Returns modifieable container holding all vertices. " alt="" coords="1093,573,1248,615"/>
-<area shape="rect" id="node4" href="$classprecice_1_1mesh_1_1Mesh.html#ae99d0d5d776e7c676acb72830df4aa45" title="precice::mesh::Mesh\l::createVertex" alt="" coords="581,932,736,973"/>
-<area shape="rect" id="node6" href="$classprecice_1_1mesh_1_1Mesh.html#ae05c5234aa9adc6f47a814622039c28e" title="Creates and initializes an Edge object. " alt="" coords="1093,289,1248,331"/>
-<area shape="rect" id="node8" href="$classprecice_1_1mesh_1_1Vertex.html#aeccde29fd990bdba5a5792372c341ef4" title="Returns the unique (among vertices of one mesh on one processor) ID of the vertex. " alt="" coords="1089,355,1252,396"/>
-<area shape="rect" id="node9" href="$classprecice_1_1mesh_1_1Mesh.html#aec6f303d7791f8a64e2b78180531c89e" title="Returns modifiable container holding all edges. " alt="" coords="1093,485,1248,527"/>
-<area shape="rect" id="node11" href="$classprecice_1_1mesh_1_1Mesh.html#a00c3db2576c63d8c6f351175ddc0a4d0" title="Creates and initializes a Triangle object. " alt="" coords="834,187,989,228"/>
-<area shape="rect" id="node36" href="$classprecice_1_1mesh_1_1Vertex.html#a94c37cf5c30d40459a3afa2f2aabe8f4" title="precice::mesh::Vertex\l::setGlobalIndex" alt="" coords="577,997,740,1039"/>
-<area shape="rect" id="node37" href="$classprecice_1_1mesh_1_1Vertex.html#a8849612f86b9793b3caef4daca461fbc" title="precice::mesh::Vertex::tag" alt="" coords="563,1063,755,1090"/>
-<area shape="rect" id="node38" href="$classprecice_1_1mesh_1_1Vertex.html#aa06ca0490b8a690055001524232ebc81" title="precice::mesh::Vertex\l::setOwner" alt="" coords="577,1115,740,1156"/>
-<area shape="rect" id="node39" href="$classprecice_1_1mesh_1_1Mesh.html#a136f6b4ce235025e418fab0ca5f350ff" title="precice::mesh::Mesh\l::getDimensions" alt="" coords="581,5,736,47"/>
-<area shape="rect" id="node40" href="$classprecice_1_1mesh_1_1Mesh.html#ad24f3877f1ea7cd5cd5f93a6f2e4d3f9" title="Returns modifiable container holding all triangles. " alt="" coords="581,71,736,112"/>
-<area shape="rect" id="node41" href="$classprecice_1_1mesh_1_1Edge.html#afa1ea37b099b78a89f3cb32f016cd605" title="Returns the (among edges) unique ID of the edge. " alt="" coords="582,136,735,177"/>
-<area shape="rect" id="node5" href="$classprecice_1_1utils_1_1ManageUniqueIDs.html#a02be264c279698ae293587b6576088b5" title="precice::utils::ManageUnique\lIDs::getFreeID" alt="" coords="1324,289,1535,331"/>
-<area shape="rect" id="node7" href="$classprecice_1_1mesh_1_1Mesh.html#aaeeb91bf6152969a12f3901841e1db0c" title="Creates and initializes an Edge object or returns an already existing one. " alt="" coords="834,405,989,447"/>
-<area shape="rect" id="node13" href="$classprecice_1_1mesh_1_1Mesh.html#a6e387c9e2c5ccd43dcf81d57795ba935" title="precice::mesh::Mesh\l::createData" alt="" coords="834,1265,989,1307"/>
-<area shape="rect" id="node14" href="$classprecice_1_1mesh_1_1Mesh.html#aceb3eabb4f8e40a44d5d1c2822ba7b56" title="precice::mesh::Mesh\l::data" alt="" coords="1093,1204,1248,1245"/>
-<area shape="rect" id="node16" href="$classprecice_1_1mesh_1_1Mesh.html#a3185fe962ba3e8fe0b3cf451681e6a48" title="Returns the name of the mesh, as set in the config file. " alt="" coords="834,1396,989,1437"/>
-<area shape="rect" id="node17" href="$classprecice_1_1mesh_1_1Mesh.html#a18fcc2df2cfeba56e8f0af79c63a75e8" title="precice::mesh::Mesh\l::isFlipNormals" alt="" coords="834,1461,989,1503"/>
-<area shape="rect" id="node18" href="$classprecice_1_1mesh_1_1Mesh.html#a65ef730ba5ebf191074453fb1b4ebce3" title="precice::mesh::Mesh\l::setFlipNormals" alt="" coords="834,1527,989,1568"/>
-<area shape="rect" id="node19" href="$classprecice_1_1mesh_1_1Mesh.html#a5e5005a7a807ec5947892eeb6279d12d" title="Returns the base ID of the mesh. " alt="" coords="834,1592,989,1633"/>
-<area shape="rect" id="node20" href="$classprecice_1_1mesh_1_1Mesh.html#af5ee0ce0045f0f62382eadc5f4f5b105" title="Returns true if the given vertexID is valid. " alt="" coords="834,573,989,615"/>
-<area shape="rect" id="node21" href="$classprecice_1_1mesh_1_1Mesh.html#ad9bd3b09bef6dd82132602821a2df178" title="Returns true if the given edgeID is valid. " alt="" coords="834,704,989,745"/>
-<area shape="rect" id="node22" href="$classprecice_1_1mesh_1_1Mesh.html#afa920f8d8d32076837ae5e3dc28b0eea" title="Allocates memory for the vertex data values. " alt="" coords="833,1148,989,1189"/>
-<area shape="rect" id="node24" href="$classprecice_1_1mesh_1_1Mesh.html#a02278d8459bfbf8c9dd137070e670e9a" title="Necessary before any geom. operations can be performed on the mesh. " alt="" coords="834,1657,989,1699"/>
-<area shape="rect" id="node25" href="$classprecice_1_1mesh_1_1Mesh.html#a988baa22e8e6fcaa9efc64e7943cb2fc" title="Computes the boundingBox for the vertices. " alt="" coords="825,1723,998,1764"/>
-<area shape="rect" id="node27" href="$classprecice_1_1mesh_1_1Mesh.html#a20584f10c9c7568d038b8a4bb9d7a7c8" title="Removes all mesh elements and data values (does not remove data). " alt="" coords="834,1331,989,1372"/>
-<area shape="rect" id="node29" href="$classprecice_1_1mesh_1_1Mesh.html#a7dedd0a7f11c247b1739858d910f9cb9" title="Returns a mapping from rank to used (not necessarily owned) vertex IDs. " alt="" coords="827,1788,996,1829"/>
-<area shape="rect" id="node30" href="$classprecice_1_1mesh_1_1Mesh.html#a590d8e05844921733090cd5906657a93" title="precice::mesh::Mesh\l::getVertexOffsets" alt="" coords="834,639,989,680"/>
-<area shape="rect" id="node31" href="$classprecice_1_1mesh_1_1Mesh.html#a806bdb0fb238bd542e8108a041363da5" title="Only used for tests. " alt="" coords="834,769,989,811"/>
-<area shape="rect" id="node32" href="$classprecice_1_1mesh_1_1Mesh.html#a0fbbc8211e87e48c5d12789c41ad9af1" title="precice::mesh::Mesh\l::getGlobalNumberOfVertices" alt="" coords="805,900,1017,941"/>
-<area shape="rect" id="node33" href="$classprecice_1_1mesh_1_1Mesh.html#a02f0fe049261bbe1e82e0a00746b9313" title="precice::mesh::Mesh\l::setGlobalNumberOfVertices" alt="" coords="806,965,1017,1007"/>
-<area shape="rect" id="node34" href="$classprecice_1_1mesh_1_1Mesh.html#ab453e0fcd860442aa942ddced2cee24f" title="precice::mesh::Mesh\l::getOwnedVertexData" alt="" coords="827,835,996,876"/>
-<area shape="rect" id="node35" href="$classprecice_1_1mesh_1_1Mesh.html#a708f813fb1d2ea852818cdaf55d5b922" title="precice::mesh::Mesh\l::tagAll" alt="" coords="834,1031,989,1072"/>
-<area shape="rect" id="node10" href="$classprecice_1_1mesh_1_1Edge.html#a7fc88e0289fecf4c41c230d20311dcdb" title="Returns the edge&#39;s vertex with index 0 or 1. " alt="" coords="1094,420,1247,461"/>
-<area shape="rect" id="node12" href="$classprecice_1_1mesh_1_1Edge.html#af27f4bd02d0b67cc5c3d04e2cf1ddee7" title="Checks whether both edges share a vertex. " alt="" coords="1094,172,1247,213"/>
-<area shape="rect" id="node15" href="$classprecice_1_1mesh_1_1Data.html#a571e94df898349b76b6c4ce8db34ccd1" title="Returns the number of created (and still existing) Data objects. " alt="" coords="1095,1269,1247,1311"/>
-<area shape="rect" id="node23" href="$namespaceprecice_1_1utils.html#a70a03ea1367189736d49351c6385c8c9" title="precice::utils::append" alt="" coords="1090,1153,1251,1179"/>
-<area shape="rect" id="node26" href="$classprecice_1_1mesh_1_1BoundingBox.html#a7aeb328ca8291253c4fd22d0d4cb0a18" title="Expand bounding box using another bounding box. " alt="" coords="1067,1723,1274,1764"/>
-<area shape="rect" id="node28" href="$classprecice_1_1utils_1_1ManageUniqueIDs.html#af8eca33b69c8ee473d27f639bd29c25c" title="Resets all retrieved and inserted IDs. " alt="" coords="1065,1335,1276,1376"/>
-<area shape="rect" id="node43" href="$classprecice_1_1mapping_1_1Mapping.html#a6afbd9aaac2ab09b078db271cfd977a1" title="Returns the constraint (consistent/conservative) of the mapping. " alt="" coords="560,1180,757,1221"/>
-<area shape="rect" id="node47" href="$classprecice_1_1query_1_1impl_1_1Indexer.html#a5f4415898dcb95c16b0aedf0c3e3168d" title="precice::query::impl\l::Indexer::instance" alt="" coords="583,1376,734,1417"/>
-<area shape="rect" id="node48" href="$classprecice_1_1mesh_1_1Vertex.html#a382386665b94b9ae8ded5fca26fd2b0b" title="Returns the coordinates of the vertex. " alt="" coords="577,1311,740,1352"/>
+<area shape="rect" id="node2" href="$namespaceprecice_1_1mesh.html#a4d9cfe7beb5bbe90d58d5705abdde19d" title="precice::mesh::filterMesh" alt="" coords="321,391,506,418"/>
+<area shape="rect" id="node16" href="$classprecice_1_1mapping_1_1Mapping.html#aeea2d39f5e6ce0eaa97ebe436ff89991" title="Checks whether the mapping has the given constraint or not. " alt="" coords="315,743,512,784"/>
+<area shape="rect" id="node18" href="$classprecice_1_1mapping_1_1Mapping.html#a07a71a54b71eda6d54510c94fb188e70" title="Returns pointer to output mesh. " alt="" coords="315,808,512,849"/>
+<area shape="rect" id="node19" href="$classprecice_1_1mapping_1_1Mapping.html#a61c3c55af467ada2bdd735efa0f960e4" title="Returns pointer to input mesh. " alt="" coords="315,873,512,915"/>
+<area shape="rect" id="node20" href="$classprecice_1_1query_1_1Index.html#ab70dd2f80e32dc1c5e968f9368edd78d" title="Return all the vertices inside the box formed by vertex and radius. " alt="" coords="330,939,497,980"/>
+<area shape="rect" id="node3" href="$classprecice_1_1mesh_1_1Mesh.html#a13faa9b03e5d20918ed6528db1415fa3" title="Returns modifieable container holding all vertices. " alt="" coords="581,5,736,47"/>
+<area shape="rect" id="node4" href="$classprecice_1_1mesh_1_1Mesh.html#af6e6d684553dc5d0f0a23cacb77b3fc7" title="Creates and initializes a Vertex object. " alt="" coords="581,71,736,112"/>
+<area shape="rect" id="node5" href="$classprecice_1_1mesh_1_1Vertex.html#a94c37cf5c30d40459a3afa2f2aabe8f4" title="precice::mesh::Vertex\l::setGlobalIndex" alt="" coords="577,136,740,177"/>
+<area shape="rect" id="node6" href="$classprecice_1_1mesh_1_1Vertex.html#a8849612f86b9793b3caef4daca461fbc" title="precice::mesh::Vertex::tag" alt="" coords="563,202,755,229"/>
+<area shape="rect" id="node7" href="$classprecice_1_1mesh_1_1Vertex.html#aa06ca0490b8a690055001524232ebc81" title="precice::mesh::Vertex\l::setOwner" alt="" coords="577,253,740,295"/>
+<area shape="rect" id="node8" href="$classprecice_1_1mesh_1_1Mesh.html#aec6f303d7791f8a64e2b78180531c89e" title="Returns modifiable container holding all edges. " alt="" coords="581,319,736,360"/>
+<area shape="rect" id="node9" href="$classprecice_1_1mesh_1_1Vertex.html#aeccde29fd990bdba5a5792372c341ef4" title="Returns the unique (among vertices of one mesh on one processor) ID of the vertex. " alt="" coords="577,384,740,425"/>
+<area shape="rect" id="node10" href="$classprecice_1_1mesh_1_1Mesh.html#ae05c5234aa9adc6f47a814622039c28e" title="Creates and initializes an Edge object. " alt="" coords="581,449,736,491"/>
+<area shape="rect" id="node11" href="$classprecice_1_1mesh_1_1Mesh.html#a136f6b4ce235025e418fab0ca5f350ff" title="precice::mesh::Mesh\l::getDimensions" alt="" coords="581,515,736,556"/>
+<area shape="rect" id="node12" href="$classprecice_1_1mesh_1_1Mesh.html#ad24f3877f1ea7cd5cd5f93a6f2e4d3f9" title="Returns modifiable container holding all triangles. " alt="" coords="581,580,736,621"/>
+<area shape="rect" id="node13" href="$classprecice_1_1mesh_1_1Edge.html#afa1ea37b099b78a89f3cb32f016cd605" title="Returns the (among edges) unique ID of the edge. " alt="" coords="582,645,735,687"/>
+<area shape="rect" id="node14" href="$classprecice_1_1mesh_1_1Mesh.html#a00c3db2576c63d8c6f351175ddc0a4d0" title="Creates and initializes a Triangle object. " alt="" coords="581,711,736,752"/>
+<area shape="rect" id="node15" href="$classprecice_1_1mesh_1_1Edge.html#af27f4bd02d0b67cc5c3d04e2cf1ddee7" title="Checks whether both edges share a vertex. " alt="" coords="805,711,959,752"/>
+<area shape="rect" id="node17" href="$classprecice_1_1mapping_1_1Mapping.html#a6afbd9aaac2ab09b078db271cfd977a1" title="Returns the constraint (consistent/conservative) of the mapping. " alt="" coords="560,776,757,817"/>
+<area shape="rect" id="node21" href="$classprecice_1_1query_1_1impl_1_1Indexer.html#a5f4415898dcb95c16b0aedf0c3e3168d" title="precice::query::impl\l::Indexer::instance" alt="" coords="583,907,734,948"/>
+<area shape="rect" id="node22" href="$classprecice_1_1mesh_1_1Vertex.html#a382386665b94b9ae8ded5fca26fd2b0b" title="Returns the coordinates of the vertex. " alt="" coords="577,972,740,1013"/>
 </map>

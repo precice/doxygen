@@ -32,6 +32,7 @@ var searchData=
   ['exportstate',['exportState',['../classprecice_1_1acceleration_1_1Acceleration.html#aee2b56615f73e633f9b3296f52aa856a',1,'precice::acceleration::Acceleration::exportState()'],['../classprecice_1_1acceleration_1_1BaseQNAcceleration.html#a91709aa9fd14c5612598ce2bee06466d',1,'precice::acceleration::BaseQNAcceleration::exportState()']]],
   ['exportvtk',['ExportVTK',['../classprecice_1_1io_1_1ExportVTK.html#aa25e74f15e8af02042f49218cdb37c5c',1,'precice::io::ExportVTK::ExportVTK()'],['../namespaceprecice_1_1io_1_1constants.html#adbfae30a38b119462d971daa5db24eff',1,'precice::io::constants::exportVTK()']]],
   ['exportvtkxml',['ExportVTKXML',['../classprecice_1_1io_1_1ExportVTKXML.html#a3f4cf7066f2c1bb756ab052fa3c15cc7',1,'precice::io::ExportVTKXML::ExportVTKXML()'],['../namespaceprecice_1_1io_1_1constants.html#ae7cc432ed0485b58eb704eef9c2c9c07',1,'precice::io::constants::exportVTKXML()']]],
+  ['extractactions',['extractActions',['../classprecice_1_1action_1_1ActionConfiguration.html#a9288d16b2b69f4a8add3c54439bfb788',1,'precice::action::ActionConfiguration']]],
   ['extractmeshidmanager',['extractMeshIdManager',['../classprecice_1_1mesh_1_1MeshConfiguration.html#ae34b86a58a1c52a0e21c9c133d23e78d',1,'precice::mesh::MeshConfiguration']]],
   ['extrapolatedata',['extrapolateData',['../classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a5618883d7d1d86bf69ad86c7ce22c6b8',1,'precice::cplscheme::BaseCouplingScheme']]]
 ];
