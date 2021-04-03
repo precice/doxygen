@@ -9,16 +9,16 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 309)">
 <title>precice::mapping::NearestNeighborMapping::computeMapping</title>
 <polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-309 605,-309 605,4 -4,4"/>
-<!-- Node38 -->
+<!-- Node37 -->
 <g id="node1" class="node">
-<title>Node38</title>
+<title>Node37</title>
 <polygon fill="#bfbfbf" stroke="#000000" points="0,-151.5 0,-181.5 192,-181.5 192,-151.5 0,-151.5"/>
 <text text-anchor="start" x="8" y="-169.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mapping::Nearest</text>
 <text text-anchor="middle" x="96" y="-158.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">NeighborMapping::computeMapping</text>
 </g>
-<!-- Node39 -->
+<!-- Node38 -->
 <g id="node2" class="node">
-<title>Node39</title>
+<title>Node38</title>
 <g id="a_node2"><a xlink:href="classprecice_1_1mapping_1_1Mapping.html#a61c3c55af467ada2bdd735efa0f960e4" target="_top" xlink:title="Returns pointer to input mesh. ">
 <polygon fill="#ffffff" stroke="#000000" points="236,-274.5 236,-304.5 384,-304.5 384,-274.5 236,-274.5"/>
 <text text-anchor="start" x="244" y="-292.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mapping::Mapping</text>
@@ -26,15 +26,15 @@
 </a>
 </g>
 </g>
-<!-- Node38&#45;&gt;Node39 -->
+<!-- Node37&#45;&gt;Node38 -->
 <g id="edge1" class="edge">
-<title>Node38&#45;&gt;Node39</title>
+<title>Node37&#45;&gt;Node38</title>
 <path fill="none" stroke="#191970" d="M112.1974,-181.7519C135.8815,-203.2907 182.1481,-242.5472 228,-265.5 231.8052,-267.4048 235.7873,-269.1841 239.8588,-270.8421"/>
 <polygon fill="#191970" stroke="#191970" points="238.889,-274.2175 249.4803,-274.4925 241.3722,-267.6728 238.889,-274.2175"/>
 </g>
-<!-- Node40 -->
+<!-- Node39 -->
 <g id="node3" class="node">
-<title>Node40</title>
+<title>Node39</title>
 <g id="a_node3"><a xlink:href="classprecice_1_1mapping_1_1Mapping.html#a07a71a54b71eda6d54510c94fb188e70" target="_top" xlink:title="Returns pointer to output mesh. ">
 <polygon fill="#ffffff" stroke="#000000" points="236,-225.5 236,-255.5 384,-255.5 384,-225.5 236,-225.5"/>
 <text text-anchor="start" x="244" y="-243.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mapping::Mapping</text>
@@ -42,15 +42,15 @@
 </a>
 </g>
 </g>
-<!-- Node38&#45;&gt;Node40 -->
+<!-- Node37&#45;&gt;Node39 -->
 <g id="edge2" class="edge">
-<title>Node38&#45;&gt;Node40</title>
+<title>Node37&#45;&gt;Node39</title>
 <path fill="none" stroke="#191970" d="M133.2748,-181.5019C159.563,-191.8644 195.7031,-205.6748 228,-216.5 233.9993,-218.5108 240.276,-220.5179 246.5711,-222.4666"/>
 <polygon fill="#191970" stroke="#191970" points="245.8553,-225.9073 256.4413,-225.473 247.895,-219.211 245.8553,-225.9073"/>
 </g>
-<!-- Node41 -->
+<!-- Node40 -->
 <g id="node4" class="node">
-<title>Node41</title>
+<title>Node40</title>
 <g id="a_node4"><a xlink:href="classprecice_1_1mapping_1_1Mapping.html#aeea2d39f5e6ce0eaa97ebe436ff89991" target="_top" xlink:title="Checks whether the mapping has the given constraint or not. ">
 <polygon fill="#ffffff" stroke="#000000" points="236,-176.5 236,-206.5 384,-206.5 384,-176.5 236,-176.5"/>
 <text text-anchor="start" x="244" y="-194.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mapping::Mapping</text>
@@ -58,15 +58,15 @@
 </a>
 </g>
 </g>
-<!-- Node38&#45;&gt;Node41 -->
+<!-- Node37&#45;&gt;Node40 -->
 <g id="edge3" class="edge">
-<title>Node38&#45;&gt;Node41</title>
+<title>Node37&#45;&gt;Node40</title>
 <path fill="none" stroke="#191970" d="M192.0454,-177.7203C203.2748,-179.0321 214.6669,-180.363 225.7198,-181.6542"/>
 <polygon fill="#191970" stroke="#191970" points="225.4222,-185.1431 235.7608,-182.8272 226.2345,-178.1904 225.4222,-185.1431"/>
 </g>
-<!-- Node43 -->
+<!-- Node42 -->
 <g id="node6" class="node">
-<title>Node43</title>
+<title>Node42</title>
 <g id="a_node6"><a xlink:href="classprecice_1_1utils_1_1Event.html#ab228ebbfcd934048c62a2622b4e1b5a9" target="_top" xlink:title="Stops an event and commit it. If it&#39;s already stopped it has no effect. ">
 <polygon fill="#ffffff" stroke="#000000" points="253.5,-127.5 253.5,-157.5 366.5,-157.5 366.5,-127.5 253.5,-127.5"/>
 <text text-anchor="start" x="261.5" y="-145.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::Event</text>
@@ -74,31 +74,31 @@
 </a>
 </g>
 </g>
-<!-- Node38&#45;&gt;Node43 -->
+<!-- Node37&#45;&gt;Node42 -->
 <g id="edge5" class="edge">
-<title>Node38&#45;&gt;Node43</title>
+<title>Node37&#45;&gt;Node42</title>
 <path fill="none" stroke="#191970" d="M192.0454,-155.7286C209.4364,-153.7782 227.2175,-151.784 243.525,-149.9551"/>
 <polygon fill="#191970" stroke="#191970" points="243.9241,-153.4324 253.4717,-148.8396 243.1439,-146.476 243.9241,-153.4324"/>
 </g>
-<!-- Node47 -->
+<!-- Node46 -->
 <g id="node10" class="node">
-<title>Node47</title>
-<g id="a_node10"><a xlink:href="classprecice_1_1query_1_1Index.html#a73907e53b52a1b774bef741de1d3a09a" target="_top" xlink:title="Get n number of closest vertices to the given vertex. ">
+<title>Node46</title>
+<g id="a_node10"><a xlink:href="classprecice_1_1query_1_1Index.html#a61ff793fd31c44ae072341d03f882a32" target="_top" xlink:title="Get n number of closest vertices to the given vertex. ">
 <polygon fill="#ffffff" stroke="#000000" points="251,-59.5 251,-89.5 369,-89.5 369,-59.5 251,-59.5"/>
 <text text-anchor="start" x="259" y="-77.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::Index</text>
 <text text-anchor="middle" x="310" y="-66.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getClosestVertex</text>
 </a>
 </g>
 </g>
-<!-- Node38&#45;&gt;Node47 -->
+<!-- Node37&#45;&gt;Node46 -->
 <g id="edge9" class="edge">
-<title>Node38&#45;&gt;Node47</title>
+<title>Node37&#45;&gt;Node46</title>
 <path fill="none" stroke="#191970" d="M131.3377,-151.3081C168.1556,-135.4798 225.9237,-110.645 265.7523,-93.5224"/>
 <polygon fill="#191970" stroke="#191970" points="267.1608,-96.7267 274.9654,-89.5616 264.3961,-90.2957 267.1608,-96.7267"/>
 </g>
-<!-- Node49 -->
+<!-- Node48 -->
 <g id="node12" class="node">
-<title>Node49</title>
+<title>Node48</title>
 <g id="a_node12"><a xlink:href="classprecice_1_1utils_1_1statistics_1_1DistanceAccumulator.html#ab62a4d99f3b8c512aeb45a3a9ae0547b" target="_top" xlink:title="Returns count == 0. ">
 <polygon fill="#ffffff" stroke="#000000" points="228,-10.5 228,-40.5 392,-40.5 392,-10.5 228,-10.5"/>
 <text text-anchor="start" x="236" y="-28.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::statistics</text>
@@ -106,15 +106,15 @@
 </a>
 </g>
 </g>
-<!-- Node38&#45;&gt;Node49 -->
+<!-- Node37&#45;&gt;Node48 -->
 <g id="edge11" class="edge">
-<title>Node38&#45;&gt;Node49</title>
+<title>Node37&#45;&gt;Node48</title>
 <path fill="none" stroke="#191970" d="M109.0928,-151.4202C131.2112,-126.8429 178.433,-78.1249 228,-50.5 231.9082,-48.3219 236.0294,-46.3105 240.2595,-44.4568"/>
 <polygon fill="#191970" stroke="#191970" points="241.7021,-47.6487 249.6538,-40.6472 239.0714,-41.1618 241.7021,-47.6487"/>
 </g>
-<!-- Node42 -->
+<!-- Node41 -->
 <g id="node5" class="node">
-<title>Node42</title>
+<title>Node41</title>
 <g id="a_node5"><a xlink:href="classprecice_1_1mapping_1_1Mapping.html#a6afbd9aaac2ab09b078db271cfd977a1" target="_top" xlink:title="Returns the constraint (consistent/conservative) of the mapping. ">
 <polygon fill="#ffffff" stroke="#000000" points="440.5,-225.5 440.5,-255.5 588.5,-255.5 588.5,-225.5 440.5,-225.5"/>
 <text text-anchor="start" x="448.5" y="-243.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mapping::Mapping</text>
@@ -122,30 +122,30 @@
 </a>
 </g>
 </g>
-<!-- Node41&#45;&gt;Node42 -->
+<!-- Node40&#45;&gt;Node41 -->
 <g id="edge4" class="edge">
-<title>Node41&#45;&gt;Node42</title>
+<title>Node40&#45;&gt;Node41</title>
 <path fill="none" stroke="#191970" d="M372.7465,-206.5346C394.6333,-211.7789 419.3736,-217.7069 441.9883,-223.1255"/>
 <polygon fill="#191970" stroke="#191970" points="441.3318,-226.5673 451.8721,-225.4938 442.963,-219.7599 441.3318,-226.5673"/>
 </g>
-<!-- Node44 -->
+<!-- Node43 -->
 <g id="node7" class="node">
-<title>Node44</title>
+<title>Node43</title>
 <g id="a_node7"><a xlink:href="MPI__Mock_8hpp.html#a38a750883860adf3d7cee6f56442261a" target="_top" xlink:title="MPI_Barrier">
 <polygon fill="#ffffff" stroke="#000000" points="478.5,-187 478.5,-206 550.5,-206 550.5,-187 478.5,-187"/>
 <text text-anchor="middle" x="514.5" y="-194" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">MPI_Barrier</text>
 </a>
 </g>
 </g>
-<!-- Node43&#45;&gt;Node44 -->
+<!-- Node42&#45;&gt;Node43 -->
 <g id="edge6" class="edge">
-<title>Node43&#45;&gt;Node44</title>
+<title>Node42&#45;&gt;Node43</title>
 <path fill="none" stroke="#191970" d="M359.375,-157.5323C385.4874,-165.4046 414.8089,-174.0997 428,-177.5 440.9229,-180.8312 455.0264,-184.0876 468.0244,-186.9371"/>
 <polygon fill="#191970" stroke="#191970" points="467.6541,-190.4378 478.1678,-189.1287 469.1325,-183.5957 467.6541,-190.4378"/>
 </g>
-<!-- Node45 -->
+<!-- Node44 -->
 <g id="node8" class="node">
-<title>Node45</title>
+<title>Node44</title>
 <g id="a_node8"><a xlink:href="classprecice_1_1utils_1_1EventRegistry.html#ab22976bb8c5bd6a86f052f4705a48cb1" target="_top" xlink:title="Returns the only instance (singleton) of the EventRegistry class. ">
 <polygon fill="#ffffff" stroke="#000000" points="438.5,-137.5 438.5,-167.5 590.5,-167.5 590.5,-137.5 438.5,-137.5"/>
 <text text-anchor="start" x="446.5" y="-155.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::EventRegistry</text>
@@ -153,46 +153,46 @@
 </a>
 </g>
 </g>
-<!-- Node43&#45;&gt;Node45 -->
+<!-- Node42&#45;&gt;Node44 -->
 <g id="edge7" class="edge">
-<title>Node43&#45;&gt;Node45</title>
+<title>Node42&#45;&gt;Node44</title>
 <path fill="none" stroke="#191970" d="M366.6931,-145.2723C385.6889,-146.2012 407.3216,-147.259 428.0644,-148.2733"/>
 <polygon fill="#191970" stroke="#191970" points="428.0013,-151.7743 438.1604,-148.767 428.3433,-144.7827 428.0013,-151.7743"/>
 </g>
-<!-- Node46 -->
+<!-- Node45 -->
 <g id="node9" class="node">
-<title>Node46</title>
+<title>Node45</title>
 <g id="a_node9"><a xlink:href="classprecice_1_1utils_1_1EventRegistry.html#ae2cd83819174207b743e580c381dd022" target="_top" xlink:title="Records the event. ">
 <polygon fill="#ffffff" stroke="#000000" points="428,-99 428,-118 601,-118 601,-99 428,-99"/>
 <text text-anchor="middle" x="514.5" y="-106" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::EventRegistry::put</text>
 </a>
 </g>
 </g>
-<!-- Node43&#45;&gt;Node46 -->
+<!-- Node42&#45;&gt;Node45 -->
 <g id="edge8" class="edge">
-<title>Node43&#45;&gt;Node46</title>
+<title>Node42&#45;&gt;Node45</title>
 <path fill="none" stroke="#191970" d="M366.6931,-133.0743C391.6333,-128.9277 421.1189,-124.0255 447.1682,-119.6945"/>
 <polygon fill="#191970" stroke="#191970" points="448.051,-123.0959 457.3415,-118.0031 446.9029,-116.1907 448.051,-123.0959"/>
 </g>
-<!-- Node48 -->
+<!-- Node47 -->
 <g id="node11" class="node">
-<title>Node48</title>
-<g id="a_node11"><a xlink:href="classprecice_1_1mesh_1_1Vertex.html#a382386665b94b9ae8ded5fca26fd2b0b" target="_top" xlink:title="Returns the coordinates of the vertex. ">
-<polygon fill="#ffffff" stroke="#000000" points="453.5,-49.5 453.5,-79.5 575.5,-79.5 575.5,-49.5 453.5,-49.5"/>
-<text text-anchor="start" x="461.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::mesh::Vertex</text>
-<text text-anchor="middle" x="514.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::getCoords</text>
+<title>Node47</title>
+<g id="a_node11"><a xlink:href="classprecice_1_1query_1_1impl_1_1Indexer.html#a5f4415898dcb95c16b0aedf0c3e3168d" target="_top" xlink:title="precice::query::impl\l::Indexer::instance">
+<polygon fill="#ffffff" stroke="#000000" points="458,-49.5 458,-79.5 571,-79.5 571,-49.5 458,-49.5"/>
+<text text-anchor="start" x="466" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::query::impl</text>
+<text text-anchor="middle" x="514.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">::Indexer::instance</text>
 </a>
 </g>
 </g>
-<!-- Node47&#45;&gt;Node48 -->
+<!-- Node46&#45;&gt;Node47 -->
 <g id="edge10" class="edge">
-<title>Node47&#45;&gt;Node48</title>
-<path fill="none" stroke="#191970" d="M369.1499,-71.6076C392.2705,-70.477 418.9897,-69.1704 443.1642,-67.9883"/>
-<polygon fill="#191970" stroke="#191970" points="443.534,-71.4745 453.351,-67.4902 443.192,-64.4829 443.534,-71.4745"/>
+<title>Node46&#45;&gt;Node47</title>
+<path fill="none" stroke="#191970" d="M369.1499,-71.6076C393.7215,-70.406 422.3577,-69.0057 447.6842,-67.7673"/>
+<polygon fill="#191970" stroke="#191970" points="448.1276,-71.2499 457.9447,-67.2655 447.7856,-64.2582 448.1276,-71.2499"/>
 </g>
-<!-- Node50 -->
+<!-- Node49 -->
 <g id="node13" class="node">
-<title>Node50</title>
+<title>Node49</title>
 <g id="a_node13"><a xlink:href="classprecice_1_1utils_1_1statistics_1_1DistanceAccumulator.html#ac9b87639f46a763b1f35cce56f78edd7" target="_top" xlink:title="Returns how many values have been accumulated. ">
 <polygon fill="#ffffff" stroke="#000000" points="434.5,-.5 434.5,-30.5 594.5,-30.5 594.5,-.5 434.5,-.5"/>
 <text text-anchor="start" x="442.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">precice::utils::statistics</text>
@@ -200,9 +200,9 @@
 </a>
 </g>
 </g>
-<!-- Node49&#45;&gt;Node50 -->
+<!-- Node48&#45;&gt;Node49 -->
 <g id="edge12" class="edge">
-<title>Node49&#45;&gt;Node50</title>
+<title>Node48&#45;&gt;Node49</title>
 <path fill="none" stroke="#191970" d="M392.294,-21.4758C402.8074,-20.9617 413.6136,-20.4333 424.2445,-19.9135"/>
 <polygon fill="#191970" stroke="#191970" points="424.5509,-23.4028 434.3679,-19.4184 424.2089,-16.4111 424.5509,-23.4028"/>
 </g>

@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['v1',['v1',['../structMeshFixture.html#a8b243846c6ea96d5651645b179b68062',1,'MeshFixture']]],
-  ['v2',['v2',['../structMeshFixture.html#afa6a6c37d3ebac2bbaa67b991c1ffdb2',1,'MeshFixture']]],
-  ['v3',['v3',['../structMeshFixture.html#a9dfc021dbdff746cba2e77c1e6ec5497',1,'MeshFixture']]],
   ['validate',['validate',['../mainA_8cpp.html#a1596e912fc4c38713a7e72f02ff49576',1,'validate(vector&lt; double &gt; const &amp;data):&#160;mainA.cpp'],['../mainB_8cpp.html#a1596e912fc4c38713a7e72f02ff49576',1,'validate(vector&lt; double &gt; const &amp;data):&#160;mainB.cpp']]],
   ['validate_5fresult_5fequals_5freference',['validate_result_equals_reference',['../ParallelMatrixOperationsTest_8cpp.html#a286ff31b4a07bef55afd7548cd410815',1,'ParallelMatrixOperationsTest.cpp']]],
   ['validationmacros_2ehpp',['ValidationMacros.hpp',['../ValidationMacros_8hpp.html',1,'']]],
@@ -74,15 +71,15 @@ var searchData=
   ['vector2d',['VECTOR2D',['../classprecice_1_1io_1_1TXTTableWriter.html#a4231fef3009d966dd31496baccddb189acbcc8e96fa4f4222504d3b243643baae',1,'precice::io::TXTTableWriter']]],
   ['vector3d',['VECTOR3D',['../classprecice_1_1io_1_1TXTTableWriter.html#a4231fef3009d966dd31496baccddb189aa52794e99a5612b720fb949a2df64fb7',1,'precice::io::TXTTableWriter']]],
   ['vectorindexable',['VectorIndexable',['../classprecice_1_1query_1_1impl_1_1VectorIndexable.html',1,'precice::query::impl::VectorIndexable&lt; Container &gt;'],['../classprecice_1_1query_1_1impl_1_1VectorIndexable.html#a0190c6a8dac15ab09884b0f944f7e522',1,'precice::query::impl::VectorIndexable::VectorIndexable()']]],
-  ['vectortoelement',['vectorToElement',['../structprecice_1_1query_1_1ClosestElement.html#a5bf20e5f998e3cc22d36e85b4f7ab21e',1,'precice::query::ClosestElement']]],
   ['versioningtests_2ecpp',['VersioningTests.cpp',['../VersioningTests_8cpp.html',1,'']]],
-  ['vertex',['Vertex',['../classprecice_1_1mesh_1_1Vertex.html',1,'precice::mesh::Vertex'],['../classprecice_1_1mapping_1_1Mapping.html#a3709050c77de789f8096335e4082759ea0c3e47aef93a7f244f41ab309a33634b',1,'precice::mapping::Mapping::VERTEX()'],['../classprecice_1_1mesh_1_1Vertex.html#a6b5c9c006887942ec285981cb60466e9',1,'precice::mesh::Vertex::Vertex()'],['../classprecice_1_1mesh_1_1Edge.html#a7fc88e0289fecf4c41c230d20311dcdb',1,'precice::mesh::Edge::vertex(int i)'],['../classprecice_1_1mesh_1_1Edge.html#af273aca7cf663732e30904148d7d8268',1,'precice::mesh::Edge::vertex(int i) const'],['../classprecice_1_1mesh_1_1Triangle.html#ac4d5ab22ef769607eb78676efe7dd11e',1,'precice::mesh::Triangle::vertex(int i)'],['../classprecice_1_1mesh_1_1Triangle.html#a3183695d75ee8ad759375c34f8f9ac08',1,'precice::mesh::Triangle::vertex(int i) const']]],
+  ['vertex',['Vertex',['../classprecice_1_1mesh_1_1Vertex.html',1,'precice::mesh::Vertex'],['../classprecice_1_1mesh_1_1Vertex.html#a6b5c9c006887942ec285981cb60466e9',1,'precice::mesh::Vertex::Vertex()'],['../classprecice_1_1mesh_1_1Edge.html#a7fc88e0289fecf4c41c230d20311dcdb',1,'precice::mesh::Edge::vertex(int i)'],['../classprecice_1_1mesh_1_1Edge.html#af273aca7cf663732e30904148d7d8268',1,'precice::mesh::Edge::vertex(int i) const'],['../classprecice_1_1mesh_1_1Triangle.html#ac4d5ab22ef769607eb78676efe7dd11e',1,'precice::mesh::Triangle::vertex(int i)'],['../classprecice_1_1mesh_1_1Triangle.html#a3183695d75ee8ad759375c34f8f9ac08',1,'precice::mesh::Triangle::vertex(int i) const'],['../classprecice_1_1mapping_1_1Mapping.html#a3709050c77de789f8096335e4082759ea0c3e47aef93a7f244f41ab309a33634b',1,'precice::mapping::Mapping::VERTEX()']]],
   ['vertex_2ecpp',['Vertex.cpp',['../Vertex_8cpp.html',1,'']]],
   ['vertex_2ehpp',['Vertex.hpp',['../Vertex_8hpp.html',1,'']]],
   ['vertexcallback',['vertexCallback',['../namespacePythonAction.html#a1581134b3b2114778c1e68999b3d3c6e',1,'PythonAction.vertexCallback()'],['../namespaceTestAllAction.html#ac7b84dd60f72647720bc532fee025e1e',1,'TestAllAction.vertexCallback()'],['../namespaceTestOmitAction2.html#a359c41c3adb7cc481af88423f759c946',1,'TestOmitAction2.vertexCallback()']]],
   ['vertexcontainer',['VertexContainer',['../classprecice_1_1mesh_1_1Mesh.html#ade8ecec131e316675f506d49c9afda73',1,'precice::mesh::Mesh']]],
   ['vertexdata',['VertexData',['../classprecice_1_1mapping_1_1PetRadialBasisFctMapping.html#ab5293723cb98e15167de69010a9b60b0',1,'precice::mapping::PetRadialBasisFctMapping']]],
   ['vertexdistribution',['VertexDistribution',['../classprecice_1_1mesh_1_1Mesh.html#ac1568bbd80a0e352b59c4c398487f851',1,'precice::mesh::Mesh']]],
+  ['vertexid',['vertexID',['../structprecice_1_1mapping_1_1WeightedElement.html#a5278320bd8e1ec91b8b7777b61c24596',1,'precice::mapping::WeightedElement']]],
   ['vertexmatch',['VertexMatch',['../namespaceprecice_1_1query.html#a81fc84f48479313dc71ecfb20505c95c',1,'precice::query']]],
   ['vertexorder',['vertexOrder',['../structprecice_1_1math_1_1geometry_1_1ConvexityResult.html#ab483ce7a14f61641382946e49127e1fe',1,'precice::math::geometry::ConvexityResult']]],
   ['vertexptrsfor',['vertexPtrsFor',['../namespaceprecice_1_1mesh.html#a8b0288a6bdcf6f936ef7e63713013742',1,'precice::mesh']]],
@@ -95,7 +92,5 @@ var searchData=
   ['viewdraw',['viewDraw',['../classprecice_1_1utils_1_1petsc_1_1Matrix.html#a7766a36354726dcdf96ec1eba044b35e',1,'precice::utils::petsc::Matrix']]],
   ['viewer',['Viewer',['../structprecice_1_1utils_1_1petsc_1_1Viewer.html',1,'precice::utils::petsc::Viewer'],['../structprecice_1_1utils_1_1petsc_1_1Viewer.html#a7f6b051f351f39f28547587cfe9c5f97',1,'precice::utils::petsc::Viewer::Viewer(const std::string &amp;filename, VIEWERFORMAT format, MPI_Comm comm)'],['../structprecice_1_1utils_1_1petsc_1_1Viewer.html#ae82db702ff7767ca4400497ccdc73ed6',1,'precice::utils::petsc::Viewer::Viewer(PetscViewerType type, MPI_Comm comm)'],['../structprecice_1_1utils_1_1petsc_1_1Viewer.html#a184dc08ca671cb3a4b8ae4d7edcc6e3e',1,'precice::utils::petsc::Viewer::viewer()']]],
   ['viewerformat',['VIEWERFORMAT',['../namespaceprecice_1_1utils_1_1petsc.html#a133be8a2c3392a16b9ed3b89403c15e9',1,'precice::utils::petsc']]],
-  ['vinside',['vinside',['../structMeshFixture.html#aebc1cc4ce1292998c9d4102d6538090b',1,'MeshFixture']]],
-  ['volumesplines',['VolumeSplines',['../classprecice_1_1mapping_1_1VolumeSplines.html',1,'precice::mapping']]],
-  ['voutside',['voutside',['../structMeshFixture.html#af4b8632dea83e0760a94ed291e30617d',1,'MeshFixture']]]
+  ['volumesplines',['VolumeSplines',['../classprecice_1_1mapping_1_1VolumeSplines.html',1,'precice::mapping']]]
 ];

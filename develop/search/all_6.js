@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['e12',['e12',['../structMeshFixture.html#aed7f397ae07f542f00280c94fdb7c22f',1,'MeshFixture']]],
-  ['e23',['e23',['../structMeshFixture.html#a1804cc630332d4953dafad88359acea3',1,'MeshFixture']]],
-  ['e31',['e31',['../structMeshFixture.html#aa8ac4501a5cf201312b28ff2e80b9b64',1,'MeshFixture']]],
   ['edge',['Edge',['../classprecice_1_1mesh_1_1Edge.html',1,'precice::mesh::Edge'],['../classprecice_1_1mesh_1_1Edge.html#a7c04dab6a0ca6aeed527569b1f842fd5',1,'precice::mesh::Edge::Edge()'],['../classprecice_1_1mesh_1_1Triangle.html#a0efee1f0385ffb41ce8951bf211ea26a',1,'precice::mesh::Triangle::edge(int i)'],['../classprecice_1_1mesh_1_1Triangle.html#a160bb077fb695ba445e7e2d182d2674b',1,'precice::mesh::Triangle::edge(int i) const']]],
   ['edge_2ecpp',['Edge.cpp',['../Edge_8cpp.html',1,'']]],
   ['edge_2ehpp',['Edge.hpp',['../Edge_8hpp.html',1,'']]],
@@ -21,7 +18,6 @@ var searchData=
   ['eigenio_2ehpp',['EigenIO.hpp',['../EigenIO_8hpp.html',1,'']]],
   ['eigenvalue',['eigenValue',['../structCallbackHostAttr.html#a879e2e9187da26b4c7a62e52590bbef4',1,'CallbackHostAttr']]],
   ['eigenvectorxd',['eigenVectorXd',['../structCallbackHost.html#a5da2ede70e76fd4e814ae6a2616a4b64',1,'CallbackHost']]],
-  ['element',['element',['../structprecice_1_1query_1_1InterpolationElement.html#a80c199243fd4a236457a8f4e84e049a4',1,'precice::query::InterpolationElement']]],
   ['empty',['empty',['../classprecice_1_1mesh_1_1BoundingBox.html#a47cc0759796a01675620119783a11d8d',1,'precice::mesh::BoundingBox::empty()'],['../classprecice_1_1utils_1_1ptr__vector.html#a7b86c1bf5ffa16d1ed9e18e37e347681',1,'precice::utils::ptr_vector::empty()'],['../classprecice_1_1utils_1_1statistics_1_1DistanceAccumulator.html#ab62a4d99f3b8c512aeb45a3a9ae0547b',1,'precice::utils::statistics::DistanceAccumulator::empty()']]],
   ['enabled',['enabled',['../structprecice_1_1logging_1_1BackendConfiguration.html#aee5d7ac309df44ec740f940121d7c940',1,'precice::logging::BackendConfiguration']]],
   ['end',['end',['../structprecice_1_1utils_1_1RangePreview.html#af5c8c3fc4bf7b1b8bd2596d2d75e4fd8',1,'precice::utils::RangePreview::end()'],['../classprecice_1_1mesh_1_1Triangle.html#a8ed68d52d74b06ea2b435e56f14519c6',1,'precice::mesh::Triangle::end()'],['../classprecice_1_1mesh_1_1Triangle.html#aad81d1a17d2ef96c3be275a1910372a1',1,'precice::mesh::Triangle::end() const'],['../classprecice_1_1utils_1_1ptr__vector.html#ad323a46edf00bf4fe8b4d0138c9bb269',1,'precice::utils::ptr_vector::end()'],['../classprecice_1_1utils_1_1ptr__vector.html#a4d64c0111677213a87fa195bae3ff248',1,'precice::utils::ptr_vector::end() const']]],

@@ -15,7 +15,6 @@ var searchData=
   ['destroy',['destroy',['../namespaceprecice_1_1utils_1_1petsc.html#acf5b6078940229ae25d11587c48f10f6',1,'precice::utils::petsc::destroy(ISLocalToGlobalMapping *IS)'],['../namespaceprecice_1_1utils_1_1petsc.html#aa8c30bb9d326a6e746980d174833a367',1,'precice::utils::petsc::destroy(AO *ao)'],['../namespaceprecice_1_1utils_1_1petsc.html#a952e14fc5d41e1c8ed879d5cd8238817',1,'precice::utils::petsc::destroy(KSP *ksp)']]],
   ['determineaccessingparticipant',['determineAccessingParticipant',['../classprecice_1_1impl_1_1SolverInterfaceImpl.html#a343dcf05b013f9ae47956c88afba228f',1,'precice::impl::SolverInterfaceImpl']]],
   ['determineactivecouplingschemes',['determineActiveCouplingSchemes',['../classprecice_1_1cplscheme_1_1CompositionalCouplingScheme.html#a69d66f1a0dc05e6ae74f158542cf8fe8',1,'precice::cplscheme::CompositionalCouplingScheme']]],
-  ['determineclosest',['determineClosest',['../classprecice_1_1query_1_1FindClosest.html#a763716554180f82f65e1566c96ee7131',1,'precice::query::FindClosest']]],
   ['determineinitialreceive',['determineInitialReceive',['../classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a197d3c5ee0b7a593c2f71e0884eb33bf',1,'precice::cplscheme::BaseCouplingScheme']]],
   ['determineinitialsend',['determineInitialSend',['../classprecice_1_1cplscheme_1_1BaseCouplingScheme.html#a24ea9ccdded53102a8f2b62f6736b012',1,'precice::cplscheme::BaseCouplingScheme']]],
   ['dispatch',['dispatch',['../classprecice_1_1com_1_1SocketSendQueue.html#aaf833eac1abd771f7c73f073bee023ff',1,'precice::com::SocketSendQueue']]],

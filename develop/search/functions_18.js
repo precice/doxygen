@@ -36,7 +36,6 @@ var searchData=
   ['_7emapping',['~Mapping',['../classprecice_1_1mapping_1_1Mapping.html#a7a405ca7804cc87b4411f26774136c28',1,'precice::mapping::Mapping']]],
   ['_7ematrix',['~Matrix',['../classprecice_1_1utils_1_1petsc_1_1Matrix.html#af68b6570ba60795d44b7ce529359b8b2',1,'precice::utils::petsc::Matrix']]],
   ['_7emesh',['~Mesh',['../classprecice_1_1mesh_1_1Mesh.html#a732b81e15a1a4b05e7d062030cfd7f8b',1,'precice::mesh::Mesh']]],
-  ['_7emeshfixture',['~MeshFixture',['../structMeshFixture.html#af257cfebda1c04860986c565bce892bb',1,'MeshFixture']]],
   ['_7eminiterationconvergencemeasure',['~MinIterationConvergenceMeasure',['../classprecice_1_1cplscheme_1_1impl_1_1MinIterationConvergenceMeasure.html#a0d5830c2e6bb06c68c204ce68123b5b6',1,'precice::cplscheme::impl::MinIterationConvergenceMeasure']]],
   ['_7empicommunication',['~MPICommunication',['../classprecice_1_1com_1_1MPICommunication.html#acc4dab26e67162d788bddd1cfd378dbd',1,'precice::com::MPICommunication']]],
   ['_7empidirectcommunication',['~MPIDirectCommunication',['../classprecice_1_1com_1_1MPIDirectCommunication.html#aae2de298555b3975e7d28a21cc056659',1,'precice::com::MPIDirectCommunication']]],

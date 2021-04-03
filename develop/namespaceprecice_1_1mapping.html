@@ -124,6 +124,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mapping_1_1PetRadialBasisFctMapping.html">PetRadialBasisFctMapping</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classprecice_1_1mapping_1_1Mapping.html" title="Abstract base class for mapping of data from one mesh to another. ">Mapping</a> with radial basis functions using the Petsc library to solve the resulting system.  <a href="classprecice_1_1mapping_1_1PetRadialBasisFctMapping.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mapping_1_1Polation.html">Polation</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the barycentric coordinates of a coordinate on the given vertex/edge/triangle and stores the corresponding weights If all barycentric coordinates are positive, the operation is interpolation. If not, it is an extrapolation.  <a href="classprecice_1_1mapping_1_1Polation.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mapping_1_1RadialBasisFctMapping.html">RadialBasisFctMapping</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classprecice_1_1mapping_1_1Mapping.html" title="Abstract base class for mapping of data from one mesh to another. ">Mapping</a> with radial basis functions.  <a href="classprecice_1_1mapping_1_1RadialBasisFctMapping.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -132,6 +135,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classprecice_1_1mapping_1_1VolumeSplines.html">VolumeSplines</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radial basis function with global support.  <a href="classprecice_1_1mapping_1_1VolumeSplines.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structprecice_1_1mapping_1_1WeightedElement.html">WeightedElement</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct that contains weight and index of a vertex.  <a href="structprecice_1_1mapping_1_1WeightedElement.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -170,6 +176,12 @@ Functions</h2></td></tr>
 <tr class="separator:a05b1d34b9774b3e2ccc63b56d5e518ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae47e0a48b1ed61b336d63640f1c6722"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mapping.html#aae47e0a48b1ed61b336d63640f1c6722">operator&lt;&lt;</a> (std::ostream &amp;out, <a class="el" href="classprecice_1_1mapping_1_1Mapping.html#a3709050c77de789f8096335e4082759e">Mapping::MeshRequirement</a> val)</td></tr>
 <tr class="separator:aae47e0a48b1ed61b336d63640f1c6722"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17ae98b812c6054f1c6da5563e05c5cc"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mapping.html#a17ae98b812c6054f1c6da5563e05c5cc">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="structprecice_1_1mapping_1_1WeightedElement.html">WeightedElement</a> &amp;w)</td></tr>
+<tr class="memdesc:a17ae98b812c6054f1c6da5563e05c5cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make the <a class="el" href="structprecice_1_1mapping_1_1WeightedElement.html" title="Struct that contains weight and index of a vertex. ">WeightedElement</a> printable.  <a href="#a17ae98b812c6054f1c6da5563e05c5cc">More...</a><br /></td></tr>
+<tr class="separator:a17ae98b812c6054f1c6da5563e05c5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00809102eccf9bd4d18c36fb53801a99"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mapping.html#a00809102eccf9bd4d18c36fb53801a99">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classprecice_1_1mapping_1_1Polation.html">Polation</a> &amp;p)</td></tr>
+<tr class="memdesc:a00809102eccf9bd4d18c36fb53801a99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make the <a class="el" href="classprecice_1_1mapping_1_1Polation.html" title="Calculates the barycentric coordinates of a coordinate on the given vertex/edge/triangle and stores t...">Polation</a> class printable.  <a href="#a00809102eccf9bd4d18c36fb53801a99">More...</a><br /></td></tr>
+<tr class="separator:a00809102eccf9bd4d18c36fb53801a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a869f89aa2bbfbd3d607944677c9937c4"><td class="memTemplParams" colspan="2">template&lt;typename RADIAL_BASIS_FUNCTION_T &gt; </td></tr>
 <tr class="memitem:a869f89aa2bbfbd3d607944677c9937c4"><td class="memTemplItemLeft" align="right" valign="top">Eigen::MatrixXd&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceprecice_1_1mapping.html#a869f89aa2bbfbd3d607944677c9937c4">buildMatrixCLU</a> (RADIAL_BASIS_FUNCTION_T basisFunction, const <a class="el" href="classprecice_1_1mesh_1_1Mesh.html">mesh::Mesh</a> &amp;inputMesh, std::vector&lt; bool &gt; deadAxis)</td></tr>
 <tr class="separator:a869f89aa2bbfbd3d607944677c9937c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -436,8 +448,78 @@ Here is the call graph for this function:</div>
 
 </div>
 </div>
+<a id="a17ae98b812c6054f1c6da5563e05c5cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17ae98b812c6054f1c6da5563e05c5cc">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; precice::mapping::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structprecice_1_1mapping_1_1WeightedElement.html">WeightedElement</a> &amp;&#160;</td>
+          <td class="paramname"><em>w</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Make the <a class="el" href="structprecice_1_1mapping_1_1WeightedElement.html" title="Struct that contains weight and index of a vertex. ">WeightedElement</a> printable. </p>
+
+<p class="definition">Definition at line <a class="el" href="Polation_8cpp_source.html#l00057">57</a> of file <a class="el" href="Polation_8cpp_source.html">Polation.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a00809102eccf9bd4d18c36fb53801a99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00809102eccf9bd4d18c36fb53801a99">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; precice::mapping::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classprecice_1_1mapping_1_1Polation.html">Polation</a> &amp;&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Make the <a class="el" href="classprecice_1_1mapping_1_1Polation.html" title="Calculates the barycentric coordinates of a coordinate on the given vertex/edge/triangle and stores t...">Polation</a> class printable. </p>
+
+<p class="definition">Definition at line <a class="el" href="Polation_8cpp_source.html#l00062">62</a> of file <a class="el" href="Polation_8cpp_source.html">Polation.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="namespaceprecice_1_1mapping_a00809102eccf9bd4d18c36fb53801a99_cgraph.svg" width="472" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="aae47e0a48b1ed61b336d63640f1c6722"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae47e0a48b1ed61b336d63640f1c6722">&#9670;&nbsp;</a></span>operator<<()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aae47e0a48b1ed61b336d63640f1c6722">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

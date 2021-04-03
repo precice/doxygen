@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1002;
+var viewWidth = 855;
 var viewHeight = 162;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,27 +54,27 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>src/io/Export.hpp</title>
-<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-158 997.5,-158 997.5,4 -4,4"/>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-158 851,-158 851,4 -4,4"/>
 <!-- Node2 -->
 <g id="node1" class="node">
 <title>Node2</title>
-<polygon fill="#bfbfbf" stroke="#000000" points="468.5,-134.5 468.5,-153.5 566.5,-153.5 566.5,-134.5 468.5,-134.5"/>
-<text text-anchor="middle" x="517.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/io/Export.hpp</text>
+<polygon fill="#bfbfbf" stroke="#000000" points="404.5,-134.5 404.5,-153.5 502.5,-153.5 502.5,-134.5 404.5,-134.5"/>
+<text text-anchor="middle" x="453.5" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/io/Export.hpp</text>
 </g>
 <!-- Node3 -->
 <g id="node2" class="node">
 <title>Node3</title>
 <g id="a_node2"><a xlink:href="ExportVTK_8hpp.html" target="_top" xlink:title="src/io/ExportVTK.hpp">
-<polygon fill="#ffffff" stroke="#000000" points="323.5,-73 323.5,-92 441.5,-92 441.5,-73 323.5,-73"/>
-<text text-anchor="middle" x="382.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/io/ExportVTK.hpp</text>
+<polygon fill="#ffffff" stroke="#000000" points="289.5,-73 289.5,-92 407.5,-92 407.5,-73 289.5,-73"/>
+<text text-anchor="middle" x="348.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/io/ExportVTK.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="#191970" d="M487.1843,-130.1895C461.6783,-118.5701 425.8759,-102.2601 403.4456,-92.0419"/>
-<polygon fill="#191970" stroke="#191970" points="485.855,-133.43 496.4063,-134.3906 488.757,-127.0598 485.855,-133.43"/>
+<path fill="none" stroke="#191970" d="M428.3316,-129.2585C408.6183,-117.7122 381.7757,-101.99 364.791,-92.0419"/>
+<polygon fill="#191970" stroke="#191970" points="426.696,-132.3566 437.0938,-134.3906 430.2338,-126.3164 426.696,-132.3566"/>
 </g>
 <!-- Node4 -->
 <g id="node3" class="node">
@@ -86,10 +86,10 @@ var sectionId = 'dynsection-1';
 </g>
 </g>
 <!-- Node2&#45;&gt;Node4 -->
-<g id="edge6" class="edge">
+<g id="edge5" class="edge">
 <title>Node2&#45;&gt;Node4</title>
-<path fill="none" stroke="#191970" d="M458.2523,-136.4064C407.1208,-129.0717 331.6008,-116.3605 267.5,-98 196.2476,-77.591 115.6344,-42.0321 78.8042,-25.0536"/>
-<polygon fill="#191970" stroke="#191970" points="458.0704,-139.9153 468.4612,-137.8459 459.0478,-132.9839 458.0704,-139.9153"/>
+<path fill="none" stroke="#191970" d="M394.2349,-134.0095C352.3909,-126.189 295.3107,-113.9642 246.5,-98 182.3024,-77.0033 110.1333,-41.8859 76.9712,-25.0582"/>
+<polygon fill="#191970" stroke="#191970" points="393.7932,-137.4869 404.2614,-135.8537 395.0595,-130.6023 393.7932,-137.4869"/>
 </g>
 <!-- Node5 -->
 <g id="node4" class="node">
@@ -101,139 +101,117 @@ var sectionId = 'dynsection-1';
 </g>
 </g>
 <!-- Node2&#45;&gt;Node5 -->
-<g id="edge12" class="edge">
+<g id="edge11" class="edge">
 <title>Node2&#45;&gt;Node5</title>
-<path fill="none" stroke="#191970" d="M458.1011,-138.0903C416.2356,-132.1578 359.7905,-120.5117 314.5,-98 276.4614,-79.0928 240.6312,-42.4746 224.8885,-25.0983"/>
-<polygon fill="#191970" stroke="#191970" points="457.7671,-141.5768 468.1451,-139.4441 458.7022,-134.6395 457.7671,-141.5768"/>
+<path fill="none" stroke="#191970" d="M393.9926,-137.8463C358.6717,-131.9457 314.3308,-120.4293 280.5,-98 251.6427,-78.8681 230.2199,-42.3605 221.2016,-25.0548"/>
+<polygon fill="#191970" stroke="#191970" points="393.7499,-141.3507 404.17,-139.4346 394.8293,-134.4344 393.7499,-141.3507"/>
 </g>
 <!-- Node7 -->
 <g id="node6" class="node">
 <title>Node7</title>
-<g id="a_node6"><a xlink:href="FindClosestTest_8cpp.html" target="_top" xlink:title="src/query/tests/FindClosest\lTest.cpp">
-<polygon fill="#ffffff" stroke="#000000" points="316,-.5 316,-30.5 463,-30.5 463,-.5 316,-.5"/>
-<text text-anchor="start" x="324" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/query/tests/FindClosest</text>
-<text text-anchor="middle" x="389.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Test.cpp</text>
+<g id="a_node6"><a xlink:href="ExportVTKXML_8hpp.html" target="_top" xlink:title="src/io/ExportVTKXML.hpp">
+<polygon fill="#ffffff" stroke="#000000" points="481.5,-73 481.5,-92 619.5,-92 619.5,-73 481.5,-73"/>
+<text text-anchor="middle" x="550.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/io/ExportVTKXML.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node7 -->
-<g id="edge15" class="edge">
+<g id="edge6" class="edge">
 <title>Node2&#45;&gt;Node7</title>
-<path fill="none" stroke="#191970" d="M503.4284,-126.3174C490.3439,-110.2528 469.991,-86.2025 450.5,-67 437.2699,-53.9658 421.1769,-40.4664 408.8429,-30.5601"/>
-<polygon fill="#191970" stroke="#191970" points="500.8958,-128.7525 509.8981,-134.339 506.3445,-124.3579 500.8958,-128.7525"/>
+<path fill="none" stroke="#191970" d="M477.496,-128.786C495.6337,-117.2864 519.9726,-101.855 535.4502,-92.0419"/>
+<polygon fill="#191970" stroke="#191970" points="475.2277,-126.08 468.6563,-134.3906 478.976,-131.9919 475.2277,-126.08"/>
 </g>
 <!-- Node8 -->
 <g id="node7" class="node">
 <title>Node8</title>
-<g id="a_node7"><a xlink:href="ExportVTKXML_8hpp.html" target="_top" xlink:title="src/io/ExportVTKXML.hpp">
-<polygon fill="#ffffff" stroke="#000000" points="497.5,-73 497.5,-92 635.5,-92 635.5,-73 497.5,-73"/>
-<text text-anchor="middle" x="566.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/io/ExportVTKXML.hpp</text>
+<g id="a_node7"><a xlink:href="ExportVTKXML_8cpp.html" target="_top" xlink:title="src/io/ExportVTKXML.cpp">
+<polygon fill="#ffffff" stroke="#000000" points="491,-6 491,-25 628,-25 628,-6 491,-6"/>
+<text text-anchor="middle" x="559.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/io/ExportVTKXML.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node8 -->
-<g id="edge7" class="edge">
+<g id="edge10" class="edge">
 <title>Node2&#45;&gt;Node8</title>
-<path fill="none" stroke="#191970" d="M531.6451,-126.2465C540.4642,-115.1775 551.4771,-101.3552 558.7358,-92.2449"/>
-<polygon fill="#191970" stroke="#191970" points="528.6503,-124.3885 525.1563,-134.3906 534.1251,-128.7505 528.6503,-124.3885"/>
+<path fill="none" stroke="#191970" d="M454.2043,-124.2287C455.7091,-107.5179 460.088,-83.7013 472.5,-67 487.3669,-46.9954 512.5088,-33.338 531.9527,-25.1413"/>
+<polygon fill="#191970" stroke="#191970" points="450.6938,-124.2875 453.5584,-134.4877 457.68,-124.7274 450.6938,-124.2875"/>
 </g>
 <!-- Node9 -->
 <g id="node8" class="node">
 <title>Node9</title>
-<g id="a_node8"><a xlink:href="ExportVTKXML_8cpp.html" target="_top" xlink:title="src/io/ExportVTKXML.cpp">
-<polygon fill="#ffffff" stroke="#000000" points="656,-6 656,-25 793,-25 793,-6 656,-6"/>
-<text text-anchor="middle" x="724.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/io/ExportVTKXML.cpp</text>
+<g id="a_node8"><a xlink:href="ExportVTKXMLTest_8cpp.html" target="_top" xlink:title="src/io/tests/ExportVTKXMLTest.cpp">
+<polygon fill="#ffffff" stroke="#000000" points="646.5,-6 646.5,-25 828.5,-25 828.5,-6 646.5,-6"/>
+<text text-anchor="middle" x="737.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/io/tests/ExportVTKXMLTest.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node9 -->
-<g id="edge11" class="edge">
+<g id="edge12" class="edge">
 <title>Node2&#45;&gt;Node9</title>
-<path fill="none" stroke="#191970" d="M567.498,-131.6172C591.934,-124.1785 621.0505,-113.1678 644.5,-98 676.329,-77.412 704.9792,-41.9398 717.6364,-25.0179"/>
-<polygon fill="#191970" stroke="#191970" points="566.3041,-128.3198 557.6913,-134.4901 568.272,-135.0375 566.3041,-128.3198"/>
+<path fill="none" stroke="#191970" d="M512.6574,-134.7811C547.6357,-127.8106 592.0706,-116.2455 628.5,-98 648.2978,-88.0844 649.9127,-80.452 667.5,-67 687.0337,-52.0592 710.0712,-35.2659 724.2315,-25.0364"/>
+<polygon fill="#191970" stroke="#191970" points="511.7533,-131.3907 502.5923,-136.713 513.0728,-138.2652 511.7533,-131.3907"/>
 </g>
 <!-- Node10 -->
 <g id="node9" class="node">
 <title>Node10</title>
-<g id="a_node9"><a xlink:href="ExportVTKXMLTest_8cpp.html" target="_top" xlink:title="src/io/tests/ExportVTKXMLTest.cpp">
-<polygon fill="#ffffff" stroke="#000000" points="811.5,-6 811.5,-25 993.5,-25 993.5,-6 811.5,-6"/>
-<text text-anchor="middle" x="902.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/io/tests/ExportVTKXMLTest.cpp</text>
+<g id="a_node9"><a xlink:href="SolverInterfaceImpl_8cpp.html" target="_top" xlink:title="src/precice/impl/SolverInterface\lImpl.cpp">
+<polygon fill="#ffffff" stroke="#000000" points="676,-67.5 676,-97.5 847,-97.5 847,-67.5 676,-67.5"/>
+<text text-anchor="start" x="684" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/impl/SolverInterface</text>
+<text text-anchor="middle" x="761.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Impl.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node10 -->
 <g id="edge13" class="edge">
 <title>Node2&#45;&gt;Node10</title>
-<path fill="none" stroke="#191970" d="M574.9867,-132.1034C605.9426,-124.5379 644.2792,-113.2645 676.5,-98 698.448,-87.6022 699.5291,-77.3493 721.5,-67 763.9128,-47.0216 815.6494,-33.2589 852.9303,-25.021"/>
-<polygon fill="#191970" stroke="#191970" points="574.1303,-128.7094 565.2125,-134.4298 575.7512,-135.5191 574.1303,-128.7094"/>
-</g>
-<!-- Node11 -->
-<g id="node10" class="node">
-<title>Node11</title>
-<g id="a_node10"><a xlink:href="SolverInterfaceImpl_8cpp.html" target="_top" xlink:title="src/precice/impl/SolverInterface\lImpl.cpp">
-<polygon fill="#ffffff" stroke="#000000" points="730,-67.5 730,-97.5 901,-97.5 901,-67.5 730,-67.5"/>
-<text text-anchor="start" x="738" y="-85.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/impl/SolverInterface</text>
-<text text-anchor="middle" x="815.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Impl.cpp</text>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node11 -->
-<g id="edge14" class="edge">
-<title>Node2&#45;&gt;Node11</title>
-<path fill="none" stroke="#191970" d="M573.6123,-132.4198C621.4753,-122.542 690.6115,-108.274 742.7235,-97.5193"/>
-<polygon fill="#191970" stroke="#191970" points="572.8217,-129.0091 563.7355,-134.4581 574.2366,-135.8646 572.8217,-129.0091"/>
+<path fill="none" stroke="#191970" d="M511.1851,-132.4817C560.6654,-122.6017 632.3079,-108.2965 686.2813,-97.5193"/>
+<polygon fill="#191970" stroke="#191970" points="510.4081,-129.0677 501.2871,-134.4581 511.7788,-135.9322 510.4081,-129.0677"/>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="#191970" d="M322.5801,-71.013C270.4279,-60.891 192.847,-45.5346 125.5,-31 116.8639,-29.1362 107.6222,-27.0547 98.8466,-25.0372"/>
-<polygon fill="#191970" stroke="#191970" points="322.1778,-74.5001 332.661,-72.9659 323.5091,-67.6278 322.1778,-74.5001"/>
+<path fill="none" stroke="#191970" d="M297.1304,-70.6425C251.9309,-60.2078 184.3461,-44.6018 125.5,-31 117.1246,-29.0641 108.1606,-26.9911 99.6015,-25.0112"/>
+<polygon fill="#191970" stroke="#191970" points="296.457,-74.079 306.9881,-72.9181 298.0317,-67.2584 296.457,-74.079"/>
 </g>
 <!-- Node3&#45;&gt;Node5 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node5</title>
-<path fill="none" stroke="#191970" d="M349.2519,-69.0806C316.9845,-56.057 268.8176,-36.6162 240.2396,-25.0817"/>
-<polygon fill="#191970" stroke="#191970" points="348.1331,-72.4033 358.7162,-72.9005 350.7531,-65.9121 348.1331,-72.4033"/>
+<path fill="none" stroke="#191970" d="M320.3855,-68.2298C294.7596,-55.2227 257.6122,-36.3676 235.3773,-25.0817"/>
+<polygon fill="#191970" stroke="#191970" points="319.0864,-71.4954 329.5876,-72.9005 322.2547,-65.2534 319.0864,-71.4954"/>
 </g>
 <!-- Node6 -->
 <g id="node5" class="node">
 <title>Node6</title>
 <g id="a_node5"><a xlink:href="ParticipantConfiguration_8cpp.html" target="_top" xlink:title="src/precice/config\l/ParticipantConfiguration.cpp">
-<polygon fill="#ffffff" stroke="#000000" points="481,-.5 481,-30.5 638,-30.5 638,-.5 481,-.5"/>
-<text text-anchor="start" x="489" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/config</text>
-<text text-anchor="middle" x="559.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/ParticipantConfiguration.cpp</text>
+<polygon fill="#ffffff" stroke="#000000" points="316,-.5 316,-30.5 473,-30.5 473,-.5 316,-.5"/>
+<text text-anchor="start" x="324" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">src/precice/config</text>
+<text text-anchor="middle" x="394.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">/ParticipantConfiguration.cpp</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node6 -->
 <g id="edge4" class="edge">
 <title>Node3&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M417.3312,-69.3153C446.8056,-58.1583 489.041,-42.1709 519.8156,-30.5218"/>
-<polygon fill="#191970" stroke="#191970" points="415.9731,-66.087 407.8598,-72.9005 418.4513,-72.6336 415.9731,-66.087"/>
+<path fill="none" stroke="#191970" d="M360.925,-64.4026C368.2089,-53.7936 377.3014,-40.5502 384.1866,-30.5218"/>
+<polygon fill="#191970" stroke="#191970" points="357.8654,-62.6755 355.0907,-72.9005 363.6362,-66.6375 357.8654,-62.6755"/>
 </g>
-<!-- Node3&#45;&gt;Node7 -->
-<g id="edge5" class="edge">
-<title>Node3&#45;&gt;Node7</title>
-<path fill="none" stroke="#191970" d="M384.5607,-62.7758C385.6381,-52.4641 386.9357,-40.0437 387.9306,-30.5218"/>
-<polygon fill="#191970" stroke="#191970" points="381.0611,-62.5909 383.5029,-72.9005 388.0232,-63.3184 381.0611,-62.5909"/>
-</g>
-<!-- Node8&#45;&gt;Node6 -->
-<g id="edge10" class="edge">
-<title>Node8&#45;&gt;Node6</title>
-<path fill="none" stroke="#191970" d="M564.4393,-62.7758C563.3619,-52.4641 562.0643,-40.0437 561.0694,-30.5218"/>
-<polygon fill="#191970" stroke="#191970" points="560.9768,-63.3184 565.4971,-72.9005 567.9389,-62.5909 560.9768,-63.3184"/>
-</g>
-<!-- Node8&#45;&gt;Node9 -->
-<g id="edge8" class="edge">
-<title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="#191970" d="M598.5437,-68.9118C629.253,-55.8895 674.8209,-36.5664 701.9044,-25.0817"/>
-<polygon fill="#191970" stroke="#191970" points="596.9776,-65.7742 589.1375,-72.9005 599.7104,-72.2187 596.9776,-65.7742"/>
-</g>
-<!-- Node8&#45;&gt;Node10 -->
+<!-- Node7&#45;&gt;Node6 -->
 <g id="edge9" class="edge">
-<title>Node8&#45;&gt;Node10</title>
-<path fill="none" stroke="#191970" d="M624.3771,-70.959C689.4538,-57.9824 793.9354,-37.1483 854.6093,-25.0496"/>
-<polygon fill="#191970" stroke="#191970" points="623.4062,-67.5836 614.2838,-72.9717 624.7752,-74.4485 623.4062,-67.5836"/>
+<title>Node7&#45;&gt;Node6</title>
+<path fill="none" stroke="#191970" d="M518.7791,-68.8763C492.8545,-57.742 456.2457,-42.019 429.476,-30.5218"/>
+<polygon fill="#191970" stroke="#191970" points="517.5794,-72.1701 528.149,-72.9005 520.3418,-65.7382 517.5794,-72.1701"/>
+</g>
+<!-- Node7&#45;&gt;Node8 -->
+<g id="edge7" class="edge">
+<title>Node7&#45;&gt;Node8</title>
+<path fill="none" stroke="#191970" d="M553.1212,-62.9863C554.7947,-50.5286 556.8906,-34.9258 558.2129,-25.0817"/>
+<polygon fill="#191970" stroke="#191970" points="549.652,-62.5236 551.7895,-72.9005 556.5897,-63.4555 549.652,-62.5236"/>
+</g>
+<!-- Node7&#45;&gt;Node9 -->
+<g id="edge8" class="edge">
+<title>Node7&#45;&gt;Node9</title>
+<path fill="none" stroke="#191970" d="M587.0181,-69.416C623.3665,-56.3928 678.2863,-36.7156 710.7572,-25.0817"/>
+<polygon fill="#191970" stroke="#191970" points="585.526,-66.2326 577.2925,-72.9005 587.8871,-72.8224 585.526,-66.2326"/>
 </g>
 </g>
 </svg>

@@ -14,7 +14,6 @@ var searchData=
   ['initializedat',['initializedAt',['../classprecice_1_1utils_1_1RankData.html#ab6061a3d25a3d324e6cb76c189a7a43e',1,'precice::utils::RankData']]],
   ['initializedatticks',['initializedAtTicks',['../classprecice_1_1utils_1_1RankData.html#ab658479d53ea1d051ab3cbff3e64799c',1,'precice::utils::RankData']]],
   ['initms',['initMS',['../structprecice_1_1testing_1_1Participant.html#a7c79a9bf99b060530640a3819dbd3a5d',1,'precice::testing::Participant']]],
-  ['interpolationelements',['interpolationElements',['../structprecice_1_1query_1_1ClosestElement.html#a58bd32c097b198a7110d747e54bcc7f5',1,'precice::query::ClosestElement']]],
   ['intvalue',['intValue',['../structCallbackHostAttr.html#ac0648fc56fcbcca6099da6f20d1b54c7',1,'CallbackHostAttr']]],
   ['invalid',['invalid',['../classprecice_1_1testing_1_1TestContext.html#a6b44031275ed403bbf48bf573721c192',1,'precice::testing::TestContext']]],
   ['isfinalized',['isFinalized',['../classprecice_1_1utils_1_1RankData.html#aaa2f0129ceee0b2ec218584520a3dc67',1,'precice::utils::RankData']]],

@@ -3,7 +3,6 @@ var searchData=
   ['callbackhost',['CallbackHost',['../structCallbackHost.html',1,'']]],
   ['callbackhostattr',['CallbackHostAttr',['../structCallbackHostAttr.html',1,'']]],
   ['chain',['Chain',['../structprecice_1_1mesh_1_1Chain.html',1,'precice::mesh']]],
-  ['closestelement',['ClosestElement',['../structprecice_1_1query_1_1ClosestElement.html',1,'precice::query']]],
   ['closure_3c_20pm_3a_3atriangle_20_3e',['closure&lt; pm::Triangle &gt;',['../structboost_1_1geometry_1_1traits_1_1closure_3_01pm_1_1Triangle_01_4.html',1,'boost::geometry::traits']]],
   ['colorized_5fseverity_5fformatter_5ffactory',['colorized_severity_formatter_factory',['../classprecice_1_1logging_1_1colorized__severity__formatter__factory.html',1,'precice::logging']]],
   ['column',['Column',['../structColumn.html',1,'']]],

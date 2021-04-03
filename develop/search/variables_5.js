@@ -1,13 +1,9 @@
 var searchData=
 [
-  ['e12',['e12',['../structMeshFixture.html#aed7f397ae07f542f00280c94fdb7c22f',1,'MeshFixture']]],
-  ['e23',['e23',['../structMeshFixture.html#a1804cc630332d4953dafad88359acea3',1,'MeshFixture']]],
-  ['e31',['e31',['../structMeshFixture.html#aa8ac4501a5cf201312b28ff2e80b9b64',1,'MeshFixture']]],
   ['edgertree',['edgeRTree',['../structprecice_1_1query_1_1impl_1_1MeshIndices.html#abb81cd94b9673fd81d1220336cccc264',1,'precice::query::impl::MeshIndices']]],
   ['edges',['edges',['../structprecice_1_1mesh_1_1Chain.html#a2a4563478f873f5d0f803e1cd1ff83a9',1,'precice::mesh::Chain']]],
   ['eigenvalue',['eigenValue',['../structCallbackHostAttr.html#a879e2e9187da26b4c7a62e52590bbef4',1,'CallbackHostAttr']]],
   ['eigenvectorxd',['eigenVectorXd',['../structCallbackHost.html#a5da2ede70e76fd4e814ae6a2616a4b64',1,'CallbackHost']]],
-  ['element',['element',['../structprecice_1_1query_1_1InterpolationElement.html#a80c199243fd4a236457a8f4e84e049a4',1,'precice::query::InterpolationElement']]],
   ['enabled',['enabled',['../structprecice_1_1logging_1_1BackendConfiguration.html#aee5d7ac309df44ec740f940121d7c940',1,'precice::logging::BackendConfiguration']]],
   ['end',['end',['../structprecice_1_1utils_1_1RangePreview.html#af5c8c3fc4bf7b1b8bd2596d2d75e4fd8',1,'precice::utils::RangePreview']]],
   ['endcontext',['endContext',['../structContextListener.html#a728da282532b9d5dad83dae526da8f7c',1,'ContextListener']]],

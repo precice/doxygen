@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['v1',['v1',['../structMeshFixture.html#a8b243846c6ea96d5651645b179b68062',1,'MeshFixture']]],
-  ['v2',['v2',['../structMeshFixture.html#afa6a6c37d3ebac2bbaa67b991c1ffdb2',1,'MeshFixture']]],
-  ['v3',['v3',['../structMeshFixture.html#a9dfc021dbdff746cba2e77c1e6ec5497',1,'MeshFixture']]],
   ['validdigits',['validDigits',['../structprecice_1_1cplscheme_1_1CouplingSchemeConfiguration_1_1Config.html#af6e1fd3af317c6155c4750ba743393f7',1,'precice::cplscheme::CouplingSchemeConfiguration::Config']]],
   ['value',['value',['../structVertexSpecification.html#a4beb8b0b7e5bdfcdc4bc78d187865d2f',1,'VertexSpecification::value()'],['../structboost_1_1geometry_1_1traits_1_1point__order_3_01pm_1_1Triangle_01_4.html#ac619f6db0a958f70ba87fe4ab39ac528',1,'boost::geometry::traits::point_order&lt; pm::Triangle &gt;::value()'],['../structboost_1_1geometry_1_1traits_1_1closure_3_01pm_1_1Triangle_01_4.html#ada06a6a4fad9001db3de23538970031d',1,'boost::geometry::traits::closure&lt; pm::Triangle &gt;::value()'],['../structprecice_1_1testing_1_1Ranks.html#a713c59aa566e408cef292642fd4e4201',1,'precice::testing::Ranks::value()']]],
   ['value_5faitken',['VALUE_AITKEN',['../classprecice_1_1acceleration_1_1AccelerationConfiguration.html#a28e6ad4feea43c8eb842f39eb86df576',1,'precice::acceleration::AccelerationConfiguration']]],
@@ -59,11 +56,9 @@ var searchData=
   ['value_5fwrite',['VALUE_WRITE',['../classprecice_1_1mapping_1_1MappingConfiguration.html#a341ed72037bf89f9760c7dbee992c580',1,'precice::mapping::MappingConfiguration']]],
   ['value_5fzero_5frestart',['VALUE_ZERO_RESTART',['../classprecice_1_1acceleration_1_1AccelerationConfiguration.html#a0d7ba51fd85f87111b4366a9e1a17ca5',1,'precice::acceleration::AccelerationConfiguration']]],
   ['vector',['vector',['../classprecice_1_1utils_1_1petsc_1_1Vector.html#adce3c519ad528f77276736159272e988',1,'precice::utils::petsc::Vector']]],
-  ['vectortoelement',['vectorToElement',['../structprecice_1_1query_1_1ClosestElement.html#a5bf20e5f998e3cc22d36e85b4f7ab21e',1,'precice::query::ClosestElement']]],
+  ['vertexid',['vertexID',['../structprecice_1_1mapping_1_1WeightedElement.html#a5278320bd8e1ec91b8b7777b61c24596',1,'precice::mapping::WeightedElement']]],
   ['vertexorder',['vertexOrder',['../structprecice_1_1math_1_1geometry_1_1ConvexityResult.html#ab483ce7a14f61641382946e49127e1fe',1,'precice::math::geometry::ConvexityResult']]],
   ['vertexrtree',['vertexRTree',['../structprecice_1_1query_1_1impl_1_1MeshIndices.html#a7dfe8758bdb871f1dfd1d9add5dec0c4',1,'precice::query::impl::MeshIndices']]],
   ['vertices',['vertices',['../structprecice_1_1mesh_1_1Chain.html#add8fce8780564ac84e9873460f942ff6',1,'precice::mesh::Chain']]],
-  ['viewer',['viewer',['../structprecice_1_1utils_1_1petsc_1_1Viewer.html#a184dc08ca671cb3a4b8ae4d7edcc6e3e',1,'precice::utils::petsc::Viewer']]],
-  ['vinside',['vinside',['../structMeshFixture.html#aebc1cc4ce1292998c9d4102d6538090b',1,'MeshFixture']]],
-  ['voutside',['voutside',['../structMeshFixture.html#af4b8632dea83e0760a94ed291e30617d',1,'MeshFixture']]]
+  ['viewer',['viewer',['../structprecice_1_1utils_1_1petsc_1_1Viewer.html#a184dc08ca671cb3a4b8ae4d7edcc6e3e',1,'precice::utils::petsc::Viewer']]]
 ];

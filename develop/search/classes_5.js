@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['findclosest',['FindClosest',['../classprecice_1_1query_1_1FindClosest.html',1,'precice::query']]],
-  ['findclosestedge',['FindClosestEdge',['../classprecice_1_1query_1_1FindClosestEdge.html',1,'precice::query']]],
-  ['findclosesttriangle',['FindClosestTriangle',['../classprecice_1_1query_1_1FindClosestTriangle.html',1,'precice::query']]],
-  ['findclosestvertex',['FindClosestVertex',['../classprecice_1_1query_1_1FindClosestVertex.html',1,'precice::query']]]
+  ['gatherscattercomfactory',['GatherScatterComFactory',['../classprecice_1_1m2n_1_1GatherScatterComFactory.html',1,'precice::m2n']]],
+  ['gatherscattercommunication',['GatherScatterCommunication',['../classprecice_1_1m2n_1_1GatherScatterCommunication.html',1,'precice::m2n']]],
+  ['gaussian',['Gaussian',['../classprecice_1_1mapping_1_1Gaussian.html',1,'precice::mapping']]],
+  ['givensrot',['givensRot',['../structprecice_1_1acceleration_1_1impl_1_1QRFactorization_1_1givensRot.html',1,'precice::acceleration::impl::QRFactorization']]],
+  ['globaleventstats',['GlobalEventStats',['../structprecice_1_1utils_1_1GlobalEventStats.html',1,'precice::utils']]]
 ];
