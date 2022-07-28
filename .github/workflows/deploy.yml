@@ -27,19 +27,19 @@ jobs:
           ref: develop
           path: develop
 
-      - name: Fetch - master
+      - name: Fetch - main
         uses: actions/checkout@v2
         with:
           repository: precice/precice
-          ref: master
-          path: master
+          ref: main
+          path: main
 
       - name: Build doxygen - develop
         working-directory: develop
         run: doxygen
 
-      - name: Build doxygen - master
-        working-directory: master
+      - name: Build doxygen - main
+        working-directory: main
         run: doxygen
 
       - name: Gather
@@ -47,7 +47,7 @@ jobs:
           mkdir -p public
           mv landing/index.html public
           mv develop/docs/source-code-documentation/html public/develop
-          mv master/docs/source-code-documentation/html public/master
+          mv main/docs/source-code-documentation/html public/main
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
